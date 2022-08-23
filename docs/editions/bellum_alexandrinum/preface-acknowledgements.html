@@ -62,154 +62,170 @@
 </nav>
     <div id="mainwrapper" class="container-fluid">
       <main role="main" class="container container-fluid">
-        <div id="controls"><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite" /> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon" /></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon" /></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon" /></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true" /><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true" /><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true" /><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Preface<ul><li><a href="preface-why-a-new-edition.html">Why a new edition of the Bellum Alexandrinum?</a></li><li><a href="preface-the-bellum-alexandrinum.html">I. The Bellum Alexandrinum</a></li><li><a href="preface-constituting-the-text.html">II. Constituting the text</a></li><li><a href="preface-using-this-edition.html">III. Using this edition</a></li><li><a href="preface-additional-materials.html">Additional materials in the LDLT edition:</a></li><li><a href="preface-acknowledgements.html">Acknowledgements</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Other Sources</a></li><li><a href="bibliography-list-of-people.html">List of People Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Abbreviations and Other Notations</a></li></ul></li><li><a href="conspectus-editionum.html">Conspectus Editionum</a></li><li>Bellum Alexandrinum<ul><li><a href="1.html">1</a></li><li><a href="2.html">2</a></li><li><a href="3.html">3</a></li><li><a href="4.html">4</a></li><li><a href="5.html">5</a></li><li><a href="6.html">6</a></li><li><a href="7.html">7</a></li><li><a href="8.html">8</a></li><li><a href="9.html">9</a></li><li><a href="10.html">10</a></li><li><a href="11.html">11</a></li><li><a href="12.html">12</a></li><li><a href="13.html">13</a></li><li><a href="14.html">14</a></li><li><a href="15.html">15</a></li><li><a href="16.html">16</a></li><li><a href="17.html">17</a></li><li><a href="18.html">18</a></li><li><a href="19.html">19</a></li><li><a href="20.html">20</a></li><li><a href="21.html">21</a></li><li><a href="22.html">22</a></li><li><a href="23.html">23</a></li><li><a href="24.html">24</a></li><li><a href="25.html">25</a></li><li><a href="26.html">26</a></li><li><a href="27.html">27</a></li><li><a href="28.html">28</a></li><li><a href="29.html">29</a></li><li><a href="30.html">30</a></li><li><a href="31.html">31</a></li><li><a href="32.html">32</a></li><li><a href="33.html">33</a></li><li><a href="34.html">34</a></li><li><a href="35.html">35</a></li><li><a href="36.html">36</a></li><li><a href="37.html">37</a></li><li><a href="38.html">38</a></li><li><a href="39.html">39</a></li><li><a href="40.html">40</a></li><li><a href="41.html">41</a></li><li><a href="42.html">42</a></li><li><a href="43.html">43</a></li><li><a href="44.html">44</a></li><li><a href="45.html">45</a></li><li><a href="46.html">46</a></li><li><a href="47.html">47</a></li><li><a href="48.html">48</a></li><li><a href="49.html">49</a></li><li><a href="50.html">50</a></li><li><a href="51.html">51</a></li><li><a href="52.html">52</a></li><li><a href="53.html">53</a></li><li><a href="54.html">54</a></li><li><a href="55.html">55</a></li><li><a href="56.html">56</a></li><li><a href="57.html">57</a></li><li><a href="58.html">58</a></li><li><a href="59.html">59</a></li><li><a href="60.html">60</a></li><li><a href="61.html">61</a></li><li><a href="62.html">62</a></li><li><a href="63.html">63</a></li><li><a href="64.html">64</a></li><li><a href="65.html">65</a></li><li><a href="66.html">66</a></li><li><a href="67.html">67</a></li><li><a href="68.html">68</a></li><li><a href="69.html">69</a></li><li><a href="70.html">70</a></li><li><a href="71.html">71</a></li><li><a href="72.html">72</a></li><li><a href="73.html">73</a></li><li><a href="74.html">74</a></li><li><a href="75.html">75</a></li><li><a href="76.html">76</a></li><li><a href="77.html">77</a></li><li><a href="78.html">78</a></li></ul></li></ul></div></div>
-<div id="prevNext">
+        <div id="prevNext">
     -
   </div>
-<div class="TEI" id="tei"><tei-teiHeader xml:id="d1e5" id="d1e5" data-origname="teiHeader">
-      <tei-fileDesc xml:id="d1e7" id="d1e7" data-origname="fileDesc">
-         <tei-titleStmt xml:id="d1e9" id="d1e9" data-origname="titleStmt">
-            <tei-title xml:id="d1e11" id="d1e11" data-origname="title">Bellum Alexandrinum</tei-title>
-            <tei-editor ref="http://viaf.org/viaf/116523553" xml:id="d1e13" id="d1e13" data-origname="editor">Cynthia Damon, et al.</tei-editor>
-            <tei-sponsor xml:id="d1e16" id="d1e16" data-origname="sponsor">Society for Classical Studies</tei-sponsor>
-            <tei-respStmt xml:id="d1e18" id="d1e18" data-origname="respStmt">
-               <tei-resp xml:id="d1e20" id="d1e20" data-origname="resp">TEI XML encoding:</tei-resp>
-               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d1e22" id="d1e22" data-origname="name">Samuel J. Huskey</tei-name>
+<div class="TEI" id="tei"><tei-teiHeader xml:id="d2e5" id="d2e5" data-origname="teiHeader">
+      <tei-fileDesc xml:id="d2e7" id="d2e7" data-origname="fileDesc">
+         <tei-titleStmt xml:id="d2e9" id="d2e9" data-origname="titleStmt">
+            <tei-title xml:id="d2e11" id="d2e11" data-origname="title">Bellum Alexandrinum</tei-title>
+            <tei-editor ref="http://viaf.org/viaf/116523553" xml:id="d2e13" id="d2e13" data-origname="editor">Cynthia Damon, et al.</tei-editor>
+            <tei-sponsor xml:id="d2e16" id="d2e16" data-origname="sponsor">Society for Classical Studies</tei-sponsor>
+            <tei-respStmt xml:id="d2e18" id="d2e18" data-origname="respStmt">
+               <tei-resp xml:id="d2e20" id="d2e20" data-origname="resp">TEI XML encoding:</tei-resp>
+               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e22" id="d2e22" data-origname="name">Samuel J. Huskey</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e26" id="d1e26" data-origname="respStmt">
-               <tei-resp xml:id="d1e28" id="d1e28" data-origname="resp">Programming for automatic generation of TEI XML:</tei-resp>
-               <tei-name xml:id="d1e30" id="d1e30" data-origname="name">Virgina K. Felkner</tei-name>
+            <tei-respStmt xml:id="d2e26" id="d2e26" data-origname="respStmt">
+               <tei-resp xml:id="d2e28" id="d2e28" data-origname="resp">Programming for automatic generation of TEI XML:</tei-resp>
+               <tei-name xml:id="d2e30" id="d2e30" data-origname="name">Virgina K. Felkner</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e34" id="d1e34" data-origname="respStmt">
-               <tei-resp xml:id="d1e36" id="d1e36" data-origname="resp">Coauthor of content related to section 2.5:</tei-resp>
-               <tei-name sameAs="#DSimons" xml:id="d1e38" id="d1e38" data-origname="name">Dallas Simons</tei-name>
+            <tei-respStmt xml:id="d2e34" id="d2e34" data-origname="respStmt">
+               <tei-resp xml:id="d2e36" id="d2e36" data-origname="resp">Coauthor of content related to section 2.5:</tei-resp>
+               <tei-name sameAs="#DSimons" xml:id="d2e38" id="d2e38" data-origname="name">Dallas Simons</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e42" id="d1e42" data-origname="respStmt">
-               <tei-resp xml:id="d1e44" id="d1e44" data-origname="resp">Coauthor of content related to sections 12.1–2 and 13.5:</tei-resp>
-               <tei-name sameAs="#Vozar" xml:id="d1e46" id="d1e46" data-origname="name">Tom Vozar</tei-name>
+            <tei-respStmt xml:id="d2e42" id="d2e42" data-origname="respStmt">
+               <tei-resp xml:id="d2e44" id="d2e44" data-origname="resp">Coauthor of content related to sections 12.1–2 and 13.5:</tei-resp>
+               <tei-name sameAs="#Vozar" xml:id="d2e46" id="d2e46" data-origname="name">Tom Vozar</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e50" id="d1e50" data-origname="respStmt">
-               <tei-resp xml:id="d1e52" id="d1e52" data-origname="resp">Coauthor of content related to section 26.1–2:</tei-resp>
-               <tei-name sameAs="#Persyn" xml:id="d1e54" id="d1e54" data-origname="name">Marcie Persyn</tei-name>
+            <tei-respStmt xml:id="d2e50" id="d2e50" data-origname="respStmt">
+               <tei-resp xml:id="d2e52" id="d2e52" data-origname="resp">Coauthor of content related to section 26.1–2:</tei-resp>
+               <tei-name sameAs="#Persyn" xml:id="d2e54" id="d2e54" data-origname="name">Marcie Persyn</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e58" id="d1e58" data-origname="respStmt">
-               <tei-resp xml:id="d1e60" id="d1e60" data-origname="resp">Coauthor of content related to sections 35.3 and 36.4–5:</tei-resp>
-               <tei-name sameAs="#Kovalchuk" xml:id="d1e62" id="d1e62" data-origname="name">Maria Kovalchuk</tei-name>
+            <tei-respStmt xml:id="d2e58" id="d2e58" data-origname="respStmt">
+               <tei-resp xml:id="d2e60" id="d2e60" data-origname="resp">Coauthor of content related to sections 35.3 and 36.4–5:</tei-resp>
+               <tei-name sameAs="#Kovalchuk" xml:id="d2e62" id="d2e62" data-origname="name">Maria Kovalchuk</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e66" id="d1e66" data-origname="respStmt">
-               <tei-resp xml:id="d1e68" id="d1e68" data-origname="resp">Coauthor of content related to sections 47.2, 49.1, and 49.2–3:</tei-resp>
-               <tei-name sameAs="#Warnock" xml:id="d1e70" id="d1e70" data-origname="name">Tim Warnock</tei-name>
+            <tei-respStmt xml:id="d2e66" id="d2e66" data-origname="respStmt">
+               <tei-resp xml:id="d2e68" id="d2e68" data-origname="resp">Coauthor of content related to sections 47.2, 49.1, and 49.2–3:</tei-resp>
+               <tei-name sameAs="#Warnock" xml:id="d2e70" id="d2e70" data-origname="name">Tim Warnock</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e74" id="d1e74" data-origname="respStmt">
-               <tei-resp xml:id="d1e76" id="d1e76" data-origname="resp">Coauthor of content related to section 60.2:</tei-resp>
-               <tei-name sameAs="#Reinhardt" xml:id="d1e78" id="d1e78" data-origname="name">Isabella Reinhardt</tei-name>
+            <tei-respStmt xml:id="d2e74" id="d2e74" data-origname="respStmt">
+               <tei-resp xml:id="d2e76" id="d2e76" data-origname="resp">Coauthor of content related to section 60.2:</tei-resp>
+               <tei-name sameAs="#Reinhardt" xml:id="d2e78" id="d2e78" data-origname="name">Isabella Reinhardt</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e83" id="d1e83" data-origname="respStmt">
-               <tei-resp xml:id="d1e85" id="d1e85" data-origname="resp">Coauthor of content related to sections 63.5 and 66.3–4:</tei-resp>
-               <tei-name sameAs="#Credo" xml:id="d1e87" id="d1e87" data-origname="name">Brian Credo</tei-name>
+            <tei-respStmt xml:id="d2e83" id="d2e83" data-origname="respStmt">
+               <tei-resp xml:id="d2e85" id="d2e85" data-origname="resp">Coauthor of content related to sections 63.5 and 66.3–4:</tei-resp>
+               <tei-name sameAs="#Credo" xml:id="d2e87" id="d2e87" data-origname="name">Brian Credo</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e91" id="d1e91" data-origname="respStmt">
-               <tei-resp xml:id="d1e93" id="d1e93" data-origname="resp">Coauthor of content related to sections 67.1 and 68.1:</tei-resp>
-               <tei-name sameAs="#Bensch-Schaus" xml:id="d1e95" id="d1e95" data-origname="name">Amelia Bensch-Schaus</tei-name>
+            <tei-respStmt xml:id="d2e91" id="d2e91" data-origname="respStmt">
+               <tei-resp xml:id="d2e93" id="d2e93" data-origname="resp">Coauthor of content related to sections 67.1 and 68.1:</tei-resp>
+               <tei-name sameAs="#Bensch-Schaus" xml:id="d2e95" id="d2e95" data-origname="name">Amelia Bensch-Schaus</tei-name>
             </tei-respStmt>
-            <tei-respStmt xml:id="d1e99" id="d1e99" data-origname="respStmt">
-               <tei-resp xml:id="d1e101" id="d1e101" data-origname="resp">Coauthor of content related to sections 72.2–3 and 74.4:</tei-resp>
-               <tei-name sameAs="#Hanson" xml:id="d1e103" id="d1e103" data-origname="name">Wes Hanson</tei-name>
+            <tei-respStmt xml:id="d2e99" id="d2e99" data-origname="respStmt">
+               <tei-resp xml:id="d2e101" id="d2e101" data-origname="resp">Coauthor of content related to sections 72.2–3 and 74.4:</tei-resp>
+               <tei-name sameAs="#Hanson" xml:id="d2e103" id="d2e103" data-origname="name">Wes Hanson</tei-name>
             </tei-respStmt>
          </tei-titleStmt>
-         <tei-editionStmt xml:id="d1e108" id="d1e108" data-origname="editionStmt">
-            <tei-edition xml:id="d1e110" id="d1e110" data-origname="edition">First Edition</tei-edition>
+         <tei-editionStmt xml:id="d2e108" id="d2e108" data-origname="editionStmt">
+            <tei-edition xml:id="d2e110" id="d2e110" data-origname="edition">First Edition</tei-edition>
          </tei-editionStmt>
-         <tei-publicationStmt xml:id="d1e113" id="d1e113" data-origname="publicationStmt">
-            <tei-publisher xml:id="d1e115" id="d1e115" data-origname="publisher">The Digital Latin Library</tei-publisher>
-            <tei-address xml:id="d1e117" id="d1e117" data-origname="address">
-               <tei-street xml:id="d1e119" id="d1e119" data-origname="street">650 Parrington Oval</tei-street>
-               <tei-addrLine xml:id="d1e121" id="d1e121" data-origname="addrLine">Carnegie Building 101</tei-addrLine>
-               <tei-settlement xml:id="d1e123" id="d1e123" data-origname="settlement">Norman</tei-settlement>
-               <tei-name xml:id="d1e125" id="d1e125" data-origname="name">OK</tei-name>
-               <tei-postCode xml:id="d1e127" id="d1e127" data-origname="postCode">73071</tei-postCode>
-               <tei-country xml:id="d1e130" id="d1e130" data-origname="country">USA</tei-country>
+         <tei-publicationStmt xml:id="d2e113" id="d2e113" data-origname="publicationStmt">
+            <tei-publisher xml:id="d2e115" id="d2e115" data-origname="publisher">The Digital Latin Library</tei-publisher>
+            <tei-address xml:id="d2e117" id="d2e117" data-origname="address">
+               <tei-street xml:id="d2e119" id="d2e119" data-origname="street">650 Parrington Oval</tei-street>
+               <tei-addrLine xml:id="d2e121" id="d2e121" data-origname="addrLine">Carnegie Building 101</tei-addrLine>
+               <tei-settlement xml:id="d2e123" id="d2e123" data-origname="settlement">Norman</tei-settlement>
+               <tei-name xml:id="d2e125" id="d2e125" data-origname="name">OK</tei-name>
+               <tei-postCode xml:id="d2e127" id="d2e127" data-origname="postCode">73071</tei-postCode>
+               <tei-country xml:id="d2e130" id="d2e130" data-origname="country">USA</tei-country>
             </tei-address>
-            <tei-authority xml:id="d1e133" id="d1e133" data-origname="authority">The University of Oklahoma</tei-authority>
-            <tei-pubPlace xml:id="d1e135" id="d1e135" data-origname="pubPlace">Norman, OK</tei-pubPlace>
-            <tei-date xml:id="d1e137" id="d1e137" data-origname="date">2022</tei-date>
-            <tei-availability xml:id="d1e140" id="d1e140" data-origname="availability">
-               <tei-licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode" xml:id="d1e142" id="d1e142" data-origname="licence">Creative
+            <tei-authority xml:id="d2e133" id="d2e133" data-origname="authority">The University of Oklahoma</tei-authority>
+            <tei-pubPlace xml:id="d2e135" id="d2e135" data-origname="pubPlace">Norman, OK</tei-pubPlace>
+            <tei-date xml:id="d2e137" id="d2e137" data-origname="date">2022</tei-date>
+            <tei-availability xml:id="d2e140" id="d2e140" data-origname="availability">
+               <tei-licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode" xml:id="d2e142" id="d2e142" data-origname="licence">Creative
                   Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</tei-licence>
             </tei-availability>
          </tei-publicationStmt>
-         <tei-seriesStmt xml:id="d1e147" id="d1e147" data-origname="seriesStmt">
-            <tei-title level="s" xml:id="d1e149" id="d1e149" data-origname="title">Library of Digital Latin Texts</tei-title>
-            <tei-respStmt xml:id="d1e152" id="d1e152" data-origname="respStmt">
-               <tei-resp xml:id="d1e154" id="d1e154" data-origname="resp">Edited by</tei-resp>
-               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d1e156" id="d1e156" data-origname="name">Samuel J. Huskey</tei-name>
+         <tei-seriesStmt xml:id="d2e147" id="d2e147" data-origname="seriesStmt">
+            <tei-title level="s" xml:id="d2e149" id="d2e149" data-origname="title">Library of Digital Latin Texts</tei-title>
+            <tei-respStmt xml:id="d2e152" id="d2e152" data-origname="respStmt">
+               <tei-resp xml:id="d2e154" id="d2e154" data-origname="resp">Edited by</tei-resp>
+               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e156" id="d2e156" data-origname="name">Samuel J. Huskey</tei-name>
             </tei-respStmt>
-            <tei-biblScope unit="volume" xml:id="d1e160" id="d1e160" data-origname="biblScope">1</tei-biblScope>
-            <tei-idno type="DOI" xml:id="d1e163" id="d1e163" data-origname="idno" data-empty="">​</tei-idno>
+            <tei-biblScope unit="volume" xml:id="d2e160" id="d2e160" data-origname="biblScope">1</tei-biblScope>
+            <tei-idno type="DOI" xml:id="d2e163" id="d2e163" data-origname="idno" data-empty="">​</tei-idno>
          </tei-seriesStmt>
-         <tei-sourceDesc xml:id="d1e166" id="d1e166" data-origname="sourceDesc">
-            <tei-p xml:id="d1e168" id="d1e168" data-origname="p">Born digital.</tei-p>
+         <tei-sourceDesc xml:id="d2e166" id="d2e166" data-origname="sourceDesc">
+            <tei-p xml:id="d2e168" id="d2e168" data-origname="p">Born digital.</tei-p>
          </tei-sourceDesc>
       </tei-fileDesc>
-     <tei-encodingDesc xml:id="d1e172" id="d1e172" data-origname="encodingDesc">
-       <tei-listPrefixDef xml:id="d1e174" id="d1e174" data-origname="listPrefixDef">
-         <tei-prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" xml:id="d1e176" id="d1e176" data-origname="prefixDef" data-empty="">​</tei-prefixDef>
+     <tei-encodingDesc xml:id="d2e172" id="d2e172" data-origname="encodingDesc">
+       <tei-listPrefixDef xml:id="d2e174" id="d2e174" data-origname="listPrefixDef">
+         <tei-prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" xml:id="d2e176" id="d2e176" data-origname="prefixDef" data-empty="">​</tei-prefixDef>
        </tei-listPrefixDef>
-       <tei-refsDecl xml:id="d1e179" id="d1e179" data-origname="refsDecl">
+       <tei-refsDecl xml:id="d2e179" id="d2e179" data-origname="refsDecl">
          
-         <tei-citeStructure match="//front/div[@xml:id='preface']" use="head" xml:id="d1e183" id="d1e183" data-origname="citeStructure">
+         <tei-citeStructure match="//front/div[@xml:id='preface']" use="head" xml:id="d2e183" id="d2e183" data-origname="citeStructure">
            
-           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d1e187" id="d1e187" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e187" id="d2e187" data-origname="citeData" data-empty="">​</tei-citeData>
            
-           <tei-citeData property="dc:title" use="head" xml:id="d1e191" id="d1e191" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e191" id="d2e191" data-origname="citeData" data-empty="">​</tei-citeData>
            
-           <tei-citeData property="function" use="'toc-entry'" xml:id="d1e196" id="d1e196" data-origname="citeData" data-empty="">​</tei-citeData>
-           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d1e198" id="d1e198" data-origname="citeStructure">
-             <tei-citeData property="dc:title" use="head" xml:id="d1e200" id="d1e200" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d1e202" id="d1e202" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeData property="function" use="'toc-entry'" xml:id="d1e204" id="d1e204" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e196" id="d2e196" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e198" id="d2e198" data-origname="citeStructure">
+             <tei-citeData property="dc:title" use="head" xml:id="d2e200" id="d2e200" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e202" id="d2e202" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e204" id="d2e204" data-origname="citeData" data-empty="">​</tei-citeData>
              
-             <tei-citeData property="function" use="'split'" xml:id="d1e208" id="d1e208" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e208" id="d2e208" data-origname="citeData" data-empty="">​</tei-citeData>
              
-             <tei-citeData property="dc:requires" use="//front/div[@type='bibliography']" xml:id="d1e213" id="d1e213" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:requires" use="//front/div[@type='bibliography']" xml:id="d2e213" id="d2e213" data-origname="citeData" data-empty="">​</tei-citeData>
            </tei-citeStructure>
          </tei-citeStructure>
-         <tei-citeStructure match="//front/div[@xml:id='bibliography']" use="head" xml:id="d1e217" id="d1e217" data-origname="citeStructure">
-           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d1e219" id="d1e219" data-origname="citeData" data-empty="">​</tei-citeData>
-           <tei-citeData property="dc:title" use="head" xml:id="d1e221" id="d1e221" data-origname="citeData" data-empty="">​</tei-citeData>
-           <tei-citeData property="function" use="'toc-entry'" xml:id="d1e223" id="d1e223" data-origname="citeData" data-empty="">​</tei-citeData>
-           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d1e225" id="d1e225" data-origname="citeStructure">
-             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d1e227" id="d1e227" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeData property="dc:title" use="head" xml:id="d1e229" id="d1e229" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeData property="function" use="'toc-entry'" xml:id="d1e231" id="d1e231" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeData property="function" use="'split'" xml:id="d1e233" id="d1e233" data-origname="citeData" data-empty="">​</tei-citeData>
+         <tei-citeStructure match="//front/div[@xml:id='bibliography']" use="head" xml:id="d2e217" id="d2e217" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e219" id="d2e219" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e221" id="d2e221" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e223" id="d2e223" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e225" id="d2e225" data-origname="citeStructure">
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e227" id="d2e227" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:title" use="head" xml:id="d2e229" id="d2e229" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e231" id="d2e231" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e233" id="d2e233" data-origname="citeData" data-empty="">​</tei-citeData>
            </tei-citeStructure>
          </tei-citeStructure>
-         <tei-citeStructure match="//front/div[@xml:id='conspectus-editionum']" use="head" delim=", " xml:id="d1e237" id="d1e237" data-origname="citeStructure">
-           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d1e239" id="d1e239" data-origname="citeData" data-empty="">​</tei-citeData>
-           <tei-citeData property="dc:title" use="head" xml:id="d1e241" id="d1e241" data-origname="citeData" data-empty="">​</tei-citeData>
-           <tei-citeData property="function" use="'toc-entry'" xml:id="d1e243" id="d1e243" data-origname="citeData" data-empty="">​</tei-citeData>
-           <tei-citeData property="function" use="'split'" xml:id="d1e245" id="d1e245" data-origname="citeData" data-empty="">​</tei-citeData>
+         <tei-citeStructure match="//front/div[@xml:id='conspectus-editionum']" use="head" delim=", " xml:id="d2e237" id="d2e237" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e239" id="d2e239" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e241" id="d2e241" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e243" id="d2e243" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'split'" xml:id="d2e245" id="d2e245" data-origname="citeData" data-empty="">​</tei-citeData>
          </tei-citeStructure>
          
-         <tei-citeStructure match="//div[@type='edition']" use="head" xml:id="d1e251" id="d1e251" data-origname="citeStructure">
-           <tei-citeData property="dc:title" use="head" xml:id="d1e253" id="d1e253" data-origname="citeData" data-empty="">​</tei-citeData>
-           <tei-citeData property="function" use="'toc-entry'" xml:id="d1e255" id="d1e255" data-origname="citeData" data-empty="">​</tei-citeData>
-           <tei-citeStructure match="p" use="@n" unit="chapter" xml:id="d1e257" id="d1e257" data-origname="citeStructure">    
-             <tei-citeData property="dc:title" use="@n" xml:id="d1e259" id="d1e259" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeData property="dc:identifier" use="@n" xml:id="d1e261" id="d1e261" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeData property="function" use="'toc-entry'" xml:id="d1e263" id="d1e263" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeData property="function" use="'split'" xml:id="d1e265" id="d1e265" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeData property="dc:requires" use="//front/div[@xml:id='bibliography']" xml:id="d1e267" id="d1e267" data-origname="citeData" data-empty="">​</tei-citeData>
-             <tei-citeStructure match=".//seg" use="@n" delim="." unit="part" xml:id="d1e270" id="d1e270" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
+         <tei-citeStructure match="//div[@type='edition']" use="head" xml:id="d2e251" id="d2e251" data-origname="citeStructure">
+           <tei-citeData property="dc:title" use="head" xml:id="d2e253" id="d2e253" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e255" id="d2e255" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="p" use="@n" unit="chapter" xml:id="d2e257" id="d2e257" data-origname="citeStructure">    
+             <tei-citeData property="dc:title" use="@n" xml:id="d2e259" id="d2e259" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:identifier" use="@n" xml:id="d2e261" id="d2e261" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e263" id="d2e263" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e265" id="d2e265" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:requires" use="//front/div[@xml:id='bibliography']" xml:id="d2e267" id="d2e267" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeStructure match=".//seg" use="@n" delim="." unit="part" xml:id="d2e270" id="d2e270" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
            </tei-citeStructure>
+         </tei-citeStructure>
+          <tei-citeStructure match="//back/div[@type='commentary'][@xml:id='appendix-critica']" use="head" xml:id="d2e274" id="d2e274" data-origname="citeStructure">
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e276" id="d2e276" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:title" use="head" xml:id="d2e278" id="d2e278" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e280" id="d2e280" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e282" id="d2e282" data-origname="citeData" data-empty="">​</tei-citeData>
+          </tei-citeStructure>
+         <tei-citeStructure match="//back/div[@type='commentary'][@xml:id='commentary']" use="head" xml:id="d2e285" id="d2e285" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e287" id="d2e287" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e289" id="d2e289" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e291" id="d2e291" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeStructure match="./div[@type='section']" use="head" xml:id="d2e293" id="d2e293" data-origname="citeStructure">
+               <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e295" id="d2e295" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="dc:title" use="head" xml:id="d2e297" id="d2e297" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="function" use="'toc-entry'" xml:id="d2e299" id="d2e299" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="function" use="'split'" xml:id="d2e301" id="d2e301" data-origname="citeData" data-empty="">​</tei-citeData>
+            </tei-citeStructure>
          </tei-citeStructure>
        </tei-refsDecl>
      </tei-encodingDesc>
-   </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e277" id="d1e277" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="preface-acknowledgements" id="preface-acknowledgements" data-origname="div">
-               <tei-head xml:id="d1e3205" id="d1e3205" data-origname="head">Acknowledgements</tei-head>
+   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="preface-acknowledgements" id="preface-acknowledgements" data-origname="div">
+               <tei-head xml:id="d2e3236" id="d2e3236" data-origname="head">Acknowledgements</tei-head>
 
-               <tei-p xml:id="d1e3207" id="d1e3207" data-origname="p">As we said at the outset, this edition rests on the work of many contributors. It
+               <tei-p xml:id="d2e3238" id="d2e3238" data-origname="p">As we said at the outset, this edition rests on the work of many contributors. It
                   couldn’t have been done without them, or without the financial and other forms of
                   support for research provided by the Andrew W. Mellon Foundation and our two home
                   institutions, the University of Pennsylvania and the University of Oklahoma. Our
@@ -217,10 +233,10 @@
                   grateful to all who kept us company along the way, even on the “paths not (or not
                   yet) taken” that are an inevitable part of a project as complex as this one proved
                   to be. Information on the collaborations and support that resulted in the platform
-                  and protocols that host and govern this edition can be found at the <tei-ref target="https://digitallatin.org/" xml:id="d1e3209" id="d1e3209" data-origname="ref">Digital Latin Library</tei-ref> and the <tei-ref target="https://ldlt.digitallatin.org/" xml:id="d1e3212" id="d1e3212" data-origname="ref">Library of Digital Latin
+                  and protocols that host and govern this edition can be found at the <tei-ref target="https://digitallatin.org/" xml:id="d2e3240" id="d2e3240" data-origname="ref">Digital Latin Library</tei-ref> and the <tei-ref target="https://ldlt.digitallatin.org/" xml:id="d2e3243" id="d2e3243" data-origname="ref">Library of Digital Latin
                   Texts</tei-ref>.</tei-p>
 
-               <tei-p xml:id="d1e3216" id="d1e3216" data-origname="p">Students at the University of Pennsylvania transcribed and collated the manuscript
+               <tei-p xml:id="d2e3247" id="d2e3247" data-origname="p">Students at the University of Pennsylvania transcribed and collated the manuscript
                   witnesses and produced the text, critical apparatus, appendix critica, and
                   translation. The contributors were undergraduates, students in the Postbac
                   program, and graduate students in Classical Studies and Ancient History, along
@@ -246,10 +262,10 @@
                   Lewis, who helped edit the apparatus notes and appendix critica; and Zachary
                   Elliott, who along with his wife Molly Cowan tested approaches to automating the
                   conversion of traditional apparatus notes into spreadsheet form. Support both
-                  financial and technical was provided by Penn’s <tei-ref target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia" xml:id="d1e3218" id="d1e3218" data-origname="ref">Price Lab for
+                  financial and technical was provided by Penn’s <tei-ref target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia" xml:id="d2e3249" id="d2e3249" data-origname="ref">Price Lab for
                      Digital Humanities</tei-ref>.</tei-p>
 
-               <tei-p xml:id="d1e3222" id="d1e3222" data-origname="p">We owe a debt of gratitude to many people at the University of Oklahoma. Virginia
+               <tei-p xml:id="d2e3253" id="d2e3253" data-origname="p">We owe a debt of gratitude to many people at the University of Oklahoma. Virginia
                   K. Felkner perfected the scripts used to reduce the amount of manual encoding we
                   had to do. Mark Laufersweiler and Tyler Pearson of the Data Analytics,
                   Visualization, and Informatics Syndicate provided invaluable advice on that and
@@ -259,9 +275,9 @@
                   Vice President for Research supported this and other DLL projects by providing
                   physical and virtual spaces for them.</tei-p>
 
-               <tei-p xml:id="d1e3224" id="d1e3224" data-origname="p">Several people beyond the walls of the University of Pennsylvania and the
+               <tei-p xml:id="d2e3255" id="d2e3255" data-origname="p">Several people beyond the walls of the University of Pennsylvania and the
                   University of Oklahoma deserve special mention. Hugh Cayless (Duke University),
-                  co-author of the "<tei-ref target="https://digitallatin.github.io/guidelines/LDLT-Guidelines.html" xml:id="d1e3226" id="d1e3226" data-origname="ref">Guidelines for Encoding Critical Editions for the Library of Digital Latin
+                  co-author of the "<tei-ref target="https://digitallatin.github.io/guidelines/LDLT-Guidelines.html" xml:id="d2e3257" id="d2e3257" data-origname="ref">Guidelines for Encoding Critical Editions for the Library of Digital Latin
                      Texts</tei-ref>" and architect of the application for reading this edition online,
                   has been instrumental in all aspects of this project. Tom Elliott (New York
                   University) and Alex Ward provided advice on scholarly and technical matters.
@@ -271,6 +287,7 @@
                   have served as Vice President of Publications and Research during our work:
                   Michael Gagarin, Donald Mastronarde, Kathryn Gutzwiller, and Colin Whiting.</tei-p>
             </tei-div></tei-div></tei-front></tei-text></tei-TEI></div>
+<div id="controls" class=""><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite" /> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon" /></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon" /></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon" /></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true" /><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true" /><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true" /><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Preface<ul><li><a href="preface-why-a-new-edition.html">Why a new edition of the Bellum Alexandrinum?</a></li><li><a href="preface-the-bellum-alexandrinum.html">I. The Bellum Alexandrinum</a></li><li><a href="preface-constituting-the-text.html">II. Constituting the text</a></li><li><a href="preface-using-this-edition.html">III. Using this edition</a></li><li><a href="preface-additional-materials.html">Additional materials in the LDLT edition:</a></li><li><a href="preface-acknowledgements.html">Acknowledgements</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Other Sources</a></li><li><a href="bibliography-list-of-people.html">List of People Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Abbreviations and Other Notations</a></li></ul></li><li><a href="conspectus-editionum.html">Conspectus Editionum</a></li><li>Bellum Alexandrinum<ul><li><a href="1.html">1</a></li><li><a href="2.html">2</a></li><li><a href="3.html">3</a></li><li><a href="4.html">4</a></li><li><a href="5.html">5</a></li><li><a href="6.html">6</a></li><li><a href="7.html">7</a></li><li><a href="8.html">8</a></li><li><a href="9.html">9</a></li><li><a href="10.html">10</a></li><li><a href="11.html">11</a></li><li><a href="12.html">12</a></li><li><a href="13.html">13</a></li><li><a href="14.html">14</a></li><li><a href="15.html">15</a></li><li><a href="16.html">16</a></li><li><a href="17.html">17</a></li><li><a href="18.html">18</a></li><li><a href="19.html">19</a></li><li><a href="20.html">20</a></li><li><a href="21.html">21</a></li><li><a href="22.html">22</a></li><li><a href="23.html">23</a></li><li><a href="24.html">24</a></li><li><a href="25.html">25</a></li><li><a href="26.html">26</a></li><li><a href="27.html">27</a></li><li><a href="28.html">28</a></li><li><a href="29.html">29</a></li><li><a href="30.html">30</a></li><li><a href="31.html">31</a></li><li><a href="32.html">32</a></li><li><a href="33.html">33</a></li><li><a href="34.html">34</a></li><li><a href="35.html">35</a></li><li><a href="36.html">36</a></li><li><a href="37.html">37</a></li><li><a href="38.html">38</a></li><li><a href="39.html">39</a></li><li><a href="40.html">40</a></li><li><a href="41.html">41</a></li><li><a href="42.html">42</a></li><li><a href="43.html">43</a></li><li><a href="44.html">44</a></li><li><a href="45.html">45</a></li><li><a href="46.html">46</a></li><li><a href="47.html">47</a></li><li><a href="48.html">48</a></li><li><a href="49.html">49</a></li><li><a href="50.html">50</a></li><li><a href="51.html">51</a></li><li><a href="52.html">52</a></li><li><a href="53.html">53</a></li><li><a href="54.html">54</a></li><li><a href="55.html">55</a></li><li><a href="56.html">56</a></li><li><a href="57.html">57</a></li><li><a href="58.html">58</a></li><li><a href="59.html">59</a></li><li><a href="60.html">60</a></li><li><a href="61.html">61</a></li><li><a href="62.html">62</a></li><li><a href="63.html">63</a></li><li><a href="64.html">64</a></li><li><a href="65.html">65</a></li><li><a href="66.html">66</a></li><li><a href="67.html">67</a></li><li><a href="68.html">68</a></li><li><a href="69.html">69</a></li><li><a href="70.html">70</a></li><li><a href="71.html">71</a></li><li><a href="72.html">72</a></li><li><a href="73.html">73</a></li><li><a href="74.html">74</a></li><li><a href="75.html">75</a></li><li><a href="76.html">76</a></li><li><a href="77.html">77</a></li><li><a href="78.html">78</a></li></ul></li><li><a href="appendix-critica.html">Appendix critica</a></li><li>Studies on the Text<ul><li><a href="stba-2.5.html">2.5</a></li><li><a href="stba-7.2-3.html">7.2–3</a></li><li><a href="stba-12.1-2.html">12.1–2</a></li><li><a href="stba-13.5.html">13.5</a></li><li><a href="stba-17.1-3.html">17.1–3</a></li><li><a href="stba-22.1-2.html">22.1–2</a></li><li><a href="stba26.1-2.html">26.1–2</a></li><li><a href="stba-27.5.html">27.5</a></li><li><a href="stba-31.3.html">31.3</a></li><li><a href="stba-35.3.html">35.3</a></li><li><a href="stba-36.4-5.html">36.4–5</a></li><li><a href="stba-40.2.html">40.2</a></li><li><a href="stba-46.1.html">46.1</a></li><li><a href="stba-47.2.html">47.2</a></li><li><a href="stba-49.1.html">49.1</a></li><li><a href="stba-49.2-3.html">49.2–3</a></li><li><a href="stba-60.2.html">60.2</a></li><li><a href="stba-63.5.html">63.5</a></li><li><a href="stba-66.3-4.html">66.3–4</a></li><li><a href="stba-67.1.html">67.1</a></li><li><a href="stba-68.1.html">68.1</a></li><li><a href="stba-72.2-3.html">72.2–3</a></li><li><a href="stba-74.4.html">74.4</a></li></ul></li></ul></div></div>
 
       </div>
     </div>
