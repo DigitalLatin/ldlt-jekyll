@@ -237,53 +237,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               (note 93) and 48 (note 99)</hi>. </p></note> In fifty-three places
                         we print the archetype (or a possibly archetypal reading) where other
                         editors emend it.<note place="foot" xml:id="ftn5" n="5"><p>1.5 expectans,
-                              7.2 casum, 7.2 ut … absumeretur, 8.2 Paratonio, 10.2 accessissent,
-                              10.2 exposuissent, 12.3 miserant, 12.4 Caesaris, 13.5 Lycias, 13.5 et,
-                              14.1 Rhodios, 14.1 Ponticos, 14.1 hos, 16.1 uictis, 19.2 certiorem,
-                              20.4 perturbatos, 26.2 adducit, 26.2 multiplici praesidio, 27.5
-                              constantiaque, 27.7 adiuncti his, 31.3 partibus, 32.1 magnae, 33.5
-                              itinere terrestri, 36.5 siue amicus siue inimicus, 40.2 aperto, 42.3
-                              Iadertinorum, 48.3 minuebat, 49.1 in ea, 51.2 uoluntate, 51.3
-                              describerentur, 53.4 Laterensis, 54.3 indicaretur, 55.1 cohortibus,
-                              55.5 Q. Sestio, 56.2 temporum, 56.2 animus, 57.1 Leptim, 59.1
-                              detraxerunt, 60.1 educerentur, 60.2 esset <hi rend="superscript"
-                                 >2</hi>, 60.5 educit, 61.6 sibi usui, 64.3 derectam, 66.1
-                              legionibus, 66.1 praefecit, 66.5 inceptum, 67.1 Caesaris, 68.1
-                              defensionem, 68.2 natura, 70.8 si, 72.2 superioribus … oppido, 75.1
-                              operibus, 78.2 quod.</p></note> We print thirteen new
-                              emendations and propose a number of others.<note place="foot"
-                           xml:id="ftn6" n="6"><p>11.2 ⟨suorum⟩ <hi rend="italic">Khan</hi>, 15.3
-                              ⟨moram⟩ <hi rend="italic">Lewis</hi>, 16.2 ⟨exercitus⟩ <hi
-                                 rend="italic">scripsimus</hi>, 17.2 ⟨et hanc⟩ et illam [urbem] <hi
-                                 rend="italic">scripsimus</hi>, 35.3 ⟨constat⟩ <hi rend="italic"
-                                 >scripsimus</hi>, 44.4 has adiunxit <hi rend="italic"
-                                 >scripsimus</hi>, 60.3 animaduerteret causa <hi rend="italic"
-                                 >Reinhardt</hi>, 61.4 adductus <hi rend="italic">scripsimus</hi>,
-                              62.1 auxiliares <hi rend="italic">scripsimus</hi>, 67.1 ⟨et coactus⟩
-                                 <hi rend="italic">Bensch-Schaus</hi>, 73.3 aggerere tum <hi
-                                 rend="italic">scripsimus</hi>, 74.3 contemptione <hi rend="italic"
-                                 >scripsimus</hi>, 75.1 operibus reuocat <hi rend="italic"
-                                 >Naqvi</hi>. Emendations proposed but not printed: 20.3 ⟨et⟩ sine
-                              ratione <hi rend="italic">Callaghan</hi>, 26.2 <hi rend="italic">⟨gap⟩
-                                 </hi>adducit<hi rend="italic"> Persyn</hi>, 27.5 Mithridates [magna
-                              cum prudentia] <hi rend="italic">D. Simons</hi>, 57.1 adducebatur <hi
-                                 rend="italic">J. Simons</hi>, 58.1 ueteranas <hi rend="italic">J.
-                                 Simons.</hi> There are also more than 40 new suggestions introduced
-                              at the end of apparatus notes with the formulas <hi rend="italic">an …
-                                 ?</hi> or <hi rend="italic">nisi mauis</hi>. </p></note> We also
-                        revive fourteen.<note place="foot" xml:id="ftn7" n="7"><p>2.1
-                                 ⟨armatorum⟩<hi rend="italic"> Fischer</hi>, 7.2 esse <hi
-                                 rend="italic">Nipperdey</hi>, 15.8 ⟨nisi⟩ qui <hi rend="italic"
-                                 >Fleischer, </hi>17.3 quosque <hi rend="italic">Lipsius, </hi>25.1
-                              Caesaris praesidia <hi rend="italic">ed. pr., </hi>36.5 aduentu sin
-                                 <hi rend="italic">Hoffmann, </hi>40.2 circumire ac transcendere <hi
-                                 rend="italic">Nipperdey, </hi>42.2 exercitus alendos <hi
-                                 rend="italic">M, </hi>45.2 distentis <hi rend="italic">Hoffmann,
-                              </hi>49.2 simul et <hi rend="italic">Latinius, </hi>55.1 legionem
-                              quintam in castra remittit <hi rend="italic">ed. pr., </hi>58.1
-                                 Torius <hi rend="italic">ς</hi>, 70.4 quamquam <hi rend="italic"
-                                 >Dinter</hi>, 74.4 in procliuem <hi rend="italic"
-                              >Nipperdey</hi>.</p></note> In the process of our work we silently
+                           7.2 casum, 7.2 ut … absumeretur, 8.2 Paratonio, 10.2 accessissent,
+                           10.2 exposuissent, 12.3 miserant, 12.4 Caesaris, 13.5 Lycias, 13.5 et,
+                           14.1 Rhodios, 14.1 Ponticos, 14.1 hos, 16.1 uictis, 19.2 certiorem,
+                           20.4 perturbatos, 26.2 adducit, 26.2 multiplici praesidio, 27.5
+                           constantiaque, 27.7 adiuncti his, 31.3 partibus, 32.1 magnae, 33.5
+                           itinere terrestri, 36.5 siue amicus siue inimicus, 40.2 aperto, 42.3
+                           Iadertinorum, 48.3 minuebat, 49.1 in ea, 51.2 uoluntate, 51.3
+                           describerentur, 53.4 Laterensis, 54.3 indicaretur, 55.1 cohortibus,
+                           55.5 Q. Sestio, 56.2 temporum, 56.2 animus, 57.1 Leptim, 59.1
+                           detraxerunt, 60.1 educerentur, 60.2 esset <hi rend="superscript"
+                              >2</hi>, 60.5 educit, 61.6 sibi usui, 64.3 derectam, 66.1
+                           legionibus, 66.1 praefecit, 66.5 inceptum, 67.1 Caesaris, 68.1
+                           defensionem, 68.2 natura, 70.8 si, 72.2 superioribus … oppido, 75.1
+                           operibus, 78.2 quod.</p></note> We print thirteen new
+                           emendations and propose a number of others.<note place="foot"
+                        xml:id="ftn6" n="6"><p>11.2 ⟨suorum⟩ <hi rend="italic">Khan</hi>, 15.3
+                           ⟨moram⟩ <hi rend="italic">Lewis</hi>, 16.2 ⟨exercitus⟩ <hi
+                              rend="italic">scripsimus</hi>, 17.2 ⟨et hanc⟩ et illam [urbem] <hi
+                              rend="italic">scripsimus</hi>, 35.3 ⟨constat⟩ <hi rend="italic"
+                              >scripsimus</hi>, 44.4 has adiunxit <hi rend="italic"
+                              >scripsimus</hi>, 60.3 animaduerteret causa <hi rend="italic"
+                              >Reinhardt</hi>, 61.4 adductus <hi rend="italic">scripsimus</hi>,
+                           62.1 auxiliares <hi rend="italic">scripsimus</hi>, 67.1 ⟨et coactus⟩
+                              <hi rend="italic">Bensch-Schaus</hi>, 73.3 aggerere tum <hi
+                              rend="italic">scripsimus</hi>, 74.3 contemptione <hi rend="italic"
+                              >scripsimus</hi>, 75.1 operibus reuocat <hi rend="italic"
+                              >Naqvi</hi>. Emendations proposed but not printed: 20.3 ⟨et⟩ sine
+                           ratione <hi rend="italic">Callaghan</hi>, 26.2 <hi rend="italic">⟨gap⟩
+                              </hi>adducit<hi rend="italic"> Persyn</hi>, 27.5 Mithridates [magna
+                           cum prudentia] <hi rend="italic">D. Simons</hi>, 57.1 adducebatur <hi
+                              rend="italic">J. Simons</hi>, 58.1 ueteranas <hi rend="italic">J.
+                              Simons.</hi> There are also more than 40 new suggestions introduced
+                           at the end of apparatus notes with the formulas <hi rend="italic">an …
+                              ?</hi> or <hi rend="italic">nisi mauis</hi>. </p></note> We also
+                     revive fourteen.<note place="foot" xml:id="ftn7" n="7"><p>2.1
+                              ⟨armatorum⟩<hi rend="italic"> Fischer</hi>, 7.2 esse <hi
+                              rend="italic">Nipperdey</hi>, 15.8 ⟨nisi⟩ qui <hi rend="italic"
+                              >Fleischer, </hi>17.3 quosque <hi rend="italic">Lipsius, </hi>25.1
+                           Caesaris praesidia <hi rend="italic">ed. pr., </hi>36.5 aduentu sin
+                              <hi rend="italic">Hoffmann, </hi>40.2 circumire ac transcendere <hi
+                              rend="italic">Nipperdey, </hi>42.2 exercitus alendos <hi
+                              rend="italic">M, </hi>45.2 distentis <hi rend="italic">Hoffmann,
+                           </hi>49.2 simul et <hi rend="italic">Latinius, </hi>55.1 legionem
+                           quintam in castra remittit <hi rend="italic">ed. pr., </hi>58.1
+                              Torius <hi rend="italic">ς</hi>, 70.4 quamquam <hi rend="italic"
+                              >Dinter</hi>, 74.4 in procliuem <hi rend="italic"
+                           >Nipperdey</hi>.</p></note> In the process of our work we silently
                         corrected dozens of errors in the apparatus of Andrieu 1954 and Klotz 1927.
                         More broadly, we hope to have improved the apparatus everywhere by making
                         the arguments relevant to the constitution of the text more salient and more
