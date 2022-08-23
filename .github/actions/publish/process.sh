@@ -1,6 +1,7 @@
 #!/bin/bash
 
 FILES=$(git diff --name-only $BEFORE..$AFTER | grep "sources/.*\.xml")
+echo "files: $FILES"
 
 convert() {
   echo "Converting $1"
