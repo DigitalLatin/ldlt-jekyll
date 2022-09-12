@@ -175,7 +175,7 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                      overwhelmed in very act of crossing the trench.”</tei-note></tei-quote>
 
                <tei-quote rend="blockquote" type="apparatus" xml:id="d2e29840" id="d2e29840" data-origname="quote">aduersa <tei-hi rend="italic" xml:id="d2e29842" id="d2e29842" data-origname="hi">Madvig</tei-hi>(<tei-hi rend="italic" xml:id="d2e29845" id="d2e29845" data-origname="hi">cf. 20.5 et u. infra</tei-hi>) | auersa <tei-hi rend="italic" xml:id="d2e29848" id="d2e29848" data-origname="hi">MUSTV</tei-hi>
-                     (<tei-hi rend="italic" xml:id="d2e29851" id="d2e29851" data-origname="hi">u. TLL 2.1323.63–66 ‘de fugientibus’</tei-hi>) || circumire ac
+                     (<tei-hi rend="italic" xml:id="d2e29851" id="d2e29851" data-origname="hi">u. TLL 2.1323.63–66 ‘de fugientibus’</tei-hi>) || circumire ac
                   transcendere <tei-hi rend="italic" xml:id="d2e29854" id="d2e29854" data-origname="hi">Nipperdey</tei-hi> (<tei-hi rend="italic" xml:id="d2e29858" id="d2e29858" data-origname="hi">cf. BC
                      3.46.3</tei-hi>) | circumire acies secundo <tei-hi rend="italic" xml:id="d2e29861" id="d2e29861" data-origname="hi">MUSTV</tei-hi> | circumire
                   acies secunda <tei-hi rend="italic" xml:id="d2e29864" id="d2e29864" data-origname="hi">Lipsius teste Oudendorp, sensu et uerborum ordine

@@ -186,14 +186,14 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                <tei-quote rend="blockquote" type="apparatus" xml:id="d2e31219" id="d2e31219" data-origname="quote"> simul et <tei-hi rend="italic" xml:id="d2e31221" id="d2e31221" data-origname="hi">Latinius (cf.
                      Liu. 2.6.10)</tei-hi> | simultatium <tei-hi rend="italic" xml:id="d2e31224" id="d2e31224" data-origname="hi">MUSTV (cf. BG 5.44.2)</tei-hi> |
                   simulationis <tei-hi rend="italic" xml:id="d2e31227" id="d2e31227" data-origname="hi">Schneider, qui</tei-hi> causa <tei-hi rend="italic" xml:id="d2e31230" id="d2e31230" data-origname="hi">legit
-                     infra</tei-hi> (<tei-hi rend="italic" xml:id="d2e31233" id="d2e31233" data-origname="hi">cf. Cic. Att. 12.20.1 dissimulationis</tei-hi>) ||
+                     infra</tei-hi> (<tei-hi rend="italic" xml:id="d2e31233" id="d2e31233" data-origname="hi">cf. Cic. Att. 12.20.1 dissimulationis</tei-hi>) ||
                   causae <tei-hi rend="italic" xml:id="d2e31237" id="d2e31237" data-origname="hi">MU</tei-hi> (<tei-hi rend="italic" xml:id="d2e31240" id="d2e31240" data-origname="hi">cf. Cic. Orat. 124</tei-hi>) |
                   causa <tei-hi rend="italic" xml:id="d2e31243" id="d2e31243" data-origname="hi">STV</tei-hi> (<tei-hi rend="italic" xml:id="d2e31246" id="d2e31246" data-origname="hi">u. et supra et infra</tei-hi>) ||
                   coiciebantur <tei-hi rend="italic" xml:id="d2e31249" id="d2e31249" data-origname="hi">MUSTV</tei-hi> (<tei-hi rend="italic" xml:id="d2e31252" id="d2e31252" data-origname="hi">cf. XII Tab. apud
                      Gell. 17.2.10</tei-hi>) | conciebantur <tei-hi rend="italic" xml:id="d2e31256" id="d2e31256" data-origname="hi">Landgraf 1888, qui</tei-hi>
                   causa <tei-hi rend="italic" xml:id="d2e31259" id="d2e31259" data-origname="hi">legit supra, coll. Pollione apud Cic. Fam. 10.33.4</tei-hi> ||
                   quaestus <tei-hi rend="italic" xml:id="d2e31262" id="d2e31262" data-origname="hi">MUS</tei-hi> | quaestius <tei-hi rend="italic" xml:id="d2e31265" id="d2e31265" data-origname="hi">TV</tei-hi> |
-                  quaestuis <tei-hi rend="italic" xml:id="d2e31268" id="d2e31268" data-origname="hi">Klotz || </tei-hi>quin <tei-hi rend="italic" xml:id="d2e31271" id="d2e31271" data-origname="hi">S</tei-hi> (<tei-hi rend="italic" xml:id="d2e31275" id="d2e31275" data-origname="hi">cf. 15.8</tei-hi>) | qui <tei-hi rend="italic" xml:id="d2e31278" id="d2e31278" data-origname="hi">MUTV</tei-hi>
+                  quaestuis <tei-hi rend="italic" xml:id="d2e31268" id="d2e31268" data-origname="hi">Klotz || </tei-hi>quin <tei-hi rend="italic" xml:id="d2e31271" id="d2e31271" data-origname="hi">S</tei-hi> (<tei-hi rend="italic" xml:id="d2e31275" id="d2e31275" data-origname="hi">cf. 15.8</tei-hi>) | qui <tei-hi rend="italic" xml:id="d2e31278" id="d2e31278" data-origname="hi">MUTV</tei-hi>
                </tei-quote>
 
                <tei-p xml:id="d2e31282" id="d2e31282" data-origname="p">Chapter 49 concerns the finances of Caesar’s governor in Further Spain, Q. Cassius

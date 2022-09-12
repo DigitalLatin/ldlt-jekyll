@@ -167,7 +167,7 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
 
                <tei-p rend="byline" xml:id="d2e33387" id="d2e33387" data-origname="p"><tei-hi rend="italic" xml:id="d2e33388" id="d2e33388" data-origname="hi">Amelia Bensch-Schaus and Cynthia Damon</tei-hi></tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33391" id="d2e33391" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+               <tei-quote rend="blockquote" xml:id="d2e33391" id="d2e33391" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
                   Caesaris habuisset <tei-supplied reason="lost" xml:id="d2e33393" id="d2e33393" data-origname="supplied">et coactus</tei-supplied> exercitibus
                   imperiisque, in Cn. Pompei castris fuisset.<tei-note place="foot" xml:id="d2e33396" id="d2e33396" data-origname="note">”… the fact that,
                      as he was located in a part of the world that had no Caesarian garrisons and

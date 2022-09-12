@@ -182,7 +182,7 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                   <tei-hi rend="italic" xml:id="d2e28743" id="d2e28743" data-origname="hi">teste Oudendorp</tei-hi> | has esse <tei-surplus xml:id="d2e28746" id="d2e28746" data-origname="surplus">certas</tei-surplus>
                   opportunitates <tei-hi rend="italic" xml:id="d2e28748" id="d2e28748" data-origname="hi">Scaliger</tei-hi> | has esse certas opportunitates
                      <tei-supplied reason="lost" xml:id="d2e28751" id="d2e28751" data-origname="supplied">cognouerat</tei-supplied>
-                  <tei-hi rend="italic" xml:id="d2e28754" id="d2e28754" data-origname="hi">Klotz</tei-hi> | has esse cernebat opportunitates <tei-hi rend="italic" xml:id="d2e28757" id="d2e28757" data-origname="hi">Vielhaber1869, 570</tei-hi> (<tei-hi rend="italic" xml:id="d2e28761" id="d2e28761" data-origname="hi">cf. BC 3.69.4</tei-hi>) | has est
+                  <tei-hi rend="italic" xml:id="d2e28754" id="d2e28754" data-origname="hi">Klotz</tei-hi> | has esse cernebat opportunitates <tei-hi rend="italic" xml:id="d2e28757" id="d2e28757" data-origname="hi">Vielhaber1869, 570</tei-hi> (<tei-hi rend="italic" xml:id="d2e28761" id="d2e28761" data-origname="hi">cf. BC 3.69.4</tei-hi>) | has est
                   secutus opportunitates <tei-hi rend="italic" xml:id="d2e28764" id="d2e28764" data-origname="hi">Larsen</tei-hi>
                   <tei-hi rend="italic" xml:id="d2e28767" id="d2e28767" data-origname="hi">coll. BC 1.1.3 et Cic. Off. 1.35</tei-hi> | duas est consecutus
                   opportunitates <tei-hi rend="italic" xml:id="d2e28770" id="d2e28770" data-origname="hi">Landgraf 1891b coll. BC 1.39.4</tei-hi> || hostium
