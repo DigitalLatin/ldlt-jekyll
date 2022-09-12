@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </respStmt>
             <respStmt>
                <resp>Programming for automatic generation of TEI XML:</resp>
-               <name>Virgina K. Felkner</name>
+               <name ref="https://orcid.org/0000-0002-0199-783X">Virgina K. Felkner</name>
             </respStmt>
             <respStmt>
                <resp>Coauthor of content related to section 2.5:</resp>
