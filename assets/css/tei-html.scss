@@ -10,6 +10,9 @@ div#controls {
     font-size: 80%;
     height: 94vh;
     width: 18%;
+    @media (min-width: @screen-sm-min) {
+        width: max-content;     
+    }
 }
 
 div#controls h2 {
@@ -175,6 +178,9 @@ tei-p span.apps {
     display: inline;
     position: absolute;
     right: -15%;
+    @media (min-width: @screen-sm-min) {
+        right: -20%;
+    }
     top: 0px;
     width: 80px;
 }
@@ -1528,6 +1534,9 @@ tei-tei>tei-text {
     display: block;
     line-height: 1.5;
     margin: auto;
+    @media (min-width: @screen-sm-min) {
+        margin: auto auto auto 1rem;
+    }
     max-width: 50vw;
 }
 
@@ -1709,6 +1718,11 @@ ol.notes a {
     color: #292929;
 }
 
+label {
+    @media (min-width: @screen-sm-min) {
+        margin-left: 0.25rem;
+    }
+}
 
 
 /* -----
