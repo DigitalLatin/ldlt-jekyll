@@ -32,6 +32,8 @@ a.navbar-brand { margin-bottom: 0.75rem; margin-left: 1rem; }
 
 #info { margin-bottom: 3rem; }
 
+@media (min-width: 576px) { .container, .container-fluid { margin-left: 0; margin-right: 0; } }
+
 footer { background-color: lightgrey; color: darkgrey; }
 
 .footer { bottom: 0; width: 100%; }

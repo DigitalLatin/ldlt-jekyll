@@ -85,6 +85,14 @@ a.navbar-brand {
     margin-bottom: 3rem;
 }
 
+// Change the container for the text on small screens.
+.container, .container-fluid {
+    @media (min-width: 576px) {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
 // Footer
 footer {
     background-color: lightgrey;
