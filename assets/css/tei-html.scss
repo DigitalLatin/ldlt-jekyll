@@ -1534,10 +1534,15 @@ tei-teiHeader {
 tei-tei>tei-text {
     display: block;
     line-height: 1.5;
-    margin: auto;
     @media (min-width: 576px) {
-        margin: auto auto auto 1rem;
-    }
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: 1rem;
+    };
+    @media (min-width: 992px) { 
+        margin-left: auto;
+     };
     max-width: 50vw;
 }
 
@@ -1649,6 +1654,7 @@ div#prevNext {
     width: 70vw;
     text-align: center;
     font-size: larger;
+    margin-top: 1rem;
 }
 div#prevNext a {
     color: black;

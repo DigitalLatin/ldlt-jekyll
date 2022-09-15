@@ -613,9 +613,11 @@ tei-table > tei-head { display: table-caption; }
 
 tei-teiHeader { display: none; margin-top: 2em; margin-bottom: 2em; }
 
-tei-tei > tei-text { display: block; line-height: 1.5; margin: auto; max-width: 50vw; }
+tei-tei > tei-text { display: block; line-height: 1.5; max-width: 50vw; }
 
-@media (min-width: 576px) { tei-tei > tei-text { margin: auto auto auto 1rem; } }
+@media (min-width: 576px) { tei-tei > tei-text { margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: 1rem; } }
+
+@media (min-width: 992px) { tei-tei > tei-text { margin-left: auto; } }
 
 tei-textclass { display: none; }
 
@@ -658,7 +660,7 @@ div#tei a { text-decoration: underline; }
 
 div#tei a:link, div#tei a:visited, div#teia:active { color: black; text-decoration: underline; }
 
-div#prevNext { width: 70vw; text-align: center; font-size: larger; }
+div#prevNext { width: 70vw; text-align: center; font-size: larger; margin-top: 1rem; }
 
 div#prevNext a { color: black; text-decoration: underline; text-decoration-style: dotted; }
 

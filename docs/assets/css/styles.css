@@ -1,10 +1,14 @@
 html { padding: 0; margin: 0; scroll-padding-top: 87px; }
 
+@media screen and (min-width: 576px) and (orientation: portrait) { body { height: 100vw; transform: rotate(90deg); } }
+
 a:link { color: #005cb9; }
 
 a:visited { color: #005cb9; }
 
 a:hover { color: #a33701; }
+
+#nav-container { background-color: #005cb9; color: white; }
 
 .navbar { background-color: #005cb9; }
 
@@ -12,11 +16,11 @@ a:hover { color: #a33701; }
 
 a.navbar-brand { margin-bottom: 0.75rem; margin-left: 1rem; }
 
-.navbar-nav { margin-left: auto; }
+a.nav-link { color: white; }
 
-.navbar-nav a { color: whitesmoke; transition: none; }
+a.nav-link:hover { color: #a33701; }
 
-.navbar-nav a:hover { color: white; text-shadow: 0px 0px 1px whitesmoke; }
+#mainwrapper { min-height: 83vh; }
 
 #main { margin-top: 3rem; }
 
@@ -34,12 +38,18 @@ a.navbar-brand { margin-bottom: 0.75rem; margin-left: 1rem; }
 
 @media (min-width: 576px) { .container, .container-fluid { margin-left: 0; margin-right: 0; } }
 
-footer { background-color: lightgrey; color: darkgrey; }
+@media (min-width: 992px) { .container, .container-fluid { margin-left: auto; margin-right: auto; } }
 
-.footer { bottom: 0; width: 100%; }
+footer { background-color: lightgrey; color: #a33701; padding-top: 2.25rem; padding-bottom: 3rem; }
 
-footer .container { width: 80%; text-align: center; }
+.footer { width: 100%; height: 5vh; }
+
+footer .container { width: 80%; }
 
 footer ul.nav { display: block; padding-left: 0; margin-bottom: 0; list-style: none; }
+
+.footer-copyright a { color: #a33701; }
+
+.footer-copyright a:hover { color: #005cb9; }
 
 /*# sourceMappingURL=styles.css.map */
