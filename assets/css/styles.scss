@@ -66,6 +66,13 @@ a:hover.nav-link {
     margin-top: 3rem;
 }
 
+#main.container {
+    padding-left: 0;
+    @media (min-width: 992px) {
+        padding-left: var(--bs-gutter-x,.75rem);
+     }
+}
+
 #main h1 {
     color: #a33701;
     text-align: center;
@@ -102,10 +109,8 @@ a:hover.nav-link {
 
 // Change the container for the text on small screens.
 .container, .container-fluid {
-    @media (min-width: 576px) {
-        margin-left: 0;
-        margin-right: 0
-    }
+    margin-left: 0;
+    margin-right: 0;
     @media (min-width: 992px) { 
         margin-left: auto;
         margin-right: auto;

@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* Controls */
-div#controls { position: fixed; top: 7rem; right: 1rem; font-size: 80%; height: 94vh; width: 18%; }
+div#controls { position: fixed; top: 7rem; right: 1rem; font-size: 80%; height: 94vh; width: max-content; }
 
-@media (min-width: 576px) { div#controls { width: max-content; } }
+@media (min-width: 992px) { div#controls { width: 18%; } }
 
 div#controls h2 { font-size: 120%; margin: 0; }
 
@@ -70,9 +70,9 @@ button:focus { outline: none; }
 
 tei-div span.apps { display: inline; position: absolute; right: 1em; }
 
-tei-p span.apps { display: inline; position: absolute; right: -15%; top: 0px; width: 80px; }
+tei-p span.apps { display: inline; position: absolute; right: -20%; top: 0px; width: 80px; }
 
-@media (min-width: 576px) { tei-p span.apps { right: -20%; } }
+@media (min-width: 768px) { tei-p span.apps { right: -15%; } }
 
 /* Apparatus tooltips */
 div.apparatus span.lineref { display: none; }
@@ -613,9 +613,7 @@ tei-table > tei-head { display: table-caption; }
 
 tei-teiHeader { display: none; margin-top: 2em; margin-bottom: 2em; }
 
-tei-tei > tei-text { display: block; line-height: 1.5; max-width: 50vw; }
-
-@media (min-width: 576px) { tei-tei > tei-text { margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: 1rem; } }
+tei-tei > tei-text { display: block; line-height: 1.5; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: 1rem; max-width: 50vw; }
 
 @media (min-width: 992px) { tei-tei > tei-text { margin-left: auto; } }
 

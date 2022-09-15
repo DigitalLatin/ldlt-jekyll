@@ -26,6 +26,10 @@ a.nav-link:hover { color: #a33701; }
 
 #main { margin-top: 3rem; }
 
+#main.container { padding-left: 0; }
+
+@media (min-width: 992px) { #main.container { padding-left: var(--bs-gutter-x, 0.75rem); } }
+
 #main h1 { color: #a33701; text-align: center; }
 
 #main h2 { font-style: italic; font-weight: 100; color: #b7b7b7; text-align: center; }
@@ -38,7 +42,7 @@ a.nav-link:hover { color: #a33701; }
 
 #info { margin-bottom: 3rem; }
 
-@media (min-width: 576px) { .container, .container-fluid { margin-left: 0; margin-right: 0; } }
+.container, .container-fluid { margin-left: 0; margin-right: 0; }
 
 @media (min-width: 992px) { .container, .container-fluid { margin-left: auto; margin-right: auto; } }
 
