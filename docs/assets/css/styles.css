@@ -1,6 +1,8 @@
 html { padding: 0; margin: 0; scroll-padding-top: 87px; }
 
-@media screen and (min-width: 576px) and (orientation: portrait) { body { height: 100vw; transform: rotate(90deg); } }
+@media screen and (orientation: portrait) { body { height: 100vw; transform: rotate(90deg); } }
+
+@media screen and (min-width: 576px) and (orientation: portrait) { body { height: 100vw; transform: unset; } }
 
 a:link { color: #005cb9; }
 

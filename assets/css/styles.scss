@@ -8,9 +8,13 @@ html {
 
 // Cribbed from https://code-boxx.com/lock-screen-orientation/
 body {
-    @media screen and (min-width: 576px) and (orientation:portrait) {
+    @media screen and (orientation:portrait) {
         height: 100vw;
         transform: rotate(90deg);
+    }    
+    @media screen and (min-width: 576px) and (orientation:portrait) {
+        height: 100vw;
+        transform: unset;
     }    
 }
 
