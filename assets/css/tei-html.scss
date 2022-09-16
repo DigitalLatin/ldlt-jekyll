@@ -179,9 +179,6 @@ tei-p span.apps {
     display: inline;
     position: absolute;
     right: -20%;
-    @media (min-width: 768px) {
-        right: -15%;
-    }
     top: 0px;
     width: 80px;
 }
@@ -1538,7 +1535,7 @@ tei-tei>tei-text {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: 1rem;
-    @media (min-width: 992px) { 
+    @media (min-width: 1200px) { 
         margin-left: auto;
      };
     max-width: 50vw;

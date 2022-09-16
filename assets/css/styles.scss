@@ -7,15 +7,27 @@ html {
 }
 
 // Cribbed from https://code-boxx.com/lock-screen-orientation/
-body {
-    @media screen and (orientation:portrait) {
-        height: 100vw;
-        transform: rotate(90deg);
-    }    
-    @media screen and (min-width: 576px) and (orientation:portrait) {
-        height: 100vw;
-        transform: unset;
-    }    
+/* (A) WRONG ORIENTATION - SHOW MESSAGE HIDE CONTENT */
+@media only screen and (orientation:portrait) {
+    #turn { display:block; }
+    #container { display:none; }
+}
+   
+/* (B) CORRECT ORIENTATION - SHOW CONTENT HIDE MESSAGE */
+@media only screen and (orientation:landscape) {
+    #turn { display:none; }
+    #container { display:block; }
+}
+
+// Don't play this trick on devices larger than a phone.
+@media only screen and (min-width: 576px) and (orientation:landscape) {
+    #turn { display:none; }
+    #container { display:block; }
+}
+
+@media only screen and (min-width: 576px) and (orientation:portrait) {
+    #turn { display:none; }
+    #container { display:block; }
 }
 
 a:link {
@@ -111,10 +123,23 @@ a:hover.nav-link {
 .container, .container-fluid {
     margin-left: 0;
     margin-right: 0;
-    @media (min-width: 992px) { 
+    @media (min-width: 1200px) { 
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+#turn p {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: large;
+}
+
+#turn img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 // Footer

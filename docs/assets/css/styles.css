@@ -1,8 +1,14 @@
 html { padding: 0; margin: 0; scroll-padding-top: 87px; }
 
-@media screen and (orientation: portrait) { body { height: 100vw; transform: rotate(90deg); } }
+/* (A) WRONG ORIENTATION - SHOW MESSAGE HIDE CONTENT */
+@media only screen and (orientation: portrait) { #turn { display: block; } #container { display: none; } }
 
-@media screen and (min-width: 576px) and (orientation: portrait) { body { height: 100vw; transform: unset; } }
+/* (B) CORRECT ORIENTATION - SHOW CONTENT HIDE MESSAGE */
+@media only screen and (orientation: landscape) { #turn { display: none; } #container { display: block; } }
+
+@media only screen and (min-width: 576px) and (orientation: landscape) { #turn { display: none; } #container { display: block; } }
+
+@media only screen and (min-width: 576px) and (orientation: portrait) { #turn { display: none; } #container { display: block; } }
 
 a:link { color: #005cb9; }
 
@@ -44,7 +50,11 @@ a.nav-link:hover { color: #a33701; }
 
 .container, .container-fluid { margin-left: 0; margin-right: 0; }
 
-@media (min-width: 992px) { .container, .container-fluid { margin-left: auto; margin-right: auto; } }
+@media (min-width: 1200px) { .container, .container-fluid { margin-left: auto; margin-right: auto; } }
+
+#turn p { text-align: center; margin-top: 3rem; font-size: large; }
+
+#turn img { display: block; margin-left: auto; margin-right: auto; width: 50%; }
 
 footer { background-color: lightgrey; color: #a33701; padding-top: 2.25rem; padding-bottom: 3rem; }
 

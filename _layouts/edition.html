@@ -19,8 +19,16 @@
     <script type="text/javascript" src="/assets/js/behaviors.js"></script>
   </head>
   <body>
-    {% include svgs.html %}
-    {% include navbar.html %}
+    <!-- (A) THIS WILL SHOW ON THE WRONG ORIENTATION -->
+    <div id="turn">
+      <p>Please rotate your device!</p>
+      <img src="/assets/images/DLL_logo_web_medium.png" alt="Digital Latin Library Home" />
+    </div>
+
+    <!-- (B) CONTENTS AS USUAL -->
+    <div id="container">
+      {% include svgs.html %}
+      {% include navbar.html %}
         <div class="d-flex flex-column">
             <div id="mainwrapper" class="container">    
                 <main role="main" class="container">
@@ -28,7 +36,8 @@
                         <div class="col-md-10">
                             <div id="main" class="container">
         {{ content }}
-      </div>
+          </div>
+        </div>
     </div>
     <script>
       let c = new CETEI({'ignoreFragmentId':true});

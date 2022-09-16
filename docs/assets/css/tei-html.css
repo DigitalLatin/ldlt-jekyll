@@ -72,8 +72,6 @@ tei-div span.apps { display: inline; position: absolute; right: 1em; }
 
 tei-p span.apps { display: inline; position: absolute; right: -20%; top: 0px; width: 80px; }
 
-@media (min-width: 768px) { tei-p span.apps { right: -15%; } }
-
 /* Apparatus tooltips */
 div.apparatus span.lineref { display: none; }
 
@@ -615,7 +613,7 @@ tei-teiHeader { display: none; margin-top: 2em; margin-bottom: 2em; }
 
 tei-tei > tei-text { display: block; line-height: 1.5; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: 1rem; max-width: 50vw; }
 
-@media (min-width: 992px) { tei-tei > tei-text { margin-left: auto; } }
+@media (min-width: 1200px) { tei-tei > tei-text { margin-left: auto; } }
 
 tei-textclass { display: none; }
 
