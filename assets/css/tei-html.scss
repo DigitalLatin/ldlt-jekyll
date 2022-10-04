@@ -5,7 +5,10 @@
 
 div#controls {
     position: fixed;
-    top: 7rem;
+    top: 6rem;
+    @media (min-width: 992px) {
+        top: 7rem;
+    }
     right: 1rem;
     font-size: 80%;
     height: 94vh;
@@ -1535,7 +1538,7 @@ tei-tei>tei-text {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: 1rem;
-    @media (min-width: 1200px) { 
+    @media (min-width: 992px) { 
         margin-left: auto;
      };
     max-width: 50vw;
@@ -1632,6 +1635,9 @@ div#tei {
     margin-top: 1rem;
     position: relative;
     width: 70vw;
+    @media (min-width: 768px) {
+        width: auto;
+    }
 }
 
 div#tei a {
@@ -1647,6 +1653,9 @@ div#teia:active {
 
 div#prevNext {
     width: 70vw;
+    @media (min-width: 768px) {
+        width: auto;
+    }
     text-align: center;
     font-size: larger;
     margin-top: 1rem;
@@ -1670,6 +1679,9 @@ div#prevNext a {
 
 div.notes {
     max-width: 70vw;
+    @media (min-width: 992px) {
+        width: auto;
+    }
 }
 
 ol.notes {
