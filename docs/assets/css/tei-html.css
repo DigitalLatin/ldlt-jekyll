@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* Controls */
-div#controls { position: fixed; top: 7rem; right: 1rem; font-size: 80%; height: 94vh; width: max-content; }
+div#controls { position: fixed; top: 6rem; right: 1rem; font-size: 80%; height: 94vh; width: max-content; }
+
+@media (min-width: 992px) { div#controls { top: 7rem; } }
 
 @media (min-width: 992px) { div#controls { width: 18%; } }
 
@@ -613,7 +615,7 @@ tei-teiHeader { display: none; margin-top: 2em; margin-bottom: 2em; }
 
 tei-tei > tei-text { display: block; line-height: 1.5; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: 1rem; max-width: 50vw; }
 
-@media (min-width: 1200px) { tei-tei > tei-text { margin-left: auto; } }
+@media (min-width: 992px) { tei-tei > tei-text { margin-left: auto; } }
 
 tei-textclass { display: none; }
 
@@ -652,11 +654,15 @@ html { margin: 0; padding: 0; font-family: "Lucida Grande", "Cardo", "Arial Unic
 
 div#tei { margin-top: 1rem; position: relative; width: 70vw; }
 
+@media (min-width: 768px) { div#tei { width: auto; } }
+
 div#tei a { text-decoration: underline; }
 
 div#tei a:link, div#tei a:visited, div#teia:active { color: black; text-decoration: underline; }
 
 div#prevNext { width: 70vw; text-align: center; font-size: larger; margin-top: 1rem; }
+
+@media (min-width: 768px) { div#prevNext { width: auto; } }
 
 div#prevNext a { color: black; text-decoration: underline; text-decoration-style: dotted; }
 
@@ -665,6 +671,8 @@ div#prevNext a { color: black; text-decoration: underline; text-decoration-style
 .hidden { display: none; }
 
 div.notes { max-width: 70vw; }
+
+@media (min-width: 992px) { div.notes { width: auto; } }
 
 ol.notes { list-style: none; margin: auto; max-width: 50vw; }
 
