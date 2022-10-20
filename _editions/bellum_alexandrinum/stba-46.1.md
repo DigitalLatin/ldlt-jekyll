@@ -162,33 +162,33 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
          </tei-citeStructure>
        </tei-refsDecl>
      </tei-encodingDesc>
-   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17946" id="d2e17946" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-46.1" id="stba-46.1" resp="#Damon" data-origname="div">
-               <tei-head xml:id="d2e30410" id="d2e30410" data-origname="head">46.1</tei-head>
+   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17944" id="d2e17944" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-46.1" id="stba-46.1" resp="#Damon" data-origname="div">
+               <tei-head xml:id="d2e30408" id="d2e30408" data-origname="head">46.1</tei-head>
 
-               <tei-p rend="byline" xml:id="d2e30412" id="d2e30412" data-origname="p"><tei-hi rend="italic" xml:id="d2e30413" id="d2e30413" data-origname="hi">Cynthia Damon</tei-hi></tei-p>
+               <tei-p rend="byline" xml:id="d2e30410" id="d2e30410" data-origname="p"><tei-hi rend="italic" xml:id="d2e30411" id="d2e30411" data-origname="hi">Cynthia Damon</tei-hi></tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e30416" id="d2e30416" data-origname="quote">Vatinius cum animaduerteret neque nauium se magnitudine
-                  neque numero parem esse, fortuitae dimicationi <tei-surplus xml:id="d2e30418" id="d2e30418" data-origname="surplus">fortunae</tei-surplus> rem
+               <tei-quote rend="blockquote" xml:id="d2e30414" id="d2e30414" data-origname="quote">Vatinius cum animaduerteret neque nauium se magnitudine
+                  neque numero parem esse, fortuitae dimicationi <tei-surplus xml:id="d2e30416" id="d2e30416" data-origname="surplus">fortunae</tei-surplus> rem
                   committere maluit. Itaque primus sua quinqueremi in quadriremem ipsius Octaui
-                  impetum fecit.<tei-note place="foot" xml:id="d2e30420" id="d2e30420" data-origname="note"> “Although Vatinius realized that he was
+                  impetum fecit.<tei-note place="foot" xml:id="d2e30418" id="d2e30418" data-origname="note"> “Although Vatinius realized that he was
                      inferior both with regards to the ships’ size and their number, he preferred to
                      entrust the matter to a chance engagement. Thus, he attacked first, driving his
                      quinquereme against the quadrireme of Octavius himself.”</tei-note>
                </tei-quote>
 
-               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e30424" id="d2e30424" data-origname="quote">fortuitae dimicationi
-                     <tei-surplus xml:id="d2e30426" id="d2e30426" data-origname="surplus">fortunae</tei-surplus> … maluit <tei-foreign xml:lang="la" xml:id="d2e30428" id="d2e30428" data-origname="foreign">Klotz auctore
-                     Hoffmann 1857</tei-foreign> (<tei-hi rend="italic" xml:id="d2e30431" id="d2e30431" data-origname="hi">cf. Liu. 25.12.5 impetu
-                     fortuito</tei-hi>)<tei-foreign xml:lang="la" xml:id="d2e30434" id="d2e30434" data-origname="foreign">, qui et post</tei-foreign> fortuitae
-                     <tei-supplied reason="lost" xml:id="d2e30437" id="d2e30437" data-origname="supplied">tamen</tei-supplied>
-                  <tei-foreign xml:lang="la" xml:id="d2e30441" id="d2e30441" data-origname="foreign"> suppleuit</tei-foreign> | fortuitae dimicationi fortunae …
-                  maluit <tei-foreign xml:lang="la" xml:id="d2e30444" id="d2e30444" data-origname="foreign">MUSV</tei-foreign> | fortunae … noluit <tei-foreign xml:lang="la" xml:id="d2e30447" id="d2e30447" data-origname="foreign">T</tei-foreign> (<tei-hi rend="italic" xml:id="d2e30450" id="d2e30450" data-origname="hi">cf. Liu. 9.12.11</tei-hi>) | futurae
-                  dimicationi fortunae … maluit <tei-foreign xml:lang="la" xml:id="d2e30453" id="d2e30453" data-origname="foreign">ς teste Oudendorp</tei-foreign>
-                     (<tei-hi rend="italic" xml:id="d2e30456" id="d2e30456" data-origname="hi">de genitiuo u. TLL 5.1.1197.21–34, et de adiectiuo cf. BC
-                     1.52.1</tei-hi>) | futurae dimicationi fortunae <tei-supplied reason="lost" xml:id="d2e30460" id="d2e30460" data-origname="supplied">tamen quam
-                     fugae</tei-supplied> … maluit <tei-foreign xml:lang="la" xml:id="d2e30463" id="d2e30463" data-origname="foreign">Kübler</tei-foreign> (<tei-hi rend="italic" xml:id="d2e30466" id="d2e30466" data-origname="hi">sed cf. BC 1.72.3 et u. TLL 8.201.78–202.8</tei-hi>)</tei-quote>
+               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e30422" id="d2e30422" data-origname="quote">fortuitae dimicationi
+                     <tei-surplus xml:id="d2e30424" id="d2e30424" data-origname="surplus">fortunae</tei-surplus> … maluit <tei-foreign xml:lang="la" xml:id="d2e30426" id="d2e30426" data-origname="foreign">Klotz auctore
+                     Hoffmann 1857</tei-foreign> (<tei-hi rend="italic" xml:id="d2e30429" id="d2e30429" data-origname="hi">cf. Liu. 25.12.5 impetu
+                     fortuito</tei-hi>)<tei-foreign xml:lang="la" xml:id="d2e30432" id="d2e30432" data-origname="foreign">, qui et post</tei-foreign> fortuitae
+                     <tei-supplied reason="lost" xml:id="d2e30435" id="d2e30435" data-origname="supplied">tamen</tei-supplied>
+                  <tei-foreign xml:lang="la" xml:id="d2e30439" id="d2e30439" data-origname="foreign"> suppleuit</tei-foreign> | fortuitae dimicationi fortunae …
+                  maluit <tei-foreign xml:lang="la" xml:id="d2e30442" id="d2e30442" data-origname="foreign">MUSV</tei-foreign> | fortunae … noluit <tei-foreign xml:lang="la" xml:id="d2e30445" id="d2e30445" data-origname="foreign">T</tei-foreign> (<tei-hi rend="italic" xml:id="d2e30448" id="d2e30448" data-origname="hi">cf. Liu. 9.12.11</tei-hi>) | futurae
+                  dimicationi fortunae … maluit <tei-foreign xml:lang="la" xml:id="d2e30451" id="d2e30451" data-origname="foreign">ς teste Oudendorp</tei-foreign>
+                     (<tei-hi rend="italic" xml:id="d2e30454" id="d2e30454" data-origname="hi">de genitiuo u. TLL 5.1.1197.21–34, et de adiectiuo cf. BC
+                     1.52.1</tei-hi>) | futurae dimicationi fortunae <tei-supplied reason="lost" xml:id="d2e30458" id="d2e30458" data-origname="supplied">tamen quam
+                     fugae</tei-supplied> … maluit <tei-foreign xml:lang="la" xml:id="d2e30461" id="d2e30461" data-origname="foreign">Kübler</tei-foreign> (<tei-hi rend="italic" xml:id="d2e30464" id="d2e30464" data-origname="hi">sed cf. BC 1.72.3 et u. TLL 8.201.78–202.8</tei-hi>)</tei-quote>
 
-               <tei-p xml:id="d2e30470" id="d2e30470" data-origname="p">Chapter 46 is part of the narrative of Vatinius’ <tei-foreign xml:lang="la" xml:id="d2e30472" id="d2e30472" data-origname="foreign">res
+               <tei-p xml:id="d2e30468" id="d2e30468" data-origname="p">Chapter 46 is part of the narrative of Vatinius’ <tei-foreign xml:lang="la" xml:id="d2e30470" id="d2e30470" data-origname="foreign">res
                      gestae</tei-foreign> after the battle of Pharsalus (43.3–47). This narrative starts
                   and ends in Brundisium, but our passage belongs to Vatinius’ naval operations on
                   the coast of Illyricum, where he was vying with the Pompeian fleet commander M.
@@ -198,64 +198,64 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                   whereupon Vatinius rapidly prepared his fleet for battle. The general urgency of
                   the task of stopping Octavius’ depredations was made clear earlier (44.1–3), but
                   Vatinius’ reasoning at this critical moment is given in the following sentence,
-                  which contains a puzzling string of nouns, a murky <tei-foreign xml:lang="la" xml:id="d2e30475" id="d2e30475" data-origname="foreign">cum</tei-foreign> clause, and an elliptical verb:</tei-p>
+                  which contains a puzzling string of nouns, a murky <tei-foreign xml:lang="la" xml:id="d2e30473" id="d2e30473" data-origname="foreign">cum</tei-foreign> clause, and an elliptical verb:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e30480" id="d2e30480" data-origname="quote"> Vatinius cum animaduerteret neque nauium se magnitudine
+               <tei-quote rend="blockquote" xml:id="d2e30478" id="d2e30478" data-origname="quote"> Vatinius cum animaduerteret neque nauium se magnitudine
                   neque numero parem esse fortuitae dimicationi fortunae rem committere
                   maluit.</tei-quote>
 
-               <tei-p xml:id="d2e30483" id="d2e30483" data-origname="p">Vatinius preferred battle—to what? Evasive action, presumably, but Incertus does
-                  not specify. If specification is wanted, one could emend <tei-foreign xml:lang="la" xml:id="d2e30485" id="d2e30485" data-origname="foreign">maluit</tei-foreign>, as the scribe of T did, or fill in the blank, as <tei-ref target="bibliography-modern-editions.html#Kübler1896a">Kübler</tei-ref> did:</tei-p>
+               <tei-p xml:id="d2e30481" id="d2e30481" data-origname="p">Vatinius preferred battle—to what? Evasive action, presumably, but Incertus does
+                  not specify. If specification is wanted, one could emend <tei-foreign xml:lang="la" xml:id="d2e30483" id="d2e30483" data-origname="foreign">maluit</tei-foreign>, as the scribe of T did, or fill in the blank, as <tei-ref target="bibliography-modern-editions.html#Kübler1896a">Kübler</tei-ref> did:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e30492" id="d2e30492" data-origname="quote"> … dimicationi fortunae <tei-supplied reason="lost" xml:id="d2e30494" id="d2e30494" data-origname="supplied">tamen quam
+               <tei-quote rend="blockquote" xml:id="d2e30490" id="d2e30490" data-origname="quote"> … dimicationi fortunae <tei-supplied reason="lost" xml:id="d2e30492" id="d2e30492" data-origname="supplied">tamen quam
                      fugae</tei-supplied> … maluit</tei-quote>
 
-               <tei-p xml:id="d2e30498" id="d2e30498" data-origname="p">But the supplement is superfluous, since <tei-foreign xml:lang="la" xml:id="d2e30500" id="d2e30500" data-origname="foreign">quam</tei-foreign>
-                  (uel sim.) is not obligatory (cf. <tei-hi rend="italic" xml:id="d2e30503" id="d2e30503" data-origname="hi">BC</tei-hi> 1.72.3 <tei-foreign xml:lang="la" xml:id="d2e30506" id="d2e30506" data-origname="foreign">quibus saluis atque incolumibus rem obtinere malebat</tei-foreign>
-                     (<tei-hi rend="italic" xml:id="d2e30509" id="d2e30509" data-origname="hi">sc</tei-hi>. <tei-foreign xml:lang="la" xml:id="d2e30512" id="d2e30512" data-origname="foreign">quam interfectis</tei-foreign>)
-                  and see <tei-hi rend="italic" xml:id="d2e30516" id="d2e30516" data-origname="hi">TLL</tei-hi> 8.201.78–202.8). And T’s <tei-foreign xml:lang="la" xml:id="d2e30519" id="d2e30519" data-origname="foreign">noluit</tei-foreign> doesn’t fit the context very well, since in the following
+               <tei-p xml:id="d2e30496" id="d2e30496" data-origname="p">But the supplement is superfluous, since <tei-foreign xml:lang="la" xml:id="d2e30498" id="d2e30498" data-origname="foreign">quam</tei-foreign>
+                  (uel sim.) is not obligatory (cf. <tei-hi rend="italic" xml:id="d2e30501" id="d2e30501" data-origname="hi">BC</tei-hi> 1.72.3 <tei-foreign xml:lang="la" xml:id="d2e30504" id="d2e30504" data-origname="foreign">quibus saluis atque incolumibus rem obtinere malebat</tei-foreign>
+                     (<tei-hi rend="italic" xml:id="d2e30507" id="d2e30507" data-origname="hi">sc</tei-hi>. <tei-foreign xml:lang="la" xml:id="d2e30510" id="d2e30510" data-origname="foreign">quam interfectis</tei-foreign>)
+                  and see <tei-hi rend="italic" xml:id="d2e30514" id="d2e30514" data-origname="hi">TLL</tei-hi> 8.201.78–202.8). And T’s <tei-foreign xml:lang="la" xml:id="d2e30517" id="d2e30517" data-origname="foreign">noluit</tei-foreign> doesn’t fit the context very well, since in the following
                   sentence (quoted above) we learn that Vatinius attacked Octavius before Octavius
-                  could attack him, and the connective <tei-foreign xml:lang="la" xml:id="d2e30522" id="d2e30522" data-origname="foreign">itaque</tei-foreign>
-                  indicates that the attack was a consequence of Vatinius’ preference.<tei-note place="foot" xml:id="d2e30525" id="d2e30525" data-origname="note">One might also take <tei-foreign xml:lang="la" xml:id="d2e30527" id="d2e30527" data-origname="foreign">fortuitae
-                        dimicationi</tei-foreign> with <tei-foreign xml:lang="la" xml:id="d2e30530" id="d2e30530" data-origname="foreign">parem</tei-foreign> (cf. <tei-hi rend="italic" xml:id="d2e30533" id="d2e30533" data-origname="hi">BG</tei-hi> 1.40.7 <tei-foreign xml:lang="la" xml:id="d2e30536" id="d2e30536" data-origname="foreign">pares esse nostro
-                        exercitui</tei-foreign>) and <tei-foreign xml:lang="la" xml:id="d2e30539" id="d2e30539" data-origname="foreign">fortunae</tei-foreign> with
-                        <tei-foreign xml:lang="la" xml:id="d2e30543" id="d2e30543" data-origname="foreign">rem committere</tei-foreign>, but this makes Vatinius
+                  could attack him, and the connective <tei-foreign xml:lang="la" xml:id="d2e30520" id="d2e30520" data-origname="foreign">itaque</tei-foreign>
+                  indicates that the attack was a consequence of Vatinius’ preference.<tei-note place="foot" xml:id="d2e30523" id="d2e30523" data-origname="note">One might also take <tei-foreign xml:lang="la" xml:id="d2e30525" id="d2e30525" data-origname="foreign">fortuitae
+                        dimicationi</tei-foreign> with <tei-foreign xml:lang="la" xml:id="d2e30528" id="d2e30528" data-origname="foreign">parem</tei-foreign> (cf. <tei-hi rend="italic" xml:id="d2e30531" id="d2e30531" data-origname="hi">BG</tei-hi> 1.40.7 <tei-foreign xml:lang="la" xml:id="d2e30534" id="d2e30534" data-origname="foreign">pares esse nostro
+                        exercitui</tei-foreign>) and <tei-foreign xml:lang="la" xml:id="d2e30537" id="d2e30537" data-origname="foreign">fortunae</tei-foreign> with
+                        <tei-foreign xml:lang="la" xml:id="d2e30541" id="d2e30541" data-origname="foreign">rem committere</tei-foreign>, but this makes Vatinius
                      irrational in what is otherwise a highly flattering narrative: “although he
                      realized that he was not equal … to a chance engagement, he preferred to
                      entrust the matter to chance.”</tei-note>
                </tei-p>
 
-               <tei-p xml:id="d2e30548" id="d2e30548" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Kübler1896a">Kübler</tei-ref>’s repair also includes <tei-foreign xml:lang="la" xml:id="d2e30552" id="d2e30552" data-origname="foreign">tamen</tei-foreign>, which clarifies the concessive nature of the
-                     <tei-foreign xml:lang="la" xml:id="d2e30555" id="d2e30555" data-origname="foreign">cum</tei-foreign> clause; others had added it elsewhere. But
+               <tei-p xml:id="d2e30546" id="d2e30546" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Kübler1896a">Kübler</tei-ref>’s repair also includes <tei-foreign xml:lang="la" xml:id="d2e30550" id="d2e30550" data-origname="foreign">tamen</tei-foreign>, which clarifies the concessive nature of the
+                     <tei-foreign xml:lang="la" xml:id="d2e30553" id="d2e30553" data-origname="foreign">cum</tei-foreign> clause; others had added it elsewhere. But
                   this too, although an improvement, seems unwarranted, since many of Incertus’
-                     <tei-foreign xml:lang="la" xml:id="d2e30558" id="d2e30558" data-origname="foreign">cum</tei-foreign> clauses, especially in chapters 34–47, are
+                     <tei-foreign xml:lang="la" xml:id="d2e30556" id="d2e30556" data-origname="foreign">cum</tei-foreign> clauses, especially in chapters 34–47, are
                   murky owing to postponed conjunctions and complicated syntax (see, e.g., 34.2,
                   35.2, 36.3, 39.1, 40.2, 42.3, 44.1, 44.3). The antithesis between calculation
-                     (<tei-foreign xml:lang="la" xml:id="d2e30561" id="d2e30561" data-origname="foreign">magnitudine</tei-foreign>, <tei-foreign xml:lang="la" xml:id="d2e30564" id="d2e30564" data-origname="foreign">numero,
-                     parem</tei-foreign>) and chance (<tei-foreign xml:lang="la" xml:id="d2e30568" id="d2e30568" data-origname="foreign">fortuitae</tei-foreign>,
-                     <tei-foreign xml:lang="la" xml:id="d2e30571" id="d2e30571" data-origname="foreign">fortunae</tei-foreign>) may suffice to indicate the
+                     (<tei-foreign xml:lang="la" xml:id="d2e30559" id="d2e30559" data-origname="foreign">magnitudine</tei-foreign>, <tei-foreign xml:lang="la" xml:id="d2e30562" id="d2e30562" data-origname="foreign">numero,
+                     parem</tei-foreign>) and chance (<tei-foreign xml:lang="la" xml:id="d2e30566" id="d2e30566" data-origname="foreign">fortuitae</tei-foreign>,
+                     <tei-foreign xml:lang="la" xml:id="d2e30569" id="d2e30569" data-origname="foreign">fortunae</tei-foreign>) may suffice to indicate the
                   concession that Incertus intended.</tei-p>
 
-               <tei-p xml:id="d2e30575" id="d2e30575" data-origname="p">But the expression <tei-foreign xml:lang="la" xml:id="d2e30577" id="d2e30577" data-origname="foreign">fortuitae dimicationi fortunae rem
-                     committere</tei-foreign> is distinctly unlovely. <tei-foreign xml:lang="la" xml:id="d2e30580" id="d2e30580" data-origname="foreign">Rem
-                     committere</tei-foreign> could go with <tei-foreign xml:lang="la" xml:id="d2e30583" id="d2e30583" data-origname="foreign">dimicationi</tei-foreign>
-                  (cf. <tei-hi rend="italic" xml:id="d2e30586" id="d2e30586" data-origname="hi">BC</tei-hi> 2.33.2 <tei-foreign xml:lang="la" xml:id="d2e30589" id="d2e30589" data-origname="foreign">proelio rem
-                     committere</tei-foreign>; 2.38.2, 3.74.2) or <tei-foreign xml:lang="la" xml:id="d2e30593" id="d2e30593" data-origname="foreign">fortunae</tei-foreign> (cf. Liu. 9.12.11 <tei-foreign xml:lang="la" xml:id="d2e30596" id="d2e30596" data-origname="foreign">committere rem
-                     fortunae</tei-foreign>) but not with both, so <tei-foreign xml:lang="la" xml:id="d2e30599" id="d2e30599" data-origname="foreign">fortunae</tei-foreign> must be genitive. But if <tei-foreign xml:lang="la" xml:id="d2e30602" id="d2e30602" data-origname="foreign">fortunae</tei-foreign> is a subjective genitive dependent on <tei-foreign xml:lang="la" xml:id="d2e30605" id="d2e30605" data-origname="foreign">dimicationi</tei-foreign> (for the construction see <tei-hi rend="italic" xml:id="d2e30608" id="d2e30608" data-origname="hi">TLL 5.1.1197.21–34), fortuitae</tei-hi> is tautological. And if <tei-foreign xml:lang="la" xml:id="d2e30612" id="d2e30612" data-origname="foreign">fortuitae</tei-foreign> modifies <tei-foreign xml:lang="la" xml:id="d2e30615" id="d2e30615" data-origname="foreign">fortunae</tei-foreign>, it is otiose. In short, something has to go. Suspicion has
-                  fallen on <tei-foreign xml:lang="la" xml:id="d2e30618" id="d2e30618" data-origname="foreign">fortuitae</tei-foreign> owing to the word’s scant
-                  presence in the <tei-foreign xml:lang="la" xml:id="d2e30621" id="d2e30621" data-origname="foreign">corpus Caesarianum</tei-foreign> (<tei-hi rend="italic" xml:id="d2e30624" id="d2e30624" data-origname="hi">BG</tei-hi> 7.20.2 <tei-foreign xml:lang="la" xml:id="d2e30627" id="d2e30627" data-origname="foreign">omnia fortuito et sine
-                     consilio accidere</tei-foreign>; cf. <tei-hi rend="italic" xml:id="d2e30631" id="d2e30631" data-origname="hi">BAfr</tei-hi> 3.5 <tei-foreign xml:lang="la" xml:id="d2e30634" id="d2e30634" data-origname="foreign">fortuitu</tei-foreign>). <tei-foreign xml:lang="la" xml:id="d2e30637" id="d2e30637" data-origname="foreign">Fortuna</tei-foreign>, of
+               <tei-p xml:id="d2e30573" id="d2e30573" data-origname="p">But the expression <tei-foreign xml:lang="la" xml:id="d2e30575" id="d2e30575" data-origname="foreign">fortuitae dimicationi fortunae rem
+                     committere</tei-foreign> is distinctly unlovely. <tei-foreign xml:lang="la" xml:id="d2e30578" id="d2e30578" data-origname="foreign">Rem
+                     committere</tei-foreign> could go with <tei-foreign xml:lang="la" xml:id="d2e30581" id="d2e30581" data-origname="foreign">dimicationi</tei-foreign>
+                  (cf. <tei-hi rend="italic" xml:id="d2e30584" id="d2e30584" data-origname="hi">BC</tei-hi> 2.33.2 <tei-foreign xml:lang="la" xml:id="d2e30587" id="d2e30587" data-origname="foreign">proelio rem
+                     committere</tei-foreign>; 2.38.2, 3.74.2) or <tei-foreign xml:lang="la" xml:id="d2e30591" id="d2e30591" data-origname="foreign">fortunae</tei-foreign> (cf. Liu. 9.12.11 <tei-foreign xml:lang="la" xml:id="d2e30594" id="d2e30594" data-origname="foreign">committere rem
+                     fortunae</tei-foreign>) but not with both, so <tei-foreign xml:lang="la" xml:id="d2e30597" id="d2e30597" data-origname="foreign">fortunae</tei-foreign> must be genitive. But if <tei-foreign xml:lang="la" xml:id="d2e30600" id="d2e30600" data-origname="foreign">fortunae</tei-foreign> is a subjective genitive dependent on <tei-foreign xml:lang="la" xml:id="d2e30603" id="d2e30603" data-origname="foreign">dimicationi</tei-foreign> (for the construction see <tei-hi rend="italic" xml:id="d2e30606" id="d2e30606" data-origname="hi">TLL 5.1.1197.21–34), fortuitae</tei-hi> is tautological. And if <tei-foreign xml:lang="la" xml:id="d2e30610" id="d2e30610" data-origname="foreign">fortuitae</tei-foreign> modifies <tei-foreign xml:lang="la" xml:id="d2e30613" id="d2e30613" data-origname="foreign">fortunae</tei-foreign>, it is otiose. In short, something has to go. Suspicion has
+                  fallen on <tei-foreign xml:lang="la" xml:id="d2e30616" id="d2e30616" data-origname="foreign">fortuitae</tei-foreign> owing to the word’s scant
+                  presence in the <tei-foreign xml:lang="la" xml:id="d2e30619" id="d2e30619" data-origname="foreign">corpus Caesarianum</tei-foreign> (<tei-hi rend="italic" xml:id="d2e30622" id="d2e30622" data-origname="hi">BG</tei-hi> 7.20.2 <tei-foreign xml:lang="la" xml:id="d2e30625" id="d2e30625" data-origname="foreign">omnia fortuito et sine
+                     consilio accidere</tei-foreign>; cf. <tei-hi rend="italic" xml:id="d2e30629" id="d2e30629" data-origname="hi">BAfr</tei-hi> 3.5 <tei-foreign xml:lang="la" xml:id="d2e30632" id="d2e30632" data-origname="foreign">fortuitu</tei-foreign>). <tei-foreign xml:lang="la" xml:id="d2e30635" id="d2e30635" data-origname="foreign">Fortuna</tei-foreign>, of
                   course, is a favorite Caesarian concept (⟩70x, including recently at 43.1 and
                   43.3).</tei-p>
 
-               <tei-p xml:id="d2e30642" id="d2e30642" data-origname="p">
-                  <tei-foreign xml:lang="la" xml:id="d2e30644" id="d2e30644" data-origname="foreign">Fortuitae</tei-foreign> was emended to an adjectival <tei-foreign xml:lang="la" xml:id="d2e30647" id="d2e30647" data-origname="foreign">futurae</tei-foreign> already in the <tei-foreign xml:lang="la" xml:id="d2e30650" id="d2e30650" data-origname="foreign">recentiores</tei-foreign> (cf. <tei-hi rend="italic" xml:id="d2e30653" id="d2e30653" data-origname="hi">BC</tei-hi> 1.52.1 <tei-foreign xml:lang="la" xml:id="d2e30656" id="d2e30656" data-origname="foreign">futuri temporis timore</tei-foreign>). This improves the style but
+               <tei-p xml:id="d2e30640" id="d2e30640" data-origname="p">
+                  <tei-foreign xml:lang="la" xml:id="d2e30642" id="d2e30642" data-origname="foreign">Fortuitae</tei-foreign> was emended to an adjectival <tei-foreign xml:lang="la" xml:id="d2e30645" id="d2e30645" data-origname="foreign">futurae</tei-foreign> already in the <tei-foreign xml:lang="la" xml:id="d2e30648" id="d2e30648" data-origname="foreign">recentiores</tei-foreign> (cf. <tei-hi rend="italic" xml:id="d2e30651" id="d2e30651" data-origname="hi">BC</tei-hi> 1.52.1 <tei-foreign xml:lang="la" xml:id="d2e30654" id="d2e30654" data-origname="foreign">futuri temporis timore</tei-foreign>). This improves the style but
                   runs counter to the sense, since Vatinius did not wait for a future engagement.
-                  The scribe of T omitted <tei-foreign xml:lang="la" xml:id="d2e30660" id="d2e30660" data-origname="foreign">fortuitae dimicationi</tei-foreign>,
-                  presumably regarding it as an alternative to <tei-foreign xml:lang="la" xml:id="d2e30663" id="d2e30663" data-origname="foreign">fortunae</tei-foreign>. Modern scholars, on the other hand, excise <tei-foreign xml:lang="la" xml:id="d2e30666" id="d2e30666" data-origname="foreign">fortunae</tei-foreign> as a gloss on the more unusual expression
-                     <tei-foreign xml:lang="la" xml:id="d2e30669" id="d2e30669" data-origname="foreign">fortuitae dimicationi</tei-foreign>. Their decision seems
+                  The scribe of T omitted <tei-foreign xml:lang="la" xml:id="d2e30658" id="d2e30658" data-origname="foreign">fortuitae dimicationi</tei-foreign>,
+                  presumably regarding it as an alternative to <tei-foreign xml:lang="la" xml:id="d2e30661" id="d2e30661" data-origname="foreign">fortunae</tei-foreign>. Modern scholars, on the other hand, excise <tei-foreign xml:lang="la" xml:id="d2e30664" id="d2e30664" data-origname="foreign">fortunae</tei-foreign> as a gloss on the more unusual expression
+                     <tei-foreign xml:lang="la" xml:id="d2e30667" id="d2e30667" data-origname="foreign">fortuitae dimicationi</tei-foreign>. Their decision seems
                   right. But T may have been right in seeing the two as variants transmitted by the
-                     archetype.<tei-note place="foot" xml:id="d2e30672" id="d2e30672" data-origname="note">See <tei-ref target="bibliography-secondary-sources.html#Damon2015a">Damon</tei-ref>
+                     archetype.<tei-note place="foot" xml:id="d2e30670" id="d2e30670" data-origname="note">See <tei-ref target="bibliography-secondary-sources.html#Damon2015a">Damon</tei-ref>
                      (2015a, xxiv-xxv), pointing to the lists in <tei-ref target="bibliography-secondary-sources.html#Hering">Hering</tei-ref>
                      (1963, 42–43) and <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> (1927, XII). The present
                      passage is not in either.</tei-note></tei-p>
