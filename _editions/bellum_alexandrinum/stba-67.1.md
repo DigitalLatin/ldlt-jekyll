@@ -162,244 +162,244 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
          </tei-citeStructure>
        </tei-refsDecl>
      </tei-encodingDesc>
-   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17946" id="d2e17946" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-67.1" id="stba-67.1" resp="#Bensch-Schaus #Damon" data-origname="div">
-               <tei-head xml:id="d2e33385" id="d2e33385" data-origname="head">67.1</tei-head>
+   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17944" id="d2e17944" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-67.1" id="stba-67.1" resp="#Bensch-Schaus #Damon" data-origname="div">
+               <tei-head xml:id="d2e33383" id="d2e33383" data-origname="head">67.1</tei-head>
 
-               <tei-p rend="byline" xml:id="d2e33387" id="d2e33387" data-origname="p"><tei-hi rend="italic" xml:id="d2e33388" id="d2e33388" data-origname="hi">Amelia Bensch-Schaus and Cynthia Damon</tei-hi></tei-p>
+               <tei-p rend="byline" xml:id="d2e33385" id="d2e33385" data-origname="p"><tei-hi rend="italic" xml:id="d2e33386" id="d2e33386" data-origname="hi">Amelia Bensch-Schaus and Cynthia Damon</tei-hi></tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33391" id="d2e33391" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset <tei-supplied reason="lost" xml:id="d2e33393" id="d2e33393" data-origname="supplied">et coactus</tei-supplied> exercitibus
-                  imperiisque, in Cn. Pompei castris fuisset.<tei-note place="foot" xml:id="d2e33396" id="d2e33396" data-origname="note">”… the fact that,
+               <tei-quote rend="blockquote" xml:id="d2e33389" id="d2e33389" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+                  Caesaris habuisset <tei-supplied reason="lost" xml:id="d2e33391" id="d2e33391" data-origname="supplied">et coactus</tei-supplied> exercitibus
+                  imperiisque, in Cn. Pompei castris fuisset.<tei-note place="foot" xml:id="d2e33394" id="d2e33394" data-origname="note">”… the fact that,
                      as he was located in a part of the world that had no Caesarian garrisons and
                      was under the compulsion of armies and orders, he had been in the camp of
                      Gnaeus Pompey.”</tei-note>
                </tei-quote>
 
-               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e33400" id="d2e33400" data-origname="quote">Caesaris <tei-hi rend="italic" xml:id="d2e33402" id="d2e33402" data-origname="hi">MUSTV | </tei-hi>
-                  <tei-supplied reason="lost" xml:id="d2e33405" id="d2e33405" data-origname="supplied">in</tei-supplied> Caesaris <tei-hi rend="italic" xml:id="d2e33408" id="d2e33408" data-origname="hi">Cornelissen (cf.
-                     23.1)</tei-hi> || <tei-supplied reason="lost" xml:id="d2e33411" id="d2e33411" data-origname="supplied">et coactus</tei-supplied> exercitibus
-                  imperiisque <tei-hi rend="italic" xml:id="d2e33414" id="d2e33414" data-origname="hi">Bensch-Schaus</tei-hi> (<tei-hi rend="italic" xml:id="d2e33418" id="d2e33418" data-origname="hi">cf. 43.1</tei-hi>;
-                     <tei-supplied reason="lost" xml:id="d2e33421" id="d2e33421" data-origname="supplied">coactus</tei-supplied>
-                  <tei-hi rend="italic" xml:id="d2e33424" id="d2e33424" data-origname="hi">iam Hoffmann 1890</tei-hi>) | exercitibus imperiisque <tei-hi rend="italic" xml:id="d2e33427" id="d2e33427" data-origname="hi">MUSTV</tei-hi> | excitusque imperiis <tei-hi rend="italic" xml:id="d2e33430" id="d2e33430" data-origname="hi">Markland</tei-hi>
-                     (<tei-hi rend="italic" xml:id="d2e33433" id="d2e33433" data-origname="hi">cf. BHisp 4.4</tei-hi>) | excitus imperiis <tei-hi rend="italic" xml:id="d2e33437" id="d2e33437" data-origname="hi">Kraner</tei-hi> | excitus uerbis imperiisque <tei-hi rend="italic" xml:id="d2e33440" id="d2e33440" data-origname="hi">Madvig</tei-hi> |
-                  excitus precibus imperiisque <tei-hi rend="italic" xml:id="d2e33443" id="d2e33443" data-origname="hi">Larsen coll. Cic. Deiot. 13</tei-hi> |
-                     <tei-supplied reason="lost" xml:id="d2e33446" id="d2e33446" data-origname="supplied">coercitus</tei-supplied> exercitibus imperiisque <tei-hi rend="italic" xml:id="d2e33449" id="d2e33449" data-origname="hi">Dinter</tei-hi> (<tei-hi rend="italic" xml:id="d2e33452" id="d2e33452" data-origname="hi">cf. 33.4 et BC 1.67.4</tei-hi>) |
-                  exercitibus imperiisque <tei-supplied reason="lost" xml:id="d2e33456" id="d2e33456" data-origname="supplied">aduersariorum coactus</tei-supplied>
-                  <tei-hi rend="italic" xml:id="d2e33459" id="d2e33459" data-origname="hi">Klotz, Cornelissen secutus (u. supra)</tei-hi> | <tei-foreign xml:lang="la" xml:id="d2e33462" id="d2e33462" data-origname="foreign">nisi mauis</tei-foreign>
-                  <tei-supplied reason="lost" xml:id="d2e33465" id="d2e33465" data-origname="supplied">et coactus</tei-supplied> potestatibus imperiisque (<tei-hi rend="italic" xml:id="d2e33468" id="d2e33468" data-origname="hi">cf. Cic. Leg. 1.23</tei-hi>) || imperiisque in <tei-hi rend="italic" xml:id="d2e33471" id="d2e33471" data-origname="hi">MU<tei-hi rend="superscript" xml:id="d2e33473" id="d2e33473" data-origname="hi">c</tei-hi>STV</tei-hi> | imperiisque <tei-hi rend="italic" xml:id="d2e33478" id="d2e33478" data-origname="hi">U<tei-hi rend="superscript" xml:id="d2e33480" id="d2e33480" data-origname="hi">ac</tei-hi></tei-hi>
+               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e33398" id="d2e33398" data-origname="quote">Caesaris <tei-hi rend="italic" xml:id="d2e33400" id="d2e33400" data-origname="hi">MUSTV | </tei-hi>
+                  <tei-supplied reason="lost" xml:id="d2e33403" id="d2e33403" data-origname="supplied">in</tei-supplied> Caesaris <tei-hi rend="italic" xml:id="d2e33406" id="d2e33406" data-origname="hi">Cornelissen (cf.
+                     23.1)</tei-hi> || <tei-supplied reason="lost" xml:id="d2e33409" id="d2e33409" data-origname="supplied">et coactus</tei-supplied> exercitibus
+                  imperiisque <tei-hi rend="italic" xml:id="d2e33412" id="d2e33412" data-origname="hi">Bensch-Schaus</tei-hi> (<tei-hi rend="italic" xml:id="d2e33416" id="d2e33416" data-origname="hi">cf. 43.1</tei-hi>;
+                     <tei-supplied reason="lost" xml:id="d2e33419" id="d2e33419" data-origname="supplied">coactus</tei-supplied>
+                  <tei-hi rend="italic" xml:id="d2e33422" id="d2e33422" data-origname="hi">iam Hoffmann 1890</tei-hi>) | exercitibus imperiisque <tei-hi rend="italic" xml:id="d2e33425" id="d2e33425" data-origname="hi">MUSTV</tei-hi> | excitusque imperiis <tei-hi rend="italic" xml:id="d2e33428" id="d2e33428" data-origname="hi">Markland</tei-hi>
+                     (<tei-hi rend="italic" xml:id="d2e33431" id="d2e33431" data-origname="hi">cf. BHisp 4.4</tei-hi>) | excitus imperiis <tei-hi rend="italic" xml:id="d2e33435" id="d2e33435" data-origname="hi">Kraner</tei-hi> | excitus uerbis imperiisque <tei-hi rend="italic" xml:id="d2e33438" id="d2e33438" data-origname="hi">Madvig</tei-hi> |
+                  excitus precibus imperiisque <tei-hi rend="italic" xml:id="d2e33441" id="d2e33441" data-origname="hi">Larsen coll. Cic. Deiot. 13</tei-hi> |
+                     <tei-supplied reason="lost" xml:id="d2e33444" id="d2e33444" data-origname="supplied">coercitus</tei-supplied> exercitibus imperiisque <tei-hi rend="italic" xml:id="d2e33447" id="d2e33447" data-origname="hi">Dinter</tei-hi> (<tei-hi rend="italic" xml:id="d2e33450" id="d2e33450" data-origname="hi">cf. 33.4 et BC 1.67.4</tei-hi>) |
+                  exercitibus imperiisque <tei-supplied reason="lost" xml:id="d2e33454" id="d2e33454" data-origname="supplied">aduersariorum coactus</tei-supplied>
+                  <tei-hi rend="italic" xml:id="d2e33457" id="d2e33457" data-origname="hi">Klotz, Cornelissen secutus (u. supra)</tei-hi> | <tei-foreign xml:lang="la" xml:id="d2e33460" id="d2e33460" data-origname="foreign">nisi mauis</tei-foreign>
+                  <tei-supplied reason="lost" xml:id="d2e33463" id="d2e33463" data-origname="supplied">et coactus</tei-supplied> potestatibus imperiisque (<tei-hi rend="italic" xml:id="d2e33466" id="d2e33466" data-origname="hi">cf. Cic. Leg. 1.23</tei-hi>) || imperiisque in <tei-hi rend="italic" xml:id="d2e33469" id="d2e33469" data-origname="hi">MU<tei-hi rend="superscript" xml:id="d2e33471" id="d2e33471" data-origname="hi">c</tei-hi>STV</tei-hi> | imperiisque <tei-hi rend="italic" xml:id="d2e33476" id="d2e33476" data-origname="hi">U<tei-hi rend="superscript" xml:id="d2e33478" id="d2e33478" data-origname="hi">ac</tei-hi></tei-hi>
                </tei-quote>
 
-               <tei-p xml:id="d2e33484" id="d2e33484" data-origname="p">This extract is part of Deiotarus’ speech as a suppliant before Caesar. His
+               <tei-p xml:id="d2e33482" id="d2e33482" data-origname="p">This extract is part of Deiotarus’ speech as a suppliant before Caesar. His
                   defense has two parts. Here, he explains that his military support of Pompey was a
                   consequence of the absence of Caesarian troops in his region. In the following
                   sentence he adds that he did not think he should be a judge of Roman conflicts.
                   Caesar’s response is given in 68.1; he objects mainly to the latter sentence.</tei-p>
 
-               <tei-p xml:id="d2e33487" id="d2e33487" data-origname="p">The main puzzle in this passage is the syntax of <tei-foreign xml:lang="la" xml:id="d2e33489" id="d2e33489" data-origname="foreign">exercitibus imperiisque</tei-foreign>. In the paradosis neither word is obviously
+               <tei-p xml:id="d2e33485" id="d2e33485" data-origname="p">The main puzzle in this passage is the syntax of <tei-foreign xml:lang="la" xml:id="d2e33487" id="d2e33487" data-origname="foreign">exercitibus imperiisque</tei-foreign>. In the paradosis neither word is obviously
                   connected to any expression in the vicinity, and the plural forms make a peculiar
                   pair:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33493" id="d2e33493" data-origname="quote">… quod in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset <tei-hi rend="underline" xml:id="d2e33495" id="d2e33495" data-origname="hi">exercitibus imperiisque</tei-hi> in Cn. Pompei
+               <tei-quote rend="blockquote" xml:id="d2e33491" id="d2e33491" data-origname="quote">… quod in ea parte positus terrarum quae nulla praesidia
+                  Caesaris habuisset <tei-hi rend="underline" xml:id="d2e33493" id="d2e33493" data-origname="hi">exercitibus imperiisque</tei-hi> in Cn. Pompei
                   castris fuisset</tei-quote>
 
-               <tei-p xml:id="d2e33499" id="d2e33499" data-origname="p">Scholars have proposed numerous solutions.</tei-p>
+               <tei-p xml:id="d2e33497" id="d2e33497" data-origname="p">Scholars have proposed numerous solutions.</tei-p>
 
-               <tei-p xml:id="d2e33501" id="d2e33501" data-origname="p"><tei-ref target="bibliography-secondary-sources.html#Markland">Markland</tei-ref> (1723, <tei-ref target="https://books.google.com/books?id=7_JWAAAAcAAJ&amp;pg=PA129#v=onepage&amp;q&amp;f=false" xml:id="d2e33505" id="d2e33505" data-origname="ref">129</tei-ref>) proposed emending to <tei-foreign xml:lang="la" xml:id="d2e33508" id="d2e33508" data-origname="foreign">excitusque
-                     imperiis</tei-foreign>, transposing the connective and converting <tei-foreign xml:lang="la" xml:id="d2e33511" id="d2e33511" data-origname="foreign">exercitibus</tei-foreign> into a causal participle parallel to
-                     <tei-foreign xml:lang="la" xml:id="d2e33514" id="d2e33514" data-origname="foreign">positus</tei-foreign>. </tei-p>
+               <tei-p xml:id="d2e33499" id="d2e33499" data-origname="p"><tei-ref target="bibliography-secondary-sources.html#Markland">Markland</tei-ref> (1723, <tei-ref target="https://books.google.com/books?id=7_JWAAAAcAAJ&amp;pg=PA129#v=onepage&amp;q&amp;f=false" xml:id="d2e33503" id="d2e33503" data-origname="ref">129</tei-ref>) proposed emending to <tei-foreign xml:lang="la" xml:id="d2e33506" id="d2e33506" data-origname="foreign">excitusque
+                     imperiis</tei-foreign>, transposing the connective and converting <tei-foreign xml:lang="la" xml:id="d2e33509" id="d2e33509" data-origname="foreign">exercitibus</tei-foreign> into a causal participle parallel to
+                     <tei-foreign xml:lang="la" xml:id="d2e33512" id="d2e33512" data-origname="foreign">positus</tei-foreign>. </tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33518" id="d2e33518" data-origname="quote">… quod in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset <tei-hi rend="underline" xml:id="d2e33520" id="d2e33520" data-origname="hi">excitusque imperiis</tei-hi> in Cn. Pompei
+               <tei-quote rend="blockquote" xml:id="d2e33516" id="d2e33516" data-origname="quote">… quod in ea parte positus terrarum quae nulla praesidia
+                  Caesaris habuisset <tei-hi rend="underline" xml:id="d2e33518" id="d2e33518" data-origname="hi">excitusque imperiis</tei-hi> in Cn. Pompei
                   castris fuisset</tei-quote>
 
-               <tei-quote rend="blockquote" xml:id="d2e33524" id="d2e33524" data-origname="quote">… the fact that, since he was located in a part of the world
+               <tei-quote rend="blockquote" xml:id="d2e33522" id="d2e33522" data-origname="quote">… the fact that, since he was located in a part of the world
                   that had no Caesarian garrisons and summoned by orders, he had been in the camp of
                   Gnaeus Pompey</tei-quote>
 
-               <tei-p xml:id="d2e33528" id="d2e33528" data-origname="p">The instrumental ablative is a neat and attractive solution to the syntax problem,
+               <tei-p xml:id="d2e33526" id="d2e33526" data-origname="p">The instrumental ablative is a neat and attractive solution to the syntax problem,
                   and one can hypothesize a two-step innovation: first the substitution of the
-                  common word <tei-foreign xml:lang="la" xml:id="d2e33530" id="d2e33530" data-origname="foreign">exercitibus</tei-foreign> for the rare participle
-                     <tei-foreign xml:lang="la" xml:id="d2e33533" id="d2e33533" data-origname="foreign">excitus</tei-foreign>, and second the transposition of the
-                  connective to connect the two nouns. But <tei-foreign xml:lang="la" xml:id="d2e33536" id="d2e33536" data-origname="foreign">excitus</tei-foreign>
-                  is indeed rare. In fact the only extant example occurs at <tei-foreign xml:lang="la" xml:id="d2e33539" id="d2e33539" data-origname="foreign">BHisp</tei-foreign> 4.4 <tei-foreign xml:lang="la" xml:id="d2e33542" id="d2e33542" data-origname="foreign">itaque Cn. Pompeius … litteris
+                  common word <tei-foreign xml:lang="la" xml:id="d2e33528" id="d2e33528" data-origname="foreign">exercitibus</tei-foreign> for the rare participle
+                     <tei-foreign xml:lang="la" xml:id="d2e33531" id="d2e33531" data-origname="foreign">excitus</tei-foreign>, and second the transposition of the
+                  connective to connect the two nouns. But <tei-foreign xml:lang="la" xml:id="d2e33534" id="d2e33534" data-origname="foreign">excitus</tei-foreign>
+                  is indeed rare. In fact the only extant example occurs at <tei-foreign xml:lang="la" xml:id="d2e33537" id="d2e33537" data-origname="foreign">BHisp</tei-foreign> 4.4 <tei-foreign xml:lang="la" xml:id="d2e33540" id="d2e33540" data-origname="foreign">itaque Cn. Pompeius … litteris
                      fratris excitus … ad Cordubam iter facere coepit</tei-foreign>. So this solution is
                   not entirely convincing.</tei-p>
 
-               <tei-p xml:id="d2e33546" id="d2e33546" data-origname="p">In 1861 <tei-ref target="bibliography-modern-editions.html#Kraner">Kraner</tei-ref>
-                     (<tei-ref target="https://hdl.handle.net/2027/uc1.c070407321?urlappend=%3Bseq=63" xml:id="d2e33552" id="d2e33552" data-origname="ref">LVIIII</tei-ref>) suggested a slight modification to <tei-ref target="bibliography-secondary-sources.html#Markland">Markland</tei-ref>’s repair, excising the connective and thereby linking <tei-foreign xml:lang="la" xml:id="d2e33558" id="d2e33558" data-origname="foreign">excitus</tei-foreign> more tightly to <tei-foreign xml:lang="la" xml:id="d2e33561" id="d2e33561" data-origname="foreign">fuisset</tei-foreign>.</tei-p>
+               <tei-p xml:id="d2e33544" id="d2e33544" data-origname="p">In 1861 <tei-ref target="bibliography-modern-editions.html#Kraner">Kraner</tei-ref>
+                     (<tei-ref target="https://hdl.handle.net/2027/uc1.c070407321?urlappend=%3Bseq=63" xml:id="d2e33550" id="d2e33550" data-origname="ref">LVIIII</tei-ref>) suggested a slight modification to <tei-ref target="bibliography-secondary-sources.html#Markland">Markland</tei-ref>’s repair, excising the connective and thereby linking <tei-foreign xml:lang="la" xml:id="d2e33556" id="d2e33556" data-origname="foreign">excitus</tei-foreign> more tightly to <tei-foreign xml:lang="la" xml:id="d2e33559" id="d2e33559" data-origname="foreign">fuisset</tei-foreign>.</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33565" id="d2e33565" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33567" id="d2e33567" data-origname="hi">excitus imperiis</tei-hi> in Cn. Pompei
+               <tei-quote rend="blockquote" xml:id="d2e33563" id="d2e33563" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33565" id="d2e33565" data-origname="hi">excitus imperiis</tei-hi> in Cn. Pompei
                   castris fuisset</tei-quote>
 
-               <tei-quote rend="blockquote" xml:id="d2e33571" id="d2e33571" data-origname="quote">… the fact that, located in a part of the world that had no
+               <tei-quote rend="blockquote" xml:id="d2e33569" id="d2e33569" data-origname="quote">… the fact that, located in a part of the world that had no
                   Caesarian garrisons, having been summoned by orders he had been in the camp of
                   Gnaeus Pompey</tei-quote>
 
-               <tei-p xml:id="d2e33574" id="d2e33574" data-origname="p">Here the distinction between the two causal participles is hard to justify.</tei-p>
+               <tei-p xml:id="d2e33572" id="d2e33572" data-origname="p">Here the distinction between the two causal participles is hard to justify.</tei-p>
 
-               <tei-p xml:id="d2e33576" id="d2e33576" data-origname="p">In 1873 <tei-ref target="bibliography-secondary-sources.html#Madvig">Madvig</tei-ref> proposed emending <tei-foreign xml:lang="la" xml:id="d2e33581" id="d2e33581" data-origname="foreign">exercitibus</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e33584" id="d2e33584" data-origname="foreign">excitus
-                     uerbis</tei-foreign>, pointing out that <tei-foreign xml:lang="la" xml:id="d2e33587" id="d2e33587" data-origname="foreign">excitus</tei-foreign>
-                  itself is too short to yield <tei-foreign xml:lang="la" xml:id="d2e33590" id="d2e33590" data-origname="foreign">exercitibus:</tei-foreign>
+               <tei-p xml:id="d2e33574" id="d2e33574" data-origname="p">In 1873 <tei-ref target="bibliography-secondary-sources.html#Madvig">Madvig</tei-ref> proposed emending <tei-foreign xml:lang="la" xml:id="d2e33579" id="d2e33579" data-origname="foreign">exercitibus</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e33582" id="d2e33582" data-origname="foreign">excitus
+                     uerbis</tei-foreign>, pointing out that <tei-foreign xml:lang="la" xml:id="d2e33585" id="d2e33585" data-origname="foreign">excitus</tei-foreign>
+                  itself is too short to yield <tei-foreign xml:lang="la" xml:id="d2e33588" id="d2e33588" data-origname="foreign">exercitibus:</tei-foreign>
                </tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33595" id="d2e33595" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33597" id="d2e33597" data-origname="hi">excitus uerbis imperiisque</tei-hi> in Cn.
+               <tei-quote rend="blockquote" xml:id="d2e33593" id="d2e33593" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33595" id="d2e33595" data-origname="hi">excitus uerbis imperiisque</tei-hi> in Cn.
                   Pompei castris fuisset</tei-quote>
 
-               <tei-quote rend="blockquote" xml:id="d2e33601" id="d2e33601" data-origname="quote">… the fact that, located in a part of the world that had no
+               <tei-quote rend="blockquote" xml:id="d2e33599" id="d2e33599" data-origname="quote">… the fact that, located in a part of the world that had no
                   Caesarian garrisons, having been summoned by verbal orders he had been in the camp
                   of Gnaeus Pompey</tei-quote>
 
-               <tei-p xml:id="d2e33604" id="d2e33604" data-origname="p">The connective now links <tei-foreign xml:lang="la" xml:id="d2e33606" id="d2e33606" data-origname="foreign">uerbis</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e33609" id="d2e33609" data-origname="foreign">imperiis</tei-foreign> in a hendiadys. But <tei-foreign xml:lang="la" xml:id="d2e33612" id="d2e33612" data-origname="foreign">uerbis</tei-foreign> does not add much to the sense of what is happening, there
-                  are no close parallels pairing <tei-foreign xml:lang="la" xml:id="d2e33615" id="d2e33615" data-origname="foreign">uerbis</tei-foreign> with
-                     <tei-foreign xml:lang="la" xml:id="d2e33618" id="d2e33618" data-origname="foreign">imperiis</tei-foreign>, and the separation between <tei-foreign xml:lang="la" xml:id="d2e33622" id="d2e33622" data-origname="foreign">positus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e33625" id="d2e33625" data-origname="foreign">excitus</tei-foreign>
+               <tei-p xml:id="d2e33602" id="d2e33602" data-origname="p">The connective now links <tei-foreign xml:lang="la" xml:id="d2e33604" id="d2e33604" data-origname="foreign">uerbis</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e33607" id="d2e33607" data-origname="foreign">imperiis</tei-foreign> in a hendiadys. But <tei-foreign xml:lang="la" xml:id="d2e33610" id="d2e33610" data-origname="foreign">uerbis</tei-foreign> does not add much to the sense of what is happening, there
+                  are no close parallels pairing <tei-foreign xml:lang="la" xml:id="d2e33613" id="d2e33613" data-origname="foreign">uerbis</tei-foreign> with
+                     <tei-foreign xml:lang="la" xml:id="d2e33616" id="d2e33616" data-origname="foreign">imperiis</tei-foreign>, and the separation between <tei-foreign xml:lang="la" xml:id="d2e33620" id="d2e33620" data-origname="foreign">positus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e33623" id="d2e33623" data-origname="foreign">excitus</tei-foreign>
                   remains hard to justify.</tei-p>
 
-               <tei-p xml:id="d2e33629" id="d2e33629" data-origname="p">In 1886 <tei-ref target="bibliography-secondary-sources.html#Larsen">Larsen</tei-ref>
-                     (<tei-ref target="https://hdl.handle.net/2027/nnc2.ark:/13960/t3cz4fm0n?urlappend=%3Bseq=23" xml:id="d2e33635" id="d2e33635" data-origname="ref">27</tei-ref>) suggested a paleographically and semantically superior version of
+               <tei-p xml:id="d2e33627" id="d2e33627" data-origname="p">In 1886 <tei-ref target="bibliography-secondary-sources.html#Larsen">Larsen</tei-ref>
+                     (<tei-ref target="https://hdl.handle.net/2027/nnc2.ark:/13960/t3cz4fm0n?urlappend=%3Bseq=23" xml:id="d2e33633" id="d2e33633" data-origname="ref">27</tei-ref>) suggested a paleographically and semantically superior version of
                   this repair:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33639" id="d2e33639" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33641" id="d2e33641" data-origname="hi">excitus precibus imperiisque</tei-hi> in Cn.
+               <tei-quote rend="blockquote" xml:id="d2e33637" id="d2e33637" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33639" id="d2e33639" data-origname="hi">excitus precibus imperiisque</tei-hi> in Cn.
                   Pompei castris fuisset</tei-quote>
 
-               <tei-quote rend="blockquote" xml:id="d2e33645" id="d2e33645" data-origname="quote">… the fact that, located in a part of the world that had no
+               <tei-quote rend="blockquote" xml:id="d2e33643" id="d2e33643" data-origname="quote">… the fact that, located in a part of the world that had no
                   Caesarian garrisons, having been summoned by pleas and orders he had been in the
                   camp of Gnaeus Pompey</tei-quote>
 
-               <tei-p xml:id="d2e33649" id="d2e33649" data-origname="p">
-                  <tei-foreign xml:lang="la" xml:id="d2e33651" id="d2e33651" data-origname="foreign">Precibus</tei-foreign> contributes more meaning than <tei-foreign xml:lang="la" xml:id="d2e33654" id="d2e33654" data-origname="foreign">uerbis</tei-foreign>, and the scribe of the archetype will have
-                  substituted <tei-foreign xml:lang="la" xml:id="d2e33657" id="d2e33657" data-origname="foreign">exercitibus</tei-foreign> for a less common
-                  expression beginning with <tei-foreign xml:lang="la" xml:id="d2e33660" id="d2e33660" data-origname="foreign">ex-</tei-foreign> and ending with
-                     <tei-foreign xml:lang="la" xml:id="d2e33663" id="d2e33663" data-origname="foreign">-ibus</tei-foreign>. Larsen cites a passage from Cicero’s
+               <tei-p xml:id="d2e33647" id="d2e33647" data-origname="p">
+                  <tei-foreign xml:lang="la" xml:id="d2e33649" id="d2e33649" data-origname="foreign">Precibus</tei-foreign> contributes more meaning than <tei-foreign xml:lang="la" xml:id="d2e33652" id="d2e33652" data-origname="foreign">uerbis</tei-foreign>, and the scribe of the archetype will have
+                  substituted <tei-foreign xml:lang="la" xml:id="d2e33655" id="d2e33655" data-origname="foreign">exercitibus</tei-foreign> for a less common
+                  expression beginning with <tei-foreign xml:lang="la" xml:id="d2e33658" id="d2e33658" data-origname="foreign">ex-</tei-foreign> and ending with
+                     <tei-foreign xml:lang="la" xml:id="d2e33661" id="d2e33661" data-origname="foreign">-ibus</tei-foreign>. Larsen cites a passage from Cicero’s
                   speech for Deiotarus as evidence for the different ways in which the king’s
-                  behavior could be characterized: Cic. <tei-hi rend="italic" xml:id="d2e33667" id="d2e33667" data-origname="hi">Deiot</tei-hi>. 13 <tei-foreign xml:lang="lat" xml:id="d2e33670" id="d2e33670" data-origname="foreign">uenit (sc. Deiotarus ad Pompeium) uel rogatus ut amicus uel
+                  behavior could be characterized: Cic. <tei-hi rend="italic" xml:id="d2e33665" id="d2e33665" data-origname="hi">Deiot</tei-hi>. 13 <tei-foreign xml:lang="lat" xml:id="d2e33668" id="d2e33668" data-origname="foreign">uenit (sc. Deiotarus ad Pompeium) uel rogatus ut amicus uel
                      arcessitus ut socius uel euocatus ut is, qui senatui parere
                      didicisset.</tei-foreign> With Larsen’s reading Deiotarus appears to be covering
                   himself with a similar range of options.</tei-p>
 
-               <tei-p xml:id="d2e33674" id="d2e33674" data-origname="p">In 1887 <tei-ref target="bibliography-modern-editions.html#Dinter">Dinter</tei-ref> took a new approach to the puzzle,
-                  adding <tei-foreign xml:lang="la" xml:id="d2e33679" id="d2e33679" data-origname="foreign">coercitus</tei-foreign> before <tei-foreign xml:lang="la" xml:id="d2e33682" id="d2e33682" data-origname="foreign">exercitibus imperiisque</tei-foreign> and leaving the noun phrase as in the
+               <tei-p xml:id="d2e33672" id="d2e33672" data-origname="p">In 1887 <tei-ref target="bibliography-modern-editions.html#Dinter">Dinter</tei-ref> took a new approach to the puzzle,
+                  adding <tei-foreign xml:lang="la" xml:id="d2e33677" id="d2e33677" data-origname="foreign">coercitus</tei-foreign> before <tei-foreign xml:lang="la" xml:id="d2e33680" id="d2e33680" data-origname="foreign">exercitibus imperiisque</tei-foreign> and leaving the noun phrase as in the
                   paradosis:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33686" id="d2e33686" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33688" id="d2e33688" data-origname="hi">coercitus exercitibus imperiisque</tei-hi> in
+               <tei-quote rend="blockquote" xml:id="d2e33684" id="d2e33684" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33686" id="d2e33686" data-origname="hi">coercitus exercitibus imperiisque</tei-hi> in
                   Cn. Pompei castris fuisset</tei-quote>
 
-               <tei-quote rend="blockquote" xml:id="d2e33692" id="d2e33692" data-origname="quote">… the fact that, located in a part of the world that had no
+               <tei-quote rend="blockquote" xml:id="d2e33690" id="d2e33690" data-origname="quote">… the fact that, located in a part of the world that had no
                   Caesarian garrisons, constrained by armies and orders he had been in the camp of
                   Gnaeus Pompey</tei-quote>
 
-               <tei-p xml:id="d2e33695" id="d2e33695" data-origname="p">
-                  <tei-foreign xml:lang="la" xml:id="d2e33697" id="d2e33697" data-origname="foreign">Coerceo</tei-foreign> is not as rare as <tei-foreign xml:lang="la" xml:id="d2e33700" id="d2e33700" data-origname="foreign">excio</tei-foreign>, although the perfect passive participle occurs nowhere in the
-                  Caesarian corpus. The verb itself is used once elsewhere in the <tei-hi rend="italic" xml:id="d2e33703" id="d2e33703" data-origname="hi">Bellum Alexandrinum</tei-hi>, of rulers who might prove ungrateful to Rome: 33.4
-                     <tei-foreign xml:lang="la" xml:id="d2e33706" id="d2e33706" data-origname="foreign">si essent ingrati, posse isdem praesidiis
+               <tei-p xml:id="d2e33693" id="d2e33693" data-origname="p">
+                  <tei-foreign xml:lang="la" xml:id="d2e33695" id="d2e33695" data-origname="foreign">Coerceo</tei-foreign> is not as rare as <tei-foreign xml:lang="la" xml:id="d2e33698" id="d2e33698" data-origname="foreign">excio</tei-foreign>, although the perfect passive participle occurs nowhere in the
+                  Caesarian corpus. The verb itself is used once elsewhere in the <tei-hi rend="italic" xml:id="d2e33701" id="d2e33701" data-origname="hi">Bellum Alexandrinum</tei-hi>, of rulers who might prove ungrateful to Rome: 33.4
+                     <tei-foreign xml:lang="la" xml:id="d2e33704" id="d2e33704" data-origname="foreign">si essent ingrati, posse isdem praesidiis
                      coerceri</tei-foreign>. Similarly, there is an ablative of means with the
-                  infinitive at <tei-hi rend="italic" xml:id="d2e33709" id="d2e33709" data-origname="hi">BC</tei-hi> 1.67.4: <tei-foreign xml:lang="la" xml:id="d2e33713" id="d2e33713" data-origname="foreign">at luce
+                  infinitive at <tei-hi rend="italic" xml:id="d2e33707" id="d2e33707" data-origname="hi">BC</tei-hi> 1.67.4: <tei-foreign xml:lang="la" xml:id="d2e33711" id="d2e33711" data-origname="foreign">at luce
                      multum per se pudorem omnium oculis, multum etiam tribunorum militum et
                      centurionum praesentiam adferre, quibus rebus coerceri milites et in officio
                      contineri soleant</tei-foreign>. On the whole, this suggestion is helpful in
                   preserving the transmitted nouns and in proposing a more common verb, although the
                   absence of any participial forms of this verb is troubling.</tei-p>
 
-               <tei-p xml:id="d2e33717" id="d2e33717" data-origname="p">In 1889 <tei-ref target="bibliography-secondary-sources.html#Cornelissen">Cornelissen</tei-ref> tried a drastically different
-                  approach, inserting <tei-foreign xml:lang="la" xml:id="d2e33722" id="d2e33722" data-origname="foreign">in</tei-foreign> before <tei-foreign xml:lang="la" xml:id="d2e33725" id="d2e33725" data-origname="foreign">Caesaris</tei-foreign>:</tei-p>
+               <tei-p xml:id="d2e33715" id="d2e33715" data-origname="p">In 1889 <tei-ref target="bibliography-secondary-sources.html#Cornelissen">Cornelissen</tei-ref> tried a drastically different
+                  approach, inserting <tei-foreign xml:lang="la" xml:id="d2e33720" id="d2e33720" data-origname="foreign">in</tei-foreign> before <tei-foreign xml:lang="la" xml:id="d2e33723" id="d2e33723" data-origname="foreign">Caesaris</tei-foreign>:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33730" id="d2e33730" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
-                     <tei-supplied reason="lost" xml:id="d2e33732" id="d2e33732" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33733" id="d2e33733" data-origname="hi">in</tei-hi></tei-supplied> Caesaris
-                  habuisset <tei-hi rend="underline" xml:id="d2e33736" id="d2e33736" data-origname="hi">exercitibus imperiisque</tei-hi>, in Cn. Pompei castris
+               <tei-quote rend="blockquote" xml:id="d2e33728" id="d2e33728" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+                     <tei-supplied reason="lost" xml:id="d2e33730" id="d2e33730" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33731" id="d2e33731" data-origname="hi">in</tei-hi></tei-supplied> Caesaris
+                  habuisset <tei-hi rend="underline" xml:id="d2e33734" id="d2e33734" data-origname="hi">exercitibus imperiisque</tei-hi>, in Cn. Pompei castris
                   fuisset</tei-quote>
 
-               <tei-quote rend="blockquote" xml:id="d2e33740" id="d2e33740" data-origname="quote">… the fact that, located in a part of the world that had no
+               <tei-quote rend="blockquote" xml:id="d2e33738" id="d2e33738" data-origname="quote">… the fact that, located in a part of the world that had no
                   defenses in Caesar’s armies and orders, he had been in the camp of Gnaeus
                   Pompey</tei-quote>
 
-               <tei-p xml:id="d2e33743" id="d2e33743" data-origname="p">The <tei-foreign xml:lang="la" xml:id="d2e33745" id="d2e33745" data-origname="foreign">praesidia</tei-foreign> are now metaphorical and the armies
-                  and orders are Caesar’s, not Pompey’s. There are some parallels for <tei-foreign xml:lang="la" xml:id="d2e33748" id="d2e33748" data-origname="foreign">Caesaris</tei-foreign> coming between <tei-foreign xml:lang="la" xml:id="d2e33751" id="d2e33751" data-origname="foreign">in</tei-foreign> and its ablative object, particularly in the <tei-hi rend="italic" xml:id="d2e33754" id="d2e33754" data-origname="hi">Bellum Alexandrinum</tei-hi>, e.g., at 23.1 <tei-foreign xml:lang="la" xml:id="d2e33757" id="d2e33757" data-origname="foreign">ut admoniti a
+               <tei-p xml:id="d2e33741" id="d2e33741" data-origname="p">The <tei-foreign xml:lang="la" xml:id="d2e33743" id="d2e33743" data-origname="foreign">praesidia</tei-foreign> are now metaphorical and the armies
+                  and orders are Caesar’s, not Pompey’s. There are some parallels for <tei-foreign xml:lang="la" xml:id="d2e33746" id="d2e33746" data-origname="foreign">Caesaris</tei-foreign> coming between <tei-foreign xml:lang="la" xml:id="d2e33749" id="d2e33749" data-origname="foreign">in</tei-foreign> and its ablative object, particularly in the <tei-hi rend="italic" xml:id="d2e33752" id="d2e33752" data-origname="hi">Bellum Alexandrinum</tei-hi>, e.g., at 23.1 <tei-foreign xml:lang="la" xml:id="d2e33755" id="d2e33755" data-origname="foreign">ut admoniti a
                      regis amicis qui in Caesaris erant praesidiis</tei-foreign>, where as in our
-                  passage a verb comes between <tei-foreign xml:lang="la" xml:id="d2e33761" id="d2e33761" data-origname="foreign">Caesaris</tei-foreign> and the
-                  ablative dependent on <tei-foreign xml:lang="la" xml:id="d2e33764" id="d2e33764" data-origname="foreign">in</tei-foreign>. It is possible to
-                  explain how <tei-foreign xml:lang="la" xml:id="d2e33767" id="d2e33767" data-origname="foreign">in</tei-foreign> fell out in our passage, given the
-                  oddity of its placement next to a genitive.<tei-note place="foot" xml:id="d2e33770" id="d2e33770" data-origname="note">U’s omission of
-                        <tei-foreign xml:lang="la" xml:id="d2e33772" id="d2e33772" data-origname="foreign">in</tei-foreign> before Pompey’s name later in the
+                  passage a verb comes between <tei-foreign xml:lang="la" xml:id="d2e33759" id="d2e33759" data-origname="foreign">Caesaris</tei-foreign> and the
+                  ablative dependent on <tei-foreign xml:lang="la" xml:id="d2e33762" id="d2e33762" data-origname="foreign">in</tei-foreign>. It is possible to
+                  explain how <tei-foreign xml:lang="la" xml:id="d2e33765" id="d2e33765" data-origname="foreign">in</tei-foreign> fell out in our passage, given the
+                  oddity of its placement next to a genitive.<tei-note place="foot" xml:id="d2e33768" id="d2e33768" data-origname="note">U’s omission of
+                        <tei-foreign xml:lang="la" xml:id="d2e33770" id="d2e33770" data-origname="foreign">in</tei-foreign> before Pompey’s name later in the
                      sentence may or may not be relevant.</tei-note> The main difficulty with this
-                  suggestion is that all other examples of <tei-foreign xml:lang="la" xml:id="d2e33776" id="d2e33776" data-origname="foreign">in Caesaris
-                     praesidiis</tei-foreign> or <tei-foreign xml:lang="la" xml:id="d2e33779" id="d2e33779" data-origname="foreign">in Caesaris castris</tei-foreign>
+                  suggestion is that all other examples of <tei-foreign xml:lang="la" xml:id="d2e33774" id="d2e33774" data-origname="foreign">in Caesaris
+                     praesidiis</tei-foreign> or <tei-foreign xml:lang="la" xml:id="d2e33777" id="d2e33777" data-origname="foreign">in Caesaris castris</tei-foreign>
                   have a spatial sense that is lacking here, since these armies do not actually
                   exist and so have no spatial location.</tei-p>
 
-               <tei-p xml:id="d2e33783" id="d2e33783" data-origname="p">The next year <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">Hoffmann</tei-ref>, who had printed the
+               <tei-p xml:id="d2e33781" id="d2e33781" data-origname="p">The next year <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">Hoffmann</tei-ref>, who had printed the
                   paradosis in his first edition, offered his own solution to the problem of
-                     <tei-foreign xml:lang="la" xml:id="d2e33788" id="d2e33788" data-origname="foreign">exercitibus imperiisque,</tei-foreign> inserting <tei-foreign xml:lang="la" xml:id="d2e33791" id="d2e33791" data-origname="foreign">coactus</tei-foreign> after the pair:</tei-p>
+                     <tei-foreign xml:lang="la" xml:id="d2e33786" id="d2e33786" data-origname="foreign">exercitibus imperiisque,</tei-foreign> inserting <tei-foreign xml:lang="la" xml:id="d2e33789" id="d2e33789" data-origname="foreign">coactus</tei-foreign> after the pair:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33795" id="d2e33795" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33797" id="d2e33797" data-origname="hi">exercitibus imperiisque </tei-hi><tei-supplied reason="lost" xml:id="d2e33799" id="d2e33799" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33800" id="d2e33800" data-origname="hi">coactus</tei-hi></tei-supplied> in Cn. Pompei castris
+               <tei-quote rend="blockquote" xml:id="d2e33793" id="d2e33793" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+                  Caesaris habuisset, <tei-hi rend="underline" xml:id="d2e33795" id="d2e33795" data-origname="hi">exercitibus imperiisque </tei-hi><tei-supplied reason="lost" xml:id="d2e33797" id="d2e33797" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33798" id="d2e33798" data-origname="hi">coactus</tei-hi></tei-supplied> in Cn. Pompei castris
                   fuisset</tei-quote>
 
-               <tei-quote rend="blockquote" xml:id="d2e33804" id="d2e33804" data-origname="quote">… the fact that, located in a part of the world that had no
+               <tei-quote rend="blockquote" xml:id="d2e33802" id="d2e33802" data-origname="quote">… the fact that, located in a part of the world that had no
                   Caesarian garrisons, under the compulsion of armies and orders, he had been in the
                   camp of Gnaeus Pompey</tei-quote>
 
-               <tei-p xml:id="d2e33808" id="d2e33808" data-origname="p">
-                  <tei-foreign xml:lang="la" xml:id="d2e33810" id="d2e33810" data-origname="foreign">Cogere</tei-foreign> is a fairly common word in the Caesarian
+               <tei-p xml:id="d2e33806" id="d2e33806" data-origname="p">
+                  <tei-foreign xml:lang="la" xml:id="d2e33808" id="d2e33808" data-origname="foreign">Cogere</tei-foreign> is a fairly common word in the Caesarian
                   corpus, and this use of the participle with an ablative of means is paralleled in
-                  the <tei-hi rend="italic" xml:id="d2e33813" id="d2e33813" data-origname="hi">Bellum Alexandrinum:</tei-hi> 43.1 <tei-foreign xml:lang="la" xml:id="d2e33816" id="d2e33816" data-origname="foreign">magnisque difficultatibus coactus</tei-foreign>. On the whole, this is a promising
+                  the <tei-hi rend="italic" xml:id="d2e33811" id="d2e33811" data-origname="hi">Bellum Alexandrinum:</tei-hi> 43.1 <tei-foreign xml:lang="la" xml:id="d2e33814" id="d2e33814" data-origname="foreign">magnisque difficultatibus coactus</tei-foreign>. On the whole, this is a promising
                   suggestion, although critics have felt that the line still needed further
                   work.</tei-p>
 
-               <tei-p xml:id="d2e33820" id="d2e33820" data-origname="p">In 1927 <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref>, retaining <tei-ref target="bibliography-secondary-sources.html#Cornelissen">Cornelissen</tei-ref>’s <tei-foreign xml:lang="la" xml:id="d2e33828" id="d2e33828" data-origname="foreign">in,</tei-foreign> added <tei-foreign xml:lang="la" xml:id="d2e33831" id="d2e33831" data-origname="foreign">aduersariorum</tei-foreign> before <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">Hoffmann</tei-ref>’s <tei-foreign xml:lang="la" xml:id="d2e33838" id="d2e33838" data-origname="foreign">coactus</tei-foreign>:</tei-p>
+               <tei-p xml:id="d2e33818" id="d2e33818" data-origname="p">In 1927 <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref>, retaining <tei-ref target="bibliography-secondary-sources.html#Cornelissen">Cornelissen</tei-ref>’s <tei-foreign xml:lang="la" xml:id="d2e33826" id="d2e33826" data-origname="foreign">in,</tei-foreign> added <tei-foreign xml:lang="la" xml:id="d2e33829" id="d2e33829" data-origname="foreign">aduersariorum</tei-foreign> before <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">Hoffmann</tei-ref>’s <tei-foreign xml:lang="la" xml:id="d2e33836" id="d2e33836" data-origname="foreign">coactus</tei-foreign>:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33842" id="d2e33842" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
-                     <tei-supplied reason="lost" xml:id="d2e33844" id="d2e33844" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33845" id="d2e33845" data-origname="hi">in</tei-hi></tei-supplied> Caesaris
-                  habuisset <tei-hi rend="underline" xml:id="d2e33848" id="d2e33848" data-origname="hi">exercitibus, imperiisque </tei-hi><tei-supplied reason="lost" xml:id="d2e33850" id="d2e33850" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33851" id="d2e33851" data-origname="hi">aduersariorum coactus</tei-hi></tei-supplied> in Cn.
+               <tei-quote rend="blockquote" xml:id="d2e33840" id="d2e33840" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+                     <tei-supplied reason="lost" xml:id="d2e33842" id="d2e33842" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33843" id="d2e33843" data-origname="hi">in</tei-hi></tei-supplied> Caesaris
+                  habuisset <tei-hi rend="underline" xml:id="d2e33846" id="d2e33846" data-origname="hi">exercitibus, imperiisque </tei-hi><tei-supplied reason="lost" xml:id="d2e33848" id="d2e33848" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33849" id="d2e33849" data-origname="hi">aduersariorum coactus</tei-hi></tei-supplied> in Cn.
                   Pompei castris fuisset</tei-quote>
 
-               <tei-quote rend="blockquote" xml:id="d2e33855" id="d2e33855" data-origname="quote">… the fact that, located in a part of the world that had no
+               <tei-quote rend="blockquote" xml:id="d2e33853" id="d2e33853" data-origname="quote">… the fact that, located in a part of the world that had no
                   defenses in the form of Caesar’s armies, and under the compulsion of the orders of
                   Caesar’s enemies, he had been in the camp of Gnaeus Pompey</tei-quote>
 
-               <tei-p xml:id="d2e33858" id="d2e33858" data-origname="p">The non-existent armies are now Caesar’s and the commands come from Caesar’s
-                  enemies. <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> is the first to take -<tei-foreign xml:lang="la" xml:id="d2e33863" id="d2e33863" data-origname="foreign">que</tei-foreign> as breaking up two phrases rather than joining two
+               <tei-p xml:id="d2e33856" id="d2e33856" data-origname="p">The non-existent armies are now Caesar’s and the commands come from Caesar’s
+                  enemies. <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> is the first to take -<tei-foreign xml:lang="la" xml:id="d2e33861" id="d2e33861" data-origname="foreign">que</tei-foreign> as breaking up two phrases rather than joining two
                   nouns. In doing so, Klotz diagnoses a problem, namely, that the combination of
-                  plural forms of <tei-foreign xml:lang="la" xml:id="d2e33866" id="d2e33866" data-origname="foreign">exercitus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e33869" id="d2e33869" data-origname="foreign">imperium</tei-foreign> is problematic, since it does not occur
+                  plural forms of <tei-foreign xml:lang="la" xml:id="d2e33864" id="d2e33864" data-origname="foreign">exercitus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e33867" id="d2e33867" data-origname="foreign">imperium</tei-foreign> is problematic, since it does not occur
                   elsewhere in the Caesarian corpus and is rare elsewhere, even though the two words
-                  are individually very common.<tei-note place="foot" xml:id="d2e33872" id="d2e33872" data-origname="note">Where the plurals do appear in
-                     tandem <tei-foreign xml:lang="la" xml:id="d2e33874" id="d2e33874" data-origname="foreign">imperia</tei-foreign> generally has a broader sense
-                     than is appropriate here: e.g., Cic. <tei-foreign xml:lang="la" xml:id="d2e33877" id="d2e33877" data-origname="foreign">Clu</tei-foreign>. 154
-                        <tei-foreign xml:lang="la" xml:id="d2e33880" id="d2e33880" data-origname="foreign">insignia, fasces, exercitus, imperia,
+                  are individually very common.<tei-note place="foot" xml:id="d2e33870" id="d2e33870" data-origname="note">Where the plurals do appear in
+                     tandem <tei-foreign xml:lang="la" xml:id="d2e33872" id="d2e33872" data-origname="foreign">imperia</tei-foreign> generally has a broader sense
+                     than is appropriate here: e.g., Cic. <tei-foreign xml:lang="la" xml:id="d2e33875" id="d2e33875" data-origname="foreign">Clu</tei-foreign>. 154
+                        <tei-foreign xml:lang="la" xml:id="d2e33878" id="d2e33878" data-origname="foreign">insignia, fasces, exercitus, imperia,
                         prouinciae</tei-foreign>.</tei-note> But Klotz’ proposal requires emendation in two
                   spots in the same phrase. The hypothesis of independent omissions is not very
                   likely.</tei-p>
 
-               <tei-p xml:id="d2e33885" id="d2e33885" data-origname="p">Since none of the solutions discussed has been entirely satisfactory, we have
+               <tei-p xml:id="d2e33883" id="d2e33883" data-origname="p">Since none of the solutions discussed has been entirely satisfactory, we have
                   adopted a different repair. We follow most editors in inserting a participle to
                   govern the instrumental ablatives; <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">Hoffmann</tei-ref>’s
-                     <tei-foreign xml:lang="la" xml:id="d2e33890" id="d2e33890" data-origname="foreign">coactus</tei-foreign> seems the most persuasive suggestion,
+                     <tei-foreign xml:lang="la" xml:id="d2e33888" id="d2e33888" data-origname="foreign">coactus</tei-foreign> seems the most persuasive suggestion,
                   since it is the most common in Caesarian usage. But we place the participle before
-                     <tei-foreign xml:lang="la" xml:id="d2e33893" id="d2e33893" data-origname="foreign">exercitibus imperiisque</tei-foreign> and insert a
-                  connective to facilitate the coordination of <tei-foreign xml:lang="la" xml:id="d2e33896" id="d2e33896" data-origname="foreign">positus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e33899" id="d2e33899" data-origname="foreign">coactus</tei-foreign>:</tei-p>
+                     <tei-foreign xml:lang="la" xml:id="d2e33891" id="d2e33891" data-origname="foreign">exercitibus imperiisque</tei-foreign> and insert a
+                  connective to facilitate the coordination of <tei-foreign xml:lang="la" xml:id="d2e33894" id="d2e33894" data-origname="foreign">positus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e33897" id="d2e33897" data-origname="foreign">coactus</tei-foreign>:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e33904" id="d2e33904" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset <tei-supplied reason="lost" xml:id="d2e33906" id="d2e33906" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33907" id="d2e33907" data-origname="hi">et
-                     coactus</tei-hi></tei-supplied><tei-hi rend="underline" xml:id="d2e33909" id="d2e33909" data-origname="hi"> exercitibus imperiisque</tei-hi>, in
+               <tei-quote rend="blockquote" xml:id="d2e33902" id="d2e33902" data-origname="quote">… quod, in ea parte positus terrarum quae nulla praesidia
+                  Caesaris habuisset <tei-supplied reason="lost" xml:id="d2e33904" id="d2e33904" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e33905" id="d2e33905" data-origname="hi">et
+                     coactus</tei-hi></tei-supplied><tei-hi rend="underline" xml:id="d2e33907" id="d2e33907" data-origname="hi"> exercitibus imperiisque</tei-hi>, in
                   Cn. Pompei castris fuisset</tei-quote>
 
-               <tei-quote rend="blockquote" xml:id="d2e33913" id="d2e33913" data-origname="quote">… the fact that, as he was located in a part of the world
+               <tei-quote rend="blockquote" xml:id="d2e33911" id="d2e33911" data-origname="quote">… the fact that, as he was located in a part of the world
                   that had no Caesarian garrisons and was under the compulsion of armies and orders,
                   he had been in the camp of Gnaeus Pompey.</tei-quote>
 
-               <tei-p xml:id="d2e33916" id="d2e33916" data-origname="p">The omission of <tei-foreign xml:lang="la" xml:id="d2e33918" id="d2e33918" data-origname="foreign">et</tei-foreign> and the following word might
-                  have been prompted by the ending of <tei-foreign xml:lang="la" xml:id="d2e33921" id="d2e33921" data-origname="foreign">habuisset</tei-foreign>. We
-                  have left <tei-foreign xml:lang="la" xml:id="d2e33924" id="d2e33924" data-origname="foreign">exercitibus imperiisque</tei-foreign> intact, since
-                  the <tei-foreign xml:lang="la" xml:id="d2e33927" id="d2e33927" data-origname="foreign">exercitibus</tei-foreign> of unspecified supporters of
-                  Pompey corresponds to the <tei-foreign xml:lang="la" xml:id="d2e33930" id="d2e33930" data-origname="foreign">praesidia</tei-foreign> that Caesar
+               <tei-p xml:id="d2e33914" id="d2e33914" data-origname="p">The omission of <tei-foreign xml:lang="la" xml:id="d2e33916" id="d2e33916" data-origname="foreign">et</tei-foreign> and the following word might
+                  have been prompted by the ending of <tei-foreign xml:lang="la" xml:id="d2e33919" id="d2e33919" data-origname="foreign">habuisset</tei-foreign>. We
+                  have left <tei-foreign xml:lang="la" xml:id="d2e33922" id="d2e33922" data-origname="foreign">exercitibus imperiisque</tei-foreign> intact, since
+                  the <tei-foreign xml:lang="la" xml:id="d2e33925" id="d2e33925" data-origname="foreign">exercitibus</tei-foreign> of unspecified supporters of
+                  Pompey corresponds to the <tei-foreign xml:lang="la" xml:id="d2e33928" id="d2e33928" data-origname="foreign">praesidia</tei-foreign> that Caesar
                   has not provided. Admittedly, the unusual combination is problematic. Furthermore,
                   if Deiotarus is claiming that he was forced to join Pompey by Pompeian armies, one
                   might expect Caesar to point out that the king did not actually engage in combat
                   with these armies. Instead, in his reply, Caesar focuses exclusively on Deiotarus’
-                  subsequent claim that he did not know whose <tei-foreign xml:lang="la" xml:id="d2e33934" id="d2e33934" data-origname="foreign">imperia</tei-foreign> to obey. To keep the focus on <tei-foreign xml:lang="la" xml:id="d2e33937" id="d2e33937" data-origname="foreign">imperiis</tei-foreign>, we have suggested <tei-foreign xml:lang="la" xml:id="d2e33940" id="d2e33940" data-origname="foreign">potestatibus</tei-foreign> as a possible alternative to <tei-foreign xml:lang="la" xml:id="d2e33943" id="d2e33943" data-origname="foreign">exercitibus</tei-foreign>, a term that is found in combination with <tei-foreign xml:lang="la" xml:id="d2e33946" id="d2e33946" data-origname="foreign">imperiis</tei-foreign>: cf. Cic. <tei-foreign xml:lang="la" xml:id="d2e33949" id="d2e33949" data-origname="foreign">Leg.</tei-foreign> 1.23 <tei-foreign xml:lang="la" xml:id="d2e33953" id="d2e33953" data-origname="foreign">si uero isdem imperiis et
-                     potestatibus parent,</tei-foreign> and Liu. 4.54.7: <tei-foreign xml:lang="la" xml:id="d2e33956" id="d2e33956" data-origname="foreign">salii
+                  subsequent claim that he did not know whose <tei-foreign xml:lang="la" xml:id="d2e33932" id="d2e33932" data-origname="foreign">imperia</tei-foreign> to obey. To keep the focus on <tei-foreign xml:lang="la" xml:id="d2e33935" id="d2e33935" data-origname="foreign">imperiis</tei-foreign>, we have suggested <tei-foreign xml:lang="la" xml:id="d2e33938" id="d2e33938" data-origname="foreign">potestatibus</tei-foreign> as a possible alternative to <tei-foreign xml:lang="la" xml:id="d2e33941" id="d2e33941" data-origname="foreign">exercitibus</tei-foreign>, a term that is found in combination with <tei-foreign xml:lang="la" xml:id="d2e33944" id="d2e33944" data-origname="foreign">imperiis</tei-foreign>: cf. Cic. <tei-foreign xml:lang="la" xml:id="d2e33947" id="d2e33947" data-origname="foreign">Leg.</tei-foreign> 1.23 <tei-foreign xml:lang="la" xml:id="d2e33951" id="d2e33951" data-origname="foreign">si uero isdem imperiis et
+                     potestatibus parent,</tei-foreign> and Liu. 4.54.7: <tei-foreign xml:lang="la" xml:id="d2e33954" id="d2e33954" data-origname="foreign">salii
                      flaminesque nusquam … sine imperiis ac potestatibus relinquantur</tei-foreign>.</tei-p>
             </tei-div></tei-div></tei-back></tei-text></tei-TEI></div><div id="controls" class=""><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite"/> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon"/></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon"/></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon"/></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true"/><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true"/><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true"/><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Preface<ul><li><a href="preface-why-a-new-edition.html">Why a new edition of the Bellum Alexandrinum?</a></li><li><a href="preface-the-bellum-alexandrinum.html">I. The Bellum Alexandrinum</a></li><li><a href="preface-constituting-the-text.html">II. Constituting the text</a></li><li><a href="preface-using-this-edition.html">III. Using this edition</a></li><li><a href="preface-additional-materials.html">Additional materials in the LDLT edition:</a></li><li><a href="preface-acknowledgements.html">Acknowledgements</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Other Sources</a></li><li><a href="bibliography-list-of-people.html">List of People Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Abbreviations and Other Notations</a></li></ul></li><li><a href="conspectus-editionum.html">Conspectus Editionum</a></li><li>Bellum Alexandrinum<ul><li><a href="1.html">1</a></li><li><a href="2.html">2</a></li><li><a href="3.html">3</a></li><li><a href="4.html">4</a></li><li><a href="5.html">5</a></li><li><a href="6.html">6</a></li><li><a href="7.html">7</a></li><li><a href="8.html">8</a></li><li><a href="9.html">9</a></li><li><a href="10.html">10</a></li><li><a href="11.html">11</a></li><li><a href="12.html">12</a></li><li><a href="13.html">13</a></li><li><a href="14.html">14</a></li><li><a href="15.html">15</a></li><li><a href="16.html">16</a></li><li><a href="17.html">17</a></li><li><a href="18.html">18</a></li><li><a href="19.html">19</a></li><li><a href="20.html">20</a></li><li><a href="21.html">21</a></li><li><a href="22.html">22</a></li><li><a href="23.html">23</a></li><li><a href="24.html">24</a></li><li><a href="25.html">25</a></li><li><a href="26.html">26</a></li><li><a href="27.html">27</a></li><li><a href="28.html">28</a></li><li><a href="29.html">29</a></li><li><a href="30.html">30</a></li><li><a href="31.html">31</a></li><li><a href="32.html">32</a></li><li><a href="33.html">33</a></li><li><a href="34.html">34</a></li><li><a href="35.html">35</a></li><li><a href="36.html">36</a></li><li><a href="37.html">37</a></li><li><a href="38.html">38</a></li><li><a href="39.html">39</a></li><li><a href="40.html">40</a></li><li><a href="41.html">41</a></li><li><a href="42.html">42</a></li><li><a href="43.html">43</a></li><li><a href="44.html">44</a></li><li><a href="45.html">45</a></li><li><a href="46.html">46</a></li><li><a href="47.html">47</a></li><li><a href="48.html">48</a></li><li><a href="49.html">49</a></li><li><a href="50.html">50</a></li><li><a href="51.html">51</a></li><li><a href="52.html">52</a></li><li><a href="53.html">53</a></li><li><a href="54.html">54</a></li><li><a href="55.html">55</a></li><li><a href="56.html">56</a></li><li><a href="57.html">57</a></li><li><a href="58.html">58</a></li><li><a href="59.html">59</a></li><li><a href="60.html">60</a></li><li><a href="61.html">61</a></li><li><a href="62.html">62</a></li><li><a href="63.html">63</a></li><li><a href="64.html">64</a></li><li><a href="65.html">65</a></li><li><a href="66.html">66</a></li><li><a href="67.html">67</a></li><li><a href="68.html">68</a></li><li><a href="69.html">69</a></li><li><a href="70.html">70</a></li><li><a href="71.html">71</a></li><li><a href="72.html">72</a></li><li><a href="73.html">73</a></li><li><a href="74.html">74</a></li><li><a href="75.html">75</a></li><li><a href="76.html">76</a></li><li><a href="77.html">77</a></li><li><a href="78.html">78</a></li></ul></li><li><a href="appendix-critica.html">Appendix critica</a></li><li>Studies on the Text<ul><li><a href="stba-2.5.html">2.5</a></li><li><a href="stba-7.2-3.html">7.2–3</a></li><li><a href="stba-12.1-2.html">12.1–2</a></li><li><a href="stba-13.5.html">13.5</a></li><li><a href="stba-17.1-3.html">17.1–3</a></li><li><a href="stba-22.1-2.html">22.1–2</a></li><li><a href="stba26.1-2.html">26.1–2</a></li><li><a href="stba-27.5.html">27.5</a></li><li><a href="stba-31.3.html">31.3</a></li><li><a href="stba-35.3.html">35.3</a></li><li><a href="stba-36.4-5.html">36.4–5</a></li><li><a href="stba-40.2.html">40.2</a></li><li><a href="stba-46.1.html">46.1</a></li><li><a href="stba-47.2.html">47.2</a></li><li><a href="stba-49.1.html">49.1</a></li><li><a href="stba-49.2-3.html">49.2–3</a></li><li><a href="stba-60.2.html">60.2</a></li><li><a href="stba-63.5.html">63.5</a></li><li><a href="stba-66.3-4.html">66.3–4</a></li><li><a href="stba-67.1.html">67.1</a></li><li><a href="stba-68.1.html">68.1</a></li><li><a href="stba-72.2-3.html">72.2–3</a></li><li><a href="stba-74.4.html">74.4</a></li></ul></li></ul></div></div>

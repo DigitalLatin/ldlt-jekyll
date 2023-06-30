@@ -162,235 +162,235 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
          </tei-citeStructure>
        </tei-refsDecl>
      </tei-encodingDesc>
-   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17946" id="d2e17946" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-72.2-3" id="stba-72.2-3" resp="#Hanson #Damon" data-origname="div">
-               <tei-head xml:id="d2e34219" id="d2e34219" data-origname="head">72.2–3</tei-head>
+   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17944" id="d2e17944" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-72.2-3" id="stba-72.2-3" resp="#Hanson #Damon" data-origname="div">
+               <tei-head xml:id="d2e34217" id="d2e34217" data-origname="head">72.2–3</tei-head>
 
-               <tei-p rend="byline" xml:id="d2e34221" id="d2e34221" data-origname="p"><tei-hi rend="italic" xml:id="d2e34222" id="d2e34222" data-origname="hi">Wes Hanson and Cynthia Damon</tei-hi></tei-p>
+               <tei-p rend="byline" xml:id="d2e34219" id="d2e34219" data-origname="p"><tei-hi rend="italic" xml:id="d2e34220" id="d2e34220" data-origname="hi">Wes Hanson and Cynthia Damon</tei-hi></tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e34225" id="d2e34225" data-origname="quote">Circumpositi sunt huic oppido (<tei-hi rend="italic" xml:id="d2e34227" id="d2e34227" data-origname="hi">sc</tei-hi>.
+               <tei-quote rend="blockquote" xml:id="d2e34223" id="d2e34223" data-origname="quote">Circumpositi sunt huic oppido (<tei-hi rend="italic" xml:id="d2e34225" id="d2e34225" data-origname="hi">sc</tei-hi>.
                   Zelae) magni multique intercisi uallibus colles, quorum editissimus unus, qui
                   propter uictoriam Mithridatis et infelicitatem Triari detrimentumque exercitus
                   nostri, superioribus locis atque itineribus paene coniunctus oppido, magnam in
                   illis partibus habet nobilitatem nec multo longius milibus passuum tribus abest ab
                   Zela—hunc locum Pharnaces, ueteribus paternorum felicium castrorum refectis
-                  operibus, copiis suis omnibus occupauit.<tei-note place="foot" xml:id="d2e34230" id="d2e34230" data-origname="note">“Many large hills
+                  operibus, copiis suis omnibus occupauit.<tei-note place="foot" xml:id="d2e34228" id="d2e34228" data-origname="note">“Many large hills
                      separated by valleys surround this town. And the highest of these, a single
                      hill that on account of Mithridates’ victory and Triarius’ misfortune and the
-                     defeat of our army ([<tei-hi rend="italic" xml:id="d2e34232" id="d2e34232" data-origname="hi">sc</tei-hi>. it is] practically connected to
+                     defeat of our army ([<tei-hi rend="italic" xml:id="d2e34230" id="d2e34230" data-origname="hi">sc</tei-hi>. it is] practically connected to
                      the town by relatively high ground and paths) has a great notoriety in those
                      parts and is not much more than three miles away from Zela—(3) this location
                      Pharnaces occupied with all of his troops after the old defenses of the camp
                      that was lucky for his father were repaired.”</tei-note></tei-quote>
 
-               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e34236" id="d2e34236" data-origname="quote">huic <tei-hi rend="italic" xml:id="d2e34238" id="d2e34238" data-origname="hi">M</tei-hi> (<tei-hi rend="italic" xml:id="d2e34241" id="d2e34241" data-origname="hi">cf. Tac. Ann. 14.15.2</tei-hi>) | hoc <tei-hi rend="italic" xml:id="d2e34244" id="d2e34244" data-origname="hi">USTV</tei-hi> ||
-                  multique intercisi <tei-hi rend="italic" xml:id="d2e34247" id="d2e34247" data-origname="hi">MUSTV</tei-hi> (<tei-hi rend="italic" xml:id="d2e34250" id="d2e34250" data-origname="hi">cf. Sen. Ep.
-                     90.18 et BC 3.43.1</tei-hi>) | multisque intercisi <tei-hi rend="italic" xml:id="d2e34254" id="d2e34254" data-origname="hi">Schneider</tei-hi>
-                     (<tei-hi rend="italic" xml:id="d2e34257" id="d2e34257" data-origname="hi">cf. 61.1 et Cic. Att. 4.15.5</tei-hi>) | <tei-hi rend="italic" xml:id="d2e34260" id="d2e34260" data-origname="hi">nisi
-                     mauis</tei-hi> multique intercisis (<tei-hi rend="italic" xml:id="d2e34263" id="d2e34263" data-origname="hi">cf. 73.3</tei-hi>) || unus qui
-                     <tei-hi rend="italic" xml:id="d2e34266" id="d2e34266" data-origname="hi">MUTV</tei-hi> (<tei-hi rend="italic" xml:id="d2e34269" id="d2e34269" data-origname="hi">de anacolutho u. Damon 2015b,
-                     242</tei-hi>) | qui <tei-hi rend="italic" xml:id="d2e34273" id="d2e34273" data-origname="hi">S non male</tei-hi> | <tei-hi rend="italic" xml:id="d2e34276" id="d2e34276" data-origname="hi">nisi
-                     mauis</tei-hi> unus <tei-surplus xml:id="d2e34279" id="d2e34279" data-origname="surplus">qui</tei-surplus>
-                  <tei-hi rend="italic" xml:id="d2e34281" id="d2e34281" data-origname="hi">uel</tei-hi> unus <tei-supplied reason="lost" xml:id="d2e34284" id="d2e34284" data-origname="supplied">est</tei-supplied> qui ||
-                  superioribus … oppido <tei-hi rend="italic" xml:id="d2e34287" id="d2e34287" data-origname="hi">transposuerunt</tei-hi>
-                  <tei-hi rend="italic" xml:id="d2e34291" id="d2e34291" data-origname="hi">post</tei-hi> unus <tei-hi rend="italic" xml:id="d2e34294" id="d2e34294" data-origname="hi">Klotz dubitanter</tei-hi>, <tei-hi rend="italic" xml:id="d2e34297" id="d2e34297" data-origname="hi">post</tei-hi> nobilitatem <tei-hi rend="italic" xml:id="d2e34300" id="d2e34300" data-origname="hi">Morus dubitanter</tei-hi>,
-                     <tei-hi rend="italic" xml:id="d2e34303" id="d2e34303" data-origname="hi">post</tei-hi> Zela <tei-hi rend="italic" xml:id="d2e34306" id="d2e34306" data-origname="hi">Madvig 1.48–49</tei-hi> | <tei-hi rend="italic" xml:id="d2e34310" id="d2e34310" data-origname="hi">seclusit ut glossema Vielhaber 1869</tei-hi> | <tei-hi rend="italic" xml:id="d2e34313" id="d2e34313" data-origname="hi">alii
-                     alia</tei-hi> || itineribus <tei-hi rend="italic" xml:id="d2e34316" id="d2e34316" data-origname="hi">MUSTV</tei-hi> | <tei-supplied reason="lost" xml:id="d2e34319" id="d2e34319" data-origname="supplied">commodis</tei-supplied> itineribus <tei-hi rend="italic" xml:id="d2e34322" id="d2e34322" data-origname="hi">Klotz</tei-hi> (<tei-hi rend="italic" xml:id="d2e34325" id="d2e34325" data-origname="hi">cf. BC 3.97.3</tei-hi>) || coniunctus <tei-hi rend="italic" xml:id="d2e34329" id="d2e34329" data-origname="hi">MUSTV</tei-hi> | coniunctus
-                     <tei-supplied reason="lost" xml:id="d2e34332" id="d2e34332" data-origname="supplied">est</tei-supplied>
-                  <tei-hi rend="italic" xml:id="d2e34335" id="d2e34335" data-origname="hi">Vielhaber 1864 Morum secutus</tei-hi> | coniunctis <tei-hi rend="italic" xml:id="d2e34338" id="d2e34338" data-origname="hi">Larsen, qui Madvig secutus est</tei-hi> || nec <tei-hi rend="italic" xml:id="d2e34341" id="d2e34341" data-origname="hi">MUSTV</tei-hi> | non
-                     <tei-hi rend="italic" xml:id="d2e34344" id="d2e34344" data-origname="hi">Morus dubitanter</tei-hi>
+               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e34234" id="d2e34234" data-origname="quote">huic <tei-hi rend="italic" xml:id="d2e34236" id="d2e34236" data-origname="hi">M</tei-hi> (<tei-hi rend="italic" xml:id="d2e34239" id="d2e34239" data-origname="hi">cf. Tac. Ann. 14.15.2</tei-hi>) | hoc <tei-hi rend="italic" xml:id="d2e34242" id="d2e34242" data-origname="hi">USTV</tei-hi> ||
+                  multique intercisi <tei-hi rend="italic" xml:id="d2e34245" id="d2e34245" data-origname="hi">MUSTV</tei-hi> (<tei-hi rend="italic" xml:id="d2e34248" id="d2e34248" data-origname="hi">cf. Sen. Ep.
+                     90.18 et BC 3.43.1</tei-hi>) | multisque intercisi <tei-hi rend="italic" xml:id="d2e34252" id="d2e34252" data-origname="hi">Schneider</tei-hi>
+                     (<tei-hi rend="italic" xml:id="d2e34255" id="d2e34255" data-origname="hi">cf. 61.1 et Cic. Att. 4.15.5</tei-hi>) | <tei-hi rend="italic" xml:id="d2e34258" id="d2e34258" data-origname="hi">nisi
+                     mauis</tei-hi> multique intercisis (<tei-hi rend="italic" xml:id="d2e34261" id="d2e34261" data-origname="hi">cf. 73.3</tei-hi>) || unus qui
+                     <tei-hi rend="italic" xml:id="d2e34264" id="d2e34264" data-origname="hi">MUTV</tei-hi> (<tei-hi rend="italic" xml:id="d2e34267" id="d2e34267" data-origname="hi">de anacolutho u. Damon 2015b,
+                     242</tei-hi>) | qui <tei-hi rend="italic" xml:id="d2e34271" id="d2e34271" data-origname="hi">S non male</tei-hi> | <tei-hi rend="italic" xml:id="d2e34274" id="d2e34274" data-origname="hi">nisi
+                     mauis</tei-hi> unus <tei-surplus xml:id="d2e34277" id="d2e34277" data-origname="surplus">qui</tei-surplus>
+                  <tei-hi rend="italic" xml:id="d2e34279" id="d2e34279" data-origname="hi">uel</tei-hi> unus <tei-supplied reason="lost" xml:id="d2e34282" id="d2e34282" data-origname="supplied">est</tei-supplied> qui ||
+                  superioribus … oppido <tei-hi rend="italic" xml:id="d2e34285" id="d2e34285" data-origname="hi">transposuerunt</tei-hi>
+                  <tei-hi rend="italic" xml:id="d2e34289" id="d2e34289" data-origname="hi">post</tei-hi> unus <tei-hi rend="italic" xml:id="d2e34292" id="d2e34292" data-origname="hi">Klotz dubitanter</tei-hi>, <tei-hi rend="italic" xml:id="d2e34295" id="d2e34295" data-origname="hi">post</tei-hi> nobilitatem <tei-hi rend="italic" xml:id="d2e34298" id="d2e34298" data-origname="hi">Morus dubitanter</tei-hi>,
+                     <tei-hi rend="italic" xml:id="d2e34301" id="d2e34301" data-origname="hi">post</tei-hi> Zela <tei-hi rend="italic" xml:id="d2e34304" id="d2e34304" data-origname="hi">Madvig 1.48–49</tei-hi> | <tei-hi rend="italic" xml:id="d2e34308" id="d2e34308" data-origname="hi">seclusit ut glossema Vielhaber 1869</tei-hi> | <tei-hi rend="italic" xml:id="d2e34311" id="d2e34311" data-origname="hi">alii
+                     alia</tei-hi> || itineribus <tei-hi rend="italic" xml:id="d2e34314" id="d2e34314" data-origname="hi">MUSTV</tei-hi> | <tei-supplied reason="lost" xml:id="d2e34317" id="d2e34317" data-origname="supplied">commodis</tei-supplied> itineribus <tei-hi rend="italic" xml:id="d2e34320" id="d2e34320" data-origname="hi">Klotz</tei-hi> (<tei-hi rend="italic" xml:id="d2e34323" id="d2e34323" data-origname="hi">cf. BC 3.97.3</tei-hi>) || coniunctus <tei-hi rend="italic" xml:id="d2e34327" id="d2e34327" data-origname="hi">MUSTV</tei-hi> | coniunctus
+                     <tei-supplied reason="lost" xml:id="d2e34330" id="d2e34330" data-origname="supplied">est</tei-supplied>
+                  <tei-hi rend="italic" xml:id="d2e34333" id="d2e34333" data-origname="hi">Vielhaber 1864 Morum secutus</tei-hi> | coniunctis <tei-hi rend="italic" xml:id="d2e34336" id="d2e34336" data-origname="hi">Larsen, qui Madvig secutus est</tei-hi> || nec <tei-hi rend="italic" xml:id="d2e34339" id="d2e34339" data-origname="hi">MUSTV</tei-hi> | non
+                     <tei-hi rend="italic" xml:id="d2e34342" id="d2e34342" data-origname="hi">Morus dubitanter</tei-hi>
                </tei-quote>
 
-               <tei-p xml:id="d2e34348" id="d2e34348" data-origname="p">This description of the famous site of two consequential battles—according to
-                  Pliny, Zela was <tei-foreign xml:lang="la" xml:id="d2e34350" id="d2e34350" data-origname="foreign">nobilis clade Triarii et uictoriae C.
-                     Caesaris</tei-foreign> (<tei-hi rend="italic" xml:id="d2e34353" id="d2e34353" data-origname="hi">Nat</tei-hi>. 6.10)—is barely legible.
+               <tei-p xml:id="d2e34346" id="d2e34346" data-origname="p">This description of the famous site of two consequential battles—according to
+                  Pliny, Zela was <tei-foreign xml:lang="la" xml:id="d2e34348" id="d2e34348" data-origname="foreign">nobilis clade Triarii et uictoriae C.
+                     Caesaris</tei-foreign> (<tei-hi rend="italic" xml:id="d2e34351" id="d2e34351" data-origname="hi">Nat</tei-hi>. 6.10)—is barely legible.
                   Editors have been variously tolerant of its difficulties since none of the words
                   is obviously corrupt and the general picture is clear: Pharnaces established his
                   camp on the prominent hill near Zela on which his formidable father, Mithridates,
                   had established his own camp twenty years earlier and from which Mithridates had
-                  inflicted a devastating defeat on Roman troops led by C. Valerius Triarius.<tei-note place="foot" xml:id="stba-72.2-note-2" id="stba-72.2-note-2" data-origname="note">On the battle in 67 BCE see Plut. <tei-hi rend="italic" xml:id="d2e34358" id="d2e34358" data-origname="hi">Luc</tei-hi>. 35.1, App. <tei-hi rend="italic" xml:id="d2e34361" id="d2e34361" data-origname="hi">Mith</tei-hi>.
+                  inflicted a devastating defeat on Roman troops led by C. Valerius Triarius.<tei-note place="foot" xml:id="stba-72.2-note-2" id="stba-72.2-note-2" data-origname="note">On the battle in 67 BCE see Plut. <tei-hi rend="italic" xml:id="d2e34356" id="d2e34356" data-origname="hi">Luc</tei-hi>. 35.1, App. <tei-hi rend="italic" xml:id="d2e34359" id="d2e34359" data-origname="hi">Mith</tei-hi>.
                      88–89.397–408, D.C. 36.12–13. According to Appian the name of the hill was
-                        <tei-foreign xml:lang="grc" xml:id="d2e34364" id="d2e34364" data-origname="foreign">τὸ Σκότιον ὄρος</tei-foreign> (<tei-hi rend="italic" xml:id="d2e34367" id="d2e34367" data-origname="hi">Mith</tei-hi>. 120.595). Appian (<tei-hi rend="italic" xml:id="d2e34370" id="d2e34370" data-origname="hi">Mith</tei-hi>. 89.403–404, 406)
+                        <tei-foreign xml:lang="grc" xml:id="d2e34362" id="d2e34362" data-origname="foreign">τὸ Σκότιον ὄρος</tei-foreign> (<tei-hi rend="italic" xml:id="d2e34365" id="d2e34365" data-origname="hi">Mith</tei-hi>. 120.595). Appian (<tei-hi rend="italic" xml:id="d2e34368" id="d2e34368" data-origname="hi">Mith</tei-hi>. 89.403–404, 406)
                      and Dio (36.12.4) situate the fighting on level ground.</tei-note> The themes
                   introduced here—the memory of the earlier battle and the nature of the terrain—are
-                  both prominent in the subsequent narrative.<tei-note place="foot" xml:id="d2e34374" id="d2e34374" data-origname="note">The earlier
+                  both prominent in the subsequent narrative.<tei-note place="foot" xml:id="d2e34372" id="d2e34372" data-origname="note">The earlier
                      battle: 73.2, 74.3; the terrain: 73.1–3 (valleys), 74.1–4 and 76.2 (the
                      disadvantages of the terrain), 76.1 (the slope).</tei-note>
                </tei-p>
 
-               <tei-p xml:id="d2e34379" id="d2e34379" data-origname="p">The main problems in the paradosis pertain to the stretch of text <tei-foreign xml:lang="la" xml:id="d2e34381" id="d2e34381" data-origname="foreign">quorum … Zela</tei-foreign>.</tei-p>
+               <tei-p xml:id="d2e34377" id="d2e34377" data-origname="p">The main problems in the paradosis pertain to the stretch of text <tei-foreign xml:lang="la" xml:id="d2e34379" id="d2e34379" data-origname="foreign">quorum … Zela</tei-foreign>.</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e34385" id="d2e34385" data-origname="quote"> quorum editissimus unus qui propter uictoriam Mithridatis
+               <tei-quote rend="blockquote" xml:id="d2e34383" id="d2e34383" data-origname="quote"> quorum editissimus unus qui propter uictoriam Mithridatis
                   et infelicitatem Triari detrimentumque exercitus nostri superioribus locis atque
                   itineribus paene coniunctus oppido magnam in illis partibus habet nobilitatem nec
                   multo longius milibus passuum tribus abest ab Zela </tei-quote>
 
-               <tei-list rend="numbered" style="1" xml:id="d2e34388" id="d2e34388" data-origname="list">
-                  <tei-item n="1" xml:id="d2e34390" id="d2e34390" data-origname="item">The clause introduced by <tei-foreign xml:lang="la" xml:id="d2e34392" id="d2e34392" data-origname="foreign">quorum</tei-foreign> lacks
+               <tei-list rend="numbered" style="1" xml:id="d2e34386" id="d2e34386" data-origname="list">
+                  <tei-item n="1" xml:id="d2e34388" id="d2e34388" data-origname="item">The clause introduced by <tei-foreign xml:lang="la" xml:id="d2e34390" id="d2e34390" data-origname="foreign">quorum</tei-foreign> lacks
                      a verb.</tei-item>
-                  <tei-item n="2" xml:id="d2e34396" id="d2e34396" data-origname="item">The words <tei-foreign xml:lang="la" xml:id="d2e34398" id="d2e34398" data-origname="foreign">superioribus locis atque itineribus
+                  <tei-item n="2" xml:id="d2e34394" id="d2e34394" data-origname="item">The words <tei-foreign xml:lang="la" xml:id="d2e34396" id="d2e34396" data-origname="foreign">superioribus locis atque itineribus
                         paene coniunctus oppido</tei-foreign>, which pertain to terrain, seem out of
                      place in the middle of a relative clause about the memory of an earlier battle.
                      But the unusual expression (see below) is unlikely to have originated as a
                      gloss. And the severity of this problem depends in part on what one takes to be
-                     the point of <tei-foreign xml:lang="la" xml:id="d2e34401" id="d2e34401" data-origname="foreign">coniunctus oppido</tei-foreign>: is the hill’s
+                     the point of <tei-foreign xml:lang="la" xml:id="d2e34399" id="d2e34399" data-origname="foreign">coniunctus oppido</tei-foreign>: is the hill’s
                      connection to Zela relevant to the tactics of the coming battle, or to the
                      memory of both battles? As it happens, the town per se plays no role in either
                      battle: it is nothing more than a place name for battles fought in the
                      vicinity. Accounts of the battle of 67 BCE situate it on level ground (see
-                     above, note <tei-ptr target="#stba-72.2-note-2" xml:id="d2e34404" id="d2e34404" data-origname="ptr" data-empty="">​</tei-ptr>), while Incertus situates
-                     Caesar’s battle near a <tei-foreign xml:lang="la" xml:id="d2e34406" id="d2e34406" data-origname="foreign">collis</tei-foreign> more than three
+                     above, note <tei-ptr target="#stba-72.2-note-2" xml:id="d2e34402" id="d2e34402" data-origname="ptr" data-empty="">​</tei-ptr>), while Incertus situates
+                     Caesar’s battle near a <tei-foreign xml:lang="la" xml:id="d2e34404" id="d2e34404" data-origname="foreign">collis</tei-foreign> more than three
                      miles from the town.</tei-item>
-                  <tei-item n="3" xml:id="d2e34410" id="d2e34410" data-origname="item">The syntax of <tei-foreign xml:lang="la" xml:id="d2e34412" id="d2e34412" data-origname="foreign">superioribus locis</tei-foreign> is
-                     puzzling: by itself it might be taken as a local ablative (cf. <tei-hi rend="italic" xml:id="d2e34415" id="d2e34415" data-origname="hi">BC</tei-hi> 1.65.1 <tei-foreign xml:lang="la" xml:id="d2e34418" id="d2e34418" data-origname="foreign">locis superioribus
-                        constitit</tei-foreign> and possibly 12.1 <tei-foreign xml:lang="la" xml:id="d2e34421" id="d2e34421" data-origname="foreign">superioribus
-                        locis subleuabantur;</tei-foreign> contra, 35.3 <tei-foreign xml:lang="la" xml:id="d2e34424" id="d2e34424" data-origname="foreign">in locis
-                        superioribus</tei-foreign>) but with <tei-foreign xml:lang="la" xml:id="d2e34428" id="d2e34428" data-origname="foreign">atque
+                  <tei-item n="3" xml:id="d2e34408" id="d2e34408" data-origname="item">The syntax of <tei-foreign xml:lang="la" xml:id="d2e34410" id="d2e34410" data-origname="foreign">superioribus locis</tei-foreign> is
+                     puzzling: by itself it might be taken as a local ablative (cf. <tei-hi rend="italic" xml:id="d2e34413" id="d2e34413" data-origname="hi">BC</tei-hi> 1.65.1 <tei-foreign xml:lang="la" xml:id="d2e34416" id="d2e34416" data-origname="foreign">locis superioribus
+                        constitit</tei-foreign> and possibly 12.1 <tei-foreign xml:lang="la" xml:id="d2e34419" id="d2e34419" data-origname="foreign">superioribus
+                        locis subleuabantur;</tei-foreign> contra, 35.3 <tei-foreign xml:lang="la" xml:id="d2e34422" id="d2e34422" data-origname="foreign">in locis
+                        superioribus</tei-foreign>) but with <tei-foreign xml:lang="la" xml:id="d2e34426" id="d2e34426" data-origname="foreign">atque
                         itineribus</tei-foreign> it seems to be a rather loose ablative either of route
-                     (cf. 35.3 <tei-foreign xml:lang="la" xml:id="d2e34431" id="d2e34431" data-origname="foreign">locisque superioribus iter facere
-                        instituit</tei-foreign>) or means (cf. 30.3 <tei-foreign xml:lang="la" xml:id="d2e34434" id="d2e34434" data-origname="foreign">castellum …
+                     (cf. 35.3 <tei-foreign xml:lang="la" xml:id="d2e34429" id="d2e34429" data-origname="foreign">locisque superioribus iter facere
+                        instituit</tei-foreign>) or means (cf. 30.3 <tei-foreign xml:lang="la" xml:id="d2e34432" id="d2e34432" data-origname="foreign">castellum …
                         brachiis … cum opere castrorum coniunxerat</tei-foreign>). Furthermore the
-                     adjective is unexpected given the prominence of <tei-foreign xml:lang="la" xml:id="d2e34437" id="d2e34437" data-origname="foreign">editissimus</tei-foreign>—which places are higher than the highest hill?—and
-                     the expression <tei-foreign xml:lang="la" xml:id="d2e34440" id="d2e34440" data-origname="foreign">superioribus … itineribus</tei-foreign> is
+                     adjective is unexpected given the prominence of <tei-foreign xml:lang="la" xml:id="d2e34435" id="d2e34435" data-origname="foreign">editissimus</tei-foreign>—which places are higher than the highest hill?—and
+                     the expression <tei-foreign xml:lang="la" xml:id="d2e34438" id="d2e34438" data-origname="foreign">superioribus … itineribus</tei-foreign> is
                         unparalleled.<tei-note place="foot" xml:id="stba-72.2-note-4" id="stba-72.2-note-4" data-origname="note">In the apparent
-                        parallel at <tei-hi rend="italic" xml:id="d2e34445" id="d2e34445" data-origname="hi">BC</tei-hi> 1.51.2 <tei-foreign xml:lang="la" xml:id="d2e34448" id="d2e34448" data-origname="foreign">superiorum temporum atque itinerum licentia</tei-foreign> the adjective has
+                        parallel at <tei-hi rend="italic" xml:id="d2e34443" id="d2e34443" data-origname="hi">BC</tei-hi> 1.51.2 <tei-foreign xml:lang="la" xml:id="d2e34446" id="d2e34446" data-origname="foreign">superiorum temporum atque itinerum licentia</tei-foreign> the adjective has
                         a temporal sense. <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> (1927, ad loc.) suggests
-                        adding <tei-supplied reason="lost" xml:id="d2e34454" id="d2e34454" data-origname="supplied"><tei-foreign xml:lang="la" xml:id="d2e34455" id="d2e34455" data-origname="foreign">commodis</tei-foreign></tei-supplied> before <tei-foreign xml:lang="la" xml:id="d2e34458" id="d2e34458" data-origname="foreign">itineribus</tei-foreign>.</tei-note></tei-item>
-                  <tei-item n="4" xml:id="d2e34462" id="d2e34462" data-origname="item">The grammatical connection created by <tei-foreign xml:lang="la" xml:id="d2e34464" id="d2e34464" data-origname="foreign">nec</tei-foreign> between <tei-foreign xml:lang="la" xml:id="d2e34467" id="d2e34467" data-origname="foreign">habet</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e34470" id="d2e34470" data-origname="foreign">abest</tei-foreign> seems arbitrary, given the divergent referents
+                        adding <tei-supplied reason="lost" xml:id="d2e34452" id="d2e34452" data-origname="supplied"><tei-foreign xml:lang="la" xml:id="d2e34453" id="d2e34453" data-origname="foreign">commodis</tei-foreign></tei-supplied> before <tei-foreign xml:lang="la" xml:id="d2e34456" id="d2e34456" data-origname="foreign">itineribus</tei-foreign>.</tei-note></tei-item>
+                  <tei-item n="4" xml:id="d2e34460" id="d2e34460" data-origname="item">The grammatical connection created by <tei-foreign xml:lang="la" xml:id="d2e34462" id="d2e34462" data-origname="foreign">nec</tei-foreign> between <tei-foreign xml:lang="la" xml:id="d2e34465" id="d2e34465" data-origname="foreign">habet</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e34468" id="d2e34468" data-origname="foreign">abest</tei-foreign> seems arbitrary, given the divergent referents
                      of the two verbs, reputation for the one, terrain for the other. The latter
-                     verb seems better suited to the clause introduced by <tei-foreign xml:lang="la" xml:id="d2e34473" id="d2e34473" data-origname="foreign">quorum editissimus</tei-foreign>.</tei-item>
-                  <tei-item n="5" xml:id="d2e34477" id="d2e34477" data-origname="item">The adjective <tei-foreign xml:lang="la" xml:id="d2e34479" id="d2e34479" data-origname="foreign">unus</tei-foreign> is strangely
-                     emphatic. There is another emphatic <tei-foreign xml:lang="la" xml:id="d2e34482" id="d2e34482" data-origname="foreign">unus</tei-foreign> at
-                     25.6 <tei-foreign xml:lang="la" xml:id="d2e34485" id="d2e34485" data-origname="foreign">Ita qui unus ex omnibus eo proelio bene rem gessit
+                     verb seems better suited to the clause introduced by <tei-foreign xml:lang="la" xml:id="d2e34471" id="d2e34471" data-origname="foreign">quorum editissimus</tei-foreign>.</tei-item>
+                  <tei-item n="5" xml:id="d2e34475" id="d2e34475" data-origname="item">The adjective <tei-foreign xml:lang="la" xml:id="d2e34477" id="d2e34477" data-origname="foreign">unus</tei-foreign> is strangely
+                     emphatic. There is another emphatic <tei-foreign xml:lang="la" xml:id="d2e34480" id="d2e34480" data-origname="foreign">unus</tei-foreign> at
+                     25.6 <tei-foreign xml:lang="la" xml:id="d2e34483" id="d2e34483" data-origname="foreign">Ita qui unus ex omnibus eo proelio bene rem gessit
                         solus cum sua quadriremi uictrice periit</tei-foreign>, but in that passage
-                        <tei-foreign xml:lang="la" xml:id="d2e34488" id="d2e34488" data-origname="foreign">unus</tei-foreign> prepares the way for <tei-foreign xml:lang="la" xml:id="d2e34491" id="d2e34491" data-origname="foreign">solus</tei-foreign>. The adjective in our passage has no
+                        <tei-foreign xml:lang="la" xml:id="d2e34486" id="d2e34486" data-origname="foreign">unus</tei-foreign> prepares the way for <tei-foreign xml:lang="la" xml:id="d2e34489" id="d2e34489" data-origname="foreign">solus</tei-foreign>. The adjective in our passage has no
                      comparable role. It is hard to say whether its omission by S is deliberate.
-                     Another possibility is that <tei-foreign xml:lang="la" xml:id="d2e34495" id="d2e34495" data-origname="foreign">unus</tei-foreign> originated in
-                     a misconstrued abbreviation, here possibly for <tei-foreign xml:lang="la" xml:id="d2e34498" id="d2e34498" data-origname="foreign">est</tei-foreign> (cf. ad <tei-hi rend="italic" xml:id="d2e34501" id="d2e34501" data-origname="hi">BC</tei-hi> 3.19.4, where the original
-                     might have been <tei-foreign xml:lang="la" xml:id="d2e34504" id="d2e34504" data-origname="foreign">primo</tei-foreign>).</tei-item>
+                     Another possibility is that <tei-foreign xml:lang="la" xml:id="d2e34493" id="d2e34493" data-origname="foreign">unus</tei-foreign> originated in
+                     a misconstrued abbreviation, here possibly for <tei-foreign xml:lang="la" xml:id="d2e34496" id="d2e34496" data-origname="foreign">est</tei-foreign> (cf. ad <tei-hi rend="italic" xml:id="d2e34499" id="d2e34499" data-origname="hi">BC</tei-hi> 3.19.4, where the original
+                     might have been <tei-foreign xml:lang="la" xml:id="d2e34502" id="d2e34502" data-origname="foreign">primo</tei-foreign>).</tei-item>
                </tei-list>
 
-               <tei-p xml:id="d2e34509" id="d2e34509" data-origname="p">Problem 1 is the easiest to solve: as Clarke said in 1712 (543), one can either
-                  understand <tei-foreign xml:lang="la" xml:id="d2e34511" id="d2e34511" data-origname="foreign">est</tei-foreign> after <tei-foreign xml:lang="la" xml:id="d2e34514" id="d2e34514" data-origname="foreign">unus</tei-foreign> or assume an anacoluthon. In the latter scenario the thought
-                  initiated by <tei-foreign xml:lang="la" xml:id="d2e34517" id="d2e34517" data-origname="foreign">editissimus unus</tei-foreign> is eventually
-                  expressed by <tei-foreign xml:lang="la" xml:id="d2e34520" id="d2e34520" data-origname="foreign">hunc locum Pharnaces … occupauit</tei-foreign>.
-                  Comparable anacolutha introduced by prominent nominatives occur in both the <tei-hi rend="italic" xml:id="d2e34523" id="d2e34523" data-origname="hi">BG</tei-hi> (3.22.1–4 <tei-foreign xml:lang="la" xml:id="d2e34527" id="d2e34527" data-origname="foreign">Adiatuanus</tei-foreign>)
-                  and the <tei-hi rend="italic" xml:id="d2e34530" id="d2e34530" data-origname="hi">BC</tei-hi> (3.18.3–4 <tei-foreign xml:lang="la" xml:id="d2e34533" id="d2e34533" data-origname="foreign">Vibullius</tei-foreign>, 3.19.3–4 <tei-foreign xml:lang="la" xml:id="d2e34536" id="d2e34536" data-origname="foreign">locutus</tei-foreign>, 3.44.6
-                     <tei-foreign xml:lang="la" xml:id="d2e34539" id="d2e34539" data-origname="foreign">loca</tei-foreign>).<tei-note place="foot" xml:id="d2e34542" id="d2e34542" data-origname="note">See <tei-ref target="bibliography-secondary-sources.html#Damon2015b">Damon 2015b</tei-ref>, 242.</tei-note> One could also address
-                  the problem by adding <tei-supplied reason="lost" xml:id="d2e34549" id="d2e34549" data-origname="supplied"><tei-foreign xml:lang="la" xml:id="d2e34550" id="d2e34550" data-origname="foreign">est</tei-foreign></tei-supplied> or excising <tei-supplied reason="lost" xml:id="d2e34553" id="d2e34553" data-origname="supplied"><tei-foreign xml:lang="la" xml:id="d2e34554" id="d2e34554" data-origname="foreign">qui</tei-foreign></tei-supplied>.</tei-p>
+               <tei-p xml:id="d2e34507" id="d2e34507" data-origname="p">Problem 1 is the easiest to solve: as Clarke said in 1712 (543), one can either
+                  understand <tei-foreign xml:lang="la" xml:id="d2e34509" id="d2e34509" data-origname="foreign">est</tei-foreign> after <tei-foreign xml:lang="la" xml:id="d2e34512" id="d2e34512" data-origname="foreign">unus</tei-foreign> or assume an anacoluthon. In the latter scenario the thought
+                  initiated by <tei-foreign xml:lang="la" xml:id="d2e34515" id="d2e34515" data-origname="foreign">editissimus unus</tei-foreign> is eventually
+                  expressed by <tei-foreign xml:lang="la" xml:id="d2e34518" id="d2e34518" data-origname="foreign">hunc locum Pharnaces … occupauit</tei-foreign>.
+                  Comparable anacolutha introduced by prominent nominatives occur in both the <tei-hi rend="italic" xml:id="d2e34521" id="d2e34521" data-origname="hi">BG</tei-hi> (3.22.1–4 <tei-foreign xml:lang="la" xml:id="d2e34525" id="d2e34525" data-origname="foreign">Adiatuanus</tei-foreign>)
+                  and the <tei-hi rend="italic" xml:id="d2e34528" id="d2e34528" data-origname="hi">BC</tei-hi> (3.18.3–4 <tei-foreign xml:lang="la" xml:id="d2e34531" id="d2e34531" data-origname="foreign">Vibullius</tei-foreign>, 3.19.3–4 <tei-foreign xml:lang="la" xml:id="d2e34534" id="d2e34534" data-origname="foreign">locutus</tei-foreign>, 3.44.6
+                     <tei-foreign xml:lang="la" xml:id="d2e34537" id="d2e34537" data-origname="foreign">loca</tei-foreign>).<tei-note place="foot" xml:id="d2e34540" id="d2e34540" data-origname="note">See <tei-ref target="bibliography-secondary-sources.html#Damon2015b">Damon 2015b</tei-ref>, 242.</tei-note> One could also address
+                  the problem by adding <tei-supplied reason="lost" xml:id="d2e34547" id="d2e34547" data-origname="supplied"><tei-foreign xml:lang="la" xml:id="d2e34548" id="d2e34548" data-origname="foreign">est</tei-foreign></tei-supplied> or excising <tei-supplied reason="lost" xml:id="d2e34551" id="d2e34551" data-origname="supplied"><tei-foreign xml:lang="la" xml:id="d2e34552" id="d2e34552" data-origname="foreign">qui</tei-foreign></tei-supplied>.</tei-p>
 
-               <tei-p xml:id="d2e34558" id="d2e34558" data-origname="p">Problem 4, too, responds to relatively simple approaches. <tei-ref target="bibliography-modern-editions.html#Oudendorp">Oudendorp</tei-ref> (1737), for example, uses punctuation:</tei-p>
+               <tei-p xml:id="d2e34556" id="d2e34556" data-origname="p">Problem 4, too, responds to relatively simple approaches. <tei-ref target="bibliography-modern-editions.html#Oudendorp">Oudendorp</tei-ref> (1737), for example, uses punctuation:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e34564" id="d2e34564" data-origname="quote"> quorum editissimus unus, qui propter uictoriam Mithridatis,
+               <tei-quote rend="blockquote" xml:id="d2e34562" id="d2e34562" data-origname="quote"> quorum editissimus unus, qui propter uictoriam Mithridatis,
                   et infelicitatem Triari, detrimentumque exercitus nostri, superioribus locis atque
-                  itineribus paene coniunctus oppido, magnam in illis partibus habet nobilitatem<tei-hi rend="underline" xml:id="d2e34566" id="d2e34566" data-origname="hi">;</tei-hi> nec multo longius milibus passuum III abest ab
+                  itineribus paene coniunctus oppido, magnam in illis partibus habet nobilitatem<tei-hi rend="underline" xml:id="d2e34564" id="d2e34564" data-origname="hi">;</tei-hi> nec multo longius milibus passuum III abest ab
                   Zela.</tei-quote>
 
-               <tei-p xml:id="d2e34571" id="d2e34571" data-origname="p">Problem 2 has been addressed by a variety of transpositions, all of them serial
+               <tei-p xml:id="d2e34569" id="d2e34569" data-origname="p">Problem 2 has been addressed by a variety of transpositions, all of them serial
                   innovations: omission of the original string of words, addition of the string in
-                  the margin <tei-hi rend="italic" xml:id="d2e34573" id="d2e34573" data-origname="hi">uel sim</tei-hi>., insertion of the string into the text
+                  the margin <tei-hi rend="italic" xml:id="d2e34571" id="d2e34571" data-origname="hi">uel sim</tei-hi>., insertion of the string into the text
                   at an inappropriate spot.</tei-p>
 
-               <tei-p xml:id="d2e34577" id="d2e34577" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Morus">Morus</tei-ref> (1780, ad loc.), who prints the paradosis,
-                  explains in a note how to address problems 1, 2, and 4 by moving <tei-foreign xml:lang="la" xml:id="d2e34581" id="d2e34581" data-origname="foreign">superioribus … oppido</tei-foreign> to after <tei-foreign xml:lang="la" xml:id="d2e34584" id="d2e34584" data-origname="foreign">nobilitatem</tei-foreign>, making the relative clause a parenthesis, and altering
-                     <tei-foreign xml:lang="la" xml:id="d2e34587" id="d2e34587" data-origname="foreign">nec</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e34590" id="d2e34590" data-origname="foreign">non</tei-foreign>:</tei-p>
+               <tei-p xml:id="d2e34575" id="d2e34575" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Morus">Morus</tei-ref> (1780, ad loc.), who prints the paradosis,
+                  explains in a note how to address problems 1, 2, and 4 by moving <tei-foreign xml:lang="la" xml:id="d2e34579" id="d2e34579" data-origname="foreign">superioribus … oppido</tei-foreign> to after <tei-foreign xml:lang="la" xml:id="d2e34582" id="d2e34582" data-origname="foreign">nobilitatem</tei-foreign>, making the relative clause a parenthesis, and altering
+                     <tei-foreign xml:lang="la" xml:id="d2e34585" id="d2e34585" data-origname="foreign">nec</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e34588" id="d2e34588" data-origname="foreign">non</tei-foreign>:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e34594" id="d2e34594" data-origname="quote"> quorum editissimus unus, <tei-hi rend="underline" xml:id="d2e34596" id="d2e34596" data-origname="hi">(</tei-hi>qui
+               <tei-quote rend="blockquote" xml:id="d2e34592" id="d2e34592" data-origname="quote"> quorum editissimus unus, <tei-hi rend="underline" xml:id="d2e34594" id="d2e34594" data-origname="hi">(</tei-hi>qui
                   propter uictoriam Mithridatis, et infelicitatem Triari, detrimentumque exercitus
-                  nostri, <tei-surplus xml:id="d2e34599" id="d2e34599" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34600" id="d2e34600" data-origname="hi">superioribus locis atque itineribus paene
+                  nostri, <tei-surplus xml:id="d2e34597" id="d2e34597" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34598" id="d2e34598" data-origname="hi">superioribus locis atque itineribus paene
                         coniunctus oppido</tei-hi></tei-surplus> magnam in illis partibus habet
-                  nobilitatem,) <tei-supplied reason="lost" xml:id="d2e34603" id="d2e34603" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34604" id="d2e34604" data-origname="hi">superioribus locis
+                  nobilitatem,) <tei-supplied reason="lost" xml:id="d2e34601" id="d2e34601" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34602" id="d2e34602" data-origname="hi">superioribus locis
                         atque itineribus paene coniunctus oppido, non</tei-hi></tei-supplied> multo longius
                   milibus passuum III abest ab Zela.</tei-quote>
 
-               <tei-p xml:id="d2e34608" id="d2e34608" data-origname="p"><tei-ref target="bibliography-secondary-sources.html#Vielhaber1864">Vielhaber</tei-ref> (25) later varied the response to
-                  problem 4 by making the verb for the <tei-foreign xml:lang="la" xml:id="d2e34612" id="d2e34612" data-origname="foreign">quorum</tei-foreign>-clause <tei-foreign xml:lang="la" xml:id="d2e34615" id="d2e34615" data-origname="foreign">coniunctus <tei-supplied reason="lost" xml:id="d2e34617" id="d2e34617" data-origname="supplied">est</tei-supplied></tei-foreign> and placing a period before Morus’ <tei-foreign xml:lang="la" xml:id="d2e34620" id="d2e34620" data-origname="foreign">non</tei-foreign>.<tei-note place="foot" xml:id="d2e34623" id="d2e34623" data-origname="note"><tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> (1927, ad loc.) comments that the addition of <tei-supplied reason="lost" xml:id="d2e34627" id="d2e34627" data-origname="supplied"><tei-hi rend="italic" xml:id="d2e34628" id="d2e34628" data-origname="hi">est</tei-hi></tei-supplied> is “praeter
+               <tei-p xml:id="d2e34606" id="d2e34606" data-origname="p"><tei-ref target="bibliography-secondary-sources.html#Vielhaber1864">Vielhaber</tei-ref> (25) later varied the response to
+                  problem 4 by making the verb for the <tei-foreign xml:lang="la" xml:id="d2e34610" id="d2e34610" data-origname="foreign">quorum</tei-foreign>-clause <tei-foreign xml:lang="la" xml:id="d2e34613" id="d2e34613" data-origname="foreign">coniunctus <tei-supplied reason="lost" xml:id="d2e34615" id="d2e34615" data-origname="supplied">est</tei-supplied></tei-foreign> and placing a period before Morus’ <tei-foreign xml:lang="la" xml:id="d2e34618" id="d2e34618" data-origname="foreign">non</tei-foreign>.<tei-note place="foot" xml:id="d2e34621" id="d2e34621" data-origname="note"><tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> (1927, ad loc.) comments that the addition of <tei-supplied reason="lost" xml:id="d2e34625" id="d2e34625" data-origname="supplied"><tei-hi rend="italic" xml:id="d2e34626" id="d2e34626" data-origname="hi">est</tei-hi></tei-supplied> is “praeter
                      necessitatem.”</tei-note></tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e34632" id="d2e34632" data-origname="quote"> Quorum editissimus unus, qui propter uictoriam Mithridatis
-                  et infelicitatem Triari detrimentumque exercitus nostri <tei-surplus xml:id="d2e34634" id="d2e34634" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34635" id="d2e34635" data-origname="hi">superioribus locis atque itineribus paene coniunctus
-                        oppido</tei-hi></tei-surplus> magnam in illis partibus habet nobilitatem, <tei-supplied reason="lost" xml:id="d2e34638" id="d2e34638" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34639" id="d2e34639" data-origname="hi">superioribus locis atque itineribus paene
-                        coniunctus est oppido</tei-hi></tei-supplied><tei-hi rend="underline" xml:id="d2e34641" id="d2e34641" data-origname="hi">. Non</tei-hi> multo
+               <tei-quote rend="blockquote" xml:id="d2e34630" id="d2e34630" data-origname="quote"> Quorum editissimus unus, qui propter uictoriam Mithridatis
+                  et infelicitatem Triari detrimentumque exercitus nostri <tei-surplus xml:id="d2e34632" id="d2e34632" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34633" id="d2e34633" data-origname="hi">superioribus locis atque itineribus paene coniunctus
+                        oppido</tei-hi></tei-surplus> magnam in illis partibus habet nobilitatem, <tei-supplied reason="lost" xml:id="d2e34636" id="d2e34636" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34637" id="d2e34637" data-origname="hi">superioribus locis atque itineribus paene
+                        coniunctus est oppido</tei-hi></tei-supplied><tei-hi rend="underline" xml:id="d2e34639" id="d2e34639" data-origname="hi">. Non</tei-hi> multo
                   longius milibus passuum III abest ab Zela.</tei-quote>
 
-               <tei-p xml:id="d2e34645" id="d2e34645" data-origname="p">But later (1869, <tei-ref target="https://hdl.handle.net/2027/hvd.32044098632391?urlappend=%3Bseq=652" xml:id="d2e34647" id="d2e34647" data-origname="ref">574</tei-ref>) <tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">he</tei-ref> abandoned this complicated
-                  repair and suggested instead that <tei-foreign xml:lang="la" xml:id="d2e34653" id="d2e34653" data-origname="foreign">superioribus …
+               <tei-p xml:id="d2e34643" id="d2e34643" data-origname="p">But later (1869, <tei-ref target="https://hdl.handle.net/2027/hvd.32044098632391?urlappend=%3Bseq=652" xml:id="d2e34645" id="d2e34645" data-origname="ref">574</tei-ref>) <tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">he</tei-ref> abandoned this complicated
+                  repair and suggested instead that <tei-foreign xml:lang="la" xml:id="d2e34651" id="d2e34651" data-origname="foreign">superioribus …
                      oppido</tei-foreign> was an incorporated gloss that was subsequently corrupted.</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e34658" id="d2e34658" data-origname="quote"> Quorum editissimus unus qui propter uictoriam Mithridatis
-                  et infelicitatem Triari detrimentumque exercitus nostri <tei-surplus xml:id="d2e34660" id="d2e34660" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34661" id="d2e34661" data-origname="hi">superioribus locis atque itineribus paene coniunctus
+               <tei-quote rend="blockquote" xml:id="d2e34656" id="d2e34656" data-origname="quote"> Quorum editissimus unus qui propter uictoriam Mithridatis
+                  et infelicitatem Triari detrimentumque exercitus nostri <tei-surplus xml:id="d2e34658" id="d2e34658" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34659" id="d2e34659" data-origname="hi">superioribus locis atque itineribus paene coniunctus
                         oppido</tei-hi></tei-surplus> magnam in illis partibus habet nobilitatem nec multo
                   longius milibus passuum III abest ab Zela. </tei-quote>
 
-               <tei-p xml:id="d2e34665" id="d2e34665" data-origname="p">
+               <tei-p xml:id="d2e34663" id="d2e34663" data-origname="p">
                   <tei-ref target="bibliography-secondary-sources.html#Madvig">Madvig</tei-ref> (1873, 1.48–49) addressed problem 2 by moving
-                     <tei-foreign xml:lang="la" xml:id="d2e34670" id="d2e34670" data-origname="foreign">superioribus … oppido</tei-foreign> to the end of the
+                     <tei-foreign xml:lang="la" xml:id="d2e34668" id="d2e34668" data-origname="foreign">superioribus … oppido</tei-foreign> to the end of the
                   sentence. </tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e34674" id="d2e34674" data-origname="quote">Quorum editissimus (<tei-hi rend="italic" xml:id="d2e34676" id="d2e34676" data-origname="hi">sc</tei-hi>. est) unus qui
+               <tei-quote rend="blockquote" xml:id="d2e34672" id="d2e34672" data-origname="quote">Quorum editissimus (<tei-hi rend="italic" xml:id="d2e34674" id="d2e34674" data-origname="hi">sc</tei-hi>. est) unus qui
                   propter uictoriam Mithridatis et infelicitatem Triari detrimentumque exercitus
-                  nostri <tei-surplus xml:id="d2e34679" id="d2e34679" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34680" id="d2e34680" data-origname="hi">superioribus locis atque itineribus paene
+                  nostri <tei-surplus xml:id="d2e34677" id="d2e34677" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34678" id="d2e34678" data-origname="hi">superioribus locis atque itineribus paene
                         coniunctus oppido</tei-hi></tei-surplus> magnam in illis partibus habet nobilitatem
-                  nec multo longius milibus passuum III abest ab Zela, <tei-supplied reason="lost" xml:id="d2e34683" id="d2e34683" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34684" id="d2e34684" data-origname="hi">superioribus locis atque itineribus paene coniunctus
+                  nec multo longius milibus passuum III abest ab Zela, <tei-supplied reason="lost" xml:id="d2e34681" id="d2e34681" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34682" id="d2e34682" data-origname="hi">superioribus locis atque itineribus paene coniunctus
                         oppido</tei-hi></tei-supplied>. </tei-quote>
 
-               <tei-p xml:id="d2e34688" id="d2e34688" data-origname="p">This creates a useful, if tacit, antithesis between <tei-foreign xml:lang="la" xml:id="d2e34690" id="d2e34690" data-origname="foreign">abest</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e34693" id="d2e34693" data-origname="foreign">paene coniunctus</tei-foreign>,
-                  strengthening the topographical significance of <tei-foreign xml:lang="la" xml:id="d2e34696" id="d2e34696" data-origname="foreign">coniunctus</tei-foreign>. But as <tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">Vielhaber</tei-ref> says
-                  (1869, <tei-ref target="https://hdl.handle.net/2027/hvd.32044098632391?urlappend=%3Bseq=652" xml:id="d2e34702" id="d2e34702" data-origname="ref">574</tei-ref>) the term is “bei einer Entfernung von mehr als 3/5 Meilen
-                  auffällig.” And in this position <tei-foreign xml:lang="la" xml:id="d2e34706" id="d2e34706" data-origname="foreign">superioribus</tei-foreign> is
+               <tei-p xml:id="d2e34686" id="d2e34686" data-origname="p">This creates a useful, if tacit, antithesis between <tei-foreign xml:lang="la" xml:id="d2e34688" id="d2e34688" data-origname="foreign">abest</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e34691" id="d2e34691" data-origname="foreign">paene coniunctus</tei-foreign>,
+                  strengthening the topographical significance of <tei-foreign xml:lang="la" xml:id="d2e34694" id="d2e34694" data-origname="foreign">coniunctus</tei-foreign>. But as <tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">Vielhaber</tei-ref> says
+                  (1869, <tei-ref target="https://hdl.handle.net/2027/hvd.32044098632391?urlappend=%3Bseq=652" xml:id="d2e34700" id="d2e34700" data-origname="ref">574</tei-ref>) the term is “bei einer Entfernung von mehr als 3/5 Meilen
+                  auffällig.” And in this position <tei-foreign xml:lang="la" xml:id="d2e34704" id="d2e34704" data-origname="foreign">superioribus</tei-foreign> is
                   oddly lacking in point: how does the close connection on high ground qualify the
                   absolute distance between the hill and the city?</tei-p>
 
-               <tei-p xml:id="d2e34710" id="d2e34710" data-origname="p"><tei-ref target="bibliography-secondary-sources.html#Larsen">Larsen</tei-ref> (1886, <tei-ref target="https://hdl.handle.net/2027/nnc2.ark:/13960/t3cz4fm0n?urlappend=%3Bseq=24" xml:id="d2e34714" id="d2e34714" data-origname="ref">28–29</tei-ref>) added a solution for problem 3 to <tei-ref target="bibliography-secondary-sources.html#Madvig">Madvig</tei-ref>’s repair by turning the transposed string into a terminal
+               <tei-p xml:id="d2e34708" id="d2e34708" data-origname="p"><tei-ref target="bibliography-secondary-sources.html#Larsen">Larsen</tei-ref> (1886, <tei-ref target="https://hdl.handle.net/2027/nnc2.ark:/13960/t3cz4fm0n?urlappend=%3Bseq=24" xml:id="d2e34712" id="d2e34712" data-origname="ref">28–29</tei-ref>) added a solution for problem 3 to <tei-ref target="bibliography-secondary-sources.html#Madvig">Madvig</tei-ref>’s repair by turning the transposed string into a terminal
                   ablative absolute: </tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e34721" id="d2e34721" data-origname="quote"> quorum editissimus (<tei-hi rend="italic" xml:id="d2e34723" id="d2e34723" data-origname="hi">sc</tei-hi>. est) unus
+               <tei-quote rend="blockquote" xml:id="d2e34719" id="d2e34719" data-origname="quote"> quorum editissimus (<tei-hi rend="italic" xml:id="d2e34721" id="d2e34721" data-origname="hi">sc</tei-hi>. est) unus
                   qui propter uictoriam Mithridatis et infelicitatem Triari detrimentumque exercitus
-                  nostri <tei-surplus xml:id="d2e34726" id="d2e34726" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34727" id="d2e34727" data-origname="hi">superioribus locis atque itineribus paene
+                  nostri <tei-surplus xml:id="d2e34724" id="d2e34724" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34725" id="d2e34725" data-origname="hi">superioribus locis atque itineribus paene
                         coniunctus oppido</tei-hi></tei-surplus> magnam in illis partibus habet nobilitatem
-                  nec multo longius milibus passuum III abest ab Zela, <tei-supplied reason="lost" xml:id="d2e34730" id="d2e34730" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34731" id="d2e34731" data-origname="hi">superioribus locis atque itineribus paene coniunctis
+                  nec multo longius milibus passuum III abest ab Zela, <tei-supplied reason="lost" xml:id="d2e34728" id="d2e34728" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34729" id="d2e34729" data-origname="hi">superioribus locis atque itineribus paene coniunctis
                         oppido</tei-hi></tei-supplied>.</tei-quote>
 
-               <tei-p xml:id="d2e34736" id="d2e34736" data-origname="p">The resulting text bears a certain resemblance to the description of the terrain
-                  at Nicopolis: 36.3 <tei-foreign xml:lang="italic" xml:id="d2e34738" id="d2e34738" data-origname="foreign">quod oppidum positum</tei-foreign> (sc.
-                     <tei-foreign xml:lang="la" xml:id="d2e34741" id="d2e34741" data-origname="foreign">Nicopolis</tei-foreign>) <tei-foreign xml:lang="la" xml:id="d2e34744" id="d2e34744" data-origname="foreign">in Armenia
+               <tei-p xml:id="d2e34734" id="d2e34734" data-origname="p">The resulting text bears a certain resemblance to the description of the terrain
+                  at Nicopolis: 36.3 <tei-foreign xml:lang="italic" xml:id="d2e34736" id="d2e34736" data-origname="foreign">quod oppidum positum</tei-foreign> (sc.
+                     <tei-foreign xml:lang="la" xml:id="d2e34739" id="d2e34739" data-origname="foreign">Nicopolis</tei-foreign>) <tei-foreign xml:lang="la" xml:id="d2e34742" id="d2e34742" data-origname="foreign">in Armenia
                      minore est plano ipsum loco, montibus tamen altis ab duobus lateribus obiectis,
                      satis magno interuallo ab oppido remotis</tei-foreign>. But the presence of
-                     <tei-foreign xml:lang="la" xml:id="d2e34747" id="d2e34747" data-origname="foreign">tamen</tei-foreign> here makes the point of this terminal
+                     <tei-foreign xml:lang="la" xml:id="d2e34745" id="d2e34745" data-origname="foreign">tamen</tei-foreign> here makes the point of this terminal
                   ablative much clearer.</tei-p>
 
-               <tei-p xml:id="d2e34751" id="d2e34751" data-origname="p">Problem 3 is addressed head-on by <tei-ref target="bibliography-modern-editions.html#Kübler1896a">Kübler</tei-ref> (ad
+               <tei-p xml:id="d2e34749" id="d2e34749" data-origname="p">Problem 3 is addressed head-on by <tei-ref target="bibliography-modern-editions.html#Kübler1896a">Kübler</tei-ref> (ad
                   loc.), who rewrites the text thus:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e34757" id="d2e34757" data-origname="quote">quorum editissimus unus, qui propter uictoriam Mithridatis
-                  et infelicitatem Triari detrimentumque exercitus nostri <tei-hi rend="underline" xml:id="d2e34759" id="d2e34759" data-origname="hi">superioribus acceptum temporibus </tei-hi><tei-surplus xml:id="d2e34761" id="d2e34761" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34762" id="d2e34762" data-origname="hi">paene
+               <tei-quote rend="blockquote" xml:id="d2e34755" id="d2e34755" data-origname="quote">quorum editissimus unus, qui propter uictoriam Mithridatis
+                  et infelicitatem Triari detrimentumque exercitus nostri <tei-hi rend="underline" xml:id="d2e34757" id="d2e34757" data-origname="hi">superioribus acceptum temporibus </tei-hi><tei-surplus xml:id="d2e34759" id="d2e34759" data-origname="surplus"><tei-hi rend="underline" xml:id="d2e34760" id="d2e34760" data-origname="hi">paene
                         coniunctus oppido</tei-hi></tei-surplus> magnam in illis partibus habet nobilitatem,
-                  <tei-supplied reason="lost" xml:id="d2e34765" id="d2e34765" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34766" id="d2e34766" data-origname="hi">paene coniunctus est
+                  <tei-supplied reason="lost" xml:id="d2e34763" id="d2e34763" data-origname="supplied"><tei-hi rend="underline" xml:id="d2e34764" id="d2e34764" data-origname="hi">paene coniunctus est
                         oppido</tei-hi></tei-supplied> nec multo longius milibus passuum III abest ab
                   Zela.</tei-quote>
 
-               <tei-p xml:id="d2e34770" id="d2e34770" data-origname="p">The description of the site is now much more legible, but to get from this
-                  original to the paradosis would have required a mininum of five innovations.<tei-note place="foot" xml:id="d2e34772" id="d2e34772" data-origname="note"><tei-ref target="bibliography-secondary-sources.html#Kübler1896b">Kübler</tei-ref> discusses this
-                     emendation briefly in his 1896 <tei-hi rend="italic" xml:id="d2e34776" id="d2e34776" data-origname="hi">Philologus</tei-hi> article
-                     “Recisamenta critica,” on pp. <tei-ref target="https://hdl.handle.net/2027/mdp.39015029918151?urlappend=%3Bseq=214" xml:id="d2e34779" id="d2e34779" data-origname="ref">154–155</tei-ref>.</tei-note></tei-p>
+               <tei-p xml:id="d2e34768" id="d2e34768" data-origname="p">The description of the site is now much more legible, but to get from this
+                  original to the paradosis would have required a mininum of five innovations.<tei-note place="foot" xml:id="d2e34770" id="d2e34770" data-origname="note"><tei-ref target="bibliography-secondary-sources.html#Kübler1896b">Kübler</tei-ref> discusses this
+                     emendation briefly in his 1896 <tei-hi rend="italic" xml:id="d2e34774" id="d2e34774" data-origname="hi">Philologus</tei-hi> article
+                     “Recisamenta critica,” on pp. <tei-ref target="https://hdl.handle.net/2027/mdp.39015029918151?urlappend=%3Bseq=214" xml:id="d2e34777" id="d2e34777" data-origname="ref">154–155</tei-ref>.</tei-note></tei-p>
 
-               <tei-p xml:id="d2e34783" id="d2e34783" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> (1927, ad loc.), pronouncing the passage a “locus
-                  nondum probabiliter emendatus,” obelizes <tei-foreign xml:lang="la" xml:id="d2e34787" id="d2e34787" data-origname="foreign">superioribus …
+               <tei-p xml:id="d2e34781" id="d2e34781" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> (1927, ad loc.), pronouncing the passage a “locus
+                  nondum probabiliter emendatus,” obelizes <tei-foreign xml:lang="la" xml:id="d2e34785" id="d2e34785" data-origname="foreign">superioribus …
                      oppido</tei-foreign>, as does <tei-ref target="bibliography-modern-editions.html#Andrieu">Andrieu</tei-ref> (1954, ad
-                     loc.).<tei-note place="foot" xml:id="d2e34793" id="d2e34793" data-origname="note">In his apparatus Klotz (1927, ad loc.) proposes yet
-                     another transposition, moving <tei-foreign xml:lang="la" xml:id="d2e34795" id="d2e34795" data-origname="foreign">superioribus …
-                        oppido</tei-foreign> earlier in the sentence, to follow <tei-foreign xml:lang="la" xml:id="d2e34798" id="d2e34798" data-origname="foreign">unus</tei-foreign>.
+                     loc.).<tei-note place="foot" xml:id="d2e34791" id="d2e34791" data-origname="note">In his apparatus Klotz (1927, ad loc.) proposes yet
+                     another transposition, moving <tei-foreign xml:lang="la" xml:id="d2e34793" id="d2e34793" data-origname="foreign">superioribus …
+                        oppido</tei-foreign> earlier in the sentence, to follow <tei-foreign xml:lang="la" xml:id="d2e34796" id="d2e34796" data-origname="foreign">unus</tei-foreign>.
                      (See also
-                     note <tei-ptr target="#stba-72.2-note-4" xml:id="d2e34803" id="d2e34803" data-origname="ptr" data-empty="">​</tei-ptr> in this section.) The topographical
-                     information sits well there, but the arbitrariness of <tei-foreign xml:lang="la" xml:id="d2e34805" id="d2e34805" data-origname="foreign">nec</tei-foreign> is even more striking without <tei-foreign xml:lang="la" xml:id="d2e34809" id="d2e34809" data-origname="foreign">paene</tei-foreign> in close proximity.</tei-note> But as was mentioned earlier,
+                     note <tei-ptr target="#stba-72.2-note-4" xml:id="d2e34801" id="d2e34801" data-origname="ptr" data-empty="">​</tei-ptr> in this section.) The topographical
+                     information sits well there, but the arbitrariness of <tei-foreign xml:lang="la" xml:id="d2e34803" id="d2e34803" data-origname="foreign">nec</tei-foreign> is even more striking without <tei-foreign xml:lang="la" xml:id="d2e34807" id="d2e34807" data-origname="foreign">paene</tei-foreign> in close proximity.</tei-note> But as was mentioned earlier,
                   none of the words is obviously corrupt, so desperation seems unwarranted. We have
-                  used a dash to mark the anacoluthon and assumed that <tei-foreign xml:lang="la" xml:id="d2e34813" id="d2e34813" data-origname="foreign">superioribus … oppido</tei-foreign> was something of an afterthought, added by
+                  used a dash to mark the anacoluthon and assumed that <tei-foreign xml:lang="la" xml:id="d2e34811" id="d2e34811" data-origname="foreign">superioribus … oppido</tei-foreign> was something of an afterthought, added by
                   Incertus to explain why the two battles were remembered as having been fought at
                   Zela, when they weren’t. The distance is also minimized later in the sentence with
-                     <tei-foreign xml:lang="la" xml:id="d2e34816" id="d2e34816" data-origname="foreign">nec multo longius</tei-foreign>, and <tei-foreign xml:lang="la" xml:id="d2e34820" id="d2e34820" data-origname="foreign">superioribus</tei-foreign> may have been prompted by <tei-foreign xml:lang="la" xml:id="d2e34823" id="d2e34823" data-origname="foreign">excelsiore … fastigio</tei-foreign> in the description of Zela itself. (We would
+                     <tei-foreign xml:lang="la" xml:id="d2e34814" id="d2e34814" data-origname="foreign">nec multo longius</tei-foreign>, and <tei-foreign xml:lang="la" xml:id="d2e34818" id="d2e34818" data-origname="foreign">superioribus</tei-foreign> may have been prompted by <tei-foreign xml:lang="la" xml:id="d2e34821" id="d2e34821" data-origname="foreign">excelsiore … fastigio</tei-foreign> in the description of Zela itself. (We would
                   have punctuated the afterthought as a parenthesis except that the profusion of
                   dashes would have been confusing.) Incertus may have been motivated by the
-                  distinction between what was remembered locally (<tei-foreign xml:lang="la" xml:id="d2e34826" id="d2e34826" data-origname="foreign">in illis
+                  distinction between what was remembered locally (<tei-foreign xml:lang="la" xml:id="d2e34824" id="d2e34824" data-origname="foreign">in illis
                      partibus</tei-foreign>, an otherwise surprising qualification), namely, the
-                     <tei-foreign xml:lang="la" xml:id="d2e34829" id="d2e34829" data-origname="foreign">collis</tei-foreign>, Mt. Scotius, and the place name, Zela,
+                     <tei-foreign xml:lang="la" xml:id="d2e34827" id="d2e34827" data-origname="foreign">collis</tei-foreign>, Mt. Scotius, and the place name, Zela,
                   to which his readers will have attached their knowledge of these battles.</tei-p>
             </tei-div></tei-div></tei-back></tei-text></tei-TEI></div><div id="controls" class=""><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite"/> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon"/></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon"/></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon"/></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true"/><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true"/><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true"/><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Preface<ul><li><a href="preface-why-a-new-edition.html">Why a new edition of the Bellum Alexandrinum?</a></li><li><a href="preface-the-bellum-alexandrinum.html">I. The Bellum Alexandrinum</a></li><li><a href="preface-constituting-the-text.html">II. Constituting the text</a></li><li><a href="preface-using-this-edition.html">III. Using this edition</a></li><li><a href="preface-additional-materials.html">Additional materials in the LDLT edition:</a></li><li><a href="preface-acknowledgements.html">Acknowledgements</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Other Sources</a></li><li><a href="bibliography-list-of-people.html">List of People Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Abbreviations and Other Notations</a></li></ul></li><li><a href="conspectus-editionum.html">Conspectus Editionum</a></li><li>Bellum Alexandrinum<ul><li><a href="1.html">1</a></li><li><a href="2.html">2</a></li><li><a href="3.html">3</a></li><li><a href="4.html">4</a></li><li><a href="5.html">5</a></li><li><a href="6.html">6</a></li><li><a href="7.html">7</a></li><li><a href="8.html">8</a></li><li><a href="9.html">9</a></li><li><a href="10.html">10</a></li><li><a href="11.html">11</a></li><li><a href="12.html">12</a></li><li><a href="13.html">13</a></li><li><a href="14.html">14</a></li><li><a href="15.html">15</a></li><li><a href="16.html">16</a></li><li><a href="17.html">17</a></li><li><a href="18.html">18</a></li><li><a href="19.html">19</a></li><li><a href="20.html">20</a></li><li><a href="21.html">21</a></li><li><a href="22.html">22</a></li><li><a href="23.html">23</a></li><li><a href="24.html">24</a></li><li><a href="25.html">25</a></li><li><a href="26.html">26</a></li><li><a href="27.html">27</a></li><li><a href="28.html">28</a></li><li><a href="29.html">29</a></li><li><a href="30.html">30</a></li><li><a href="31.html">31</a></li><li><a href="32.html">32</a></li><li><a href="33.html">33</a></li><li><a href="34.html">34</a></li><li><a href="35.html">35</a></li><li><a href="36.html">36</a></li><li><a href="37.html">37</a></li><li><a href="38.html">38</a></li><li><a href="39.html">39</a></li><li><a href="40.html">40</a></li><li><a href="41.html">41</a></li><li><a href="42.html">42</a></li><li><a href="43.html">43</a></li><li><a href="44.html">44</a></li><li><a href="45.html">45</a></li><li><a href="46.html">46</a></li><li><a href="47.html">47</a></li><li><a href="48.html">48</a></li><li><a href="49.html">49</a></li><li><a href="50.html">50</a></li><li><a href="51.html">51</a></li><li><a href="52.html">52</a></li><li><a href="53.html">53</a></li><li><a href="54.html">54</a></li><li><a href="55.html">55</a></li><li><a href="56.html">56</a></li><li><a href="57.html">57</a></li><li><a href="58.html">58</a></li><li><a href="59.html">59</a></li><li><a href="60.html">60</a></li><li><a href="61.html">61</a></li><li><a href="62.html">62</a></li><li><a href="63.html">63</a></li><li><a href="64.html">64</a></li><li><a href="65.html">65</a></li><li><a href="66.html">66</a></li><li><a href="67.html">67</a></li><li><a href="68.html">68</a></li><li><a href="69.html">69</a></li><li><a href="70.html">70</a></li><li><a href="71.html">71</a></li><li><a href="72.html">72</a></li><li><a href="73.html">73</a></li><li><a href="74.html">74</a></li><li><a href="75.html">75</a></li><li><a href="76.html">76</a></li><li><a href="77.html">77</a></li><li><a href="78.html">78</a></li></ul></li><li><a href="appendix-critica.html">Appendix critica</a></li><li>Studies on the Text<ul><li><a href="stba-2.5.html">2.5</a></li><li><a href="stba-7.2-3.html">7.2–3</a></li><li><a href="stba-12.1-2.html">12.1–2</a></li><li><a href="stba-13.5.html">13.5</a></li><li><a href="stba-17.1-3.html">17.1–3</a></li><li><a href="stba-22.1-2.html">22.1–2</a></li><li><a href="stba26.1-2.html">26.1–2</a></li><li><a href="stba-27.5.html">27.5</a></li><li><a href="stba-31.3.html">31.3</a></li><li><a href="stba-35.3.html">35.3</a></li><li><a href="stba-36.4-5.html">36.4–5</a></li><li><a href="stba-40.2.html">40.2</a></li><li><a href="stba-46.1.html">46.1</a></li><li><a href="stba-47.2.html">47.2</a></li><li><a href="stba-49.1.html">49.1</a></li><li><a href="stba-49.2-3.html">49.2–3</a></li><li><a href="stba-60.2.html">60.2</a></li><li><a href="stba-63.5.html">63.5</a></li><li><a href="stba-66.3-4.html">66.3–4</a></li><li><a href="stba-67.1.html">67.1</a></li><li><a href="stba-68.1.html">68.1</a></li><li><a href="stba-72.2-3.html">72.2–3</a></li><li><a href="stba-74.4.html">74.4</a></li></ul></li></ul></div></div>

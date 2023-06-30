@@ -258,7 +258,7 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                      traditional editions, in which variant readings are collected in a critical
                      apparatus at the bottom of each page, the LDLT's online reading application not
                      only places the critical apparatus in the margin where the variation occurs,
-                     but also allows readers to swap variant readers into the text so that they can
+                     but also allows readers to swap variant readings into the text so that they can
                      be evaluated <tei-foreign xml:lang="lat" xml:id="d2e2864" id="d2e2864" data-origname="foreign">in situ</tei-foreign>. Every attempt has been
                      made to eliminate the possibility of introducing novel readings into the text.
                      This is a hazard when variants in two places are related to each other: If a

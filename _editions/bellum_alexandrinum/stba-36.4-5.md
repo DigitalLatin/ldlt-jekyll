@@ -162,20 +162,20 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
          </tei-citeStructure>
        </tei-refsDecl>
      </tei-encodingDesc>
-   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17946" id="d2e17946" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-36.4-5" id="stba-36.4-5" resp="#Kovalchuk #Damon" data-origname="div">
-               <tei-head xml:id="d2e29310" id="d2e29310" data-origname="head">36.4–5</tei-head>
+   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17944" id="d2e17944" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-36.4-5" id="stba-36.4-5" resp="#Kovalchuk #Damon" data-origname="div">
+               <tei-head xml:id="d2e29308" id="d2e29308" data-origname="head">36.4–5</tei-head>
 
-               <tei-p rend="byline" xml:id="d2e29312" id="d2e29312" data-origname="p"><tei-hi rend="italic" xml:id="d2e29313" id="d2e29313" data-origname="hi">Maria Kovalchuk and Cynthia Damon</tei-hi></tei-p>
+               <tei-p rend="byline" xml:id="d2e29310" id="d2e29310" data-origname="p"><tei-hi rend="italic" xml:id="d2e29311" id="d2e29311" data-origname="hi">Maria Kovalchuk and Cynthia Damon</tei-hi></tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e29316" id="d2e29316" data-origname="quote">Quibus ex castris cum locus angustus atque impeditus esset
+               <tei-quote rend="blockquote" xml:id="d2e29314" id="d2e29314" data-origname="quote">Quibus ex castris cum locus angustus atque impeditus esset
                   transeundus, Pharnaces in insidiis delectos pedites omnesque paene disposuit
                   equites, magnam autem multitudinem pecoris intra eas fauces dissipari iussit
                   paganosque et oppidanos in his locis obuersari (5) ut, siue amicus siue inimicus
                   Domitius eas angustias transiret, nihil de insidiis suspicaretur cum in agris et
                   pecora et homines animaduerteret uersari tamquam amicorum aduentu, sin ut in
                   hostium fines ueniret, praeda diripienda milites dissiparentur dispersique
-                     caederentur.<tei-note place="foot" xml:id="d2e29318" id="d2e29318" data-origname="note">“Since a narrow and obstructed place had to be
-                     traversed (<tei-hi rend="italic" xml:id="d2e29320" id="d2e29320" data-origname="hi">sc</tei-hi>. by anyone approaching Nicopolis) from
+                     caederentur.<tei-note place="foot" xml:id="d2e29316" id="d2e29316" data-origname="note">“Since a narrow and obstructed place had to be
+                     traversed (<tei-hi rend="italic" xml:id="d2e29318" id="d2e29318" data-origname="hi">sc</tei-hi>. by anyone approaching Nicopolis) from
                      this camp, Pharnaces set selected infantry and almost all his cavalry in an
                      ambush. Moreover, he ordered a large quantity of livestock to be scattered
                      within the pass and the peasants and townsfolk to linger in these places, (5)
@@ -185,20 +185,20 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                      came as if into enemy territory, his soldiers would be scattered in plundering
                      booty and slaughtered piecemeal.”</tei-note></tei-quote>
 
-               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e29324" id="d2e29324" data-origname="quote">equites <tei-hi rend="italic" xml:id="d2e29326" id="d2e29326" data-origname="hi">MUS</tei-hi> |
-                  equiter <tei-hi rend="italic" xml:id="d2e29329" id="d2e29329" data-origname="hi">TV</tei-hi> || obuersari <tei-hi rend="italic" xml:id="d2e29332" id="d2e29332" data-origname="hi">MUS</tei-hi> (<tei-hi rend="italic" xml:id="d2e29335" id="d2e29335" data-origname="hi">cf.</tei-hi>
-                  <tei-hi rend="italic" xml:id="d2e29338" id="d2e29338" data-origname="hi">Liu. 38.1.8</tei-hi>) | obseruari <tei-hi rend="italic" xml:id="d2e29342" id="d2e29342" data-origname="hi">TV</tei-hi> (<tei-hi rend="italic" xml:id="d2e29345" id="d2e29345" data-origname="hi">cf.</tei-hi>
-                  <tei-hi rend="italic" xml:id="d2e29348" id="d2e29348" data-origname="hi">Liu. 3.22.6</tei-hi>) || 36.5 siue amicus siue inimicus <tei-hi rend="italic" xml:id="d2e29351" id="d2e29351" data-origname="hi">MUSTV, quam lectionem defendit Hoffmann 1890, LIV</tei-hi> (<tei-hi rend="italic" xml:id="d2e29354" id="d2e29354" data-origname="hi">cf. 74.3 et</tei-hi>
-                  <tei-hi rend="italic" xml:id="d2e29357" id="d2e29357" data-origname="hi">u. infra</tei-hi>) | si amicus <tei-surplus xml:id="d2e29361" id="d2e29361" data-origname="surplus">siue inimicus</tei-surplus>
-                  <tei-hi rend="italic" xml:id="d2e29363" id="d2e29363" data-origname="hi">Aldus</tei-hi> | siue amicus <tei-surplus xml:id="d2e29366" id="d2e29366" data-origname="surplus">siue inimicus</tei-surplus>
-                  <tei-hi rend="italic" xml:id="d2e29368" id="d2e29368" data-origname="hi">Nipperdey</tei-hi> (<tei-hi rend="italic" xml:id="d2e29371" id="d2e29371" data-origname="hi">u. et infra</tei-hi>) || aduentu
-                  sin <tei-hi rend="italic" xml:id="d2e29374" id="d2e29374" data-origname="hi">Hoffmann1857</tei-hi> (<tei-hi rend="italic" xml:id="d2e29378" id="d2e29378" data-origname="hi">cf. 24.1</tei-hi>) |
-                  aduentus <tei-hi rend="italic" xml:id="d2e29381" id="d2e29381" data-origname="hi">MUSTV</tei-hi> | aduentu sin uero <tei-hi rend="italic" xml:id="d2e29384" id="d2e29384" data-origname="hi">ϛ</tei-hi>
-                  <tei-hi rend="italic" xml:id="d2e29387" id="d2e29387" data-origname="hi">teste Oudendorp</tei-hi> | aduentu siue inimicus <tei-hi rend="italic" xml:id="d2e29390" id="d2e29390" data-origname="hi">Nipperdey coll. Cic. Phil. 14.13, Fin. 1.3 (u</tei-hi>. <tei-hi rend="italic" xml:id="d2e29393" id="d2e29393" data-origname="hi">et
-                     supra</tei-hi>) | aduentu siue <tei-hi rend="italic" xml:id="d2e29397" id="d2e29397" data-origname="hi">Forchhammer 1886, 92, Nipperdey
-                     supra secutus</tei-hi> | aduentu si <tei-hi rend="italic" xml:id="d2e29400" id="d2e29400" data-origname="hi">Andrieu</tei-hi> (<tei-hi rend="italic" xml:id="d2e29403" id="d2e29403" data-origname="hi">de coniunctione iterata cf. BC 3.78.3</tei-hi>)</tei-quote>
+               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e29322" id="d2e29322" data-origname="quote">equites <tei-hi rend="italic" xml:id="d2e29324" id="d2e29324" data-origname="hi">MUS</tei-hi> |
+                  equiter <tei-hi rend="italic" xml:id="d2e29327" id="d2e29327" data-origname="hi">TV</tei-hi> || obuersari <tei-hi rend="italic" xml:id="d2e29330" id="d2e29330" data-origname="hi">MUS</tei-hi> (<tei-hi rend="italic" xml:id="d2e29333" id="d2e29333" data-origname="hi">cf.</tei-hi>
+                  <tei-hi rend="italic" xml:id="d2e29336" id="d2e29336" data-origname="hi">Liu. 38.1.8</tei-hi>) | obseruari <tei-hi rend="italic" xml:id="d2e29340" id="d2e29340" data-origname="hi">TV</tei-hi> (<tei-hi rend="italic" xml:id="d2e29343" id="d2e29343" data-origname="hi">cf.</tei-hi>
+                  <tei-hi rend="italic" xml:id="d2e29346" id="d2e29346" data-origname="hi">Liu. 3.22.6</tei-hi>) || 36.5 siue amicus siue inimicus <tei-hi rend="italic" xml:id="d2e29349" id="d2e29349" data-origname="hi">MUSTV, quam lectionem defendit Hoffmann 1890, LIV</tei-hi> (<tei-hi rend="italic" xml:id="d2e29352" id="d2e29352" data-origname="hi">cf. 74.3 et</tei-hi>
+                  <tei-hi rend="italic" xml:id="d2e29355" id="d2e29355" data-origname="hi">u. infra</tei-hi>) | si amicus <tei-surplus xml:id="d2e29359" id="d2e29359" data-origname="surplus">siue inimicus</tei-surplus>
+                  <tei-hi rend="italic" xml:id="d2e29361" id="d2e29361" data-origname="hi">Aldus</tei-hi> | siue amicus <tei-surplus xml:id="d2e29364" id="d2e29364" data-origname="surplus">siue inimicus</tei-surplus>
+                  <tei-hi rend="italic" xml:id="d2e29366" id="d2e29366" data-origname="hi">Nipperdey</tei-hi> (<tei-hi rend="italic" xml:id="d2e29369" id="d2e29369" data-origname="hi">u. et infra</tei-hi>) || aduentu
+                  sin <tei-hi rend="italic" xml:id="d2e29372" id="d2e29372" data-origname="hi">Hoffmann1857</tei-hi> (<tei-hi rend="italic" xml:id="d2e29376" id="d2e29376" data-origname="hi">cf. 24.1</tei-hi>) |
+                  aduentus <tei-hi rend="italic" xml:id="d2e29379" id="d2e29379" data-origname="hi">MUSTV</tei-hi> | aduentu sin uero <tei-hi rend="italic" xml:id="d2e29382" id="d2e29382" data-origname="hi">ϛ</tei-hi>
+                  <tei-hi rend="italic" xml:id="d2e29385" id="d2e29385" data-origname="hi">teste Oudendorp</tei-hi> | aduentu siue inimicus <tei-hi rend="italic" xml:id="d2e29388" id="d2e29388" data-origname="hi">Nipperdey coll. Cic. Phil. 14.13, Fin. 1.3 (u</tei-hi>. <tei-hi rend="italic" xml:id="d2e29391" id="d2e29391" data-origname="hi">et
+                     supra</tei-hi>) | aduentu siue <tei-hi rend="italic" xml:id="d2e29395" id="d2e29395" data-origname="hi">Forchhammer 1886, 92, Nipperdey
+                     supra secutus</tei-hi> | aduentu si <tei-hi rend="italic" xml:id="d2e29398" id="d2e29398" data-origname="hi">Andrieu</tei-hi> (<tei-hi rend="italic" xml:id="d2e29401" id="d2e29401" data-origname="hi">de coniunctione iterata cf. BC 3.78.3</tei-hi>)</tei-quote>
 
-               <tei-p xml:id="d2e29407" id="d2e29407" data-origname="p">In paragraph 36 Domitius is imagined by Pharnaces as marching from his camp to
+               <tei-p xml:id="d2e29405" id="d2e29405" data-origname="p">In paragraph 36 Domitius is imagined by Pharnaces as marching from his camp to
                   Nicopolis, seven miles away, through a pass between mountains. Pharnaces set some
                   of his troops in an ambush and ordered livestock and locals to be visible within
                   the pass in order to lure Domitius into the trap. The king’s plan seems designed
@@ -206,131 +206,131 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                   an ultimatum: Pharnaces must withdraw from Lesser Armenia (34.2, 35.2). Pharnaces,
                   for his part, is still hoping for a negotiated solution, especially one that can
                   be deferred (35.1–2, 36.1, 37.1). In the text of 36.5 as transmitted<tei-note place="foot" xml:id="stba-36.5-note-2" id="stba-36.5-note-2" data-origname="note">The vulgate text as represented by the
-                        <tei-foreign xml:lang="la" xml:id="d2e29411" id="d2e29411" data-origname="foreign">editio princeps</tei-foreign> is unusually far from the
-                     text of the archetype, especially in the stretch <tei-foreign xml:lang="la" xml:id="d2e29414" id="d2e29414" data-origname="foreign">tamquam
-                        … ut in</tei-foreign>, where it reads <tei-foreign xml:lang="la" xml:id="d2e29417" id="d2e29417" data-origname="foreign">tanquam amicorum
+                        <tei-foreign xml:lang="la" xml:id="d2e29409" id="d2e29409" data-origname="foreign">editio princeps</tei-foreign> is unusually far from the
+                     text of the archetype, especially in the stretch <tei-foreign xml:lang="la" xml:id="d2e29412" id="d2e29412" data-origname="foreign">tamquam
+                        … ut in</tei-foreign>, where it reads <tei-foreign xml:lang="la" xml:id="d2e29415" id="d2e29415" data-origname="foreign">tanquam amicorum
                         aduentu greges. Sin uero ut in</tei-foreign>.</tei-note>—36.4 is simply given as
                   context here—both possibilities are mentioned twice, the friendly approach with
-                     <tei-foreign xml:lang="la" xml:id="d2e29421" id="d2e29421" data-origname="foreign">siue amicus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e29424" id="d2e29424" data-origname="foreign">tamquam
-                     amicorum aduentus</tei-foreign>, the hostile approach with <tei-foreign xml:lang="la" xml:id="d2e29427" id="d2e29427" data-origname="foreign">siue inimicus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e29430" id="d2e29430" data-origname="foreign">ut in hostium
+                     <tei-foreign xml:lang="la" xml:id="d2e29419" id="d2e29419" data-origname="foreign">siue amicus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e29422" id="d2e29422" data-origname="foreign">tamquam
+                     amicorum aduentus</tei-foreign>, the hostile approach with <tei-foreign xml:lang="la" xml:id="d2e29425" id="d2e29425" data-origname="foreign">siue inimicus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e29428" id="d2e29428" data-origname="foreign">ut in hostium
                      fines</tei-foreign>:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e29435" id="d2e29435" data-origname="quote">ut siue amicus siue inimicus Domitius eas angustias
+               <tei-quote rend="blockquote" xml:id="d2e29433" id="d2e29433" data-origname="quote">ut siue amicus siue inimicus Domitius eas angustias
                   transiret nihil de insidiis suspicaretur cum in agris et pecora et homines
                   animaduerteret uersari tamquam amicorum aduentus ut in hostium fines ueniret
                   praeda diripienda milites dissiparentur dispersique caederentur</tei-quote>
 
-               <tei-p xml:id="d2e29438" id="d2e29438" data-origname="p">The sense is fine up to <tei-foreign xml:lang="la" xml:id="d2e29440" id="d2e29440" data-origname="foreign">suspicaretur</tei-foreign>, and even up
-                  to <tei-foreign xml:lang="la" xml:id="d2e29443" id="d2e29443" data-origname="foreign">aduentus</tei-foreign> provided that one supplies <tei-foreign xml:lang="la" xml:id="d2e29446" id="d2e29446" data-origname="foreign">esset</tei-foreign> to complete the syntax of the <tei-foreign xml:lang="la" xml:id="d2e29449" id="d2e29449" data-origname="foreign">tamquam</tei-foreign> clause. But thereafter things become murky.
-                  What kind of <tei-foreign xml:lang="la" xml:id="d2e29452" id="d2e29452" data-origname="foreign">ut</tei-foreign> clause comes next? How are
-                     <tei-foreign xml:lang="la" xml:id="d2e29456" id="d2e29456" data-origname="foreign">dissiparentur</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e29459" id="d2e29459" data-origname="foreign">caederentur</tei-foreign> connected to the rest of the sentence? And why is
-                     <tei-foreign xml:lang="la" xml:id="d2e29462" id="d2e29462" data-origname="foreign">ut in hostium fines</tei-foreign> so far from <tei-foreign xml:lang="la" xml:id="d2e29465" id="d2e29465" data-origname="foreign">siue inimicus</tei-foreign>?</tei-p>
+               <tei-p xml:id="d2e29436" id="d2e29436" data-origname="p">The sense is fine up to <tei-foreign xml:lang="la" xml:id="d2e29438" id="d2e29438" data-origname="foreign">suspicaretur</tei-foreign>, and even up
+                  to <tei-foreign xml:lang="la" xml:id="d2e29441" id="d2e29441" data-origname="foreign">aduentus</tei-foreign> provided that one supplies <tei-foreign xml:lang="la" xml:id="d2e29444" id="d2e29444" data-origname="foreign">esset</tei-foreign> to complete the syntax of the <tei-foreign xml:lang="la" xml:id="d2e29447" id="d2e29447" data-origname="foreign">tamquam</tei-foreign> clause. But thereafter things become murky.
+                  What kind of <tei-foreign xml:lang="la" xml:id="d2e29450" id="d2e29450" data-origname="foreign">ut</tei-foreign> clause comes next? How are
+                     <tei-foreign xml:lang="la" xml:id="d2e29454" id="d2e29454" data-origname="foreign">dissiparentur</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e29457" id="d2e29457" data-origname="foreign">caederentur</tei-foreign> connected to the rest of the sentence? And why is
+                     <tei-foreign xml:lang="la" xml:id="d2e29460" id="d2e29460" data-origname="foreign">ut in hostium fines</tei-foreign> so far from <tei-foreign xml:lang="la" xml:id="d2e29463" id="d2e29463" data-origname="foreign">siue inimicus</tei-foreign>?</tei-p>
 
-               <tei-p xml:id="d2e29469" id="d2e29469" data-origname="p">The friend/enemy antithesis and the <tei-foreign xml:lang="la" xml:id="d2e29471" id="d2e29471" data-origname="foreign">siue … siue</tei-foreign>
+               <tei-p xml:id="d2e29467" id="d2e29467" data-origname="p">The friend/enemy antithesis and the <tei-foreign xml:lang="la" xml:id="d2e29469" id="d2e29469" data-origname="foreign">siue … siue</tei-foreign>
                   pair have suggested various approaches to repairing the text.</tei-p>
 
-               <tei-p xml:id="d2e29475" id="d2e29475" data-origname="p">Taking his lead from a reading found in the <tei-foreign xml:lang="la" xml:id="d2e29477" id="d2e29477" data-origname="foreign">editio
-                     princeps</tei-foreign>, <tei-ref target="bibliography-early-editions.html#Aldus">Aldus</tei-ref> excised <tei-foreign xml:lang="la" xml:id="d2e29483" id="d2e29483" data-origname="foreign">siue inimicus</tei-foreign> and replaced the adjacent <tei-foreign xml:lang="la" xml:id="d2e29486" id="d2e29486" data-origname="foreign">siue … siue</tei-foreign> pair with a more distant <tei-foreign xml:lang="la" xml:id="d2e29489" id="d2e29489" data-origname="foreign">si … sin uero</tei-foreign> pair:</tei-p>
+               <tei-p xml:id="d2e29473" id="d2e29473" data-origname="p">Taking his lead from a reading found in the <tei-foreign xml:lang="la" xml:id="d2e29475" id="d2e29475" data-origname="foreign">editio
+                     princeps</tei-foreign>, <tei-ref target="bibliography-early-editions.html#Aldus">Aldus</tei-ref> excised <tei-foreign xml:lang="la" xml:id="d2e29481" id="d2e29481" data-origname="foreign">siue inimicus</tei-foreign> and replaced the adjacent <tei-foreign xml:lang="la" xml:id="d2e29484" id="d2e29484" data-origname="foreign">siue … siue</tei-foreign> pair with a more distant <tei-foreign xml:lang="la" xml:id="d2e29487" id="d2e29487" data-origname="foreign">si … sin uero</tei-foreign> pair:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e29493" id="d2e29493" data-origname="quote">ut si<tei-surplus xml:id="d2e29495" id="d2e29495" data-origname="surplus">ue</tei-surplus> amicus <tei-surplus xml:id="d2e29497" id="d2e29497" data-origname="surplus">siue
+               <tei-quote rend="blockquote" xml:id="d2e29491" id="d2e29491" data-origname="quote">ut si<tei-surplus xml:id="d2e29493" id="d2e29493" data-origname="surplus">ue</tei-surplus> amicus <tei-surplus xml:id="d2e29495" id="d2e29495" data-origname="surplus">siue
                      inimicus</tei-surplus> Domitius eas angustias transiret, nihil de insidiis
                   suspicaretur, cum in agris, et pecora, et homines animaduerteret uersari, tamquam
-                  amicorum aduentu, s<tei-supplied reason="lost" xml:id="d2e29499" id="d2e29499" data-origname="supplied">in uero</tei-supplied>, ut in hostium fines
-                  ueniret, praeda diripienda milites dissiparentur, dispersique caederentur.<tei-note place="foot" xml:id="d2e29502" id="d2e29502" data-origname="note">Square and pointed brackets are supplied here and below for the
+                  amicorum aduentu, s<tei-supplied reason="lost" xml:id="d2e29497" id="d2e29497" data-origname="supplied">in uero</tei-supplied>, ut in hostium fines
+                  ueniret, praeda diripienda milites dissiparentur, dispersique caederentur.<tei-note place="foot" xml:id="d2e29500" id="d2e29500" data-origname="note">Square and pointed brackets are supplied here and below for the
                      sake of clarity. Aldus also omitted the word greges that appeared in the editio
                      princeps (see
                      the previous
-                     note, <tei-ptr target="#stba-36.5-note-2" xml:id="d2e29506" id="d2e29506" data-origname="ptr" data-empty="">​</tei-ptr>).</tei-note></tei-quote>
+                     note, <tei-ptr target="#stba-36.5-note-2" xml:id="d2e29504" id="d2e29504" data-origname="ptr" data-empty="">​</tei-ptr>).</tei-note></tei-quote>
 
-               <tei-p xml:id="d2e29509" id="d2e29509" data-origname="p">He thereby clustered the two references to friendly behavior and the two
-                  references to hostile behavior, and simplied the syntax of <tei-foreign xml:lang="la" xml:id="d2e29511" id="d2e29511" data-origname="foreign">tamquam</tei-foreign> with <tei-foreign xml:lang="la" xml:id="d2e29514" id="d2e29514" data-origname="foreign">aduentu</tei-foreign> as a
+               <tei-p xml:id="d2e29507" id="d2e29507" data-origname="p">He thereby clustered the two references to friendly behavior and the two
+                  references to hostile behavior, and simplied the syntax of <tei-foreign xml:lang="la" xml:id="d2e29509" id="d2e29509" data-origname="foreign">tamquam</tei-foreign> with <tei-foreign xml:lang="la" xml:id="d2e29512" id="d2e29512" data-origname="foreign">aduentu</tei-foreign> as a
                   circumstantial ablative. The resulting sense is good but the repair requires at
-                  least three innovations, whose sequence is hard to understand. Did <tei-foreign xml:lang="la" xml:id="d2e29517" id="d2e29517" data-origname="foreign">si amicus</tei-foreign> generate <tei-foreign xml:lang="la" xml:id="d2e29520" id="d2e29520" data-origname="foreign">siue
-                     inimicus</tei-foreign>, which then generated <tei-foreign xml:lang="la" xml:id="d2e29523" id="d2e29523" data-origname="foreign">siue</tei-foreign>
-                  in place of <tei-foreign xml:lang="la" xml:id="d2e29527" id="d2e29527" data-origname="foreign">si</tei-foreign>? Did <tei-foreign xml:lang="la" xml:id="d2e29530" id="d2e29530" data-origname="foreign">uero</tei-foreign> fall out before <tei-foreign xml:lang="la" xml:id="d2e29533" id="d2e29533" data-origname="foreign">ut</tei-foreign>, and
-                     <tei-foreign xml:lang="la" xml:id="d2e29536" id="d2e29536" data-origname="foreign">aduentu</tei-foreign> acquire a final <tei-foreign xml:lang="la" xml:id="d2e29539" id="d2e29539" data-origname="foreign">s</tei-foreign>, whereupon the orphaned <tei-foreign xml:lang="la" xml:id="d2e29542" id="d2e29542" data-origname="foreign">in</tei-foreign> was
+                  least three innovations, whose sequence is hard to understand. Did <tei-foreign xml:lang="la" xml:id="d2e29515" id="d2e29515" data-origname="foreign">si amicus</tei-foreign> generate <tei-foreign xml:lang="la" xml:id="d2e29518" id="d2e29518" data-origname="foreign">siue
+                     inimicus</tei-foreign>, which then generated <tei-foreign xml:lang="la" xml:id="d2e29521" id="d2e29521" data-origname="foreign">siue</tei-foreign>
+                  in place of <tei-foreign xml:lang="la" xml:id="d2e29525" id="d2e29525" data-origname="foreign">si</tei-foreign>? Did <tei-foreign xml:lang="la" xml:id="d2e29528" id="d2e29528" data-origname="foreign">uero</tei-foreign> fall out before <tei-foreign xml:lang="la" xml:id="d2e29531" id="d2e29531" data-origname="foreign">ut</tei-foreign>, and
+                     <tei-foreign xml:lang="la" xml:id="d2e29534" id="d2e29534" data-origname="foreign">aduentu</tei-foreign> acquire a final <tei-foreign xml:lang="la" xml:id="d2e29537" id="d2e29537" data-origname="foreign">s</tei-foreign>, whereupon the orphaned <tei-foreign xml:lang="la" xml:id="d2e29540" id="d2e29540" data-origname="foreign">in</tei-foreign> was
                   excised as nonsensical?</tei-p>
 
-               <tei-p xml:id="d2e29547" id="d2e29547" data-origname="p">The difficulty of tracing a path from the original text to what is found in the
-                  manuscripts prompted <tei-ref target="bibliography-modern-editions.html#Nipperdey">Nipperdey</tei-ref> (1847, <tei-ref target="https://hdl.handle.net/2027/mdp.39015063012838?urlappend=%3Bseq=203" xml:id="d2e29552" id="d2e29552" data-origname="ref">195</tei-ref>) to try a different approach. He transposed <tei-foreign xml:lang="la" xml:id="d2e29555" id="d2e29555" data-origname="foreign">siue inimicus</tei-foreign> to later in the sentence, simultaneously changing the
-                  syntax of <tei-foreign xml:lang="la" xml:id="d2e29558" id="d2e29558" data-origname="foreign">aduentus</tei-foreign> by dissolving its final
-                     <tei-foreign xml:lang="la" xml:id="d2e29561" id="d2e29561" data-origname="foreign">s</tei-foreign> into the transposed phrase:</tei-p>
+               <tei-p xml:id="d2e29545" id="d2e29545" data-origname="p">The difficulty of tracing a path from the original text to what is found in the
+                  manuscripts prompted <tei-ref target="bibliography-modern-editions.html#Nipperdey">Nipperdey</tei-ref> (1847, <tei-ref target="https://hdl.handle.net/2027/mdp.39015063012838?urlappend=%3Bseq=203" xml:id="d2e29550" id="d2e29550" data-origname="ref">195</tei-ref>) to try a different approach. He transposed <tei-foreign xml:lang="la" xml:id="d2e29553" id="d2e29553" data-origname="foreign">siue inimicus</tei-foreign> to later in the sentence, simultaneously changing the
+                  syntax of <tei-foreign xml:lang="la" xml:id="d2e29556" id="d2e29556" data-origname="foreign">aduentus</tei-foreign> by dissolving its final
+                     <tei-foreign xml:lang="la" xml:id="d2e29559" id="d2e29559" data-origname="foreign">s</tei-foreign> into the transposed phrase:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e29565" id="d2e29565" data-origname="quote">ut siue amicus <tei-surplus xml:id="d2e29567" id="d2e29567" data-origname="surplus">siue inimicus</tei-surplus> Domitius eas
+               <tei-quote rend="blockquote" xml:id="d2e29563" id="d2e29563" data-origname="quote">ut siue amicus <tei-surplus xml:id="d2e29565" id="d2e29565" data-origname="surplus">siue inimicus</tei-surplus> Domitius eas
                   angustias transiret, nihil de insidiis suspicaretur, cum in agris et pecora et
-                  homines animaduerteret uersari tamquam amicorum aduentu; s<tei-supplied reason="lost" xml:id="d2e29569" id="d2e29569" data-origname="supplied">iue inimicus</tei-supplied> ut in hostium fines ueniret, praeda diripienda milites
+                  homines animaduerteret uersari tamquam amicorum aduentu; s<tei-supplied reason="lost" xml:id="d2e29567" id="d2e29567" data-origname="supplied">iue inimicus</tei-supplied> ut in hostium fines ueniret, praeda diripienda milites
                   dissiparentur dispersique caederentur.</tei-quote>
 
-               <tei-p xml:id="d2e29573" id="d2e29573" data-origname="p">With this text the puzzling <tei-foreign xml:lang="la" xml:id="d2e29575" id="d2e29575" data-origname="foreign">ut</tei-foreign> introduces an
-                  elliptical comparison <tei-foreign xml:lang="la" xml:id="d2e29578" id="d2e29578" data-origname="foreign">ut in hostium fines</tei-foreign>
-                  parallel to <tei-foreign xml:lang="la" xml:id="d2e29581" id="d2e29581" data-origname="foreign">tamquam amicorum aduentu</tei-foreign>. The initial
-                     <tei-foreign xml:lang="la" xml:id="d2e29584" id="d2e29584" data-origname="foreign">ut</tei-foreign> clause expresses Pharnaces’ double purpose:
-                  that the Romans either fail to suspect the presence of the enemy (<tei-foreign xml:lang="la" xml:id="d2e29587" id="d2e29587" data-origname="foreign">ut … nihil … suspicaretur</tei-foreign>) or scatter in pursuit of
-                  booty and get killed (<tei-foreign xml:lang="la" xml:id="d2e29591" id="d2e29591" data-origname="foreign">ut … dissiparentur dispersique
-                     caederentur</tei-foreign>). The two-part purpose is supported by parallel <tei-foreign xml:lang="la" xml:id="d2e29594" id="d2e29594" data-origname="foreign">siue</tei-foreign> clauses, <tei-foreign xml:lang="la" xml:id="d2e29597" id="d2e29597" data-origname="foreign">siue amicus …
-                     transiret</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e29600" id="d2e29600" data-origname="foreign">siue inimicus …
-                     ueniret</tei-foreign>, a construction for which <tei-ref target=".html#Nippderdey">Nipperdey</tei-ref> cites two Ciceronian parallels (<tei-hi rend="italic" xml:id="d2e29606" id="d2e29606" data-origname="hi">Phil</tei-hi>.
-                  14.13, <tei-hi rend="italic" xml:id="d2e29610" id="d2e29610" data-origname="hi">Fin</tei-hi>. 1.3). Clarity, it seems, has been restored, and
+               <tei-p xml:id="d2e29571" id="d2e29571" data-origname="p">With this text the puzzling <tei-foreign xml:lang="la" xml:id="d2e29573" id="d2e29573" data-origname="foreign">ut</tei-foreign> introduces an
+                  elliptical comparison <tei-foreign xml:lang="la" xml:id="d2e29576" id="d2e29576" data-origname="foreign">ut in hostium fines</tei-foreign>
+                  parallel to <tei-foreign xml:lang="la" xml:id="d2e29579" id="d2e29579" data-origname="foreign">tamquam amicorum aduentu</tei-foreign>. The initial
+                     <tei-foreign xml:lang="la" xml:id="d2e29582" id="d2e29582" data-origname="foreign">ut</tei-foreign> clause expresses Pharnaces’ double purpose:
+                  that the Romans either fail to suspect the presence of the enemy (<tei-foreign xml:lang="la" xml:id="d2e29585" id="d2e29585" data-origname="foreign">ut … nihil … suspicaretur</tei-foreign>) or scatter in pursuit of
+                  booty and get killed (<tei-foreign xml:lang="la" xml:id="d2e29589" id="d2e29589" data-origname="foreign">ut … dissiparentur dispersique
+                     caederentur</tei-foreign>). The two-part purpose is supported by parallel <tei-foreign xml:lang="la" xml:id="d2e29592" id="d2e29592" data-origname="foreign">siue</tei-foreign> clauses, <tei-foreign xml:lang="la" xml:id="d2e29595" id="d2e29595" data-origname="foreign">siue amicus …
+                     transiret</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e29598" id="d2e29598" data-origname="foreign">siue inimicus …
+                     ueniret</tei-foreign>, a construction for which <tei-ref target=".html#Nippderdey">Nipperdey</tei-ref> cites two Ciceronian parallels (<tei-hi rend="italic" xml:id="d2e29604" id="d2e29604" data-origname="hi">Phil</tei-hi>.
+                  14.13, <tei-hi rend="italic" xml:id="d2e29608" id="d2e29608" data-origname="hi">Fin</tei-hi>. 1.3). Clarity, it seems, has been restored, and
                   this is the text printed by <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref>. But the explanation
-                  of how clarity was lost is still complicated: <tei-foreign xml:lang="la" xml:id="d2e29616" id="d2e29616" data-origname="foreign">siue
+                  of how clarity was lost is still complicated: <tei-foreign xml:lang="la" xml:id="d2e29614" id="d2e29614" data-origname="foreign">siue
                      inimicus</tei-foreign> was omitted, the omission was noticed, a repair was
                   attempted by writing the omitted words elsewhere on the page, and they were then
                   reincorporated into the text at a plausible but incorrect position following
-                     <tei-foreign xml:lang="la" xml:id="d2e29619" id="d2e29619" data-origname="foreign">siue amicus</tei-foreign>. The alteration of <tei-foreign xml:lang="la" xml:id="d2e29622" id="d2e29622" data-origname="foreign">aduentu</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e29625" id="d2e29625" data-origname="foreign">aduentus</tei-foreign> in
-                  this scenario is poorly motivated: <tei-foreign xml:lang="la" xml:id="d2e29629" id="d2e29629" data-origname="foreign">siue inimicus</tei-foreign>
+                     <tei-foreign xml:lang="la" xml:id="d2e29617" id="d2e29617" data-origname="foreign">siue amicus</tei-foreign>. The alteration of <tei-foreign xml:lang="la" xml:id="d2e29620" id="d2e29620" data-origname="foreign">aduentu</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e29623" id="d2e29623" data-origname="foreign">aduentus</tei-foreign> in
+                  this scenario is poorly motivated: <tei-foreign xml:lang="la" xml:id="d2e29627" id="d2e29627" data-origname="foreign">siue inimicus</tei-foreign>
                   seems to have left its initial letter behind and regenerated it during the course
-                  of its travels. <tei-ref target="bibliography-secondary-sources.html#Forchhammer">Forchhammer</tei-ref> (1852, <tei-ref target="https://hdl.handle.net/2027/njp.32101065205849?urlappend=%3Bseq=98" xml:id="d2e29635" id="d2e29635" data-origname="ref">92</tei-ref>) adds that <tei-foreign xml:lang="la" xml:id="d2e29638" id="d2e29638" data-origname="foreign">siue inimicus</tei-foreign> contributes
-                  nothing when placed in front of <tei-foreign xml:lang="la" xml:id="d2e29641" id="d2e29641" data-origname="foreign">ut in hostium
+                  of its travels. <tei-ref target="bibliography-secondary-sources.html#Forchhammer">Forchhammer</tei-ref> (1852, <tei-ref target="https://hdl.handle.net/2027/njp.32101065205849?urlappend=%3Bseq=98" xml:id="d2e29633" id="d2e29633" data-origname="ref">92</tei-ref>) adds that <tei-foreign xml:lang="la" xml:id="d2e29636" id="d2e29636" data-origname="foreign">siue inimicus</tei-foreign> contributes
+                  nothing when placed in front of <tei-foreign xml:lang="la" xml:id="d2e29639" id="d2e29639" data-origname="foreign">ut in hostium
                      fines</tei-foreign>; he prefers to see it as a gloss motivated by the simple
-                     <tei-foreign xml:lang="la" xml:id="d2e29644" id="d2e29644" data-origname="foreign">siue</tei-foreign> that originally preceded <tei-foreign xml:lang="la" xml:id="d2e29648" id="d2e29648" data-origname="foreign">ut in hostium fines</tei-foreign>, but his repair is as complicated
+                     <tei-foreign xml:lang="la" xml:id="d2e29642" id="d2e29642" data-origname="foreign">siue</tei-foreign> that originally preceded <tei-foreign xml:lang="la" xml:id="d2e29646" id="d2e29646" data-origname="foreign">ut in hostium fines</tei-foreign>, but his repair is as complicated
                   as <tei-ref target="bibliography-modern-editions.html#Nipperdey">Nipperdey</tei-ref>’s.</tei-p>
 
-               <tei-p xml:id="d2e29655" id="d2e29655" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Andrieu">Andrieu</tei-ref> adopts a simplified version of the repair
-                  proposed by <tei-ref target="bibliography-early-editions.html#Aldus">Aldus</tei-ref>, with <tei-foreign xml:lang="la" xml:id="d2e29662" id="d2e29662" data-origname="foreign">si</tei-foreign> in place of <tei-foreign xml:lang="la" xml:id="d2e29665" id="d2e29665" data-origname="foreign">sin uero</tei-foreign>.</tei-p>
+               <tei-p xml:id="d2e29653" id="d2e29653" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Andrieu">Andrieu</tei-ref> adopts a simplified version of the repair
+                  proposed by <tei-ref target="bibliography-early-editions.html#Aldus">Aldus</tei-ref>, with <tei-foreign xml:lang="la" xml:id="d2e29660" id="d2e29660" data-origname="foreign">si</tei-foreign> in place of <tei-foreign xml:lang="la" xml:id="d2e29663" id="d2e29663" data-origname="foreign">sin uero</tei-foreign>.</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e29669" id="d2e29669" data-origname="quote">ut si<tei-surplus xml:id="d2e29671" id="d2e29671" data-origname="surplus">ue</tei-surplus> amicus <tei-surplus xml:id="d2e29673" id="d2e29673" data-origname="surplus">siue
+               <tei-quote rend="blockquote" xml:id="d2e29667" id="d2e29667" data-origname="quote">ut si<tei-surplus xml:id="d2e29669" id="d2e29669" data-origname="surplus">ue</tei-surplus> amicus <tei-surplus xml:id="d2e29671" id="d2e29671" data-origname="surplus">siue
                      inimicus</tei-surplus> Domitius eas angustias transiret, nihil de insidiis
                   suspicaretur, cum in agris, et pecora, et homines animaduerteret uersari, tamquam
-                  amicorum aduentu, s<tei-supplied reason="lost" xml:id="d2e29675" id="d2e29675" data-origname="supplied">i</tei-supplied> ut in hostium fines
+                  amicorum aduentu, s<tei-supplied reason="lost" xml:id="d2e29673" id="d2e29673" data-origname="supplied">i</tei-supplied> ut in hostium fines
                   ueniret, praeda diripienda milites dissiparentur, dispersique caederentur.</tei-quote>
 
-               <tei-p xml:id="d2e29679" id="d2e29679" data-origname="p">The series of innovations is now clearer: <tei-foreign xml:lang="la" xml:id="d2e29681" id="d2e29681" data-origname="foreign">aduentu</tei-foreign>
-                  acquired a final <tei-foreign xml:lang="la" xml:id="d2e29684" id="d2e29684" data-origname="foreign">s</tei-foreign>, the left-over minim was
-                  omitted, and <tei-foreign xml:lang="la" xml:id="d2e29687" id="d2e29687" data-origname="foreign">si amicus</tei-foreign> was expanded into <tei-foreign xml:lang="la" xml:id="d2e29690" id="d2e29690" data-origname="foreign">siue amicus siue inimicus</tei-foreign> to make up for the loss of
-                  the second <tei-foreign xml:lang="la" xml:id="d2e29693" id="d2e29693" data-origname="foreign">si</tei-foreign> clause and apply the friend/enemy
-                  antithesis for the verb <tei-foreign xml:lang="la" xml:id="d2e29697" id="d2e29697" data-origname="foreign">transiret</tei-foreign>; <tei-foreign xml:lang="la" xml:id="d2e29700" id="d2e29700" data-origname="foreign">ut</tei-foreign> … <tei-foreign xml:lang="la" xml:id="d2e29703" id="d2e29703" data-origname="foreign">ueniret</tei-foreign> would
+               <tei-p xml:id="d2e29677" id="d2e29677" data-origname="p">The series of innovations is now clearer: <tei-foreign xml:lang="la" xml:id="d2e29679" id="d2e29679" data-origname="foreign">aduentu</tei-foreign>
+                  acquired a final <tei-foreign xml:lang="la" xml:id="d2e29682" id="d2e29682" data-origname="foreign">s</tei-foreign>, the left-over minim was
+                  omitted, and <tei-foreign xml:lang="la" xml:id="d2e29685" id="d2e29685" data-origname="foreign">si amicus</tei-foreign> was expanded into <tei-foreign xml:lang="la" xml:id="d2e29688" id="d2e29688" data-origname="foreign">siue amicus siue inimicus</tei-foreign> to make up for the loss of
+                  the second <tei-foreign xml:lang="la" xml:id="d2e29691" id="d2e29691" data-origname="foreign">si</tei-foreign> clause and apply the friend/enemy
+                  antithesis for the verb <tei-foreign xml:lang="la" xml:id="d2e29695" id="d2e29695" data-origname="foreign">transiret</tei-foreign>; <tei-foreign xml:lang="la" xml:id="d2e29698" id="d2e29698" data-origname="foreign">ut</tei-foreign> … <tei-foreign xml:lang="la" xml:id="d2e29701" id="d2e29701" data-origname="foreign">ueniret</tei-foreign> would
                   then mean “supposing he came.” But this is still a three-part innovation involving
                   two spots in the text.</tei-p>
 
-               <tei-p xml:id="d2e29708" id="d2e29708" data-origname="p">In our view the apparent parallelisms in this passage have been pressed too
-                     hard.<tei-note place="foot" xml:id="d2e29710" id="d2e29710" data-origname="note">See, for example, the note in <tei-ref target="bibliography-modern-editions.html#Dauisius1706">Dauisius</tei-ref> arguing for <tei-foreign xml:lang="la" xml:id="d2e29715" id="d2e29715" data-origname="foreign">si
-                        amicus <tei-surplus xml:id="d2e29717" id="d2e29717" data-origname="surplus">siue inimicus</tei-surplus> Domitius</tei-foreign>: “nam si inimici
-                     antea mentionem fecerat noster, nihil opus erat, ut postea adjiceret <tei-foreign xml:lang="la" xml:id="d2e29720" id="d2e29720" data-origname="foreign">sin uero un in hostium fines ueniret</tei-foreign>, quibus ex
+               <tei-p xml:id="d2e29706" id="d2e29706" data-origname="p">In our view the apparent parallelisms in this passage have been pressed too
+                     hard.<tei-note place="foot" xml:id="d2e29708" id="d2e29708" data-origname="note">See, for example, the note in <tei-ref target="bibliography-modern-editions.html#Dauisius1706">Dauisius</tei-ref> arguing for <tei-foreign xml:lang="la" xml:id="d2e29713" id="d2e29713" data-origname="foreign">si
+                        amicus <tei-surplus xml:id="d2e29715" id="d2e29715" data-origname="surplus">siue inimicus</tei-surplus> Domitius</tei-foreign>: “nam si inimici
+                     antea mentionem fecerat noster, nihil opus erat, ut postea adjiceret <tei-foreign xml:lang="la" xml:id="d2e29718" id="d2e29718" data-origname="foreign">sin uero un in hostium fines ueniret</tei-foreign>, quibus ex
                      uerbis luce fit clarius ineptum esse illud additamentum.”</tei-note> As was said
-                  above, the text as transmitted makes sense up to <tei-foreign xml:lang="la" xml:id="d2e29724" id="d2e29724" data-origname="foreign">aduentu</tei-foreign>(<tei-foreign xml:lang="la" xml:id="d2e29727" id="d2e29727" data-origname="foreign">s</tei-foreign>): Pharnaces’ aim is to
-                  keep Domitius in ignorance about the ambush.<tei-note place="foot" xml:id="d2e29730" id="d2e29730" data-origname="note">The aim expressed
-                     at 35.3 <tei-foreign xml:lang="la" xml:id="d2e29732" id="d2e29732" data-origname="foreign">ut … nihil … suspicaretur</tei-foreign> is consonant
-                     with that expressed at 37.1 <tei-foreign xml:lang="la" xml:id="d2e29735" id="d2e29735" data-origname="foreign">numquam … intermittebat
+                  above, the text as transmitted makes sense up to <tei-foreign xml:lang="la" xml:id="d2e29722" id="d2e29722" data-origname="foreign">aduentu</tei-foreign>(<tei-foreign xml:lang="la" xml:id="d2e29725" id="d2e29725" data-origname="foreign">s</tei-foreign>): Pharnaces’ aim is to
+                  keep Domitius in ignorance about the ambush.<tei-note place="foot" xml:id="d2e29728" id="d2e29728" data-origname="note">The aim expressed
+                     at 35.3 <tei-foreign xml:lang="la" xml:id="d2e29730" id="d2e29730" data-origname="foreign">ut … nihil … suspicaretur</tei-foreign> is consonant
+                     with that expressed at 37.1 <tei-foreign xml:lang="la" xml:id="d2e29733" id="d2e29733" data-origname="foreign">numquam … intermittebat
                         legatos de pace atque amicitia mittere ad Domitium, cum hoc ipso crederet
-                        facilius eum decipi posse</tei-foreign>, although the <tei-foreign xml:lang="la" xml:id="d2e29738" id="d2e29738" data-origname="foreign">cum</tei-foreign> clause in the latter passage could also be used to argue that
+                        facilius eum decipi posse</tei-foreign>, although the <tei-foreign xml:lang="la" xml:id="d2e29736" id="d2e29736" data-origname="foreign">cum</tei-foreign> clause in the latter passage could also be used to argue that
                      Pharnaces planned a preemptive attack. However, it seems more likely to reflect
                      the fact that Domitius did learn about the ambush—or so one presumes from the
                      reference to it in our text. See also
-                     note <tei-ptr target="#stba-36.5-note-6" xml:id="d2e29743" id="d2e29743" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-note> The text says nothing about any plan
+                     note <tei-ptr target="#stba-36.5-note-6" xml:id="d2e29741" id="d2e29741" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-note> The text says nothing about any plan
                   for a preemptive attack on Domitius, and Pharnaces later recalls his troops to
-                  prevent their being spotted (37.2 <tei-foreign xml:lang="la" xml:id="d2e29746" id="d2e29746" data-origname="foreign">cum uereretur ne
+                  prevent their being spotted (37.2 <tei-foreign xml:lang="la" xml:id="d2e29744" id="d2e29744" data-origname="foreign">cum uereretur ne
                      cognoscerentur insidiae, suos in castra reuocauit</tei-foreign>); their presence
                   seems to have been a precautionary measure that would allow him to respond quickly
                   if there was any overt aggression on Domitius’ part. He may not have expected
                   aggression, since he knew that Domitius’ army had been weakened by the loss of the
                   two legions that were sent to Caesar (34.3, 35.2), and he was actively seeking a
-                  negotiated solution (37.1 <tei-foreign xml:lang="la" xml:id="d2e29750" id="d2e29750" data-origname="foreign">numquam … intermittebat legatos
+                  negotiated solution (37.1 <tei-foreign xml:lang="la" xml:id="d2e29748" id="d2e29748" data-origname="foreign">numquam … intermittebat legatos
                      de pace atque amicitia mittere ad Domitium</tei-foreign>; cf. 37.2 on Domitius’
-                     <tei-foreign xml:lang="la" xml:id="d2e29753" id="d2e29753" data-origname="foreign">spes pacis</tei-foreign>), but precautions were not
+                     <tei-foreign xml:lang="la" xml:id="d2e29751" id="d2e29751" data-origname="foreign">spes pacis</tei-foreign>), but precautions were not
                      unwarranted.<tei-note place="foot" xml:id="stba-36.5-note-6" id="stba-36.5-note-6" data-origname="note">As it happened,
-                     Domitius’ “hope of peace” kept him in camp for another day (37.2 <tei-foreign xml:lang="la" xml:id="d2e29758" id="d2e29758" data-origname="foreign">spes pacis Domitio in isdem castris morandi attulit
+                     Domitius’ “hope of peace” kept him in camp for another day (37.2 <tei-foreign xml:lang="la" xml:id="d2e29756" id="d2e29756" data-origname="foreign">spes pacis Domitio in isdem castris morandi attulit
                         causam</tei-foreign>), so Pharnaces lost his chance to make a preemptive attack
-                     if he did plan one (37.2 <tei-foreign xml:lang="la" xml:id="d2e29761" id="d2e29761" data-origname="foreign">amissa proximi temporis
+                     if he did plan one (37.2 <tei-foreign xml:lang="la" xml:id="d2e29759" id="d2e29759" data-origname="foreign">amissa proximi temporis
                         occasione</tei-foreign>).</tei-note> On this reading the two parts of this passage
                   are not parallel (“if friend, do X, if enemy, do Y”) but rather sequential
                   (“deceive Domitius, then react to his actions”). Of the two reactions envisaged,
@@ -339,21 +339,21 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                   The implicit contrast here between inaction and action is expressed by the text of
                      <tei-ref target="bibliography-modern-editions.html#Hoffmann1857">Hoffmann</tei-ref>:</tei-p>
 
-               <tei-quote rend="blockquote" xml:id="d2e29769" id="d2e29769" data-origname="quote">ut, siue amicus siue inimicus Domitius eas angustias
+               <tei-quote rend="blockquote" xml:id="d2e29767" id="d2e29767" data-origname="quote">ut, siue amicus siue inimicus Domitius eas angustias
                   transiret, nihil de insidiis suspicaretur, quum in agris et pecora et homines
-                  animaduerteret uersari tamquam amicorum aduentu; s<tei-supplied reason="lost" xml:id="d2e29771" id="d2e29771" data-origname="supplied">in</tei-supplied> ut in hostium fines ueniret, praeda diripienda milites
+                  animaduerteret uersari tamquam amicorum aduentu; s<tei-supplied reason="lost" xml:id="d2e29769" id="d2e29769" data-origname="supplied">in</tei-supplied> ut in hostium fines ueniret, praeda diripienda milites
                   dissiparentur, dispersique caederentur.</tei-quote>
 
-               <tei-p xml:id="d2e29775" id="d2e29775" data-origname="p">Hoffmann printed the same text in <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">1890</tei-ref> and
+               <tei-p xml:id="d2e29773" id="d2e29773" data-origname="p">Hoffmann printed the same text in <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">1890</tei-ref> and
                   argued against <tei-ref target=".html#Nippderdey">Nipperdey</tei-ref>’s emendation (why move
-                     <tei-foreign xml:lang="la" xml:id="d2e29783" id="d2e29783" data-origname="foreign">siue inimicus</tei-foreign> out of the first conditional
+                     <tei-foreign xml:lang="la" xml:id="d2e29781" id="d2e29781" data-origname="foreign">siue inimicus</tei-foreign> out of the first conditional
                   clause if deceiving Domitius would have been even more important if his arrival
-                  was hostile? 1890, <tei-ref target="https://hdl.handle.net/2027/uiug.30112099806678?urlappend=%3Bseq=62" xml:id="d2e29786" id="d2e29786" data-origname="ref">LIV</tei-ref>). The adversative <tei-foreign xml:lang="la" xml:id="d2e29789" id="d2e29789" data-origname="foreign">sin</tei-foreign> is used twice
-                  elsewhere in the <tei-title xml:id="d2e29793" id="d2e29793" data-origname="title">Bellum Alexandrinum</tei-title> (24.1, 42.4), the sequence
-                     <tei-foreign xml:lang="la" xml:id="d2e29795" id="d2e29795" data-origname="foreign">siue … siue … sin</tei-foreign> in Cicero (<tei-hi rend="italic" xml:id="d2e29798" id="d2e29798" data-origname="hi">De orat</tei-hi>. 2.292, <tei-foreign xml:lang="la" xml:id="d2e29801" id="d2e29801" data-origname="foreign">Att</tei-foreign>. 7.3.2). Hoffmann’s
-                  repair implies a two-part innovation (<tei-foreign xml:lang="la" xml:id="d2e29804" id="d2e29804" data-origname="foreign">aduentu</tei-foreign> =⟩
-                     <tei-foreign xml:lang="la" xml:id="d2e29807" id="d2e29807" data-origname="foreign">aduentus</tei-foreign>, <tei-foreign xml:lang="la" xml:id="d2e29811" id="d2e29811" data-origname="foreign">in</tei-foreign>
-                  is omitted) but neither stage is <tei-foreign xml:lang="la" xml:id="d2e29814" id="d2e29814" data-origname="foreign">per se</tei-foreign>
+                  was hostile? 1890, <tei-ref target="https://hdl.handle.net/2027/uiug.30112099806678?urlappend=%3Bseq=62" xml:id="d2e29784" id="d2e29784" data-origname="ref">LIV</tei-ref>). The adversative <tei-foreign xml:lang="la" xml:id="d2e29787" id="d2e29787" data-origname="foreign">sin</tei-foreign> is used twice
+                  elsewhere in the <tei-title xml:id="d2e29791" id="d2e29791" data-origname="title">Bellum Alexandrinum</tei-title> (24.1, 42.4), the sequence
+                     <tei-foreign xml:lang="la" xml:id="d2e29793" id="d2e29793" data-origname="foreign">siue … siue … sin</tei-foreign> in Cicero (<tei-hi rend="italic" xml:id="d2e29796" id="d2e29796" data-origname="hi">De orat</tei-hi>. 2.292, <tei-foreign xml:lang="la" xml:id="d2e29799" id="d2e29799" data-origname="foreign">Att</tei-foreign>. 7.3.2). Hoffmann’s
+                  repair implies a two-part innovation (<tei-foreign xml:lang="la" xml:id="d2e29802" id="d2e29802" data-origname="foreign">aduentu</tei-foreign> =⟩
+                     <tei-foreign xml:lang="la" xml:id="d2e29805" id="d2e29805" data-origname="foreign">aduentus</tei-foreign>, <tei-foreign xml:lang="la" xml:id="d2e29809" id="d2e29809" data-origname="foreign">in</tei-foreign>
+                  is omitted) but neither stage is <tei-foreign xml:lang="la" xml:id="d2e29812" id="d2e29812" data-origname="foreign">per se</tei-foreign>
                   implausible and the fact that they involve the same spot in the text is a distinct
                   advantage over the repairs discussed so far. <tei-ref target="bibliography-modern-editions.html#Dübner">Dübner</tei-ref>
                   adopted it, and so do we.</tei-p>
