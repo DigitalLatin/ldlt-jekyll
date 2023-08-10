@@ -61,6 +61,89 @@
                 <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
+            </listPrefixDef>
+            <refsDecl>
+                <!-- There's a citeStructure for each section of the document we want to a) appear in the ToC,
+             b) be output as a separate file. 
+        
+             @match selects the document section(s) to be used in resolving citations. 
+             @use indicates the the string that will be used in citations. -->
+                <citeStructure match="//front/div[@xml:id='preface']" use="head">
+                    <!-- Defines the identifier to use for this structure -->
+                    <citeData property="dc:identifier" use="@xml:id"/>
+                    <!-- Defines the title to be used for this structure (e.g. in a ToC) -->
+                    <citeData property="dc:title" use="head"/>
+                    <!-- Specifies a function for this structure, in this case, it should be used as an entry in the ToC. -->
+                    <citeData property="function" use="'toc-entry'"/>
+                    <citeStructure match="./div[@type='section']" use="head" delim=", ">
+                        <citeData property="dc:title" use="head"/>
+                        <citeData property="dc:identifier" use="@xml:id"/>
+                        <citeData property="function" use="'toc-entry'"/>
+                        <!-- This structure should be split out into a separate document. -->
+                        <citeData property="function" use="'split'"/>
+                        <!-- When it is split out, the bibliography should go along with it -->
+                        <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
+                    </citeStructure>
+                </citeStructure>
+                <citeStructure match="//front/div[@xml:id='bibliography']" use="head">
+                    <citeData property="dc:identifier" use="@xml:id"/>
+                    <citeData property="dc:title" use="head"/>
+                    <citeData property="function" use="'toc-entry'"/>
+                    <citeStructure match="./div[@type='section']" use="head" delim=", ">
+                        <citeData property="dc:identifier" use="@xml:id"/>
+                        <citeData property="dc:title" use="head"/>
+                        <citeData property="function" use="'toc-entry'"/>
+                        <citeData property="function" use="'split'"/>
+                    </citeStructure>
+                </citeStructure>
+                <!-- The @unit attribute marks a citeStructure as a citable unit and makes e.g., 4.100 resolvable to poem 4, line 100. -->
+                <citeStructure match="//div[@type='edition']" use="head">
+                    <citeData property="dc:title" use="head"/>
+                    <citeData property="function" use="'toc-entry'"/>
+                    <citeStructure match="./div[@subtype='prologue']" use="@n" unit="prologue" delim=" ">    
+                        <citeData property="dc:title" use="head"/>
+                        <citeData property="dc:identifier" use="@n"/>
+                        <citeData property="function" use="'toc-entry'"/>
+                        <citeData property="function" use="'split'"/>
+                        <!-- What does this do? -->
+                        <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+                    </citeStructure>
+                    <citeStructure match="./div[@subtype='act']" use="@n" unit="act" delim='.'>    
+                        <citeData property="dc:title" use="head"/>
+                        <citeData property="dc:identifier" use="@n"/>
+                        <citeData property="function" use="'toc-entry'"/>
+                        <citeData property="function" use="'split'"/>
+                        <!-- What does this do? -->
+                        <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+                        <citeStructure match="./div[@subtype='scene']" use="@n" delim="." unit="scene">
+                            <citeData property="dc:title" use="head"/>
+                            <citeData property="dc:identifier" use="@n"/>
+                            <citeData property="function" use="'toc-entry'"/>
+                            <citeData property="function" use="'split'"/>
+                        </citeStructure>
+                    </citeStructure>
+                    <citeStructure match="./div[@subtype='chorus']" use="@n" unit="chorus" delim=" ">    
+                        <citeData property="dc:title" use="head"/>
+                        <citeData property="dc:identifier" use="@n"/>
+                        <citeData property="function" use="'toc-entry'"/>
+                        <citeData property="function" use="'split'"/>
+                        <!-- What does this do? -->
+                        <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+                        <citeStructure match="./div[@subtype='epilog']" use="@n" unit="epilog" delim=" ">    
+                            <citeData property="dc:title" use="head"/>
+                            <citeData property="dc:identifier" use="@n"/>
+                            <citeData property="function" use="'toc-entry'"/>
+                            <citeData property="function" use="'split'"/>
+                            <!-- What does this do? -->
+                            <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+                        </citeStructure>
+                    </citeStructure>
+                </citeStructure>
+            </refsDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
@@ -209,6 +292,7 @@
             <div type="edition" xml:id="edition" subtype="drama">
                 <head>Iugurtha</head>
                 <div type="textpart" xml:id="dramatis_personae">
+                    <head>Dramatis Personae</head>
                     <!-- Begin Personae -->
                     <listPerson type="characters">
                         <head>Personae</head>
@@ -311,7 +395,7 @@
                 </div>
                 <!-- End "in musica" -->
                 <!-- Begin Prologus -->
-                <div type="textpart" xml:id="prologus">
+                <div type="textpart" subtype="prologue" xml:id="prologus">
                     <head>Prologus</head>
                     <stage type="entrance">Parca, Fortuna, Genius Iugurthae.</stage>
                     <stage type="setting">Machina pegmatis mortualis cum sex luminibus, clepsydra,
@@ -487,10 +571,10 @@
                 </div>
                 <!-- End Prologus -->
                 <!-- Begin Actus I -->
-                <div type="textpart" xml:id="actus-i">
+                <div type="textpart" subtype="act" xml:id="actus-i" n="1">
                     <head>Actus I</head>
                     <!-- Begin Scaena I -->
-                    <div type="textpart" xml:id="act1sc1" subtype="scene">
+                    <div type="textpart" subtype="scene" xml:id="act1sc1" n="1">
                         <head>Scaena I</head>
 
                         <stage type="setting">E medio proceditur C. Marius et exercitus Romanorum,
@@ -537,7 +621,7 @@
                     </div>
                     <!-- End Scaena I -->
                     <!-- Begin Scaena II -->
-                    <div type="textpart" xml:id="act1sc2">
+                    <div type="textpart" subtype="scene" xml:id="act1sc2" n="2">
                         <head>Scaena II</head>
                         <stage type="setting">Prioribus accedit Lucius Sulla.</stage>
 
@@ -610,7 +694,7 @@
                     </div>
                     <!-- End Scaena II -->
                     <!-- Begin Scaena III -->
-                    <div type="textpart" xml:id="act1sc3">
+                    <div type="textpart" subtype="scene" xml:id="act1sc3" n="3">
                         <head>Scaena III</head>
                         <stage type="setting">Mario accedunt legati Numidae Aspar et Dabar.</stage>
 
@@ -717,7 +801,7 @@
                     </div>
                     <!-- End Scaena III -->
                     <!-- Begin Scaena IV -->
-                    <div type="textpart" xml:id="act1sc4">
+                    <div type="textpart" subtype="scene" xml:id="act1sc4" n="4">
                         <head>Scaena IV</head>
 
                         <stage type="setting"><supplied reason="omitted">Aspar, Sulla et
@@ -883,7 +967,7 @@
                     </div>
                     <!-- End Scaena IV -->
                     <!-- Begin Scaena V -->
-                    <div type="textpart" xml:id="act1sc5">
+                    <div type="textpart" subtype="scene" xml:id="act1sc5" n="5">
                         <head>Scaena V</head>
                         <stage type="setting">Prioribus accedit Volux et tandem Marius.</stage>
 
@@ -926,7 +1010,7 @@
                     </div>
                     <!-- End Scaena V -->
                     <!-- Begin Scaena VI -->
-                    <div type="textpart" xml:id="act1sc6">
+                    <div type="textpart" subtype="scene" xml:id="act1sc6" n="6">
                         <head>Scaena VI</head>
                         <stage type="setting">Prioribus accedit Marius solus.</stage>
 
@@ -990,7 +1074,7 @@
                     </div>
                     <!-- End Scaena VI -->
                     <!-- Begin Scanea VII -->
-                    <div type="textpart" xml:id="act1sc7">
+                    <div type="textpart" subtype="scene" xml:id="act1sc7" n="7">
                         <head>Scaena VII</head>
                         <stage type="setting">Marius et Dabar.</stage>
 
@@ -1068,10 +1152,10 @@
                 </div>
                 <!-- End Actus I -->
                 <!-- Begin Actus II -->
-                <div type="textpart">
+                <div type="textpart" subtype="act" xml:id="actus-ii" n="2">
                     <head>Actus II</head>
                     <!-- Begin Scaena I -->
-                    <div type="textpart" xml:id="act2sc1">
+                    <div type="textpart" subtype="scene" xml:id="act2sc1" n="1">
                         <head>Scaena I</head>
                         <stage type="setting">Bocchus cum exercitu Maurorum et Gaetulorum.</stage>
 
@@ -1120,7 +1204,7 @@
                     </div>
                     <!-- End Scaena I -->
                     <!-- Begin Scaena II -->
-                    <div type="textpart" xml:id="act2sc2">
+                    <div type="textpart" subtype="scene" xml:id="act2sc2" n="2">
                         <head>Scaena II</head>
                         <stage type="setting">Boccho accedunt Aspar et Sulla.</stage>
 
@@ -1318,7 +1402,7 @@
                     </div>
                     <!--End Scaena II-->
                     <!--Begin Scaena III-->
-                    <div type="textpart" xml:id="act2sc3">
+                    <div type="textpart" subtype="scene" xml:id="act2sc3" n="3">
                         <head>Scaena III</head>
                         <stage type="setting">Boccho accedit Iugurtha cum duodecim
                             militibus.</stage>
@@ -1390,7 +1474,7 @@
                     </div>
                     <!--End Scaena III-->
                     <!--Begin Scaena IV-->
-                    <div type="textpart" xml:id="act2sc4">
+                    <div type="textpart" subtype="scene" xml:id="act2sc4" n="4">
                         <head xml:id="act2sc4head">Scaena IV</head>
                         <note target="#act2sc4head" type="commentary" xml:id="noteact2sc4">For this
                             scene and the next cf. Lohenstein, <title>Sophonisbe</title>
@@ -1573,7 +1657,7 @@
                     </div>
                     <!--End Scaena IV-->
                     <!--Begin Scaena V-->
-                    <div type="textpart" xml:id="act2sc5">
+                    <div type="textpart" subtype="scene" xml:id="act2sc5" n="5">
                         <head>Scaena V </head>
                         <stage type="setting">Massinissa ad Iugurtham dormientem.</stage>
 
@@ -1630,7 +1714,7 @@
                     </div>
                     <!--End Scaena V-->
                     <!--Begin Episodium-->
-                    <div type="textpart" xml:id="act2ep">
+                    <div type="textpart" subtype="scene" xml:id="act2ep">
                         <head>Episodium</head>
                         <stage type="setting">Nobilis Cirthae urbis iuventus.</stage>
 
@@ -1827,7 +1911,7 @@
                 </div>
                 <!--End Actus II-->
                 <!--Begin Chorus I-->
-                <div type="textpart" xml:id="chorus1">
+                <div type="textpart" subtype="chorus" xml:id="chorus1" n="1">
                     <head>Chorus I</head>
                     <stage type="setting">Hercules, Megara, Lycus, Creon.</stage>
 
@@ -1934,10 +2018,10 @@
                 </div>
                 <!--End Chorus I-->
                 <!--Begin Actus III-->
-                <div type="textpart" xml:id="act3">
+                <div type="textpart" subtype="act" xml:id="act3" n="3">
                     <head>Actus III</head>
                     <!--Begin Scaena I-->
-                    <div type="textpart" xml:id="act3sc1">
+                    <div type="textpart" subtype="scene" xml:id="act3sc1" n="1">
                         <head xml:id="act3sc1head">Scaena I</head>
                         <note target="#act3sc1head" type="commentary" xml:id="noteact3sc1">In this
                             scene, the verses were rearranged according to Resch’s own corrections
@@ -2096,7 +2180,7 @@
                     </div>
                     <!--End Scaena I-->
                     <!--Begin Scaena II-->
-                    <div type="textpart" xml:id="act3sc2">
+                    <div type="textpart" subtype="scene" xml:id="act3sc2" n="2">
                         <head>Scaena II</head>
                         <stage type="setting">Aspar et Bocchus.</stage>
 
@@ -2188,7 +2272,7 @@
                     </div>
                     <!--End Scaena II-->
                     <!--Begin Scaena III-->
-                    <div type="textpart" xml:id="act3sc3">
+                    <div type="textpart" subtype="scene" xml:id="act3sc3" n="3">
                         <head>Scaena III</head>
                         <stage type="setting">Remanet Aspar et venit Iugurtha.</stage>
 
@@ -2259,7 +2343,7 @@
                     </div>
                     <!--End Scaena III-->
                     <!--Begin Scaena IV-->
-                    <div type="textpart" xml:id="act3sc4">
+                    <div type="textpart" subtype="scene" xml:id="act3sc4" n="4">
                         <head>Scaena IV</head>
                         <stage type="setting">Iugurtha et Bocchus soli.</stage>
                         <sp who="#iugurtha">
@@ -2323,7 +2407,7 @@
                     </div>
                     <!--End Scaena IV-->
                     <!--Begin Scaena V-->
-                    <div type="textpart" xml:id="act3sc5">
+                    <div type="textpart" subtype="scene" xml:id="act3sc5" n="5">
                         <head>Scaena V</head>
                         <stage type="setting">Bocchus et Sulla.</stage>
 
@@ -2460,7 +2544,7 @@
                     </div>
                     <!--End Scaena V-->
                     <!--Begin Scaena VI-->
-                    <div type="textpart" xml:id="act3sc6">
+                    <div type="textpart" subtype="scene" xml:id="act3sc6" n="6">
                         <head>Scaena VI</head>
                         <stage type="setting">Prioribus accedit Aspar.</stage>
 
@@ -2537,10 +2621,10 @@
                 </div>
                 <!--End Actus III-->
                 <!--Begin Actus IV-->
-                <div type="textpart">
+                <div type="textpart" subtype="act" xml:id="actus-iv" n="4">
                     <head>Actus IV</head>
                     <!--Begin Scaena I-->
-                    <div type="textpart" xml:id="act4sc1">
+                    <div type="textpart" subtype="scene" xml:id="act4sc1" n="1">
                         <head>Scaena I</head>
                         <stage type="setting">Marius, Dabar, Euripedes, A. Manlius et exercitus
                             Romanorum.</stage>
@@ -2578,7 +2662,7 @@
                     </div>
                     <!--End Scaena I-->
                     <!--Begin Scaena II-->
-                    <div type="textpart" xml:id="act4sc2">
+                    <div type="textpart" subtype="scene" xml:id="act4sc2" n="2">
                         <head>Scaena II</head>
                         <stage type="setting">Priores excepto Dabare.</stage>
                         <sp who="#euripedes">
@@ -2652,7 +2736,7 @@
                     </div>
                     <!--End Scaena II-->
                     <!--Begin Scaena III-->
-                    <div type="textpart" xml:id="act4sc3">
+                    <div type="textpart" subtype="scene" xml:id="act4sc3" n="3">
                         <head>Scaena III</head>
                         <stage type="setting">Prioribus accedit C. Octavius Rufo legatus Roma
                             missus.</stage>
@@ -2712,7 +2796,7 @@
                     </div>
                     <!--End Scaena III-->
                     <!--Begin Scaena IV-->
-                    <div type="textpart" xml:id="act4sc4">
+                    <div type="textpart" subtype="scene" xml:id="act4sc4" n="4">
                         <head>Scaena IV</head>
                         <stage type="setting">Prioribus accedit Dabar.</stage>
 
@@ -2847,7 +2931,7 @@
                     </div>
                     <!--End Scaena IV-->
                     <!--Begin Scaena V-->
-                    <div type="textpart" xml:id="act4sc5">
+                    <div type="textpart" subtype="scene" xml:id="act4sc5" n="5">
                         <head>Scaena V</head>
                         <stage type="setting">Umbra Massinissae.</stage>
 
@@ -2927,7 +3011,7 @@
                 </div>
                 <!--End Actus IV-->
                 <!--Begin Chorus II-->
-                <div type="textpart" xml:id="chor2">
+                <div type="textpart" subtype="chorus" xml:id="chor2" n="2">
                     <head>Chorus II</head>
                     <stage type="setting">Hercules, Lycus, Captivus primus et secundus cum quattuor
                         ephebis.</stage>
@@ -3177,10 +3261,10 @@
                 </div>
                 <!--End Chorus II-->
                 <!--Begin Actus V-->
-                <div type="textpart" xml:id="act5">
+                <div type="textpart" subtype="act" xml:id="actus-v" n="5">
                     <head xml:id="act5head">Actus V</head>
                     <!--Begin Scaena I-->
-                    <div type="textpart" xml:id="act5sc1">
+                    <div type="textpart" subtype="scene" xml:id="act5sc1" n="1">
                         <head>Scaena I</head>
                         <stage type="setting">Iugurtha solus.</stage>
                         <sp who="#iugurtha">
@@ -3252,7 +3336,7 @@
                     </div>
                     <!-- End Act 5, Scene 1 -->
                     <!-- Begin Act 5, Scene 2 -->
-                    <div type="textpart" xml:id="act5sc2">
+                    <div type="textpart" subtype="scene" xml:id="act5sc2" n="2">
                         <head>Scaena II</head>
                         <stage type="setting">Iugurthae accedunt nobiles Cirthenses.</stage>
 
@@ -3360,7 +3444,7 @@
                     </div>
                     <!-- End Act 5, Scene 2 -->
                     <!-- Begin Act 5, Scene 3 -->
-                    <div type="textpart" xml:id="act5sc3">
+                    <div type="textpart" subtype="scene" xml:id="act5sc3" n="3">
                         <head>Scaena III</head>
                         <stage type="setting">Iugurthae accedunt Volux, Vermina, Iuba et
                             Disalces.</stage>
@@ -3561,7 +3645,7 @@
                     </div>
                     <!-- End Act 5, Scene 3 -->
                     <!-- Begin Act 5, Scene 4 -->
-                    <div type="textpart" xml:id="act5sc4">
+                    <div type="textpart" subtype="scene" xml:id="act5sc4" n="4">
                         <head>Scaena IV</head>
                         <stage type="setting">Iugurtha solus.</stage>
 
@@ -3614,7 +3698,7 @@
                     </div>
                     <!-- End Act 5, Scene 4 -->
                     <!-- Begin Act 5, Scene 5 -->
-                    <div type="textpart" xml:id="act5sc5">
+                    <div type="textpart" subtype="scene" xml:id="act5sc5" n="5">
                         <head>Scaena V</head>
                         <stage type="setting">Umbra Massinissae.</stage>
 
@@ -3701,7 +3785,7 @@
                     </div>
                     <!-- End Act 5, Scene 5 -->
                     <!-- Begin Act 5, Scene 6 -->
-                    <div type="textpart" xml:id="act5sc6">
+                    <div type="textpart" subtype="scene" xml:id="act5sc6" n="6">
                         <head>Scaena VI</head>
                         <stage type="setting">Iugurtha solus desperabundus.</stage>
 
@@ -3759,7 +3843,7 @@
                     </div>
                     <!-- End Act 5, Scene 6 -->
                     <!-- Begin Act 5, Scene 7 -->
-                    <div type="textpart" xml:id="act5sc7">
+                    <div type="textpart" subtype="scene" xml:id="act5sc7" n="7">
                         <head>Scaena VII</head>
                         <stage type="setting">Iugurthae accedit Aspar.</stage>
 
@@ -3843,7 +3927,7 @@
                     </div>
                     <!-- End Act 5, Scene 7 -->
                     <!-- Begin Act 5, Scene 8 -->
-                    <div type="textpart" xml:id="act5sc8">
+                    <div type="textpart" subtype="scene" xml:id="act5sc8" n="8">
                         <head>Scaena VIII</head>
                         <stage type="setting">Prioribus accedit Bocchus.</stage>
                         <sp who="#bocchus">
@@ -3943,7 +4027,7 @@
                     </div>
                     <!-- End Act 5, Scene 8 -->
                     <!-- Begin Act 5, Scene 9 -->
-                    <div type="textpart" xml:id="act5sc9">
+                    <div type="textpart" subtype="scene" xml:id="act5sc9" n="9">
                         <head>Scaena IX</head>
                         <stage type="setting">Remanent Bocchus et Iugurtha.</stage>
 
@@ -3997,7 +4081,7 @@
                     </div>
                     <!-- End Act 5, Scene 9 -->
                     <!-- Begin Act 5, Scene 10 -->
-                    <div type="textpart" xml:id="act5sc10">
+                    <div type="textpart" subtype="scene" xml:id="act5sc10" n="10">
                         <head>Scaena X</head>
                         <stage type="setting">Bocchus solus.</stage>
 
@@ -4036,7 +4120,7 @@
                     </div>
                     <!-- End Act 5, Scene 10 -->
                     <!-- Begin Act 5, Scene 11 -->
-                    <div type="textpart" xml:id="act5sc11">
+                    <div type="textpart" subtype="scene" xml:id="act5sc11" n="11">
                         <head>Scaena XI</head>
                         <stage type="setting">Boccho accedit Sulla.</stage>
 
@@ -4106,7 +4190,7 @@
                     </div>
                     <!-- End Act 5, Scene 11 -->
                     <!-- Begin Act 5, Catastrophe -->
-                    <div type="textpart" xml:id="act5cat">
+                    <div type="textpart" subtype="scene" xml:id="act5cat">
                         <head>Catastrophe</head>
                         <stage type="setting">Sulla, Bocchus, Jugurtha, Aspar et tandem
                             Marius.</stage>
@@ -4417,7 +4501,7 @@
                 </div>
                 <!-- End Act 5 -->
                 <!-- Begin Epilog -->
-                <div type="textpart" xml:id="epilog">
+                <div type="textpart" subtype="epilog" xml:id="epilog">
                     <head>Epilogus musicus</head>
                     <stage type="setting"> Numidiae et Genius Romae.</stage>
 
