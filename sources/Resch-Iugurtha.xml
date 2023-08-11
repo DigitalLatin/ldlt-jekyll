@@ -63,7 +63,8 @@
         </fileDesc>
         <encodingDesc>
             <listPrefixDef>
-                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
+                <prefixDef ident="dc" matchPattern="([a-zA-Z]+)"
+                    replacementPattern="http://purl.org/dc/terms/$1"/>
             </listPrefixDef>
             <refsDecl>
                 <!-- There's a citeStructure for each section of the document we want to a) appear in the ToC,
@@ -103,43 +104,22 @@
                 <citeStructure match="//div[@type='edition']" use="head">
                     <citeData property="dc:title" use="head"/>
                     <citeData property="function" use="'toc-entry'"/>
-                    <citeStructure match="./div[@subtype='prologue']" use="@n" unit="prologue" delim=" ">    
+                    <citeStructure
+                        match="./div[@subtype='prologue' or @subtype='act' or @subtype='chorus' or @subtype='epilog']"
+                        use="@n" unit="section" delim=" ">
                         <citeData property="dc:title" use="head"/>
                         <citeData property="dc:identifier" use="@n"/>
                         <citeData property="function" use="'toc-entry'"/>
                         <citeData property="function" use="'split'"/>
-                        <!-- What does this do? -->
-                        <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
-                    </citeStructure>
-                    <citeStructure match="./div[@subtype='act']" use="@n" unit="act" delim='.'>    
-                        <citeData property="dc:title" use="head"/>
-                        <citeData property="dc:identifier" use="@n"/>
-                        <citeData property="function" use="'toc-entry'"/>
-                        <citeData property="function" use="'split'"/>
-                        <!-- What does this do? -->
-                        <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+                        <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
                         <citeStructure match="./div[@subtype='scene']" use="@n" delim="." unit="scene">
                             <citeData property="dc:title" use="head"/>
                             <citeData property="dc:identifier" use="@n"/>
                             <citeData property="function" use="'toc-entry'"/>
                             <citeData property="function" use="'split'"/>
+                            <citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line"/>
                         </citeStructure>
-                    </citeStructure>
-                    <citeStructure match="./div[@subtype='chorus']" use="@n" unit="chorus" delim=" ">    
-                        <citeData property="dc:title" use="head"/>
-                        <citeData property="dc:identifier" use="@n"/>
-                        <citeData property="function" use="'toc-entry'"/>
-                        <citeData property="function" use="'split'"/>
-                        <!-- What does this do? -->
-                        <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
-                        <citeStructure match="./div[@subtype='epilog']" use="@n" unit="epilog" delim=" ">    
-                            <citeData property="dc:title" use="head"/>
-                            <citeData property="dc:identifier" use="@n"/>
-                            <citeData property="function" use="'toc-entry'"/>
-                            <citeData property="function" use="'split'"/>
-                            <!-- What does this do? -->
-                            <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
-                        </citeStructure>
+                        <citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line"/>
                     </citeStructure>
                 </citeStructure>
             </refsDecl>
