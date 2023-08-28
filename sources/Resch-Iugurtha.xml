@@ -72,7 +72,7 @@
              @match selects the document section(s) to be used in resolving citations. 
              @use indicates the the string that will be used in citations. -->
                 <citeStructure match="//front/div[@xml:id='preface']" use="head">
-                    <!-- Defines the identifier to use for this structure -->
+                    <!-- Defines the identifier to use for this structure --> 
                     <citeData property="dc:identifier" use="@xml:id"/>
                     <!-- Defines the title to be used for this structure (e.g. in a ToC) -->
                     <citeData property="dc:title" use="'Preface'"/>
