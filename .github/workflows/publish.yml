@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - run: echo "BEFORE=${{ github.event.before }}" >> $GITHUB_ENV
       - run: echo "AFTER=${{ github.event.after }}" >> $GITHUB_ENV
       - uses: ./.github/actions/publish
