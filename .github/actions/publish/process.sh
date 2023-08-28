@@ -1,11 +1,6 @@
 #!/bin/bash
 
-echo `pwd`
-echo `ls -la`
-echo "$BEFORE"
-echo "$AFTER"
-echo "git diff --name-only $BEFORE..$AFTER"
-FILES=$(git diff --name-only $BEFORE..$AFTER | grep "sources/.*\.xml")
+#FILES=$(git diff --name-only $BEFORE..$AFTER | grep "sources/.*\.xml")
 echo "files: $FILES"
 
 convert() {
