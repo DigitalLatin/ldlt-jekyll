@@ -28,6 +28,21 @@ div#editing button svg { vertical-align: unset; }
 
 div#citesearch input { width: 6em; }
 
+/* Front Page */
+div#frontpage { margin-top: 1rem; position: relative; width: 70vw; }
+
+div#frontpage a { text-decoration: underline; }
+
+div#frontpage a:link, div#frontpage a:visited, div#frontpage:active { color: black; text-decoration: underline; }
+
+div#frontpage { margin: auto; max-width: 50vw; }
+
+.toc ul li { list-style: none; }
+
+.toc ul.inline { display: flex; flex-wrap: wrap; }
+
+.toc ul.inline li:not(:last-child)::after { white-space: pre; content: ', '; }
+
 /* Apparatus */
 div.apparatus tei-app { display: inline; font-size: smaller; }
 
@@ -60,7 +75,7 @@ div.apparatus tei-app tei-wit { display: inline; font-style: italic; }
 div.apparatus tei-app > tei-note { display: inline; font-style: italic; }
 
 /*TODO: figure out what to do with source lists.*/
-tei-div[type="sources"] { display: none; }
+tei-div[type="sources"] { /* display: none; */ }
 
 tei-div button.app { border: thin solid white; background-color: white; font-size: 120%; width: 25px; height: 20px; padding: 0px; }
 
@@ -72,7 +87,7 @@ button:focus { outline: none; }
 
 tei-div span.apps { display: inline; position: absolute; right: 1em; }
 
-tei-p span.apps { display: inline; position: absolute; right: -20%; top: 0px; width: 80px; }
+tei-p span.apps { display: inline; position: absolute; right: -5rem; top: 0px; width: 80px; }
 
 /* Apparatus tooltips */
 div.apparatus span.lineref { display: none; }
@@ -370,7 +385,7 @@ tei-cell item { margin-left: 1em; }
 /* l */
 tei-l { display: block; margin-left: 4em; }
 
-tei-l[data-num]:before { bottom: -.3em; content: attr(data-num); display: block; float: left; font-size: .8em; margin-left: -4em; position: relative; text-align: right; width: 3em; }
+tei-l[data-num]:before { bottom: -.3em; content: attr(data-num); display: block; float: left; font-size: .8em; margin-left: -10vw; position: relative; text-align: right; width: 3em; }
 
 tei-l tei-label { display: block; float: left; margin-left: -7em; text-align: right; width: 4em; font-weight: bold; }
 
@@ -670,11 +685,11 @@ div#prevNext a { color: black; text-decoration: underline; text-decoration-style
 
 .hidden { display: none; }
 
-div.notes { max-width: 70vw; }
+div.notes { max-width: 70vw; margin-top: 2em; }
 
 @media (min-width: 992px) { div.notes { width: auto; } }
 
-ol.notes { list-style: none; margin: auto; max-width: 50vw; }
+ol.notes { border-top: thin solid silver; list-style: none; margin: auto; max-width: 50vw; }
 
 ol.notes > li > a { display: block; float: left; font-family: Courier, monospace; margin-left: -4em; text-align: right; width: 3em; }
 
