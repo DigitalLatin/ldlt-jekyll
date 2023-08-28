@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo `pwd`
+echo `ls -l`
 FILES=$(git diff --name-only $BEFORE..$AFTER | grep "sources/.*\.xml")
 echo "files: $FILES"
 
