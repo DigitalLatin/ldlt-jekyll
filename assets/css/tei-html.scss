@@ -181,7 +181,7 @@ div.apparatus tei-app>tei-note {
 /*TODO: figure out what to do with source lists.*/
 
 tei-div[type="sources"] {
-    display: none;
+    /* display: none; */
 }
 
 tei-div button.app {
@@ -214,7 +214,7 @@ tei-div span.apps {
 tei-p span.apps {
     display: inline;
     position: absolute;
-    right: -20%;
+    right: -5rem;
     top: 0px;
     width: 80px;
 }
@@ -947,7 +947,7 @@ tei-l[data-num]:before {
     display: block;
     float: left;
     font-size: .8em;
-    margin-left: -4em;
+    margin-left: -10vw;
     position: relative;
     text-align: right;
     width: 3em;
@@ -1711,13 +1711,15 @@ div#prevNext a {
 }
 
 div.notes {
-    max-width: 70vw;
-    @media (min-width: 992px) {
-        width: auto;
-    }
+  max-width: 70vw;
+  @media (min-width: 992px) {
+      width: auto;
+  }
+  margin-top: 2em;
 }
 
 ol.notes {
+  border-top: thin solid silver;
     list-style: none;
     margin: auto;
     max-width: 50vw;

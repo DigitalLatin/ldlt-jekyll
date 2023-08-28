@@ -76,7 +76,7 @@
                     <!-- Defines the identifier to use for this structure -->
                     <citeData property="dc:identifier" use="@xml:id"/>
                     <!-- Defines the title to be used for this structure (e.g. in a ToC) -->
-                    <citeData property="dc:title" use="head"/>
+                    <citeData property="dc:title" use="'Preface'"/>
                     <!-- Specifies a function for this structure, in this case, it should be used as an entry in the ToC. -->
                     <citeData property="function" use="'toc-entry'"/>
                     <citeStructure match="./div[@type='section']" use="head" delim=", ">
@@ -93,33 +93,36 @@
                     <citeData property="dc:identifier" use="@xml:id"/>
                     <citeData property="dc:title" use="head"/>
                     <citeData property="function" use="'toc-entry'"/>
-                    <citeStructure match="./div[@type='section']" use="head" delim=", ">
-                        <citeData property="dc:identifier" use="@xml:id"/>
-                        <citeData property="dc:title" use="head"/>
-                        <citeData property="function" use="'toc-entry'"/>
-                        <citeData property="function" use="'split'"/>
-                    </citeStructure>
+                    <citeData property="function" use="'split'"/>
                 </citeStructure>
                 <!-- The @unit attribute marks a citeStructure as a citable unit and makes e.g., 4.100 resolvable to poem 4, line 100. -->
                 <citeStructure match="//div[@type='edition']" use="head">
                     <citeData property="dc:title" use="head"/>
                     <citeData property="function" use="'toc-entry'"/>
                     <citeStructure
-                        match="./div[@subtype='prologue' or @subtype='act' or @subtype='chorus' or @subtype='epilog']"
-                        use="@n" unit="section" delim=" ">
+                        match="./div[@subtype='prologue' or @subtype='chorus' or @subtype='epilog']"
+                        use="''" unit="section" delim="">
                         <citeData property="dc:title" use="head"/>
-                        <citeData property="dc:identifier" use="@n"/>
+                        <citeData property="dc:identifier" use="@xml:id"/>
                         <citeData property="function" use="'toc-entry'"/>
                         <citeData property="function" use="'split'"/>
                         <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
-                        <citeStructure match="./div[@subtype='scene']" use="@n" delim="." unit="scene">
+                        <citeStructure match=".//l[parent::sp]" use="@n" delim="" unit="line"/>
+                    </citeStructure>
+                    <citeStructure
+                        match="./div[@subtype='act']"
+                        use="''" unit="section" delim="">
+                        <citeData property="dc:title" use="head"/>
+                        <citeData property="dc:identifier" use="@n"/>
+                        <citeData property="function" use="'toc-entry'"/>
+                        <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
+                        <citeStructure match="./div[@subtype='scene']" use="''" delim="" unit="scene">
                             <citeData property="dc:title" use="head"/>
-                            <citeData property="dc:identifier" use="@n"/>
+                            <citeData property="dc:identifier" use="@xml:id"/>
                             <citeData property="function" use="'toc-entry'"/>
                             <citeData property="function" use="'split'"/>
-                            <citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line"/>
+                            <citeStructure match=".//l[parent::sp]" use="@n" delim="" unit="line"/>
                         </citeStructure>
-                        <citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line"/>
                     </citeStructure>
                 </citeStructure>
             </refsDecl>
@@ -398,7 +401,7 @@
                         <l xml:id="d1e627" n="9">vertite stamen!</l>
                         <l xml:id="d1e630" n="10">De nigro vellere</l>
                         <l xml:id="d1e633" n="11">frangite stamen!<note target="#d1e633"
-                                type="parallel" xml:id="nd1e633">De nigro … stamen] Cf. Ov. Trist.
+                                type="parallel" xml:id="nd1e633" place="foot">De nigro … stamen] Cf. Ov. Trist.
                                 4.1.64.</note></l>
                     </sp>
 
@@ -464,7 +467,7 @@
                         <l xml:id="d1e793" n="42">Heu mihi! Velut a texente vita mea
                             praeciditur;</l>
                         <l xml:id="d1e800" n="43">cum vir ordirer, succiditur.<note target="#d1e800"
-                                type="parallel" xml:id="nd1e800">Velut … succiditur] Cf. Isa.
+                                type="parallel" xml:id="nd1e800" place="foot">Velut … succiditur] Cf. Isa.
                                 38:12.</note></l>
                         <l xml:id="d1e806" n="44">Vix orior,</l>
                         <l xml:id="d1e809" n="45">morior.</l>
@@ -572,7 +575,7 @@
                                 super,</l>
                             <l xml:id="d1e1059" n="97">quo se Iugurtha recipit et adhuc insolens</l>
                             <l xml:id="d1e1062" n="98">nec clade tanta domitus insultat tibi.<note
-                                    target="#d1e1062" xml:id="nd1e1062" type="parallel">Romane …
+                                    target="#d1e1062" xml:id="nd1e1062" type="parallel" place="foot">Romane …
                                     tibi] Cf. Claus, <title>Scipio</title> 1–6.</note></l>
                             <l xml:id="d1e1071" n="99">Dubitare segnes Martius prohibet furor.</l>
                             <l xml:id="d1e1074" n="100">Stringamus enses, impiger in hostem rue,</l>
@@ -595,7 +598,7 @@
                             <l xml:id="d1e1101" n="108">Utamur animis, dum calent! Signum tuba</l>
                             <l xml:id="d1e1108" n="109">det impetendis moenibus! Ad arma,
                                     socii!<note target="#d1e1108" type="parallel" xml:id="nd1e1108"
-                                    >signum … moenibus] Cf. Claus, <title>Scipio</title>
+                                    place="foot">signum … moenibus] Cf. Claus, <title>Scipio</title>
                                 11.</note></l>
                         </sp>
                     </div>
@@ -609,7 +612,7 @@
                             <speaker>Sul.</speaker>
                             <l xml:id="d1e1130" n="110">Romane miles! Quem capis quaeso impetum,</l>
                             <l xml:id="d1e1137" n="111">suspende paulum! Sanguini parcas velim,<note
-                                    target="#d1e1137" xml:id="nd1e1137" type="parallel">Romane …
+                                    target="#d1e1137" xml:id="nd1e1137" type="parallel" place="foot">Romane …
                                     velim] Cf. Claus, <title>Scipio</title> 12–13.</note></l>
                             <l xml:id="d1e1150" n="112">ubi sine caro sanguine urbs tradi queat.</l>
                         </sp>
@@ -633,7 +636,7 @@
                             <l xml:id="d1e1184" n="120">hesterna lux militibus. Is palmam
                                 afferet,</l>
                             <l xml:id="d1e1187" n="121">captivus iste capiet hostiles duces.<note
-                                    target="#d1e1187" xml:id="nd1e1187" type="parallel">Mihi obtulit
+                                    target="#d1e1187" xml:id="nd1e1187" type="parallel" place="foot">Mihi obtulit
                                     … duces] Cf. Claus, <title>Scipio</title> 33–35.</note></l>
                         </sp>
 
@@ -656,13 +659,13 @@
                             <l xml:id="d1e1219" n="125">Sat magna spondet Lucius: Absque
                                 sanguine</l>
                             <l xml:id="d1e1226" n="126">obsessa Cirtha veniat in manus meas?<note
-                                    target="#d1e1226" xml:id="nd1e1226" type="parallel">Sat … meas]
+                                    target="#d1e1226" xml:id="nd1e1226" type="parallel" place="foot">Sat … meas]
                                     Cf. Claus, <title>Scipio</title> 39–40.</note></l>
                             <l xml:id="d1e1240" n="127">Haec hora mihi victoriae palmam afferat,</l>
                             <l xml:id="d1e1243" n="128">Bocchum et Iugurtham supplices sistat
                                 mihi?</l>
                             <l xml:id="d1e1246" n="129">Captivus unus capiet hostiles duces?<note
-                                    target="#d1e1246" xml:id="nd1e1246" type="parallel">Captivus …
+                                    target="#d1e1246" xml:id="nd1e1246" type="parallel" place="foot">Captivus …
                                     duces] Cf. Claus, <title>Scipio</title> 41.</note></l>
                             <l xml:id="d1e1261" n="130">An fida Sullae sponsio? Fidus mihi
                                 semper</l>
@@ -694,14 +697,14 @@
                             <l xml:id="d1e1302" n="138">Sibi gratulatur Marius hostilis ducis</l>
                             <l xml:id="d1e1309" n="139">praesentiam, cui publica haud opus fide.</l>
                             <l xml:id="d1e1312" n="140">Scit hospitales Marius excipere viros.<note
-                                    target="#d1e1312" xml:id="nd1e1312" type="parallel">Sibi
+                                    target="#d1e1312" xml:id="nd1e1312" type="parallel" place="foot">Sibi
                                     gratulatur … viros] Cf. Claus, <title>Scipio</title>
                                     61–63.</note></l>
                             <l xml:id="d1e1325" n="141">Sed loquere, quaenam causa vos sistat
                                 mihi?</l>
                             <l xml:id="d1e1329" n="142">Pacisne fert consilia, num supplex manum</l>
                             <l xml:id="d1e1332" n="143">urbemque rex Iugurtha Romanis dabit?<note
-                                    target="#d1e1332" xml:id="nd1e1332" type="parallel">Pacisne …
+                                    target="#d1e1332" xml:id="nd1e1332" type="parallel" place="foot">Pacisne …
                                     dabit] Cf. Claus, <title>Scipio</title> 65–66.</note></l>
                         </sp>
 
@@ -712,7 +715,7 @@
                             <l xml:id="d1e1352" n="145">dum sustinere tela, dum ferrum potest,</l>
                             <l xml:id="d1e1355" n="146">nemo videbit supplicem. Fateor tamen</l>
                             <l xml:id="d1e1358" n="147">hodie ad petendam gratiam impelli meum<note
-                                    target="#d1e1358" xml:id="nd1e1358" type="parallel">Iugurthae
+                                    target="#d1e1358" xml:id="nd1e1358" type="parallel" place="foot">Iugurthae
                                     manum … impelli] Cf. Claus, <title>Scipio</title>
                                 67–71.</note></l>
                             <l xml:id="d1e1368" n="148">Bocchum et Iugurtham, non tamen pacem
@@ -723,7 +726,7 @@
                             <speaker>Dab.</speaker>
                             <l xml:id="d1e1371" n="149">Iuvat ruinis immori. Nam patria</l>
                             <l xml:id="d1e1378" n="150">cadente ferro cadere, si fatum iubet,<note
-                                    target="#d1e1378" xml:id="nd1e1378" type="parallel">Iuvat …
+                                    target="#d1e1378" xml:id="nd1e1378" type="parallel" place="foot">Iuvat …
                                     iubet] Cf. Claus, <title>Scipio</title> 74–75.</note></l>
                             <l xml:id="d1e1386" n="151" part="I">fore gloriosum censeo.</l>
                         </sp>
@@ -732,7 +735,7 @@
                             <speaker>Asp.</speaker>
                             <l xml:id="d1e1387" part="F">Haec onerant nihil,</l>
                             <l xml:id="d1e1392" n="152">sed alia cura pectus afflictum premit.<note
-                                    target="#d1e1392" xml:id="nd1e1392" type="parallel">sed alia …
+                                    target="#d1e1392" xml:id="nd1e1392" type="parallel" place="foot">sed alia …
                                     premit] Claus, <title>Scipio</title> 76.</note></l>
                         </sp>
 
@@ -773,7 +776,7 @@
                             <speaker>Asp.</speaker>
                             <l xml:id="d1e1453" part="F">Hospes aut hostis veni –</l>
                             <l xml:id="d1e1458" n="163">Iugurtha te recipere, prout decet,
-                                    sciet.<note target="#d1e1458" xml:id="nd1e1458" type="parallel"
+                                    sciet.<note target="#d1e1458" xml:id="nd1e1458" type="parallel" place="foot"
                                     >Reviso … sciet] Cf. Claus, <title>Scipio</title>
                                 97–100.</note></l>
                         </sp>
@@ -791,7 +794,7 @@
                             <speaker>Sul.</speaker>
                             <l xml:id="d1e1481" n="164">
                                 <stage type="delivery">(solus)</stage> Subsiste quaeso paululum,
-                                verbum unicum!<note target="#d1e1481" type="parallel"
+                                verbum unicum!<note target="#d1e1481" type="parallel" place="foot"
                                     xml:id="nd1e1481">Subsiste … unicum] Cf. Claus,
                                         <title>Scipio</title> 111.</note></l>
                         </sp>
@@ -801,7 +804,7 @@
                             <l xml:id="d1e1501" n="165">Ego tecum ad urbis moenia obsessae
                                 loquar,</l>
                             <l xml:id="d1e1508" n="166">et non nisi ore ferreo verba faciam.<note
-                                    target="#d1e1508" xml:id="nd1e1508" type="parallel">Ego tecum …
+                                    target="#d1e1508" xml:id="nd1e1508" type="parallel" place="foot">Ego tecum …
                                     faciam] Cf. Claus, <title>Scipio</title> 116–117.</note></l>
                         </sp>
 
@@ -810,7 +813,7 @@
                             <l xml:id="d1e1522" n="167">Satis superbe haec dicta. Linguam
                                 ferream</l>
                             <l xml:id="d1e1529" n="168">ferrum securis molliet, dum adhuc
-                                    calet.<note target="#d1e1529" xml:id="nd1e1529" type="parallel"
+                                    calet.<note target="#d1e1529" xml:id="nd1e1529" type="parallel" place="foot"
                                     >Satis superbe … calet] Cf. Claus, <title>Scipio</title>
                                     121–122.</note></l>
                             <l xml:id="d1e1537" n="169">Agitare pacis consilia suadet modo</l>
@@ -823,7 +826,7 @@
                             <l xml:id="d1e1543" n="171">Egone Quiritum dexteram attingam? Prius</l>
                             <l xml:id="d1e1550" n="172">exstinguet ortus, referet occasus diem,</l>
                             <l xml:id="d1e1554" n="173">pax ante fida nivibus et flammis erit,<note
-                                    target="#d1e1554" xml:id="nd1e1554" type="parallel">Prius
+                                    target="#d1e1554" xml:id="nd1e1554" type="parallel" place="foot">Prius
                                     exstinguet … erit] Sen. <title>Herc. f.</title> 373–375. Cf.
                                     Resch, <title>Constantini hostia</title> 958–960.</note></l>
                             <l xml:id="d1e1562" n="174">quam Numida pacis foedus a Roma petat.</l>
@@ -832,7 +835,7 @@
                         <sp who="#sulla">
                             <speaker>Sul.</speaker>
                             <l xml:id="d1e1565" n="175">Admitte sana monita, quae a Sulla
-                                    audies!<note target="#d1e1565" xml:id="nd1e1565" type="parallel"
+                                    audies!<note target="#d1e1565" xml:id="nd1e1565" type="parallel" place="foot"
                                     >Admitte … monita] Claus, <title>Protasius</title>
                                 4.6.</note></l>
                             <l xml:id="d1e1578" n="176">Antiqua nostri militis facta subeant,</l>
@@ -939,7 +942,7 @@
                             <l xml:id="d1e1750" n="216">
                                 <stage type="delivery">(ad Asparem)</stage> Huc torva flecte lumina
                                 et vultus truces!<note target="#d1e1750" xml:id="nd1e1750"
-                                    type="parallel">Huc … truces] Claus, <title>Scipio</title>
+                                    type="parallel" place="foot">Huc … truces] Claus, <title>Scipio</title>
                                     123.</note></l>
                             <l xml:id="d1e1770" n="217">Nostine faciem hanc principis quondam
                                 tui?</l>
@@ -1123,7 +1126,7 @@
                             <speaker>Dab.</speaker>
                             <l xml:id="d1e2096" n="288">Concedo victas consuli Mario manus.</l>
                             <l xml:id="d1e2103" n="289">Urbs Cirtha veniat in manus hodie tuas.<note
-                                    target="#d1e2103" xml:id="nd1e2103" type="parallel">Quam
+                                    target="#d1e2103" xml:id="nd1e2103" type="parallel" place="foot">Quam
                                     pertinacis … tuas] Cf. Lohenstein, <title>Sophonisbe</title>
                                     1.134–214.</note></l>
                         </sp>
@@ -1143,7 +1146,7 @@
                             <speaker>Boc.</speaker>
                             <l xml:id="d1e2126" n="290">Heu dura nobis fata sortemque asperam,</l>
                             <l xml:id="d1e2133" n="291">cum saevit et cum parcit ex aequo
-                                    malam!<note target="#d1e2133" xml:id="nd1e2133" type="parallel"
+                                    malam!<note target="#d1e2133" xml:id="nd1e2133" type="parallel" place="foot"
                                     >dura … malam] Sen. <title>Med.</title> 431–432.</note></l>
                             <l xml:id="d1e2138" n="292">Ad varia me consilia converto anxius</l>
                             <l xml:id="d1e2142" n="293">periculis peiora. Si praesto fidem</l>
@@ -1152,14 +1155,14 @@
                             <l xml:id="d1e2151" n="296">misero carendum est. Non tamen vincat
                                 timor,</l>
                             <l xml:id="d1e2154" n="297">nisi sola pietas. Filium nempe unicum<note
-                                    target="#d1e2154" xml:id="nd1e2154" type="parallel">periculis …
+                                    target="#d1e2154" xml:id="nd1e2154" type="parallel" place="foot">periculis …
                                     pietas] Cf. Sen. <title>Med.</title> 434–438.</note></l>
                             <l xml:id="d1e2160" n="298">– si vivat – a morte exuere pietas
                                 petit.</l>
                             <l xml:id="d1e2164" n="299">O sancta pietas! Sancta, si caelum
                                 incolis,</l>
                             <l xml:id="d1e2167" n="300">iustitia! Numen invoco ac testor tuum:<note
-                                    target="#d1e2167" xml:id="nd1e2167" type="parallel">Sancta …
+                                    target="#d1e2167" xml:id="nd1e2167" type="parallel" place="foot">Sancta …
                                     tuum] Sen. <title>Med.</title> 439–440.</note></l>
                             <l xml:id="d1e2173" n="301">Doleo Volucem perditum, seu captus est</l>
                             <l xml:id="d1e2176" n="302">dolo Quiritum, seu – omen avertant dii!
@@ -1169,7 +1172,7 @@
                             <l xml:id="d1e2186" n="305">Ah, gnate, cur te insanus haud primum
                                 omnium</l>
                             <l xml:id="d1e2189" n="306">ad tutiora transtuli? Cur hanc ovem<note
-                                    target="#d1e2189" xml:id="nd1e2189" type="parallel">primum …
+                                    target="#d1e2189" xml:id="nd1e2189" type="parallel" place="foot">primum …
                                     transtuli] Claus, <title>Scipio</title> 140–141.</note></l>
                             <l xml:id="d1e2203" n="307">totidem luporum dentibus praedam dedi?</l>
                             <l xml:id="d1e2206" n="308">Vah Roma! Tantam gratulor victoriam</l>
@@ -1228,7 +1231,7 @@
                             <l xml:id="d1e2281" n="318">Invicte rex! Auguste regnantum decor</l>
                             <l xml:id="d1e2288" n="319">splendorque regni, cuius aspectum timet,</l>
                             <l xml:id="d1e2291" n="320">quidquid timetur, quem omne Poenorum
-                                    genus<note target="#d1e2291" xml:id="nd1e2291" type="parallel"
+                                    genus<note target="#d1e2291" xml:id="nd1e2291" type="parallel" place="foot"
                                     >cuius … timetur] Sen. <title>Herc. f.</title>
                                 726–727.</note></l>
                             <l xml:id="d1e2298" n="321">et tota Mauritania inflexo suum</l>
@@ -1238,7 +1241,7 @@
                             <l xml:id="d1e2307" n="324">parumper aure verba patienti excipe:</l>
                             <l xml:id="d1e2310" n="325">Si aeterna semper odia mortales agant</l>
                             <l xml:id="d1e2313" n="326">nec coeptus unquam cedat ex animis
-                                    furor,<note target="#d1e2313" xml:id="nd1e2313" type="parallel"
+                                    furor,<note target="#d1e2313" xml:id="nd1e2313" type="parallel" place="foot"
                                     >o clarum … furor] Cf. Sen. <title>Herc. f.</title>
                                     359–363.</note></l>
                             <l xml:id="d1e2319" n="327">fides beatas regni in inferni chaos</l>
@@ -1251,7 +1254,7 @@
                             <l xml:id="d1e2338" n="333">altus sepultos obruet homines cinis.</l>
                             <l xml:id="d1e2341" n="334">Pacem reduci velle victori expedit,</l>
                             <l xml:id="d1e2344" n="335">victo necesse est, omnium vota exigunt.<note
-                                    target="#d1e2344" xml:id="nd1e2344" type="parallel">Nihil … est]
+                                    target="#d1e2344" xml:id="nd1e2344" type="parallel" place="foot">Nihil … est]
                                     Cf. Sen. <title>Herc. f.</title> 365–369.</note></l>
                             <l xml:id="d1e2350" n="336">Te Roma poscit foederis socium sui.</l>
                             <l xml:id="d1e2353" n="337">Sociemus animos, <app>
@@ -1266,7 +1269,7 @@
                             <speaker>Boc.</speaker>
                             <l xml:id="d1e2366" n="339">Egone Volucis sanguine aspersas manus</l>
                             <l xml:id="d1e2373" n="340">contingere queam?<note target="#d1e2373"
-                                    type="parallel" xml:id="ftn31" n="31">Sociemus … queam] Cf. Sen.
+                                    type="parallel" xml:id="ftn31" n="31" place="foot">Sociemus … queam] Cf. Sen.
                                         <title>Herc. f.</title> 370–373.</note> Vos tot urbes
                                 patrias,</l>
                             <l xml:id="d1e2379" n="341">partem Numidiae tertiam et nato et mihi</l>
@@ -1412,7 +1415,7 @@
                             <l xml:id="d1e2639" n="407">terras beabit. Tunc adhuc bellum gerent</l>
                             <l xml:id="d1e2642" n="408">cum nivibus et fluminibus et cum
                                     bestiis.<note target="#d1e2642" xml:id="nd1e2642"
-                                    type="parallel">Europa … bestiis] Cf. Curt. 7.8.</note></l>
+                                    type="parallel" place="foot">Europa … bestiis] Cf. Curt. 7.8.</note></l>
                             <l xml:id="d1e2648" n="409">Iam, Bocche, mecum iudica, quid sentis?</l>
                             <l xml:id="d1e2651" n="410">Opibus an opus est, cui famem et sitim
                                 creant?</l>
@@ -1456,7 +1459,7 @@
                     <!--Begin Scaena IV-->
                     <div type="textpart" subtype="scene" xml:id="act2sc4" n="4">
                         <head xml:id="act2sc4head">Scaena IV</head>
-                        <note target="#act2sc4head" type="commentary" xml:id="noteact2sc4">For this
+                        <note target="#act2sc4head" type="commentary" xml:id="noteact2sc4" place="foot">For this
                             scene and the next cf. Lohenstein, <title>Sophonisbe</title>
                             5.1–188.</note>
                         <stage type="setting">Iugurtha et Elagabal.</stage>
@@ -1472,14 +1475,14 @@
                                 aquae,</l>
                             <l xml:id="d1e2755" n="434">cum morte vita, cum mari ventus fidem</l>
                             <l xml:id="d1e2758" n="435">foedusque iungent, ante sideribus freta
-                                    <note target="#d1e2758" xml:id="nd1e2758" type="parallel">Ante …
+                                    <note target="#d1e2758" xml:id="nd1e2758" type="parallel" place="foot">Ante …
                                     iungent] Sen. <title>Thy.</title> 480–482.</note></l>
                             <l xml:id="d1e2764" n="436">iungentur atque Tartaro tristi polus.<note
-                                    target="#d1e2764" xml:id="nd1e2764" type="parallel">ante
+                                    target="#d1e2764" xml:id="nd1e2764" type="parallel" place="foot">ante
                                     sideribus … polus] Cf. Sen. <title>Oct.</title>
                                 222–223.</note></l>
                             <l xml:id="d1e2770" n="437">Erebi sacerdos maxime, interpres
-                                    Stygis!<note target="#d1e2770" xml:id="nd1e2770" type="parallel"
+                                    Stygis!<note target="#d1e2770" xml:id="nd1e2770" type="parallel" place="foot"
                                     >Erebi sacerdos] Stefonio, <title>Flavia</title> 1.2.</note></l>
                             <l xml:id="d1e2779" n="438">Ad te, magister artis occultae, meus</l>
                             <l xml:id="d1e2783" n="439">tanto repressus pondere recurrit dolor.</l>
@@ -1489,12 +1492,12 @@
                             <speaker>Elag.</speaker>
                             <l xml:id="d1e2786" n="440">Ille ego, iuvandi mille qui varias vias</l>
                             <l xml:id="d1e2793" n="441">agnosco, vario doctor instructus dolo.<note
-                                    target="#d1e2793" xml:id="nd1e2793" type="parallel">ille … dolo]
+                                    target="#d1e2793" xml:id="nd1e2793" type="parallel" place="foot">ille … dolo]
                                     Cf. Stefonio, <title>Flavia</title> 1.2.</note></l>
                             <l xml:id="d1e2801" n="442">Circaea virtus omnia ad vota faciet.</l>
                             <l xml:id="d1e2804" n="443">Certo movebo pallidum cantu chaos,</l>
                             <l xml:id="d1e2807" n="444">torquebo retro flumina, cadentem diem<note
-                                    target="#d1e2807" xml:id="nd1e2807" type="parallel">movebo …
+                                    target="#d1e2807" xml:id="nd1e2807" type="parallel" place="foot">movebo …
                                     flumina] Cf. Stefonio, <title>Flavia</title> 1.2.</note></l>
                             <l xml:id="d1e2817" n="445">refundam in ortus, solis ereptum iubar</l>
                             <l xml:id="d1e2820" n="446">de nocte media mundus emeritus dabit.</l>
@@ -1503,14 +1506,14 @@
                             <l xml:id="d1e2829" n="449">scopuli natabunt, vasta committam locis</l>
                             <l xml:id="d1e2832" n="450">direpta vastis maria, labefacto specu</l>
                             <l xml:id="d1e2836" n="451">tellus dehiscet, cernet Acherontem
-                                    dies.<note target="#d1e2836" xml:id="nd1e2836" type="parallel"
+                                    dies.<note target="#d1e2836" xml:id="nd1e2836" type="parallel" place="foot"
                                     >cadentem … dies] Cf. Stefonio, <title>Flavia</title>
                                     1.2.</note></l>
                             <l xml:id="d1e2844" n="452">Sub pedibus ipsa mugiet tellus tuis.</l>
                             <l xml:id="d1e2847" n="453">Surgente luna numini Plutonio</l>
                             <l xml:id="d1e2850" n="454">me sisto medium, quodque vix rector
                                 Stygis</l>
-                            <l xml:id="d1e2853" n="455">auderet ipse, vulgus inter inferum,<note
+                            <l xml:id="d1e2853" n="455">auderet ipse, vulgus inter inferum,<note place="foot"
                                     target="#d1e2853" xml:id="nd1e2853" type="parallel">Surgente …
                                     ipse] Cf. Stefonio, <title>Flavia</title> 1.2.</note></l>
                             <l xml:id="d1e2862" n="456">oppono me minaciter vultu truci.</l>
@@ -1545,7 +1548,7 @@
                             <speaker>Elag.</speaker>
                             <l xml:id="d1e2916" n="469">Ergo exseratur virga, quam noctis nigra</l>
                             <l xml:id="d1e2923" n="470">defensus umbra e fraxini trunco tuli! <stage
-                                    type="business">(Virgam exserit.) </stage><note
+                                    type="business">(Virgam exserit.) </stage><note place="foot"
                                     target="#d1e2923" xml:id="nd1e2923" type="parallel">Ergo … tuli]
                                     Cf. Stefonio, <title>Flavia</title> 1.2.</note></l>
                             <l xml:id="d1e2934" n="471">Iam virga triplicem circulum ducat mihi,</l>
@@ -1570,13 +1573,13 @@
                                     <stage type="business">(mortui caput)</stage></l>
                             <l xml:id="d1e2984" n="482">Nomen Molochi huic laminae inscriptum velim,
                                     <stage type="business">(lamina)</stage>
-                                <note target="#d1e2984" xml:id="nd1e2984" type="parallel">Nomen …
+                                <note place="foot" target="#d1e2984" xml:id="nd1e2984" type="parallel">Nomen …
                                     velim] Cf. Lohenstein, <title>Sophonisbe</title>
                                 5.29.</note></l>
                             <l xml:id="d1e2997" n="483">nec minus Ephesias litteras huic circulo</l>
                             <l xml:id="d1e3000" n="484"><foreign xml:lang="grc">ἄσκι, κατάσκι, αἱξ,
                                     τετράζ, δαμναμενοὐς, αἴσιον</foreign>. <stage type="business"
-                                    >(venam incidit)</stage><note target="#d1e3000" xml:id="note484"
+                                    >(venam incidit)</stage><note place="foot" target="#d1e3000" xml:id="note484"
                                     type="commentary">Resch only roughly adopted the <foreign
                                         xml:lang="lat">ephesiae litterae</foreign>, an ancient
                                     spell. In Clement of Alexandria and Hesychius, the six words are
@@ -1609,17 +1612,17 @@
                             <l xml:id="d1e3081" n="502">hanc tangat Ixion humum,</l>
                             <l xml:id="d1e3084" n="503">vosque, quas urnis <app>
                                     <lem xml:id="lem-503-furatis">furatis</lem>
-                                    <note target="#lem-503-furatis">The manuscript has <hi
+                                    <note place="foot" target="#lem-503-furatis">The manuscript has <hi
                                             rend="normal">furatis</hi>. In Sen. <title>Med.</title>
                                         748 we find the more fitting <hi rend="normal"
                                         >foratis</hi>.</note>
                                 </app></l>
                             <l xml:id="d1e3095" n="504">frustraneus ludit labor,</l>
                             <l xml:id="d1e3099" n="505">Danaides, coite, vestram</l>
-                            <l xml:id="d1e3102" n="506">expostulo praesentiam!<note
+                            <l xml:id="d1e3102" n="506">expostulo praesentiam!<note place="foot"
                                     target="#d1e3102" xml:id="nd1e3102" type="parallel">Vos precor …
                                     praesentiam] Cf. Sen. <title>Med.</title> 740–749.</note></l>
-                            <l xml:id="d1e3107" n="507">Pessimos induta vultus<note
+                            <l xml:id="d1e3107" n="507">Pessimos induta vultus<note place="foot"
                                     target="#d1e3107" xml:id="nd1e3107" type="parallel">Pessimos …
                                     vultus] Sen. <title>Med.</title> 751.</note></l>
                             <l xml:id="d1e3112" n="508">triformis huc adsit dea!</l>
@@ -1645,7 +1648,7 @@
                             <speaker>Mass.</speaker>
                             <l xml:id="d1e3157" n="519">Quis mihi quietem turbat et animum meum</l>
                             <l xml:id="d1e3164" n="520">alto sopore conditum in lucem trahit?</l>
-                            <l xml:id="d1e3167" n="521">Tellure rupta Tartaro gressum extuli.<note
+                            <l xml:id="d1e3167" n="521">Tellure rupta Tartaro gressum extuli.<note place="foot"
                                     target="#d1e3167" xml:id="nd1e3167" type="parallel">Tellure …
                                     extuli] Sen. <title>Oct.</title> 593.</note></l>
                             <l xml:id="d1e3173" n="522">Iugurtha, tibi documenta dant cineres
@@ -1700,13 +1703,13 @@
 
                         <sp>
                             <speaker>Nob. I.</speaker>
-                            <l xml:id="d1e3273" n="548">An has querelas tempus aeternum manet?<note
+                            <l xml:id="d1e3273" n="548">An has querelas tempus aeternum manet?<note place="foot"
                                     target="#d1e3273" xml:id="nd1e3273" type="parallel">An … manet]
                                     Cf. Sen. <title>Phaedr.</title> 1244.</note></l>
                             <l xml:id="d1e3280" n="549">Funesta capita! Cui reservamur malo</l>
                             <l xml:id="d1e3283" n="550">inter ruinas urbis et semper novis</l>
                             <l xml:id="d1e3287" n="551">deflenda lacrimis funera et populi
-                                    struem?<note target="#d1e3287" xml:id="nd1e3287" type="parallel"
+                                    struem?<note place="foot" target="#d1e3287" xml:id="nd1e3287" type="parallel"
                                     >Cui … struem] Sen. <title>Oed.</title> 31–34.</note></l>
                         </sp>
 
@@ -1722,10 +1725,10 @@
                         <sp>
                             <speaker>Nob. III.</speaker>
                             <l xml:id="d1e3310" n="557">Quam magna lacrimis pars adhuc nostris
-                                    abest!<note target="#d1e3310" xml:id="nd1e23310" type="parallel"
+                                    abest!<note place="foot" target="#d1e3310" xml:id="nd1e23310" type="parallel"
                                     >Quam … abest] Sen. <title>Phaedr.</title> 1261.</note></l>
                             <l xml:id="d1e3317" n="558">Ceu prona medio puppis in pelago diu</l>
-                            <l xml:id="d1e3320" n="559">luctata tandem perit et immani ruens<note
+                            <l xml:id="d1e3320" n="559">luctata tandem perit et immani ruens<note place="foot"
                                     target="#d1e3320" xml:id="nd1e3320" type="parallel">Ceu … perit]
                                     Cf. Petau, <title>Carthaginienses</title> 2.1.</note></l>
                             <l xml:id="d1e3329" n="560">fragore quatitur, talis adverso semel</l>
@@ -1736,7 +1739,7 @@
 
                         <sp>
                             <speaker>Nob. IV.</speaker>
-                            <l xml:id="d1e3342" n="564">O patria! Quis te maximus premit dolor!<note
+                            <l xml:id="d1e3342" n="564">O patria! Quis te maximus premit dolor!<note place="foot"
                                     target="#d1e3342" xml:id="nd1e3342" type="parallel">immani …
                                     patria] Cf. Petau, <title>Carthaginienses</title>
                                 2.1.</note></l>
@@ -1746,7 +1749,7 @@
 
                         <sp>
                             <speaker>Nob. V.</speaker>
-                            <l xml:id="d1e3359" n="567">Ferite palmis pectora et planctus date!<note
+                            <l xml:id="d1e3359" n="567">Ferite palmis pectora et planctus date!<note place="foot"
                                     target="#d1e3359" xml:id="nd1e3359" type="parallel">Ferite …
                                     date] Sen. <title>Troad.</title> 64.</note></l>
                             <l xml:id="d1e3366" n="568">Haec tanta clades civium, tantus pavor,</l>
@@ -1780,7 +1783,7 @@
                                 novae.</l>
                             <l xml:id="d1e3419" n="582">Horrore quatior, fata quo vergant,
                                 timens.</l>
-                            <l xml:id="d1e3422" n="583">Trepidumque dubio pectus eventu labat.<note
+                            <l xml:id="d1e3422" n="583">Trepidumque dubio pectus eventu labat.<note place="foot"
                                     target="#d1e3422" xml:id="nd1e3422" type="parallel">Horrore …
                                     labat] Cf. Sen. <title>Oed.</title> 206–207.</note></l>
                         </sp>
@@ -1804,7 +1807,7 @@
                             <l xml:id="d1e3453" n="591">obducta macies squalido influit situ.</l>
                             <l xml:id="d1e3456" n="592">Vix sicca tenuis ossa defendit cutis,</l>
                             <l xml:id="d1e3460" n="593">perque ipsa vix non viscera aspectus
-                                    subit.<note target="#d1e3460" xml:id="nd1e3460" type="parallel"
+                                    subit.<note place="foot" target="#d1e3460" xml:id="nd1e3460" type="parallel"
                                     >Timidus … subit] Cf. Petau, <title>Carthaginienses</title>
                                     2.1.</note></l>
                         </sp>
@@ -1833,7 +1836,7 @@
                             <l xml:id="d1e3512" n="604">Exigua pars est civium nobis super,</l>
                             <l xml:id="d1e3516" n="605">Mars omnia aufert, denegat fructum Ceres</l>
                             <l xml:id="d1e3519" n="606">adulta et altis flava cum spicis perit.</l>
-                            <l xml:id="d1e3522" n="607">Arente culmo sterilis emoritur seges.<note
+                            <l xml:id="d1e3522" n="607">Arente culmo sterilis emoritur seges.<note place="foot"
                                     target="#d1e3522" xml:id="nd1e3522" type="parallel">denegat …
                                     seges] Cf. Sen. <title>Oed.</title> 49–51.</note></l>
                         </sp>
@@ -1851,7 +1854,7 @@
                             <l xml:id="d1e3545" n="612">Pars nulla patriae immunis exitio vacat,</l>
                             <l xml:id="d1e3548" n="613">sed omnis aetas pariter et sexus ruit</l>
                             <l xml:id="d1e3551" n="614">iuvenesque senibus iungit et natis
-                                    patres<note target="#d1e3551" xml:id="nd1e3551" type="parallel"
+                                    patres<note place="foot" target="#d1e3551" xml:id="nd1e3551" type="parallel"
                                     >Pars … patres] Cf. Sen. <title>Oed.</title> 52–54.</note></l>
                             <l xml:id="d1e3556" n="615">et matribus funesta Martis alea.</l>
                         </sp>
@@ -1859,7 +1862,7 @@
                         <sp>
                             <speaker>Nob. IV.</speaker>
                             <l xml:id="d1e3559" n="616">Quis luctu in ipso luctus exoritur
-                                    novus?<note target="#d1e3559" xml:id="nd1e3559" type="parallel"
+                                    novus?<note place="foot" target="#d1e3559" xml:id="nd1e3559" type="parallel"
                                     >Quis … novus] Cf. Sen. <title>Oed.</title> 62.</note></l>
                             <l xml:id="d1e3567" n="617">Forte et ego cum aliis patriae fato
                                 cadam</l>
@@ -1869,12 +1872,12 @@
                         <sp who="#disalces">
                             <speaker>Dis.</speaker>
                             <l xml:id="d1e3573" n="619">Generosa pubes patriae urbis nobilis,</l>
-                            <l xml:id="d1e3580" n="620">dic, quid gravare questibus iuvat mala?<note
+                            <l xml:id="d1e3580" n="620">dic, quid gravare questibus iuvat mala?<note place="foot"
                                     target="#d1e3580" xml:id="nd1e3580" type="parallel">quid … mala]
                                     Cf. Sen. <title>Oed.</title> 81–82.</note></l>
                             <l xml:id="d1e3586" n="621">Terrifica Martis vitia caelum diluet.</l>
                             <l xml:id="d1e3589" n="622">Sperate, iuvenes! Astra inoffensos agent</l>
-                            <l xml:id="d1e3593" n="623">aeterna cursus, luctifera abibit dies.<note
+                            <l xml:id="d1e3593" n="623">aeterna cursus, luctifera abibit dies.<note place="foot"
                                     target="#d1e3593" xml:id="nd1e3593" type="parallel">Astra …
                                     cursus] Cf. Sen. <title>Herc. f.</title> 928–929.</note></l>
                             <l xml:id="d1e3599" n="624">Letum luesque, mors, dolor, terror,
@@ -2003,7 +2006,7 @@
                     <!--Begin Scaena I-->
                     <div type="textpart" subtype="scene" xml:id="act3sc1" n="1">
                         <head xml:id="act3sc1head">Scaena I</head>
-                        <note target="#act3sc1head" type="commentary" xml:id="noteact3sc1">In this
+                        <note place="foot" target="#act3sc1head" type="commentary" xml:id="noteact3sc1">In this
                             scene, the verses were rearranged according to Resch’s own corrections
                             in the manuscript.</note>
 
@@ -2023,7 +2026,7 @@
                             <speaker>Vol.</speaker>
                             <l xml:id="d1e3922a" n="691" part="F">Ah, pater optime!</l>
                             <l xml:id="d1e3928" n="692">Ah, quid parabas vel quid etiamnum
-                                    paras,<note target="#d1e3928" xml:id="nd1e3928" type="parallel"
+                                    paras,<note place="foot" target="#d1e3928" xml:id="nd1e3928" type="parallel"
                                     >Ah … paras] Claus, <title>Stilico</title> 4.9.</note></l>
                             <l xml:id="d1e3936" n="693">succurre nato! Patriam amplector manum.</l>
                             <l xml:id="d1e3939" n="694">Suscipe Volucem sanguinem a Sulla tuum!</l>
@@ -2039,7 +2042,7 @@
 
                         <sp who="#bocchus">
                             <speaker>Boc.</speaker>
-                            <l xml:id="d1e3953a" n="697" part="F">Si filius<note target="#d1e3953"
+                            <l xml:id="d1e3953a" n="697" part="F">Si filius<note place="foot" target="#d1e3953"
                                     type="parallel">Quid obstupescis … fides] Cf. Claus,
                                         <title>Stilico</title> 4.11.</note></l>
                             <l xml:id="d1e3965" n="698">adeo probrosam Numidiae notam intulit,</l>
@@ -2059,7 +2062,7 @@
                         <sp who="#bocchus">
                             <speaker>Boc</speaker>
                             <l xml:id="d1e3991a" n="705" part="F">Abiuro patrem!</l>
-                            <l xml:id="d1e3997" n="706">Pereat, nec una pereat hic natus nece!<note
+                            <l xml:id="d1e3997" n="706">Pereat, nec una pereat hic natus nece!<note place="foot"
                                     target="#d1e3997" xml:id="nd1e3997" type="parallel">Quamvis …
                                     nece] Cf. Claus, <title>Stilico</title> 4.11.</note></l>
                             <l xml:id="d1e4005" n="707">Ipsus securi perfidum feriam caput,</l>
@@ -2072,7 +2075,7 @@
                         <sp who="#volux">
                             <speaker>Vol.</speaker>
                             <l xml:id="d1e4018" n="711">O parce quaeso, parce, ter supplex tibi,</l>
-                            <l xml:id="d1e4025" n="712">extendo palmas, genibus advolvor tuis,<note
+                            <l xml:id="d1e4025" n="712">extendo palmas, genibus advolvor tuis,<note place="foot"
                                     target="#d1e4025" xml:id="nd1e4025" type="parallel">genibus …
                                     tuis] Sen. <title>Phaedr.</title> 703.</note></l>
                             <l xml:id="d1e4030" n="713" part="I">miserere gnato genito!</l>
@@ -2143,7 +2146,7 @@
                             <l xml:id="d1e4135" n="739">ferro sacravit dextera. – Et tantum ob
                                 scelus</l>
                             <l xml:id="d1e4138" n="740">nunc sceptra forti aliena dextra
-                                    concutit.<note target="#d1e4138" xml:id="nd1e4138"
+                                    concutit.<note place="foot" target="#d1e4138" xml:id="nd1e4138"
                                     type="parallel">sceptra … concutit] Cf. Sen. <title>Herc.
                                         f.</title> 331.</note></l>
                             <l xml:id="d1e4144" n="741">Et propter ipsum (numina avertant
@@ -2303,7 +2306,7 @@
                             <l xml:id="d1e4391" n="792">praestabit usque famulus ad mortem tuus.</l>
                             <l xml:id="d1e4395" n="793">Non, si per ignes irem et infesta
                                 agmina,</l>
-                            <l xml:id="d1e4398" n="794">strictis morarer ensibus pectus dare.<note
+                            <l xml:id="d1e4398" n="794">strictis morarer ensibus pectus dare.<note place="foot"
                                     target="#d1e4398" xml:id="nd1e4398" type="parallel">Non si …
                                     dare] Sen. <title>Phaedr.</title> 615–616.</note></l>
                         </sp>
@@ -2353,7 +2356,7 @@
                                 grave</l>
                             <l xml:id="d1e4487" n="814">periculosum. Capere quae quis non
                                 potest,</l>
-                            <l xml:id="d1e4490" n="815">bona continere difficile. Magnas rates <note
+                            <l xml:id="d1e4490" n="815">bona continere difficile. Magnas rates <note place="foot"
                                     target="#d1e4490" type="parallel">Capere … difficile] Cf. Curt.
                                     Ruf. 4.11.</note></l>
                             <l xml:id="d1e4496" n="816">mergi videbis, quae suum excedunt modum.</l>
@@ -2369,14 +2372,14 @@
                             <l xml:id="d1e4519" n="823">Numidae draconi pabulum tandem dabit.</l>
                             <l xml:id="d1e4522" n="824">Ferrum rubigo comedit. Adeo altum nihil,</l>
                             <l xml:id="d1e4525" n="825">cui non subest periclum ab invalido
-                                    etiam.<note target="#d1e4525" xml:id="nd1e4525" type="parallel"
+                                    etiam.<note place="foot" target="#d1e4525" xml:id="nd1e4525" type="parallel"
                                     >Ne dum … etiam] Cf. Curt. 7.8.</note></l>
                         </sp>
 
                         <sp who="#bocchus">
                             <speaker>Boc.</speaker>
                             <l xml:id="d1e4531" n="826">Iugurtha! Genero crede, semper nutibus</l>
-                            <l xml:id="d1e4538" n="827">pendere soceri soleo ter promptus mei.<note
+                            <l xml:id="d1e4538" n="827">pendere soceri soleo ter promptus mei.<note place="foot"
                                     target="#d1e4538" xml:id="nd1e4538" type="parallel">semper
                                     nutibus … mei] Cf. Claus, <title>Stilico</title>
                                 4.11.</note></l>
@@ -2418,14 +2421,14 @@
                                     <lem xml:id="lem-848-iam">Iam</lem>
                                     <rdg wit="#ms" xml:id="rdg-848-tuae">Iam <add
                                             place="unspecified">tuae</add></rdg>
-                                    <note target="#rdg-848-tuae">After <foreign xml:lang="lat"
+                                    <note place="foot" target="#rdg-848-tuae">After <foreign xml:lang="lat"
                                             >iam</foreign> in the manuscript <foreign xml:lang="lat"
                                             >tuae</foreign> was added, which is meaningful in terms
                                         of content but corrupting the meter.</note>
                                 </app> bene saluti consule! – Quis animum furor?</l>
                             <l xml:id="d1e4637" n="849">Pugnando perdis Numidiam. Ut fiat tua,</l>
                             <l xml:id="d1e4640" n="850">vis esse nullam? — Ne, precor, patrios
-                                    lares<note target="#d1e4640" xml:id="nd1e4640" type="parallel"
+                                    lares<note place="foot" target="#d1e4640" xml:id="nd1e4640" type="parallel"
                                     >Ut fiat … nullam] Sen. <title>Phoen.</title>
                                 558–560.</note></l>
                             <l xml:id="d1e4647" n="851">committe ferro, neve, quam regere cupis,</l>
@@ -2455,7 +2458,7 @@
                             <l xml:id="d1e4693" n="863">Et quis scelestam dicet illius fidem,</l>
                             <l xml:id="d1e4696" n="864">qui nando litus hosticum pro ara sua</l>
                             <l xml:id="d1e4699" n="865">comprendit, ut sic naufragam salvet
-                                    animam?<note target="#d1e4699" xml:id="nd1e4699" type="parallel"
+                                    animam?<note place="foot" target="#d1e4699" xml:id="nd1e4699" type="parallel"
                                     >In tempestate … animam] Cf. Lohenstein,
                                         <title>Sophonisbe</title> 1.142–145.</note></l>
                             <l xml:id="d1e4708" n="866">Tu quoque saluti consulas primum tuae</l>
@@ -2471,7 +2474,7 @@
                             <l xml:id="d1e4724" n="871">Ignosce, Sulla! Exhorreo tantum nefas,</l>
                             <l xml:id="d1e4731" n="872"><app>
                                     <lem xml:id="lem-872-hoc-bocchus-odit">hoc Bocchus odit</lem>
-                                    <note target="#lem-872-hoc-bocchus-odit">In the manuscript a
+                                    <note place="foot" target="#lem-872-hoc-bocchus-odit">In the manuscript a
                                         small correction was added above <hi rend="normal">hoc
                                             Bocchus odit</hi>, possibly the words <hi rend="normal"
                                             >extreme crimen</hi>; however, the reading is very
@@ -2483,7 +2486,7 @@
 
                         <sp who="#sulla">
                             <speaker>Sul.</speaker>
-                            <l xml:id="d1e4747" n="874">An ergo amore coniugis cives,<note
+                            <l xml:id="d1e4747" n="874">An ergo amore coniugis cives,<note place="foot"
                                     target="#d1e4747" xml:id="nd1e4747" type="parallel">The text
                                     originally said <foreign xml:lang="lat">socerum suum</foreign>,
                                     but this makes no sense, since Bocchus’ father-in-law is
@@ -2496,21 +2499,21 @@
                             <l xml:id="d1e4762" n="875">natos, parentes, patriam certae neci</l>
                             <l xml:id="d1e4765" n="876">et clariorem his omnibus vitam obicis?</l>
                             <l xml:id="d1e4768" n="877">Emasculate rex! An ergo femina</l>
-                            <l xml:id="d1e4771" n="878">talis malorum machinatrix facinorum?<note
+                            <l xml:id="d1e4771" n="878">talis malorum machinatrix facinorum?<note place="foot"
                                     target="#d1e4771" xml:id="nd1e4771" type="parallel">malorum …
                                     facinorum] Sen. <title>Med.</title> 266.</note></l>
                             <l xml:id="d1e4777" n="879">Et aliquid Hydra peius offensae dolor</l>
-                            <l xml:id="d1e4780" n="880">mulieris. Huic natura quam atrocissimis<note
+                            <l xml:id="d1e4780" n="880">mulieris. Huic natura quam atrocissimis<note place="foot"
                                     target="#d1e4780" xml:id="nd1e4780" type="parallel">aliquid …
                                     mulieris] Cf. Sen. <title>Herc. O.</title> 284–285. </note></l>
                             <l xml:id="d1e4787" n="881">malum ad nocendum pectus instruxit
-                                    dolis.<note target="#d1e4787" xml:id="nd1e4787" type="parallel"
+                                    dolis.<note place="foot" target="#d1e4787" xml:id="nd1e4787" type="parallel"
                                     >Natura … dolis] Cf. Sen. <title>Oct.</title>
                                 868–869.</note></l>
                             <l xml:id="d1e4792" n="882">Scylla et Charybdis Sicula contorquens
                                 freta</l>
                             <l xml:id="d1e4795" n="883">minus est timenda. Nulla non melior fera
-                                    est.<note target="#d1e4795" xml:id="nd1e4795" type="parallel"
+                                    est.<note place="foot" target="#d1e4795" xml:id="nd1e4795" type="parallel"
                                     >Scylla … est] Cf. Sen. <title>Herc. O.</title>
                                 235–236.</note></l>
                             <l xml:id="d1e4800" n="884">Et finge mulieri esse tribuendum parum:</l>
@@ -2662,7 +2665,7 @@
 
                         <sp who="#marius">
                             <speaker>Mar.</speaker>
-                            <l xml:id="d1e5051a" n="935" part="F">Iam sat mihi<note
+                            <l xml:id="d1e5051a" n="935" part="F">Iam sat mihi<note place="foot"
                                     target="#d1e5051" xml:id="nd1e5051" type="parallel">Haud soles …
                                     consules] Cf. Plut. <title>Alex.</title> 29.</note></l>
                             <l xml:id="d1e5060" n="936">perspecta res est. Sulla meo honori
@@ -2674,7 +2677,7 @@
                             <l xml:id="d1e5063" n="937">Invidia honorem consulis Marii haud
                                 premet,</l>
                             <l xml:id="d1e5071" n="938">ars prima regi est posse te invidiam
-                                    pati.<note target="#d1e5071" xml:id="nd1e5071" type="parallel"
+                                    pati.<note place="foot" target="#d1e5071" xml:id="nd1e5071" type="parallel"
                                     >ars prima … pati] Cf. Sen. <title>Herc. f.</title>
                                 353.</note></l>
                         </sp>
@@ -2687,10 +2690,10 @@
                             <l xml:id="d1e5086" n="941">possideo multas. Nobiles non sunt mihi</l>
                             <l xml:id="d1e5089" n="942">proavi, nec altis inclitum titulis
                                 genus,</l>
-                            <l xml:id="d1e5092" n="943">sed clara virtus.<note target="#d1e5092"
+                            <l xml:id="d1e5092" n="943">sed clara virtus.<note place="foot" target="#d1e5092"
                                     xml:id="nd1e5092a" type="parallel">Nobiles…virtus] Cf. Sen.
                                         <title>Herc. f.</title> 338–340.</note> Omnis in ferro est
-                                salus. <note target="#d1e5092" xml:id="nd1e5092b" type="parallel"
+                                salus. <note place="foot" target="#d1e5092" xml:id="nd1e5092b" type="parallel"
                                     >Omnis … salus] Sen. <title>Herc. f.</title> 342.</note></l>
                             <l xml:id="d1e5101" n="944">Spes omnis in me sita. Haud tamen infitias
                                 eo</l>
@@ -2709,7 +2712,7 @@
                             <l xml:id="d1e5132" n="954">quas corpus hoc ab hostium telis tulit.</l>
                             <l xml:id="d1e5135" n="955">Has Marius habet imagines: vestigia</l>
                             <l xml:id="d1e5139" n="956">pugnae prioris. Ista nobilitas mea,</l>
-                            <l xml:id="d1e5142" n="957">haec parta proprio Marte vexilla Marii.<note
+                            <l xml:id="d1e5142" n="957">haec parta proprio Marte vexilla Marii.<note place="foot"
                                     target="#d1e5142" xml:id="nd1e5142" type="parallel">Non sunt …
                                     Marii] Cf. Sall. <title>Iug.</title> 85.</note></l>
                         </sp>
@@ -2752,7 +2755,7 @@
                             <l xml:id="d1e5219" n="974">oculis ferocibus (vocant Celto-Scythas),</l>
                             <l xml:id="d1e5222" n="975">hi regna vastant Galliae atque
                                 Hispaniae,</l>
-                            <l xml:id="d1e5225" n="976">populantur agros, subdita tectis face<note
+                            <l xml:id="d1e5225" n="976">populantur agros, subdita tectis face<note place="foot"
                                     target="#d1e5225" xml:id="nd1e5225" type="parallel">subdita …
                                     face] Sen. <title>Herc. f.</title> 366.</note></l>
                             <l xml:id="d1e5230" n="977">demoliuntur moenia. Quiritum greges</l>
@@ -2790,14 +2793,14 @@
                             <l xml:id="d1e5298" n="993">sint obruenda, quove Cirtharum loco</l>
                             <l xml:id="d1e5301" n="994">debilior hostis quove <app>
                                     <lem xml:id="lem-994-sit">sit</lem>
-                                    <note target="#lem-994-sit">Corrected from <foreign
+                                    <note place="foot" target="#lem-994-sit">Corrected from <foreign
                                             xml:lang="lat">si</foreign>.</note>
                                 </app> robustior.</l>
                         </sp>
                         <sp who="#euripedes">
                             <speaker>Eur.</speaker>
                             <l xml:id="d1e5310" n="995">Ergo inferamus arma, selecti duces</l>
-                            <l xml:id="d1e5317" n="996">omnisque miles pendet e nutu tuo.<note
+                            <l xml:id="d1e5317" n="996">omnisque miles pendet e nutu tuo.<note place="foot"
                                     target="#d1e5317" xml:id="nd1e5317" type="parallel">Ergo … tuo]
                                     Claus, <title>Stilico</title> 1.5. </note></l>
                         </sp>
@@ -2811,7 +2814,7 @@
                         <sp who="#octavius">
                             <speaker>Oct.</speaker>
                             <l xml:id="d1e5336" n="999">Ut audio, avidus militum et ducum globus</l>
-                            <l xml:id="d1e5343" n="1000">inclamat arma spiritu incensus tuo.<note
+                            <l xml:id="d1e5343" n="1000">inclamat arma spiritu incensus tuo.<note place="foot"
                                     target="#d1e5343" xml:id="nd1e5343" type="parallel">Ut audio …
                                     tuo] Claus, <title>Stilico</title> 2.3.</note></l>
                         </sp>
@@ -2821,7 +2824,7 @@
                             <l xml:id="d1e5352" n="1001">Stat, imperator, prompta nudatis tua</l>
                             <l xml:id="d1e5359" n="1002">acies in armis, aera iam viros cient</l>
                             <l xml:id="d1e5363" n="1003">motisque pugnam signifer aquilis
-                                    vocat.<note target="#d1e5363" xml:id="nd1e5363" type="parallel"
+                                    vocat.<note place="foot" target="#d1e5363" xml:id="nd1e5363" type="parallel"
                                     >nudatis … vocat] Cf. Sen. <title>Phoen.</title>
                                 387–390.</note></l>
                             <l xml:id="d1e5368" n="1004">Cursu citato miles hinc atque hinc
@@ -2839,17 +2842,17 @@
 
                         <sp who="#euripedes">
                             <speaker>Eur.</speaker>
-                            <l xml:id="d1e5384a" n="1008" part="F">Ecce, signa collatis micant<note
+                            <l xml:id="d1e5384a" n="1008" part="F">Ecce, signa collatis micant<note place="foot"
                                     target="#d1e5384" type="parallel" xml:id="nd1e5384">Cursu citato
                                     … submittit] Sen. <title>Phoen.</title> 393–397.</note></l>
                             <l xml:id="d1e5394" n="1009">vicina signis. Clamor hostilis fremit.</l>
                             <l xml:id="d1e5397" n="1010">Urbs in propinquo est Cirtha. Surrectis
-                                    adest<note target="#d1e5397" xml:id="nd1e5397" type="parallel"
+                                    adest<note place="foot" target="#d1e5397" xml:id="nd1e5397" type="parallel"
                                     >Ecce … Cirtha] Cf. Sen. <title>Phoen.</title>
                                 414–416.</note></l>
                             <l xml:id="d1e5403" n="1011">frons prima gladiis. Aurea clarum nota</l>
                             <l xml:id="d1e5406" n="1012">nomen ducum vexilla praescriptum
-                                    ferunt.<note target="#d1e5406" xml:id="nd1e5406" type="parallel"
+                                    ferunt.<note place="foot" target="#d1e5406" xml:id="nd1e5406" type="parallel"
                                     >Surrectis … ferunt] Cf. Sen. <title>Phoen.</title>
                                     398–400.</note></l>
                         </sp>
@@ -2876,7 +2879,7 @@
                             <l xml:id="d1e5435" n="1017">Nudate gladium, in verba iuretis mea:</l>
                             <l xml:id="d1e5442" n="1018">“Iuro per ensem, iuro per Marii caput:</l>
                             <l xml:id="d1e5445" n="1019">Hac dextera atque hoc ense prostratus
-                                    cadet<note target="#d1e5445" type="parallel" xml:id="nd1e5445"
+                                    cadet<note place="foot" target="#d1e5445" type="parallel" xml:id="nd1e5445"
                                     >Estisne … cadet] Cf. Claus, <title>Stilico</title>
                                 2.6.</note></l>
                             <l xml:id="d1e5453" n="1020">Iugurtha. Sic nos adiuvet superum
@@ -2934,7 +2937,7 @@
                                 sibi</l>
                             <l xml:id="d1e5544" n="1041">aequanda caelo. Dirupta iacent moenia</l>
                             <l xml:id="d1e5547" n="1042">Carthaginis, Didonis egregius labor.</l>
-                            <l xml:id="d1e5550" n="1043">Haec alta muri decora concussi iacent.<note
+                            <l xml:id="d1e5550" n="1043">Haec alta muri decora concussi iacent.<note place="foot"
                                     target="#d1e5550" xml:id="nd1e5550" type="parallel">alta …
                                     iacent] Cf. Sen. <title>Troad.</title> 15.</note></l>
                             <l xml:id="d1e5555" n="1044">Crescit seges, ubi lege Iunonis data</l>
@@ -2943,7 +2946,7 @@
                             <l xml:id="d1e5562" n="1046">modo super alta culmina laborant boves,</l>
                             <l xml:id="d1e5565" n="1047">finditur aratro tot Quiritum sanguine</l>
                             <l xml:id="d1e5568" n="1048">pinguis humus. Ubi prius aula magnifica
-                                    stetit<note target="#d1e5568" type="parallel" xml:id="nd1e5568"
+                                    stetit<note place="foot" target="#d1e5568" type="parallel" xml:id="nd1e5568"
                                     >Crescit … humus] Cf. Ov. <title>Heroid.</title>
                                 1.53–55.</note></l>
                             <l xml:id="d1e5574" n="1049">et musico personuit aulaeum sono,</l>
@@ -2952,7 +2955,7 @@
                             <l xml:id="d1e5580" n="1051">ranae coaxant. Ubi prius caelo suum</l>
                             <l xml:id="d1e5584" n="1052">columna culmen aereum erexit caput,</l>
                             <l xml:id="d1e5587" n="1053">fragilis arundo surgit et foetet
-                                    palus.<note target="#d1e5587" xml:id="nd1e5587" type="parallel"
+                                    palus.<note place="foot" target="#d1e5587" xml:id="nd1e5587" type="parallel"
                                     >Ubi templum … palus] Cf. Lohenstein, <title>Sophonisbe</title>
                                     5.97–104.</note></l>
                             <l xml:id="d1e5596" n="1054">Haec fata tantarum urbium exemplo tibi</l>
@@ -2971,18 +2974,18 @@
                             <l xml:id="d1e5628" n="1064">letum tyranno, verbera et turpem fugam,</l>
                             <l xml:id="d1e5631" n="1065">poenas, queis et Tantali vincas sitim,</l>
                             <l xml:id="d1e5634" n="1066">dirum laborem Sisyphi et Tityi alitem</l>
-                            <l xml:id="d1e5637" n="1067">Ixionisque membra rapientem rotam.<note
+                            <l xml:id="d1e5637" n="1067">Ixionisque membra rapientem rotam.<note place="foot"
                                     target="#d1e5637" xml:id="nd1e5637" type="parallel">Iam parce …
                                     rotam] Cf. Sen. <title>Oct.</title> 618–623.</note></l>
                             <l xml:id="d1e5642" n="1068">Durum Quiritum iure patieris iugum.</l>
                             <l xml:id="d1e5645" n="1069">Iam video te Romana gerere vincula;</l>
                             <l xml:id="d1e5649" n="1070">veniet dies tempusque, quo reddas tuis</l>
                             <l xml:id="d1e5652" n="1071">animam nocentem sceleribus, iugulum
-                                    hostibus.<note target="#d1e5652" type="parallel" xml:id="ftn101"
+                                    hostibus.<note place="foot" target="#d1e5652" type="parallel" xml:id="ftn101"
                                     n="101">veniet dies … hostibus] Cf. Sen. <title>Oct.</title>
                                     629–630.</note></l>
                             <l xml:id="d1e5658" n="1072">– Quid tegere cesso tartaro vultus
-                                    meos?<note target="#d1e5658" xml:id="nd1e5658" type="parallel"
+                                    meos?<note place="foot" target="#d1e5658" xml:id="nd1e5658" type="parallel"
                                     >Quid … meos] Sen. <title>Oct.</title> 644.</note></l>
                         </sp>
 
@@ -3031,7 +3034,7 @@
                         <l xml:id="d1e5785" n="1099">eosque omnes nobiles</l>
                         <l xml:id="d1e5788" n="1100">Saturno bibulo</l>
                         <l xml:id="d1e5791" n="1101">Deo fame diro</l>
-                        <l xml:id="d1e5794" n="1102">immolavit.<note target="#d1e5794"
+                        <l xml:id="d1e5794" n="1102">immolavit.<note place="foot" target="#d1e5794"
                                 type="commentary" xml:id="note1102">The source for this catalog was
                                 Lohenstein, <title>Sophonisbe</title> 1.382-399 and Lohenstein's own
                                 comments on this passage. Resch uses the same material also in
@@ -3119,7 +3122,7 @@
                         <l xml:id="d1e5911" n="1127"><stage type="delivery">(simul)</stage>Non
                             possem sine te,</l>
                         <l xml:id="d1e5919" n="1128">o frater optime,</l>
-                        <l xml:id="d1e5922" n="1129">amplius vivere.<note target="#d1e5922"
+                        <l xml:id="d1e5922" n="1129">amplius vivere.<note place="foot" target="#d1e5922"
                                 type="parallel" xml:id="nd1e5922">Quid opus … vivere] Cf.
                                 Lohenstein, <title>Sophonisbe</title> 1.400–408.</note></l>
                     </sp>
@@ -3249,7 +3252,7 @@
                         <stage type="setting">Iugurtha solus.</stage>
                         <sp who="#iugurtha">
                             <speaker>Iug.</speaker>
-                            <l xml:id="d1e6230" n="1190">Quid me, potens Fortuna, fallaci mihi<note
+                            <l xml:id="d1e6230" n="1190">Quid me, potens Fortuna, fallaci mihi<note place="foot"
                                     target="#d1e6230" xml:id="act5headnote">In the first three
                                     scenes of the fifth act, Resch has rearranged the verses by
                                     adding a second verse count in the margin. This edition follows
@@ -3261,7 +3264,7 @@
                             <l xml:id="d1e6233" n="1191">blandita vultu ad Numidiae excelsum
                                 thronum</l>
                             <l xml:id="d1e6236" n="1192">regem extulisti? Ut laberer
-                                    profundius?<note target="#d1e6236" type="parallel"
+                                    profundius?<note place="foot" target="#d1e6236" type="parallel"
                                     xml:id="nd1e6236">Quid me … extulisti] Sen. <title>Oct.</title>
                                     377–380. Cf. auch Lohenstein, <title>Sophonisbe</title>
                                     2.219–222. </note></l>
@@ -3271,13 +3274,13 @@
                             <l xml:id="d1e6252" n="1195">cautemque dubio maritimam impulsu
                                 quatit.</l>
                             <l xml:id="d1e6255" n="1196">Quam res secundae non habent unquam
-                                    modum!<note target="#d1e6255" xml:id="nd1e6255" type="parallel"
+                                    modum!<note place="foot" target="#d1e6255" xml:id="nd1e6255" type="parallel"
                                     >res … modum] Sen. <title>Oed.</title> 694.</note></l>
                             <l xml:id="d1e6260" n="1197">Me videat, a me rege documentum petat,</l>
                             <l xml:id="d1e6263" n="1198">quam non superbi prospero starent loco,</l>
                             <l xml:id="d1e6267" n="1199">quicunque sorti fidit et regno potens</l>
                             <l xml:id="d1e6270" n="1200">dominatur aula nec levem metuit deam</l>
-                            <l xml:id="d1e6273" n="1201">animumque rebus credulum laetis dedit!<note
+                            <l xml:id="d1e6273" n="1201">animumque rebus credulum laetis dedit!<note place="foot"
                                     target="#d1e6273" xml:id="nd1e6273" type="parallel">me videat …
                                     dedit] Cf. Sen. <title>Tro.</title> 1–6.</note></l>
                             <l xml:id="d1e6279" n="1202">Quicunque ades, te moneo Fortunam tuam</l>
@@ -3289,27 +3292,27 @@
                             <l xml:id="d1e6292" n="1206">pinnam apprehendi non sinit. Quoque
                                 altius</l>
                             <l xml:id="d1e6295" n="1207">evexit ac levavit humanas opes,</l>
-                            <l xml:id="d1e6298" n="1208">hoc se magis deprimere felicem decet.<note
+                            <l xml:id="d1e6298" n="1208">hoc se magis deprimere felicem decet.<note place="foot"
                                     target="#d1e6298" xml:id="nd1e6298" type="parallel">Quoque …
                                     decet] Cf. Sen. <title>Tro.</title> 259–261.</note></l>
-                            <l xml:id="d1e6303" n="1209">Agnosco dubias Martis incerti vices:<note
+                            <l xml:id="d1e6303" n="1209">Agnosco dubias Martis incerti vices:<note place="foot"
                                     target="#d1e6303" xml:id="nd1e6303" type="parallel">dubias …
                                     vices] Sen. <title>Phoen.</title> 626.</note></l>
                             <l xml:id="d1e6309" n="1210">Fortuna belli semper ancipiti in loco
-                                    est.<note target="#d1e6309" xml:id="nd1e6309" type="parallel"
+                                    est.<note place="foot" target="#d1e6309" xml:id="nd1e6309" type="parallel"
                                     >Fortuna … est] Sen. <title>Phoen.</title> 629.</note></l>
                             <l xml:id="d1e6315" n="1211">Sunt arma torrens: Huic ferunt, illi
-                                    auferunt.<note target="#d1e6315" type="parallel" xml:id="ftn113"
+                                    auferunt.<note place="foot" target="#d1e6315" type="parallel" xml:id="ftn113"
                                     n="113">Emilio Tesauro, <title>Inscriptiones</title> (Venice
                                     1679), p. 344.</note></l>
                             <l xml:id="d1e6323" n="1212">Violenta nemo imperia continuit diu,</l>
-                            <l xml:id="d1e6326" n="1213">moderata durant.<note target="#d1e6326"
+                            <l xml:id="d1e6326" n="1213">moderata durant.<note place="foot" target="#d1e6326"
                                     type="parallel" xml:id="ftn114" n="114">Violenta … durant] Sen.
                                         <title>Tro.</title> 258–259.</note>
                                 <app>
                                     <lem xml:id="lem-quoque-fortuna-altius-1213">[Quoque fortuna
                                         altius]</lem>
-                                    <note target="#lem-quoque-fortuna-altius-1213" xml:id="ftn115"
+                                    <note place="foot" target="#lem-quoque-fortuna-altius-1213" xml:id="ftn115"
                                         >Added in the marginalia.</note>
                                 </app></l>
                         </sp>
@@ -3330,26 +3333,26 @@
                         <sp who="#iugurtha">
                             <speaker>Iug.</speaker>
                             <l xml:id="d1e6351" n="1216">Proloquere, quae sors aggravet quassos
-                                    lares?<note target="#d1e6351" type="parallel" xml:id="ftn116"
+                                    lares?<note place="foot" target="#d1e6351" type="parallel" xml:id="ftn116"
                                     n="116">Proloquere … lares] Cf. Sen. <title>Phaed.</title>
                                     996.</note></l>
                         </sp>
 
                         <sp>
                             <speaker>Nob. I.</speaker>
-                            <l xml:id="d1e6359" n="1217"> Vocem dolori lingua luctifica negat.<note
+                            <l xml:id="d1e6359" n="1217"> Vocem dolori lingua luctifica negat.<note place="foot"
                                     target="#d1e6359" type="parallel" xml:id="ftn117" n="117">Vocem
                                     … negat] Cf. Sen. <title>Phaed.</title> 995.</note></l>
                         </sp>
 
                         <sp>
                             <speaker>Nob. II.</speaker>
-                            <l xml:id="d1e6366" n="1218"> Non imparatum pectus aerumnis gere!<note
+                            <l xml:id="d1e6366" n="1218"> Non imparatum pectus aerumnis gere!<note place="foot"
                                     target="#d1e6366" type="parallel" xml:id="ftn118" n="118">Non …
                                     gere] Cf. Sen. <title>Phaed.</title> 994.</note></l>
                             <l xml:id="d1e6373" n="1219">Non tantus Auster Sicula disturbat
                                 freta,</l>
-                            <l xml:id="d1e6376" n="1220">nec tam furenti pontus exsurgit sinu,<note
+                            <l xml:id="d1e6376" n="1220">nec tam furenti pontus exsurgit sinu,<note place="foot"
                                     target="#d1e6376" xml:id="nd1e6376" type="parallel">Non … sinu]
                                     Cf. Sen. <title>Phaed.</title> 1011–1012.</note></l>
                             <l xml:id="d1e6381" n="1221">ut hostis intra moenia furit improbus.</l>
@@ -3358,11 +3361,11 @@
                         <sp>
                             <speaker>Nob. I.</speaker>
                             <l xml:id="d1e6384" n="1222"> Non ipsa tantis Aetna fervescit
-                                    minis,<note target="#d1e6384" type="parallel" xml:id="ftn120"
+                                    minis,<note place="foot" target="#d1e6384" type="parallel" xml:id="ftn120"
                                     n="120">tantis … minis] Sen. <title>Med.</title> 410.
                                 </note></l>
                             <l xml:id="d1e6392" n="1223">quanto furore Marius in Cirtham fremit,</l>
-                            <l xml:id="d1e6395" n="1224">furit, minatur, aestuat, rapit, gemit.<note
+                            <l xml:id="d1e6395" n="1224">furit, minatur, aestuat, rapit, gemit.<note place="foot"
                                     target="#d1e6395" xml:id="nd1e6395" type="parallel">minatur …
                                     gemit] Cf. Sen. <title>Med.</title> 390. </note></l>
                         </sp>
@@ -3372,13 +3375,13 @@
                         <sp who="#iugurtha">
                             <speaker>Iug.</speaker>
                             <l xml:id="d1e6403" n="1225">Haud frangit animum vanus hic terror
-                                    meum.<note target="#d1e6403" xml:id="nd1e6403" type="parallel"
+                                    meum.<note place="foot" target="#d1e6403" xml:id="nd1e6403" type="parallel"
                                     >Haud … meum] Sen. <title>Phaed.</title> 1066. </note></l>
                         </sp>
 
                         <sp>
                             <speaker>Nob. III.</speaker>
-                            <l xml:id="d1e6412" n="1226"> Heu, dira fata numinum!<note
+                            <l xml:id="d1e6412" n="1226"> Heu, dira fata numinum!<note place="foot"
                                     target="#d1e6412" type="parallel" xml:id="ftn123" n="123">dira …
                                     numinum] Sen. <title>Phaed.</title> 1271.</note> O caeli
                                 furor!</l>
@@ -3394,11 +3397,11 @@
                             <speaker>Nob. IV.</speaker>
                             <l xml:id="d1e6430a" n="1230" part="F">Eheu mihi!</l>
                             <l xml:id="d1e6439" n="1231">Iam iam hostis altos patriae muros
-                                    habet.<note target="#d1e6439" xml:id="nd1e6439" type="parallel"
+                                    habet.<note place="foot" target="#d1e6439" xml:id="nd1e6439" type="parallel"
                                     >hostis … habet] Cf. Verg. <title>Aen.</title> 2.290.
                                 </note></l>
                             <l xml:id="d1e6444" n="1232">Qualis per arva Libycus insanit leo</l>
-                            <l xml:id="d1e6447" n="1233">fulvam minaci fronte concutiens iubam,<note
+                            <l xml:id="d1e6447" n="1233">fulvam minaci fronte concutiens iubam,<note place="foot"
                                     target="#d1e6447" xml:id="nd1e6447" type="parallel">Qualis …
                                     iubam] Sen. <title>Oed.</title> 919–920.</note></l>
                             <l xml:id="d1e6453" n="1234">ita saevit hostis; nulla furibundum
@@ -3411,7 +3414,7 @@
                             <l xml:id="d1e6459" n="1236">Sic atra passim funera et vulgi strues</l>
                             <l xml:id="d1e6464" n="1237">amplae per urbis moenia exanimis iacet;</l>
                             <l xml:id="d1e6467" n="1238">cremanda necdum corpora in terras vacat</l>
-                            <l xml:id="d1e6470" n="1239">infodere,<note target="#d1e6470"
+                            <l xml:id="d1e6470" n="1239">infodere,<note place="foot" target="#d1e6470"
                                     type="parallel" xml:id="ftn126" n="126">Only the form <hi
                                         rend="italic">infodire</hi> is attested, but it doesn’t fit
                                     for metric reasons.</note> nec est virium nobis satis</l>
@@ -3431,14 +3434,14 @@
 
                         <sp who="#volux">
                             <speaker>Vol.</speaker>
-                            <l xml:id="d1e6498" n="1242"><note target="#d1e6498" xml:id="nd1e6498"
+                            <l xml:id="d1e6498" n="1242"><note place="foot" target="#d1e6498" xml:id="nd1e6498"
                                     type="parallel">It is not cleare, who is supposed to make this
                                     answer, probably Iuba.</note> O rex Iugurtha! Fata te populi
                                 nihil</l>
                             <l xml:id="d1e6505" n="1243">adversa terret? Urbem miles infestus
                                 tenet</l>
                             <l xml:id="d1e6508" n="1244">limenque sacrum terror armorum
-                                    obsidet.<note target="#d1e6508" xml:id="nd1e6508"
+                                    obsidet.<note place="foot" target="#d1e6508" xml:id="nd1e6508"
                                     type="parallel">miles infestus … obsidet] Sen. <title>Herc.
                                         f.</title> 616–617.</note></l>
                         </sp>
@@ -3457,32 +3460,32 @@
                                 manus,</l>
                             <l xml:id="d1e6533" n="1248">diripitur ardens Cirtha, nec caelum
                                 patet</l>
-                            <l xml:id="d1e6536" n="1249">undante fumo.<note target="#d1e6536"
+                            <l xml:id="d1e6536" n="1249">undante fumo.<note place="foot" target="#d1e6536"
                                     type="parallel" xml:id="ftn129" n="129">Tectis … fumo] Cf. Sen.
                                         <title>Tro.</title> 16–20.</note> Victor incensos lares</l>
                             <l xml:id="d1e6543" n="1250">metitur oculis. Spolia populator capit</l>
                             <l xml:id="d1e6546" n="1251">Cirthena, praedam mille non capiunt
-                                    rates.<note target="#d1e6546" xml:id="nd1e6546" type="parallel"
+                                    rates.<note place="foot" target="#d1e6546" xml:id="nd1e6546" type="parallel"
                                     >Spolia … rates] Cf. Sen. <title>Tro.</title> 26–27.</note></l>
                         </sp>
 
                         <sp who="#iuba">
                             <speaker>Iuba.</speaker>
                             <l xml:id="d1e6551" n="1252">O me misellum! Stupeo et exsanguis
-                                    tremo,<note target="#d1e6551" type="parallel" xml:id="ftn131"
+                                    tremo,<note place="foot" target="#d1e6551" type="parallel" xml:id="ftn131"
                                     n="131">Stupeo … tremo] Sen. <title>Phoen.</title>
                                 528.</note></l>
-                            <l xml:id="d1e6558" n="1253">concussa magno membra quassantur metu.<note
+                            <l xml:id="d1e6558" n="1253">concussa magno membra quassantur metu.<note place="foot"
                                     target="#d1e6558" xml:id="nd1e6558" type="parallel">membra …
                                     metu] Sen. <title>Phoen.</title> 530.</note></l>
                             <l xml:id="d1e6563" n="1254">Ubi me recondam? Quem locum profugus
-                                    petam?<note target="#d1e6563" type="parallel" xml:id="ftn133"
+                                    petam?<note place="foot" target="#d1e6563" type="parallel" xml:id="ftn133"
                                     n="133">Ubi me … petam] Cf. Sen. <title>Herc. f.</title>
                                     1321–1322.</note></l>
                             <l xml:id="d1e6569" n="1255">Quo monte, qua tellure me tegam, pater?</l>
                             <l xml:id="d1e6573" n="1256">Huc agor et illuc, ortum an occasum
                                 petam?</l>
-                            <l xml:id="d1e6576" n="1257">Ubique profugus, perdidi exilio locum.<note
+                            <l xml:id="d1e6576" n="1257">Ubique profugus, perdidi exilio locum.<note place="foot"
                                     target="#d1e6576" xml:id="nd1e6576" type="parallel">ortum …
                                     locum] Cf. Sen. <title>Herc. f.</title> 1330–1331.</note></l>
                         </sp>
@@ -3490,12 +3493,12 @@
                         <sp who="#vermina">
                             <speaker>Ver.</speaker>
                             <l xml:id="d1e6581" n="1258">Heu me relictum! Quo in fugam praeceps
-                                    agar?<note target="#d1e6581" xml:id="nd1e6581" type="parallel"
+                                    agar?<note place="foot" target="#d1e6581" xml:id="nd1e6581" type="parallel"
                                     >Quo … agar] Cf. Sen. <title>Herc. O.</title> 1020.</note></l>
                             <l xml:id="d1e6590" n="1259">Reliquit animus membra, quatiuntur,
                                 labant</l>
                             <l xml:id="d1e6593" n="1260">torpetque vinctus frigido sanguis
-                                    gelu.<note target="#d1e6593" xml:id="nd1e6593" type="parallel"
+                                    gelu.<note place="foot" target="#d1e6593" xml:id="nd1e6593" type="parallel"
                                     >Reliquit … gelu] Sen. <title>Tro.</title> 623–624.</note></l>
                             <l xml:id="d1e6598" n="1261" part="I">Mors sola portus naufrago.</l>
                         </sp>
@@ -3504,7 +3507,7 @@
                             <speaker>Vol.</speaker>
                             <l xml:id="d1e6f98a" n="1261" part="F">O segnis parens!</l>
                             <l xml:id="d1e6605" n="1262">I, nunc nefandas manibus patriis faces</l>
-                            <l xml:id="d1e6608" n="1263">averte, signa bellici rege agminis!<note
+                            <l xml:id="d1e6608" n="1263">averte, signa bellici rege agminis!<note place="foot"
                                     target="#d1e6608" xml:id="nd1e6608" type="parallel">nefandas …
                                     agminis] Cf. Sen. <title>Phoen.</title> 540–541.</note></l>
                         </sp>
@@ -3512,7 +3515,7 @@
                         <sp who="#iugurtha">
                             <speaker>Iug.</speaker>
                             <l xml:id="d1e6613" n="1264">Heu, quo, Iugurtha, vota ceciderunt
-                                    tua?<note target="#d1e6613" xml:id="nd1e6613" type="parallel"
+                                    tua?<note place="foot" target="#d1e6613" xml:id="nd1e6613" type="parallel"
                                     >Heu … tua] Cf. Sen. <title>Oct.</title> 632.</note></l>
                         </sp>
 
@@ -3531,7 +3534,7 @@
                         <sp>
                             <speaker>Nob. V.</speaker>
                             <l xml:id="d1e6634a" n="1267" part="F">Qua solent homines capi:</l>
-                            <l xml:id="d1e6641" n="1268" part="I">muneribus.<note target="#d1e6641"
+                            <l xml:id="d1e6641" n="1268" part="I">muneribus.<note place="foot" target="#d1e6641"
                                     type="parallel" xml:id="ftn139" n="139">Qua … muneribus] Cf.
                                     Sen. <title>Med.</title> 881–882.</note>
                                 <stage type="exit">(Tecti abeunt isti tres.)</stage></l>
@@ -3542,7 +3545,7 @@
                             <l xml:id="d1e6641a" n="1268" part="F">Astra vindicent tantum nefas,</l>
                             <l xml:id="d1e6652" n="1269">tam enorme facinus! – Non tamen vanis
                                 vacat</l>
-                            <l xml:id="d1e6655" n="1270">conterere verbis tempus.<note
+                            <l xml:id="d1e6655" n="1270">conterere verbis tempus.<note place="foot"
                                     target="#d1e6655" type="parallel" xml:id="ftn140" n="140">Non
                                     tamen … tempus] Cf. Sen. <title>Tro.</title> 758–759.</note> Est
                                 tutum nihil,</l>
@@ -3557,12 +3560,12 @@
                             <l xml:id="d1e6682" n="1275">conversa ad Austros, cuius extremum
                                 latus</l>
                             <l xml:id="d1e6685" n="1276">aequale monti crescit atque urbem
-                                    premit.<note target="#d1e6685" xml:id="nd1e6685" type="parallel"
+                                    premit.<note place="foot" target="#d1e6685" xml:id="nd1e6685" type="parallel"
                                     >In arce … premit] Cf. Sen. <title>Thy.</title>
                                 641–643.</note></l>
                             <l xml:id="d1e6690" n="1277">Arcana in illa regia recessu patet</l>
                             <l xml:id="d1e6693" n="1278">alta vetustum valle compescens nemus,</l>
-                            <l xml:id="d1e6696" n="1279">penetrale regni.<note target="#d1e6696"
+                            <l xml:id="d1e6696" n="1279">penetrale regni.<note place="foot" target="#d1e6696"
                                     type="parallel" xml:id="ftn142" n="142">Arcana … regni] Cf. Sen.
                                         <title>Thy.</title> 650–652. Modern editions of Seneca’s
                                     plays have <hi rend="italic">arcana in imo regio secessu
@@ -3582,20 +3585,20 @@
 
                         <sp who="#iuba">
                             <speaker>Iuba.</speaker>
-                            <l xml:id="d1e67s5a" n="1283" part="F">Ergo parentem deseram?<note
+                            <l xml:id="d1e67s5a" n="1283" part="F">Ergo parentem deseram?<note place="foot"
                                     target="#d1e6725" type="parallel" xml:id="nd1e6725">Ergo …
                                     principes] Cf. Lohenstein, <title>Sophonisbe</title>
                                     2.36–38.</note></l>
                             <l xml:id="d1e6737" n="1284">Gelidus per artus vadit exsangues
                                 tremor.</l>
                             <l xml:id="d1e6740" n="1285">Quod facinus aures pepulit? – Haud equidem
-                                    horrui,<note target="#d1e6740" type="commentary"
+                                    horrui,<note place="foot" target="#d1e6740" type="commentary"
                                     xml:id="nd1e6740">
                                     <hi rend="tlid-translation">This answer was originally given by
                                         Vermina, but his name was crossed out later.</hi></note></l>
                             <l xml:id="d1e6751" n="1286">cum crebro ariete bellicus muros fragor</l>
                             <l xml:id="d1e6754" n="1287">circumsonaret. Pertuli intrepide
-                                    omnia,<note target="#d1e6754" xml:id="nd1e6754" type="parallel"
+                                    omnia,<note place="foot" target="#d1e6754" xml:id="nd1e6754" type="parallel"
                                     >Gelidus … omnia] Cf. Sen. <title>Herc. f.</title>
                                     414–417.</note></l>
                             <l xml:id="d1e6759" n="1288">sed a parente dividi haud possum meo.</l>
@@ -3608,11 +3611,11 @@
                                 deus</l>
                             <l xml:id="d1e6772" n="1291">statuit relictis, vindicet ferri mucro!</l>
                             <l xml:id="d1e6776" n="1292">Ubi tela? Ubi arcus? Arma suppeditet
-                                    furor.<note target="#d1e6776" type="parallel" xml:id="nd1e6776"
+                                    furor.<note place="foot" target="#d1e6776" type="parallel" xml:id="nd1e6776"
                                     >Ubi tela … arcus] Sen. <title>Herc. f.</title> 1153.</note></l>
                             <l xml:id="d1e6782" n="1293">Certetur omni genere, nec sit audaci
                                 modus</l>
-                            <l xml:id="d1e6785" n="1294">animo pudorve, caecus instiget furor!<note
+                            <l xml:id="d1e6785" n="1294">animo pudorve, caecus instiget furor!<note place="foot"
                                     target="#d1e6785" xml:id="nd1e6785" type="parallel">Certetur …
                                     furor] Cf. Sen. <title>Thy.</title> 25–27.</note></l>
                             <l xml:id="d1e6790" n="1295">Fortuna mentes semper audaces iuvat,</l>
@@ -3637,28 +3640,28 @@
                                 vehat</l>
                             <l xml:id="d1e6818" n="1300">atraque nube involvat, ut tantum nefas</l>
                             <l xml:id="d1e6822" n="1301">eripiat oculis? Ferte me insanae
-                                    procul<note target="#d1e6822" type="parallel" xml:id="nd1e6822"
+                                    procul<note place="foot" target="#d1e6822" type="parallel" xml:id="nd1e6822"
                                     >Quis me … oculis] Cf. Sen. <title>Thy.</title>
                                 623–625.</note></l>
                             <l xml:id="d1e6828" n="1302">maris procellae! – Sed quid hic moror
-                                    tremens?<note target="#d1e6828" type="parallel"
+                                    tremens?<note place="foot" target="#d1e6828" type="parallel"
                                     xml:id="nd1e6828">Ferte … procellae] Sen. <title>Thy.</title>
                                     636–637.</note></l>
                             <l xml:id="d1e6834" n="1303">Audacter, anime! – Siste! – Quid agito
-                                    miser?<note target="#d1e6834" type="parallel" xml:id="nd1e6834"
+                                    miser?<note place="foot" target="#d1e6834" type="parallel" xml:id="nd1e6834"
                                     >Siste … miser] Claus, <title>Stilico</title> 2,1.</note></l>
                             <l xml:id="d1e6842" n="1304">Perge, o Iugurtha! – Siste! – Pectus
                                 palpitat.</l>
                             <l xml:id="d1e6845" n="1305">I, perge! Gloriosam cur times necem?</l>
                             <l xml:id="d1e6848" n="1306">Nudum inter enses pectus infestos
-                                    tene!<note target="#d1e6848" xml:id="nd1e6848" type="parallel"
+                                    tene!<note place="foot" target="#d1e6848" xml:id="nd1e6848" type="parallel"
                                     >Nudum … tene] Sen. <title>Phoen.</title> 405.</note></l>
                             <l xml:id="d1e6854" n="1307">Ibo, ibo, et armis obvium pectus geram.</l>
                             <l xml:id="d1e6857" n="1308">Stabo inter arma. Fata si miserum
-                                    iuvant,<note target="#d1e6857" type="parallel" xml:id="nd1e6857"
+                                    iuvant,<note place="foot" target="#d1e6857" type="parallel" xml:id="nd1e6857"
                                     >Ibo … arma] Cf. Sen. <title>Phoen.</title> 407–408.</note></l>
                             <l xml:id="d1e6863" n="1309">habeo salutem. Fata si vitam negant,</l>
-                            <l xml:id="d1e6866" n="1310">habeo sepulcrum morte generosa meum.<note
+                            <l xml:id="d1e6866" n="1310">habeo sepulcrum morte generosa meum.<note place="foot"
                                     target="#d1e6866" type="parallel" xml:id="nd1e6866">Fata si
                                     miserum … sepulcrum] Sen. <title>Tro.</title>
                                 510–511.</note></l>
@@ -3669,7 +3672,7 @@
                             <l xml:id="d1e6879" n="1313">Quadrant sceptra tibi, non armis
                                 immoriendum.</l>
                             <l xml:id="d1e6882" n="1314">Ergo ense fretus sternam et evertam omnia.
-                                    <note target="#d1e6882" xml:id="nd1e6882" type="parallel"
+                                    <note place="foot" target="#d1e6882" xml:id="nd1e6882" type="parallel"
                                     >sternam … omnia] Sen. <title>Med.</title>. 414.</note></l>
                             <l xml:id="d1e6888" n="1315">– Quale impium et terribile spectrum
                                 territis</l>
@@ -3702,18 +3705,18 @@
                             <l xml:id="d1e6936" n="1327">semper <app>
                                     <lem xml:id="lem-1327-quietam">quietam</lem>
                                     <rdg wit="#ms">quietem</rdg>
-                                </app> cerneres sedem inferum.<note target="#d1e6936"
+                                </app> cerneres sedem inferum.<note place="foot" target="#d1e6936"
                                     type="parallel" xml:id="nd1e6936">Utinam … inferum] Cf. Sen.
                                         <title>Oct.</title> 636–640.</note></l>
                             <l xml:id="d1e6947" n="1328">Sed modo Micipsam et patrios manes tui</l>
                             <l xml:id="d1e6950" n="1329">tangit pudor, luctusque perpetuus manet</l>
-                            <l xml:id="d1e6953" n="1330">ex te, nefande! – Te sinu exclusum meo<note
+                            <l xml:id="d1e6953" n="1330">ex te, nefande! – Te sinu exclusum meo<note place="foot"
                                     target="#d1e6953" type="parallel" xml:id="nd1e6953">luctusque …
                                     nefande] Sen. <title>Oct.</title> 642–643.</note></l>
                             <l xml:id="d1e6959" n="1331">sine iure genitum detestor, abiuro,
                                 exsecror.</l>
                             <l xml:id="d1e6963" n="1332">Non me parente natus es, ferus Scythes</l>
-                            <l xml:id="d1e6966" n="1333">te genuit aut Titana te Rhodope tulit.<note
+                            <l xml:id="d1e6966" n="1333">te genuit aut Titana te Rhodope tulit.<note place="foot"
                                     target="#d1e6966" xml:id="nd1e6966" type="parallel">Titana …
                                     tulit] Cf. Sen. <title>Herc. O.</title> 144.</note></l>
                             <l xml:id="d1e6971" n="1334">Vincis leonem et tigridem, ursa Caspia</l>
@@ -3722,13 +3725,13 @@
                             <l xml:id="d1e6980" n="1337">inhospitali Caucaso crudelior</l>
                             <l xml:id="d1e6984" n="1338">seminaque ferri possidet sanguis tuus.</l>
                             <l xml:id="d1e6987" n="1339">Non tam ferum Typhona neglecto Iove</l>
-                            <l xml:id="d1e6990" n="1340">irata tellus edidit quondam parens.<note
+                            <l xml:id="d1e6990" n="1340">irata tellus edidit quondam parens.<note place="foot"
                                     target="#d1e6990" xml:id="nd1e6990" type="parallel">Non tam …
                                     parens] Sen. <title>Oct.</title> 238–239.</note></l>
                             <l xml:id="d1e6996" n="1341">Tu gravior illo pestis atque hostis
                                 deum</l>
                             <l xml:id="d1e6999" n="1342">hominumque probrum! O parricida
-                                    perfide,<note target="#d1e6999" type="parallel"
+                                    perfide,<note place="foot" target="#d1e6999" type="parallel"
                                     xml:id="nd1e6999">gravior … hominumque] Sen. <title>Oct.</title>
                                     240–241.</note></l>
                             <l xml:id="d1e7005" n="1343">Lethaea lympha haud abluet tantum
@@ -3744,7 +3747,7 @@
                             <l xml:id="d1e7034" n="1352">exstinguere, ut diadema solus occupes.</l>
                             <l xml:id="d1e7037" n="1353">– Quod maius aut atrocius fuit scelus?</l>
                             <l xml:id="d1e7040" n="1354">Sed sicut umbra sequitur exortum iubar,</l>
-                            <l xml:id="d1e7043" n="1355">sequitur scelestos ultor a tergo deus.<note
+                            <l xml:id="d1e7043" n="1355">sequitur scelestos ultor a tergo deus.<note place="foot"
                                     target="#d1e7043" xml:id="nd1e7043" type="parallel">sequitur
                                     scelestos … deus] Cf. Sen. <title>Herc. f.</title> 385; Resch,
                                         <title>Constantini hostia</title> 188.</note></l>
@@ -3774,10 +3777,10 @@
                                 agor?</l>
                             <l xml:id="d1e7093" n="1366">Eheu, quis intus scorpius, quis fervida</l>
                             <l xml:id="d1e7096" n="1367">plaga reversus cancer infixus meas</l>
-                            <l xml:id="d1e7100" n="1368">urit medullas? Conscius scelerum pavor<note
+                            <l xml:id="d1e7100" n="1368">urit medullas? Conscius scelerum pavor<note place="foot"
                                     target="#d1e7100" type="parallel" xml:id="nd1e7100">Eheu …
                                     medullas] Sen. <title>Herc. O.</title> 1218–1220.</note></l>
-                            <l xml:id="d1e7106" n="1369">animusque culpa plenus et semet timens<note
+                            <l xml:id="d1e7106" n="1369">animusque culpa plenus et semet timens<note place="foot"
                                     target="#d1e7106" xml:id="nd1e7106" type="parallel">Conscius …
                                     timens] Cf. Sen. <title>Phaed.</title> 162–163.</note></l>
                             <l xml:id="d1e7111" n="1370">remordet, angit, strangulat. Sero mihi</l>
@@ -3786,37 +3789,37 @@
                             <l xml:id="d1e7117" n="1372">poena expiari credo, nisi nostra nece.
                                     <stage type="setting">(Extrahit pugionem.)</stage></l>
                             <l xml:id="d1e7122" n="1373">– Cur animam in ista luce detineam
-                                    amplius?<note target="#d1e7122" type="parallel"
+                                    amplius?<note place="foot" target="#d1e7122" type="parallel"
                                     xml:id="nd1e7122">Cur … amplius] Sen. <title>Herc. f.</title>
                                     1258.</note></l>
                             <l xml:id="d1e7129" n="1374">Cur caput ad umbras Tartari haud mitto?
                                 Quid hic</l>
                             <l xml:id="d1e7132" n="1375">corpus meum detineo? Quid terram
-                                    gravo?<note target="#d1e7132" xml:id="nd1e7132" type="parallel"
+                                    gravo?<note place="foot" target="#d1e7132" xml:id="nd1e7132" type="parallel"
                                     >Quid hic … gravo] Cf. Sen. <title>Phoen.</title>
                                     234–235.</note></l>
                             <l xml:id="d1e7138" n="1376">Stat ense rumpere lucis infestae moras.
                                     <stage type="setting">(Minat ictum.)</stage></l>
                             <l xml:id="d1e7143" n="1377">Non destino unum vulneri nostro locum:</l>
-                            <l xml:id="d1e7146" n="1378">Totus nocens sum<note target="#d1e7146"
+                            <l xml:id="d1e7146" n="1378">Totus nocens sum<note place="foot" target="#d1e7146"
                                     type="parallel" xml:id="nd1e71461">Non destino … sum] Sen.
                                         <title>Phoen.</title> 157.</note> corque tot scelerum
-                                    capax.<note target="#d1e7146" type="parallel" xml:id="nd1e71462"
+                                    capax.<note place="foot" target="#d1e7146" type="parallel" xml:id="nd1e71462"
                                     >corque … capax] Sen. <title>Phoen.</title> 159.</note></l>
                             <l xml:id="d1e7154" n="1379">Fractum incitatis ictibus pectus
-                                    sonet!<note target="#d1e7154" xml:id="nd1e7154" type="parallel"
+                                    sonet!<note place="foot" target="#d1e7154" xml:id="nd1e7154" type="parallel"
                                     >Fractum … sonet] Cf. Sen. <title>Phoen.</title> 161.</note></l>
                             <l xml:id="d1e7161" n="1380">– Quid, anime, cessas? Sequere felicem
-                                    impetum!<note target="#d1e7161" type="parallel"
+                                    impetum!<note place="foot" target="#d1e7161" type="parallel"
                                     xml:id="nd1e7161">Quid … impetum] Sen. <title>Med.</title>
                                     895.</note></l>
                             <l xml:id="d1e7167" n="1381">Scrutabor ense viscera. Hic ipsus
-                                    mucro<note target="#d1e7167" type="parallel" xml:id="nd1e7167"
+                                    mucro<note place="foot" target="#d1e7167" type="parallel" xml:id="nd1e7167"
                                     >Scrutabor … viscera] Sen. <title>Med.</title> 1013.</note></l>
                             <l xml:id="d1e7173" n="1382">sitit cruorem regium, ergo levet sitim!</l>
                             <l xml:id="d1e7176" n="1383">Morere, Iugurtha! Dextra, nunc toto
                                 impetu,</l>
-                            <l xml:id="d1e7179" n="1384">toto dolore, viribus totis veni!<note
+                            <l xml:id="d1e7179" n="1384">toto dolore, viribus totis veni!<note place="foot"
                                     target="#d1e7179" xml:id="nd1e7179" type="parallel">Dextra …
                                     veni] Sen. <title>Phoen.</title> 155–156.</note></l>
                         </sp>
@@ -3836,20 +3839,20 @@
                         <sp who="#iugurtha">
                             <speaker>Iug.</speaker>
                             <l xml:id="d1e7200" n="1386">Ferrum negabis? Morte prohiberi haud
-                                    queo,<note target="#d1e7200" xml:id="nd1e7200" type="parallel">
+                                    queo,<note place="foot" target="#d1e7200" xml:id="nd1e7200" type="parallel">
                                     Ferrum … queo] Cf. Sen. <title>Phoen.</title>
                                 146–147.</note></l>
                             <l xml:id="d1e7209" n="1387">ubique mors est. Optime hoc cavit deus:</l>
                             <l xml:id="d1e7213" n="1388">Eripere vitam nemo non homini potest,</l>
                             <l xml:id="d1e7216" n="1389">at nemo mortem. Mille ad hanc aditus
-                                    patent.<note target="#d1e7216" type="parallel" xml:id="nd1e7216"
+                                    patent.<note place="foot" target="#d1e7216" type="parallel" xml:id="nd1e7216"
                                     >ubique … patent] Sen. <title>Phoen.</title> 151–153.</note></l>
                         </sp>
 
                         <sp who="#aspar">
                             <speaker>Asp.</speaker>
                             <l xml:id="d1e7221" n="1390">Ah, siste quaeso, reprime furibundum
-                                    impetum!<note target="#d1e7221" xml:id="nd1e7221"
+                                    impetum!<note place="foot" target="#d1e7221" xml:id="nd1e7221"
                                     type="parallel"> siste … impetum] Cf. Sen. <title>Phaed.</title>
                                     263.</note></l>
                         </sp>
@@ -3859,13 +3862,13 @@
                             <l xml:id="d1e7231" n="1391">Quid me fatigas precibus? Hoc animo
                                 sedet</l>
                             <l xml:id="d1e7238" n="1392">effundere hanc cum morte luctantem diu</l>
-                            <l xml:id="d1e7241" n="1393">animam. Sceleribus dirus inferni locus<note
+                            <l xml:id="d1e7241" n="1393">animam. Sceleribus dirus inferni locus<note place="foot"
                                     target="#d1e7241" type="parallel" xml:id="ftn175" n="175"
                                     >precibus … animam] Cf. Sen. <title>Phoen.</title>
                                     141–143.</note></l>
                             <l xml:id="d1e7248" n="1394">parum alta nox est. Tartaro mergi
                                 iuvat,</l>
-                            <l xml:id="d1e7251" n="1395">et siquis ultra Tartarum locus latet<note
+                            <l xml:id="d1e7251" n="1395">et siquis ultra Tartarum locus latet<note place="foot"
                                     target="#d1e7251" xml:id="nd1e7251" type="parallel">Sceleribus …
                                     locus] Cf. Sen. <title>Phoen.</title> 143–145.</note></l>
                             <l xml:id="d1e7257" n="1396">inferior Erebo, hoc nostra condatur
@@ -3888,14 +3891,14 @@
                             <speaker>Asp.</speaker>
                             <l xml:id="d1e7279" n="1401">O tumide, rerum dum secundarum status</l>
                             <l xml:id="d1e7286" n="1402">extollit animum, timide, dum increpuit
-                                    metus!<note target="#d1e7286" type="parallel" xml:id="nd1e7286"
+                                    metus!<note place="foot" target="#d1e7286" type="parallel" xml:id="nd1e7286"
                                     >O tumide … metus] Sen. <title>Tro.</title> 301–302.</note></l>
                         </sp>
 
                         <sp who="#iugurtha">
                             <speaker>Iug.</speaker>
                             <l xml:id="d1e7292" n="1403">In servitutem cadere de regno grave
-                                    est<note target="#d1e7292" xml:id="nd1e7292" type="parallel">In
+                                    est<note place="foot" target="#d1e7292" xml:id="nd1e7292" type="parallel">In
                                     servitutem … est] Sen. <title>Phoen.</title> 598.</note></l>
                             <l xml:id="d1e7301" n="1404">et morte longe gravius. Hinc, Aspar,
                                 vale!</l>
@@ -3916,7 +3919,7 @@
                                 geris?</l>
                             <l xml:id="d1e7330" n="1408">Animum dolentis nostra soletur fides!</l>
                             <l xml:id="d1e7333" n="1409">Depone questus! Prosperas adhuc vices</l>
-                            <l xml:id="d1e7337" n="1410">providit ille maximus mundi arbiter.<note
+                            <l xml:id="d1e7337" n="1410">providit ille maximus mundi arbiter.<note place="foot"
                                     target="#d1e7337" xml:id="nd1e7337" type="parallel">providit …
                                     arbiter] Cf. Sen. <title>Phaed.</title> 466.</note></l>
                             <l xml:id="d1e7343" n="1411" part="I">Meliora spera!</l>
@@ -3980,7 +3983,7 @@
                         <sp who="#iugurtha">
                             <speaker>Iug.</speaker>
                             <l xml:id="d1e7426" n="1428">Hunc nuntium non capio. Pectus gaudio</l>
-                            <l xml:id="d1e7433" n="1429">succumbit, altis gradior altior diis.<note
+                            <l xml:id="d1e7433" n="1429">succumbit, altis gradior altior diis.<note place="foot"
                                     target="#d1e7433" xml:id="nd1e7433" type="parallel">Hunc nuntium
                                     … diis] Claus, <title>Stilico</title> 2.8.</note></l>
                         </sp>
@@ -4015,7 +4018,7 @@
                             <speaker>Iug.</speaker>
                             <l xml:id="d1e7483" n="1437">O Bocche, solum in rebus afflictis mihi</l>
                             <l xml:id="d1e7490" n="1438">solacium! Tu es unicum lapsae domus</l>
-                            <l xml:id="d1e7493" n="1439">firmamen, unum lumen oppresso malis,<note
+                            <l xml:id="d1e7493" n="1439">firmamen, unum lumen oppresso malis,<note place="foot"
                                     target="#d1e7493" xml:id="nd1e7493" type="parallel">unicum …
                                     malis] Cf. Sen. <title>Herc. f.</title> 1250–1251.</note></l>
                             <l xml:id="d1e7499" n="1440">baculum senectae, quem dii auscultant,
@@ -4025,7 +4028,7 @@
                             <l xml:id="d1e7505" n="1442">utrinque nostri (sive me socerum vocas,</l>
                             <l xml:id="d1e7508" n="1443">seu me parentem) perque venerandos diis</l>
                             <l xml:id="d1e7511" n="1444">canos! Senectae parce desertae,
-                                    precor!<note target="#d1e7511" xml:id="nd1e7511" type="parallel"
+                                    precor!<note place="foot" target="#d1e7511" xml:id="nd1e7511" type="parallel"
                                     >Per nostra … precor] Cf. Sen. <title>Herc. f.</title>
                                     1246–1249.</note></l>
                             <l xml:id="d1e7516" n="1445">Per ego salutem coniugis, per vinculum</l>
@@ -4091,7 +4094,7 @@
                             <l xml:id="d1e7621" n="1473">animi remorsus latrat. Hoc pietas
                                 fugit,</l>
                             <l xml:id="d1e7624" n="1474">ut cane et angue peius. – Attamen
-                                    gravis<note target="#d1e7624" type="commentary"
+                                    gravis<note place="foot" target="#d1e7624" type="commentary"
                                     xml:id="note1474">cane … peius] Common saying, cf. Hor.
                                         <title>Ep.</title> 1.17.30.</note></l>
                             <l xml:id="d1e7631" n="1475">necessitas plus posse quam pietas
@@ -4129,7 +4132,7 @@
 
                         <sp who="#sulla">
                             <speaker>Sul.</speaker>
-                            <l xml:id="d1e7676a" n="1483" part="F">Pandas mihi:<note
+                            <l xml:id="d1e7676a" n="1483" part="F">Pandas mihi:<note place="foot"
                                     target="#d1e7676" type="parallel" xml:id="nd1e7676">O fata …
                                     perfidus] Cf. Claus, <title>Stilico</title> 2.11.</note></l>
                             <l xml:id="d1e7688" n="1484">Ecquid Iugurtha ad Asparis ait nuntium?</l>
@@ -4138,7 +4141,7 @@
                                 placet.</l>
                             <l xml:id="d1e7698" n="1487">Istis Iugurtha denuo captus dolis</l>
                             <l xml:id="d1e7701" n="1488">tandem dabit perductus in laqueos
-                                    pedem.<note target="#d1e7701" xml:id="nd1e7701" type="parallel"
+                                    pedem.<note place="foot" target="#d1e7701" xml:id="nd1e7701" type="parallel"
                                     >captus … pedem] Cf. Sen. <title>Thy.</title>
                                 286–287.</note></l>
                             <l xml:id="d1e7706" n="1489">Depone tela, nam quid est armis opus,</l>
@@ -4163,7 +4166,7 @@
                                 tuis</l>
                             <l xml:id="d1e7739" n="1497">tibi triumphum providi nectent dii.</l>
                             <l xml:id="d1e7742" n="1498">Parata iam sunt cuncta, momentum
-                                    super.<note target="#d1e7742" xml:id="nd1e7742" type="parallel"
+                                    super.<note place="foot" target="#d1e7742" xml:id="nd1e7742" type="parallel"
                                     >Parata … super] Cf. Claus, <title>Stilico</title> 5.6.
                                 </note></l>
                         </sp>
@@ -4176,14 +4179,14 @@
                             Marius.</stage>
                         <sp>
                             <speaker xml:id="d1e7759a">⟨Boc.⟩</speaker>
-                            <l xml:id="d1e7759" n="1499">Servatur armis, arma qui servat sua.<note
+                            <l xml:id="d1e7759" n="1499">Servatur armis, arma qui servat sua.<note place="foot"
                                     target="#d1e7759" xml:id="n2d1e7759" type="parallel">Emilio
                                     Tesauro, <title>Inscriptiones</title> (Venice 1679), p.
                                     344.</note></l>
-                            <l xml:id="d1e7773" n="1500">Lux omnium clarissima ex armis micat.<note
+                            <l xml:id="d1e7773" n="1500">Lux omnium clarissima ex armis micat.<note place="foot"
                                     target="#d1e7773" xml:id="nd1e7773" type="parallel">Emilio
                                     Tesauro, <title>Inscriptiones</title> (Venice 1679), p.
-                                    344.</note><note target="#d1e7759a" xml:id="nd1e7759"
+                                    344.</note><note place="foot" target="#d1e7759a" xml:id="nd1e7759"
                                     type="commentary"> This answer was placed at the beginning of
                                     this scene based on the verse count in the marginalia. After
                                     rearranging the verses, it is not entirely clear who the speaker
@@ -4194,13 +4197,13 @@
                             <speaker>Sul.</speaker>
                             <l xml:id="d1e7782" n="1501">Sed, ecce, saevus ac minas vultu gerens</l>
                             <l xml:id="d1e7790" n="1502">et, qualis animo est, talis incessu
-                                    venit.<note target="#d1e7790" xml:id="nd1e7790" type="parallel"
+                                    venit.<note place="foot" target="#d1e7790" xml:id="nd1e7790" type="parallel"
                                     >Sed … venit] Sen. <title>Herc. f.</title> 329–330.</note></l>
                         </sp>
 
                         <sp who="#bocchus">
                             <speaker>Boc.</speaker>
-                            <l xml:id="d1e7795" n="1503">Ades petitus omnibus votis, pater!<note
+                            <l xml:id="d1e7795" n="1503">Ades petitus omnibus votis, pater!<note place="foot"
                                     target="#d1e7795" xml:id="nd1e7795" type="parallel">Ades …
                                     pater] Cf. Sen. <title>Oed.</title> 205.</note></l>
                         </sp>
@@ -4262,7 +4265,7 @@
                             <l xml:id="d1e7889" n="1518"><stage type="delivery">(ad Bocchum)</stage>
                                 Tu vero, Bocche, hanc vindicem e manu mea</l>
                             <l xml:id="d1e7894" n="1519">accipe scelestam lanceam! Morere,
-                                    canis!<note target="#d1e7894" type="commentary"
+                                    canis!<note place="foot" target="#d1e7894" type="commentary"
                                     xml:id="note1519">In the manuscript we read <hi rend="italic"
                                         >scelestem</hi>; <hi rend="italic">scelestis</hi> as
                                     secondary form of <hi rend="italic">scelestus</hi> was widely
@@ -4283,7 +4286,7 @@
                             <l xml:id="d1e7922" n="1521">Nunc nunc vibrate fulmina, irati dii!</l>
                             <l xml:id="d1e7929" n="1522">Et si quod orcus parere portentum
                                 potest</l>
-                            <l xml:id="d1e7933" n="1523">ad vindicandum tale, procedat, scelus!<note
+                            <l xml:id="d1e7933" n="1523">ad vindicandum tale, procedat, scelus!<note place="foot"
                                     target="#d1e7933" xml:id="nd1e7933" type="parallel">Nunc nunc …
                                     scelus] Cf. Claus, <title>Stilico</title> 5.10.</note></l>
                         </sp>
@@ -4320,7 +4323,7 @@
                         <sp who="#euripedes">
                             <speaker>Eur.</speaker>
                             <l xml:id="d1e7971" n="1529">Uno hoc resecto capite multorum queunt</l>
-                            <l xml:id="d1e7976" n="1530">secura stare capita. Iam tibi quies<note
+                            <l xml:id="d1e7976" n="1530">secura stare capita. Iam tibi quies<note place="foot"
                                     target="#d1e7976" type="parallel" xml:id="nd1e7976">Uno …
                                     capita] Cf. Claus, <title>Stilico</title> 3.1.</note></l>
                             <l xml:id="d1e7985" n="1531">optata rediit, Numidia. Iugurthae nece</l>
@@ -4354,7 +4357,7 @@
                                 gener?</l>
                             <l xml:id="d1e8021" n="1538">Quo provocavi crimine ultricem manum?</l>
                             <l xml:id="d1e8024" n="1539">Quod te nimis dilexerim, hoc unum
-                                    fuit.<note target="#d1e8024" xml:id="nd1e8024" type="parallel"
+                                    fuit.<note place="foot" target="#d1e8024" xml:id="nd1e8024" type="parallel"
                                     >Quod … fuit] Cf. Claus, <title>Stilico</title> 4.4. </note></l>
                         </sp>
 
@@ -4375,10 +4378,10 @@
                         <sp who="#iugurtha">
                             <speaker>Iug.</speaker>
                             <l xml:id="d1e8055" n="1546">Hoc ense caesos esse germanos meos</l>
-                            <l xml:id="d1e8063" n="1547">redit memoria tenue per vestigium,<note
+                            <l xml:id="d1e8063" n="1547">redit memoria tenue per vestigium,<note place="foot"
                                     target="#d1e8063" xml:id="nd1e8063" type="parallel">redit …
                                     vestigium] Sen. <title>Oed.</title> 768.</note></l>
-                            <l xml:id="d1e8068" n="1548">pudorque serus conscios vultus tegit.<note
+                            <l xml:id="d1e8068" n="1548">pudorque serus conscios vultus tegit.<note place="foot"
                                     target="#d1e8068" xml:id="nd1e8068" type="parallel">pudorque …
                                     tegit] Sen. <title>Herc. f.</title> 692.</note></l>
                         </sp>
@@ -4392,10 +4395,10 @@
                                 modum,</l>
                             <l xml:id="d1e8086" n="1552">nec temperari facile nec reprimi potest</l>
                             <l xml:id="d1e8090" n="1553">stricti ensis ira, bella delectat
-                                    cruor.<note target="#d1e8090" xml:id="nd1e8090" type="parallel"
+                                    cruor.<note place="foot" target="#d1e8090" xml:id="nd1e8090" type="parallel"
                                     >Arma … cruor] Sen. <title>Herc. f.</title> 403–405. Cf. Resch,
                                         <title>Constantini hostia</title> 1747–1749.</note></l>
-                            <l xml:id="d1e8098" n="1554">Bene auguras. Si bella delectet cruor,<note
+                            <l xml:id="d1e8098" n="1554">Bene auguras. Si bella delectet cruor,<note place="foot"
                                     target="#d1e8098" type="commentary" xml:id="note1554">This
                                     answer was originally given by <hi rend="italic">Euripides</hi>,
                                     but the stage directions were later crossed out.</note></l>
@@ -4416,7 +4419,7 @@
 
                         <sp who="#iugurtha">
                             <speaker>Iug.</speaker>
-                            <l xml:id="d1e8131" n="1561">O nulla longi temporis felicitas!<note
+                            <l xml:id="d1e8131" n="1561">O nulla longi temporis felicitas!<note place="foot"
                                     target="#d1e8131" xml:id="nd1e8131" type="parallel">O nulla …
                                     felicitas] Sen. <title>Ag.</title> 928.</note></l>
                         </sp>
@@ -4426,7 +4429,7 @@
                             <l xml:id="d1e8140" n="1562">Nunc denique sapis, impie, alieno in
                                 loco</l>
                             <l xml:id="d1e8147" n="1563">nec stabile regnum nec thronum firmum
-                                    fore.<note target="#d1e8147" type="parallel" xml:id="nd1e8147"
+                                    fore.<note place="foot" target="#d1e8147" type="parallel" xml:id="nd1e8147"
                                     >alieno … regnum] Cf. Sen. <title>Herc. f.</title>
                                     344–345.</note></l>
                         </sp>
@@ -4469,7 +4472,7 @@
                             <l xml:id="d1e8206" n="1576">Haec summa virtus, petitur hac caelum
                                 via.</l>
                             <l xml:id="d1e8210" n="1577">Virtus in astra tendit, in mortem
-                                    scelus.<note target="#d1e8210" xml:id="nd1e8210" type="parallel"
+                                    scelus.<note place="foot" target="#d1e8210" xml:id="nd1e8210" type="parallel"
                                     >Pulchrum … scelus] Cf. Sen. <title>Oct.</title>
                                 472–476.</note></l>
                         </sp>
