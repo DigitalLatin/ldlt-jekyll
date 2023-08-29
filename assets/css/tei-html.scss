@@ -1596,6 +1596,10 @@ tei-title[level="m"] {
     font-style: italic;
 }
 
+tei-bibl > tei-title {
+  font-style: italic;
+}
+
 tei-titleStmt>tei-title {
     display: block;
     font-family: Arvo, sans-serif;

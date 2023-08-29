@@ -1,5 +1,8 @@
 let behaviors = {
   "tei":{
+    "abbr": [
+      ["[type=siglum]", ['', ' ']]
+    ],
     "gap": [
       ["[unit=lines]", function(elt) {
         let span = document.createElement("span");
