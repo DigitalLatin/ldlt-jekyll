@@ -641,6 +641,8 @@ tei-tei tei-title { display: inline; }
 
 tei-title[level="m"] { font-style: italic; }
 
+tei-bibl > tei-title { font-style: italic; }
+
 tei-titleStmt > tei-title { display: block; font-family: Arvo, sans-serif; font-weight: normal; font-weight: bold !important; font-size: 150%; }
 
 tei-typeDesc { display: none; }
