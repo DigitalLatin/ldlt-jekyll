@@ -69,13 +69,13 @@
                 <!-- There's a citeStructure for each section of the document we want to a) appear in the ToC,
              b) be output as a separate file. 
         
-                     @match selects the document section(s) to be used in resolving citations. 
-                     @use indicates the the string that will be used in citations. -->
+             @match selects the document section(s) to be used in resolving citations. 
+             @use indicates the the string that will be used in citations. -->
                 <citeStructure match="//front/div[@xml:id='preface']" use="head">
                     <!-- Defines the identifier to use for this structure -->
                     <citeData property="dc:identifier" use="@xml:id"/>
                     <!-- Defines the title to be used for this structure (e.g. in a ToC) -->
-                    <citeData property="dc:title" use="'Preface'"/>
+                    <citeData property="dc:title" use="head"/>
                     <!-- Specifies a function for this structure, in this case, it should be used as an entry in the ToC. -->
                     <citeData property="function" use="'toc-entry'"/>
                     <citeStructure match="./div[@type='section']" use="head" delim=", ">
@@ -92,36 +92,33 @@
                     <citeData property="dc:identifier" use="@xml:id"/>
                     <citeData property="dc:title" use="head"/>
                     <citeData property="function" use="'toc-entry'"/>
-                    <citeData property="function" use="'split'"/>
+                    <citeStructure match="./div[@type='section']" use="head" delim=", ">
+                        <citeData property="dc:identifier" use="@xml:id"/>
+                        <citeData property="dc:title" use="head"/>
+                        <citeData property="function" use="'toc-entry'"/>
+                        <citeData property="function" use="'split'"/>
+                    </citeStructure>
                 </citeStructure>
                 <!-- The @unit attribute marks a citeStructure as a citable unit and makes e.g., 4.100 resolvable to poem 4, line 100. -->
                 <citeStructure match="//div[@type='edition']" use="head">
                     <citeData property="dc:title" use="head"/>
                     <citeData property="function" use="'toc-entry'"/>
                     <citeStructure
-                        match="./div[@subtype='prologue' or @subtype='chorus' or @subtype='epilog']"
-                        use="''" unit="section" delim="">
-                        <citeData property="dc:title" use="head"/>
-                        <citeData property="dc:identifier" use="@xml:id"/>
-                        <citeData property="function" use="'toc-entry'"/>
-                        <citeData property="function" use="'split'"/>
-                        <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
-                        <citeStructure match=".//l[parent::sp]" use="@n" delim="" unit="line"/>
-                    </citeStructure>
-                    <citeStructure
-                        match="./div[@subtype='act']"
-                        use="''" unit="section" delim="">
+                        match="./div[@subtype='dramatis_personae' or @subtype='prologue' or @subtype='act' or @subtype='chorus' or @subtype='epilog']"
+                        use="@n" unit="section" delim=" ">
                         <citeData property="dc:title" use="head"/>
                         <citeData property="dc:identifier" use="@n"/>
                         <citeData property="function" use="'toc-entry'"/>
+                        <citeData property="function" use="'split'"/>
                         <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
-                        <citeStructure match="./div[@subtype='scene']" use="''" delim="" unit="scene">
+                        <citeStructure match="./div[@subtype='scene']" use="@n" delim="." unit="scene">
                             <citeData property="dc:title" use="head"/>
-                            <citeData property="dc:identifier" use="@xml:id"/>
+                            <citeData property="dc:identifier" use="@n"/>
                             <citeData property="function" use="'toc-entry'"/>
                             <citeData property="function" use="'split'"/>
-                            <citeStructure match=".//l[parent::sp]" use="@n" delim="" unit="line"/>
+                            <citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line"/>
                         </citeStructure>
+                        <citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line"/>
                     </citeStructure>
                 </citeStructure>
             </refsDecl>
@@ -273,7 +270,7 @@
         <body>
             <div type="edition" xml:id="edition" subtype="drama">
                 <head>Iugurtha</head>
-                <div type="textpart" xml:id="dramatis_personae">
+                <div type="textpart" xml:id="dramatis_personae" subtype="dramatis_personae">
                     <head>Dramatis Personae</head>
                     <!-- Begin Personae -->
                     <listPerson type="characters">
