@@ -100,28 +100,29 @@ citables: "{' ': '.html',' ': '.html',' .1': '.html# .1',' .2': '.html# .2',' .3
                 <tei-citeStructure match="//div[@type='edition']" use="head" xml:id="d2e185" id="d2e185" data-origname="citeStructure">
                     <tei-citeData property="dc:title" use="head" xml:id="d2e187" id="d2e187" data-origname="citeData" data-empty="">​</tei-citeData>
                     <tei-citeData property="function" use="'toc-entry'" xml:id="d2e189" id="d2e189" data-origname="citeData" data-empty="">​</tei-citeData>
-                    <tei-citeStructure match="./div[@subtype='dramatis_personae' or @subtype='prologue' or @subtype='act' or @subtype='chorus' or @subtype='epilog']" use="@n" unit="section" delim=" " xml:id="d2e191" id="d2e191" data-origname="citeStructure">
-                        <tei-citeData property="dc:title" use="head" xml:id="d2e193" id="d2e193" data-origname="citeData" data-empty="">​</tei-citeData>
-                        <tei-citeData property="dc:identifier" use="@n" xml:id="d2e195" id="d2e195" data-origname="citeData" data-empty="">​</tei-citeData>
-                        <tei-citeData property="function" use="'toc-entry'" xml:id="d2e197" id="d2e197" data-origname="citeData" data-empty="">​</tei-citeData>
-                        <tei-citeData property="function" use="'split'" xml:id="d2e199" id="d2e199" data-origname="citeData" data-empty="">​</tei-citeData>
-                        <tei-citeData property="dc:requires" use="//front/div[@type='bibliography']" xml:id="d2e201" id="d2e201" data-origname="citeData" data-empty="">​</tei-citeData>
-                        <tei-citeStructure match="./div[@subtype='scene']" use="@n" delim="." unit="scene" xml:id="d2e204" id="d2e204" data-origname="citeStructure">
-                            <tei-citeData property="dc:title" use="head" xml:id="d2e206" id="d2e206" data-origname="citeData" data-empty="">​</tei-citeData>
-                            <tei-citeData property="dc:identifier" use="@n" xml:id="d2e208" id="d2e208" data-origname="citeData" data-empty="">​</tei-citeData>
-                            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e210" id="d2e210" data-origname="citeData" data-empty="">​</tei-citeData>
-                            <tei-citeData property="function" use="'split'" xml:id="d2e212" id="d2e212" data-origname="citeData" data-empty="">​</tei-citeData>
-                            <tei-citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line" xml:id="d2e214" id="d2e214" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
+                    
+                    <tei-citeStructure match="./div[@subtype='dramatis_personae' or @subtype='prologue' or @subtype='act' or @subtype='chorus' or @subtype='epilog']" use="@n" unit="section" delim=" " xml:id="d2e193" id="d2e193" data-origname="citeStructure">
+                        <tei-citeData property="dc:title" use="head" xml:id="d2e195" id="d2e195" data-origname="citeData" data-empty="">​</tei-citeData>
+                        <tei-citeData property="dc:identifier" use="@n" xml:id="d2e197" id="d2e197" data-origname="citeData" data-empty="">​</tei-citeData>
+                        <tei-citeData property="function" use="'toc-entry'" xml:id="d2e199" id="d2e199" data-origname="citeData" data-empty="">​</tei-citeData>
+                        <tei-citeData property="function" use="'split'" xml:id="d2e201" id="d2e201" data-origname="citeData" data-empty="">​</tei-citeData>
+                        <tei-citeData property="dc:requires" use="//front/div[@type='bibliography']" xml:id="d2e203" id="d2e203" data-origname="citeData" data-empty="">​</tei-citeData>
+                        <tei-citeStructure match="./div[@subtype='scene']" use="@n" delim="." unit="scene" xml:id="d2e206" id="d2e206" data-origname="citeStructure">
+                            <tei-citeData property="dc:title" use="head" xml:id="d2e208" id="d2e208" data-origname="citeData" data-empty="">​</tei-citeData>
+                            <tei-citeData property="dc:identifier" use="@n" xml:id="d2e210" id="d2e210" data-origname="citeData" data-empty="">​</tei-citeData>
+                            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e212" id="d2e212" data-origname="citeData" data-empty="">​</tei-citeData>
+                            <tei-citeData property="function" use="'split'" xml:id="d2e214" id="d2e214" data-origname="citeData" data-empty="">​</tei-citeData>
+                            <tei-citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line" xml:id="d2e216" id="d2e216" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
                         </tei-citeStructure>
-                        <tei-citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line" xml:id="d2e217" id="d2e217" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
+                        <tei-citeStructure match=".//l[parent::sp]" use="@n" delim="." unit="line" xml:id="d2e219" id="d2e219" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
                     </tei-citeStructure>
                 </tei-citeStructure>
             </tei-refsDecl>
         </tei-encodingDesc>
-    </tei-teiHeader><tei-TEI xml:lang="en-CA" xml:id="d2e4" id="d2e4" data-origname="TEI"><tei-text xml:id="d2e224" id="d2e224" data-origname="text"><tei-front xml:id="d2e226" id="d2e226" data-origname="front"><tei-div type="introduction" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="content" id="content" data-origname="div">
-                    <tei-head xml:id="d2e259" id="d2e259" data-origname="head">Content</tei-head>
+    </tei-teiHeader><tei-TEI xml:lang="en-CA" xml:id="d2e4" id="d2e4" data-origname="TEI"><tei-text xml:id="d2e226" id="d2e226" data-origname="text"><tei-front xml:id="d2e228" id="d2e228" data-origname="front"><tei-div type="introduction" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="content" id="content" data-origname="div">
+                    <tei-head xml:id="d2e261" id="d2e261" data-origname="head">Content</tei-head>
 
-                    <tei-p xml:id="d2e261" id="d2e261" data-origname="p">The drama takes place in the last phase of the Jugurthine War. The Romans
+                    <tei-p xml:id="d2e263" id="d2e263" data-origname="p">The drama takes place in the last phase of the Jugurthine War. The Romans
                         have taken control of Numidia, only the city of Cirta is still in the hands
                         of Jugurtha. While the Roman army waits at the gates of the besieged city
                         for an order to attack, the officer Sulla tries to persuade Jugurtha’s
