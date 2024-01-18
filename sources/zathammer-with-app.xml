@@ -103,9 +103,8 @@
                 <citeStructure match="//div[@type='edition']" use="head">
                     <citeData property="dc:title" use="head"/>
                     <citeData property="function" use="'toc-entry'"/>
-                    <!-- SJH: Trying to add the dramatis personae -->
                     <citeStructure                        
-                        match="./div[@subtype='dramatis_personae' or @subtype='prologue' or @subtype='act' or @subtype='chorus' or @subtype='epilog']"
+                        match="./div[@subtype='prologue' or @subtype='act' or @subtype='chorus' or @subtype='epilog']"
                         use="@n" unit="section" delim=" ">
                         <citeData property="dc:title" use="head"/>
                         <citeData property="dc:identifier" use="@n"/>
